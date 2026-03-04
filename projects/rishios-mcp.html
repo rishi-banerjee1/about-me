@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RishiOS MCP — Rishi Banerjee</title>
-  <meta name="description" content="My hiring judgment, encoded as software. A self-calibrating evaluation system that keeps every interview decision consistent, auditable, and bias-aware.">
+  <meta name="description" content="A full-stack talent operating system. 6 evaluation modes (scoring, JD builder, executive briefs, team calibration), self-repair, drift detection, and continuous learning from overrides.">
   <link rel="canonical" href="https://rishi-banerjee1.github.io/about-me/projects/rishios-mcp.html">
 
-  <meta property="og:title" content="RishiOS MCP — Rishi Banerjee">
-  <meta property="og:description" content="My hiring judgment, encoded as software. Keeps every interview decision consistent and auditable.">
+  <meta property="og:title" content="RishiOS MCP — Talent Operating System">
+  <meta property="og:description" content="6 evaluation modes, JD generation, executive briefings, team calibration, drift detection, and continuous self-improvement. My hiring OS as code.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://rishi-banerjee1.github.io/about-me/projects/rishios-mcp.html">
   <meta property="og:image" content="https://rishi-banerjee1.github.io/about-me/assets/headshot.jpg">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="RishiOS MCP — Rishi Banerjee">
-  <meta name="twitter:description" content="My hiring judgment, encoded as software. Keeps every interview decision consistent and auditable.">
+  <meta name="twitter:title" content="RishiOS MCP — Talent Operating System">
+  <meta name="twitter:description" content="6 modes: scoring, JD generation, executive briefs, calibration. Auto-repair, drift detection, learning from overrides.">
   <meta name="twitter:image" content="https://rishi-banerjee1.github.io/about-me/assets/headshot.jpg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +28,7 @@
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "RishiOS MCP",
-    "description": "Talent evaluation MCP server with rubric-based scoring, weighted dimensions, and structured verdicts across role types and levels.",
+    "description": "A full-stack talent operating system. 6 evaluation modes including scoring, JD generation, executive briefs, team calibration. Auto-repair, drift detection, continuous learning from overrides.",
     "applicationCategory": "DeveloperApplication",
     "operatingSystem": "Cross-platform",
     "author": {
@@ -63,7 +63,7 @@
         Back to projects
       </a>
       <h1>RishiOS MCP</h1>
-      <p class="hero-subtitle">My hiring operating system, as code. A self-calibrating talent evaluation MCP server that encodes how I think about candidates. 6 dimensions, dynamic weights, and continuous learning.</p>
+      <p class="hero-subtitle">A full-stack talent operating system. Doesn't just score candidates—generates JDs, builds executive briefs, calibrates team drift, and learns from every override. 6 evaluation modes, self-repair, and continuous improvement.</p>
       <div class="project-tags" style="margin-top: 1rem;">
         <span class="tag">TypeScript</span>
         <span class="tag">MCP SDK</span>
@@ -87,16 +87,35 @@
       <p>Hiring decisions are the highest-leverage choices a company makes, yet most evaluation happens in people's heads, inconsistently, uncalibrated, and with no audit trail. Interviewers score candidates differently depending on their mood, recency bias, or how the last three interviews went. There's no system-level feedback loop.</p>
 
       <h2>What I built</h2>
-      <p>RishiOS MCP is my hiring operating system, encoded as software. It plugs into AI-powered workflows (Claude Desktop, custom agents) and provides structured evaluation tools that run alongside me. Not replacing judgment, but keeping it calibrated.</p>
+      <p>RishiOS MCP is my hiring operating system, encoded as software. It's a full-stack talent system that doesn't just score candidates—it generates job descriptions, builds executive briefings, structures team notes, calibrates evaluator drift, and continuously learns from override patterns. Not replacing judgment, but amplifying it at scale.</p>
       <p>Every candidate is evaluated on the same six dimensions: Systems Thinking, Agency, Craft Depth, Judgment, Communication, and Influence. What changes is the <em>weight</em> each dimension carries depending on the role and seniority level. A Staff Engineer gets heavier weighting on Systems Thinking; a Product Manager gets more on Influence.</p>
+
+      <h2>Six modes of operation</h2>
+      <ul>
+        <li><strong>Scoring</strong>: The core evaluator. Rates candidates on all 6 traits with weighted verdicts (1–4 integers only, auto-repairs half-scores)</li>
+        <li><strong>JD Builder</strong>: Auto-generates job descriptions that sourcers can actually use—"what to look for" sections, bar-setting language, rubric-aligned role requirements</li>
+        <li><strong>Executive Contrast</strong>: Writes hiring committee briefs with strength → concern → recommendation format (perfect for leadership sign-off)</li>
+        <li><strong>Slack Bullets</strong>: Structures messy interview notes into clean, actionable bullets—turns stream-of-consciousness into calibration-ready output</li>
+        <li><strong>Team Calibration</strong>: Generates reference profiles showing what a 1/2/3/4 actually looks like for each trait in each role type (the "north star" for consistency)</li>
+        <li><strong>Prose</strong>: Direct, answer-first commentary without scoring structure (for freestyle feedback)</li>
+      </ul>
+
+      <h2>The self-improving engine</h2>
+      <ul>
+        <li><strong>Auto-repair</strong>: Input a 3.5 instead of an integer? It fixes it. Write a JD with missing "sourcer brief"? It adds one. Non-blocking—always gives output.</li>
+        <li><strong>Drift detection</strong>: Watches for scoring creep (scores inflating over time) and lazy evaluations (everything becomes a 3). Flags without interrupting.</li>
+        <li><strong>Team calibration drift</strong>: Tracks when your team's scoring drifts from the standard, automatically flags when a recalibration session is needed</li>
+        <li><strong>False positive / negative guards</strong>: Catches storytellers (great communicators with weak substance) and finds diamonds in the rough (raw but high-agency builders)</li>
+        <li><strong>Full audit trail</strong>: Every decision logged with timestamps, override reasons, weights used. Turns overrides into training signals so the system improves over time.</li>
+      </ul>
 
       <h2>How it changes the process</h2>
       <ul>
         <li><strong>Consistent evaluation language</strong>: Every interviewer uses the same 6-dimension framework, making calibration sessions faster and debrief decisions clearer</li>
-        <li><strong>Forced clarity</strong>: Scores are integers 1–4 only. No hedging with 2.5s or 3.5s. "Maybe" defaults to the lower score.</li>
-        <li><strong>Self-correcting</strong>: The system monitors for score inflation, central tendency, and pattern drift. It flags when I'm getting too generous or too harsh.</li>
-        <li><strong>Full audit trail</strong>: Every override, every correction, every recalibration is logged. This creates an institutional memory for how we evaluate talent.</li>
-        <li><strong>Bias detection</strong>: Surfaces potential biases transparently without blocking the process, so I can decide whether to adjust.</li>
+        <li><strong>Forced clarity</strong>: Scores are integers 1–4 only. No hedging. "Maybe" defaults to the lower score.</li>
+        <li><strong>Multiple output formats</strong>: Same evaluation, six different outputs—score for consistency, JD for sourcing, brief for leadership, bullets for teams</li>
+        <li><strong>Bias detection</strong>: Surfaces potential biases transparently without blocking the process, so you can decide whether to adjust</li>
+        <li><strong>Institutional memory</strong>: Every override and recalibration is logged. This creates an institutional memory for how your org evaluates talent.</li>
       </ul>
 
       <h2>Why it matters</h2>
