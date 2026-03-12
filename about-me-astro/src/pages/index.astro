@@ -121,58 +121,6 @@ const jsonLd = {
       </div>
     </section>
 
-    <section id="projects" class="section" data-reveal>
-      <div class="container">
-        <div class="section-intro">
-          <div>
-            <p class="eyebrow">Flagship Projects</p>
-            <h2>Products I've built</h2>
-          </div>
-          <a href={withBase("/projects/")} class="text-link">View all projects</a>
-        </div>
-        <div class="project-grid">
-          {featuredProjects.map((project) => (
-            <ProjectCard
-              project={{
-                title: project.data.title,
-                shortSummary: project.data.shortSummary,
-                summary: project.data.summary,
-                tags: project.data.tags,
-                visibility: project.data.visibility,
-                status: project.data.status
-              }}
-              href={withBase(`/projects/${project.slug}/`)}
-            />
-          ))}
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-alt" data-reveal>
-      <div class="container">
-        <div class="section-intro">
-          <div>
-            <p class="eyebrow">More Projects</p>
-            <h2>Tools, experiments &amp; open source</h2>
-          </div>
-          <a href={SITE.github} class="text-link" target="_blank" rel="noopener">View on GitHub</a>
-        </div>
-        {supportingSections.map((section) => (
-          <div class="stack-block">
-            <div class="stack-intro">
-              <h3>{section.title}</h3>
-              <p>{section.description}</p>
-            </div>
-            <div class="project-grid project-grid-compact">
-              {section.projects.map((project) => (
-                <ProjectCard project={project} />
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
-
     <section id="experience" class="section" data-reveal>
       <div class="container">
         <p class="eyebrow">Experience</p>
@@ -270,6 +218,58 @@ const jsonLd = {
             </article>
           ))}
         </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section" data-reveal>
+      <div class="container">
+        <div class="section-intro">
+          <div>
+            <p class="eyebrow">Flagship Projects</p>
+            <h2>Products I've built</h2>
+          </div>
+          <a href={withBase("/projects/")} class="text-link">View all projects</a>
+        </div>
+        <div class="project-grid">
+          {featuredProjects.map((project) => (
+            <ProjectCard
+              project={{
+                title: project.data.title,
+                shortSummary: project.data.shortSummary,
+                summary: project.data.summary,
+                tags: project.data.tags,
+                visibility: project.data.visibility,
+                status: project.data.status
+              }}
+              href={withBase(`/projects/${project.slug}/`)}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" data-reveal>
+      <div class="container">
+        <div class="section-intro">
+          <div>
+            <p class="eyebrow">More Projects</p>
+            <h2>Tools, experiments &amp; open source</h2>
+          </div>
+          <a href={SITE.github} class="text-link" target="_blank" rel="noopener">View on GitHub</a>
+        </div>
+        {supportingSections.map((section) => (
+          <div class="stack-block">
+            <div class="stack-intro">
+              <h3>{section.title}</h3>
+              <p>{section.description}</p>
+            </div>
+            <div class="project-grid project-grid-compact">
+              {section.projects.map((project) => (
+                <ProjectCard project={project} />
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
     </section>
 

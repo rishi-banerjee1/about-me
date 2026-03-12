@@ -23,9 +23,9 @@ export function withBase(path = "/") {
 export const navLinks = [
   { label: "About", href: withBase("/#about") },
   { label: "Experience", href: withBase("/#experience") },
-  { label: "Projects", href: withBase("/#projects") },
   { label: "Expertise", href: withBase("/#expertise") },
-  { label: "Education", href: withBase("/#education") }
+  { label: "Education", href: withBase("/#education") },
+  { label: "Projects", href: withBase("/#projects") }
 ];
 
 export const heroStats = [
