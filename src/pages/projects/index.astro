@@ -1,0 +1,113 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Footer from "../../components/Footer.astro";
+import Nav from "../../components/Nav.astro";
+import ProjectCard from "../../components/ProjectCard.astro";
+import { SITE, supportingSections, withBase } from "../../lib/site";
+
+const projects = (await getCollection("projects")).sort((a, b) => a.data.order - b.data.order);
+
+const flagship = projects.filter((entry) => entry.data.featured);
+const activeDetails = projects.filter((entry) => !entry.data.featured && entry.data.detail);
+---
+<BaseLayout
+  title="Projects - Rishi Banerjee"
+  description="Flagship systems, AI tools, hiring products, and supporting utilities from Rishi Banerjee's GitHub and portfolio."
+>
+  <Nav />
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-inner" data-reveal>
+        <a href={withBase("/")} class="back-link">← Back to home</a>
+        <p class="eyebrow">Projects</p>
+        <h1>Work grouped the way I would explain it live</h1>
+        <p class="hero-text">
+          The portfolio is strongest when it distinguishes flagship systems from supporting tools and older experiments.
+          This page does that explicitly.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-alt" data-reveal>
+      <div class="container">
+        <p class="eyebrow">Flagship</p>
+        <h2>Shipped systems I would lead with</h2>
+        <div class="project-grid">
+          {flagship.map((project) => (
+            <ProjectCard
+              project={{
+                title: project.data.title,
+                shortSummary: project.data.shortSummary,
+                summary: project.data.summary,
+                tags: project.data.tags,
+                visibility: project.data.visibility,
+                status: project.data.status
+              }}
+              href={withBase(`/projects/${project.slug}/`)}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="section" data-reveal>
+      <div class="container">
+        <p class="eyebrow">Deep Dives</p>
+        <h2>Other current systems worth understanding</h2>
+        <div class="project-grid project-grid-compact">
+          {activeDetails.map((project) => (
+            <ProjectCard
+              project={{
+                title: project.data.title,
+                shortSummary: project.data.shortSummary,
+                summary: project.data.summary,
+                tags: project.data.tags,
+                visibility: project.data.visibility,
+                status: project.data.status
+              }}
+              href={withBase(`/projects/${project.slug}/`)}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" data-reveal>
+      <div class="container">
+        {supportingSections.map((section) => (
+          <div class="stack-block">
+            <div class="stack-intro">
+              <p class="eyebrow">Supporting Work</p>
+              <h2>{section.title}</h2>
+              <p>{section.description}</p>
+            </div>
+            <div class="project-grid project-grid-compact">
+              {section.projects.map((project) => (
+                <ProjectCard project={project} />
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="section cta-section" data-reveal>
+      <div class="container cta-card">
+        <p class="eyebrow">Want The Full Story?</p>
+        <h2>Some of the strongest systems are private by design</h2>
+        <p>
+          Private does not mean vague. It usually means the repo contains internal workflow, candidate data, or
+          proprietary operating detail. If a project is relevant, I’m happy to walk through the architecture and decisions.
+        </p>
+        <div class="button-row">
+          <a href={`mailto:${SITE.email}`} class="button button-primary">Request a walkthrough</a>
+          <a href={SITE.linkedin} class="button button-secondary" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>

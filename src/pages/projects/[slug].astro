@@ -1,0 +1,106 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Footer from "../../components/Footer.astro";
+import Nav from "../../components/Nav.astro";
+import { SITE, withBase } from "../../lib/site";
+
+export async function getStaticPaths() {
+  const projects = await getCollection("projects", ({ data }) => data.detail);
+  return projects.map((project) => ({
+    params: { slug: project.slug },
+    props: { project }
+  }));
+}
+
+const { project } = Astro.props;
+const { Content } = await render(project);
+
+const buttons = [
+  project.data.homepage && { label: "Product site", href: project.data.homepage },
+  project.data.github && { label: "GitHub", href: project.data.github },
+  project.data.npm && { label: "npm", href: project.data.npm },
+  project.data.marketplace && { label: "GitHub Action", href: project.data.marketplace },
+  project.data.youtube && { label: "YouTube", href: project.data.youtube },
+  project.data.dashboard && { label: "Live dashboard", href: project.data.dashboard },
+  project.data.homebrew && { label: "Homebrew", href: project.data.homebrew },
+  project.data.contactHref && { label: project.data.contactLabel ?? "Request walkthrough", href: project.data.contactHref }
+].filter((button): button is { label: string; href: string } => Boolean(button));
+---
+<BaseLayout
+  title={`${project.data.title} - Rishi Banerjee`}
+  description={project.data.summary}
+  type="article"
+>
+  <Nav />
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-inner" data-reveal>
+        <a href={withBase("/projects/")} class="back-link">← Back to projects</a>
+        <p class="eyebrow">{project.data.category}</p>
+        <h1>{project.data.title}</h1>
+        <p class="hero-text">{project.data.summary}</p>
+        <div class="project-meta-row project-meta-row-large">
+          <span class={`badge badge-${project.data.status}`}>{project.data.status}</span>
+          <span class={`badge badge-${project.data.visibility}`}>{project.data.visibility}</span>
+          <span class="badge">{project.data.year}</span>
+        </div>
+        <div class="tag-list">
+          {project.data.tags.map((tag) => <span class="tag">{tag}</span>)}
+        </div>
+        <div class="button-row">
+          {buttons.map((button) => (
+            <a href={button.href} class="button button-secondary" target="_blank" rel="noopener">{button.label}</a>
+          ))}
+        </div>
+        {project.data.metrics.length > 0 && (
+          <div class="metrics-row">
+            {project.data.metrics.map((metric) => <span class="metric-pill">{metric}</span>)}
+          </div>
+        )}
+      </div>
+    </section>
+
+    <section class="section" data-reveal>
+      <div class="container detail-layout">
+        <article class="detail-prose">
+          <Content />
+        </article>
+        <aside class="detail-sidebar">
+          <div class="panel-card">
+            <p class="eyebrow">Positioning</p>
+            <h3>Why it matters in the portfolio</h3>
+            <p>{project.data.shortSummary}</p>
+          </div>
+          <div class="panel-card">
+            <p class="eyebrow">Visibility</p>
+            <h3>{project.data.visibility === "private" ? "Private repo, clearer case study" : "Public repo, public proof"}</h3>
+            <p>
+              {project.data.visibility === "private"
+                ? "The repo is private, but the case study is intentionally more concrete now so the page still shows real substance."
+                : "This project has public proof points, so the page points directly to the repo or product surface."}
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-alt cta-section" data-reveal>
+      <div class="container cta-card">
+        <p class="eyebrow">Related Thinking</p>
+        <h2>This project sits inside a larger operating thesis</h2>
+        <p>
+          Across the GitHub account, the recurring pattern is the same: encode judgment, preserve context, and make
+          important workflows more consistent without sanding off human discernment.
+        </p>
+        <div class="button-row">
+          <a href={withBase("/projects/")} class="button button-primary">Browse more projects</a>
+          <a href={`mailto:${SITE.email}`} class="button button-secondary">Email me</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</BaseLayout>

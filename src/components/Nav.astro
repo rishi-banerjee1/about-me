@@ -1,0 +1,42 @@
+---
+import { SITE, navLinks, withBase } from "../lib/site";
+
+const currentPath = Astro.url.pathname;
+const onProjectsPage = currentPath.includes("/projects");
+---
+<nav class="site-nav">
+  <div class="container nav-inner">
+    <a href={withBase("/")} class="brand">{SITE.name}</a>
+    <div class="nav-actions">
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Toggle navigation"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+        data-nav-toggle
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <button
+        class="theme-toggle"
+        type="button"
+        aria-label="Toggle color theme"
+        aria-pressed="false"
+        data-theme-toggle
+      >
+        <span class="theme-chip" data-theme-label>Dark</span>
+      </button>
+    </div>
+    <ul id="primary-navigation" class="nav-links" data-nav-menu>
+      {navLinks.map((link) => (
+        <li><a href={link.href}>{link.label}</a></li>
+      ))}
+      {onProjectsPage && <li><a href={withBase("/projects/")}>All Projects</a></li>}
+      <li><a href={SITE.linkedin} target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href={SITE.github} target="_blank" rel="noopener">GitHub</a></li>
+    </ul>
+  </div>
+</nav>

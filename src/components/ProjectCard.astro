@@ -1,0 +1,41 @@
+---
+interface ProjectLike {
+  title: string;
+  shortSummary?: string;
+  summary: string;
+  tags: string[];
+  visibility: string;
+  status: string;
+  href?: string;
+  external?: boolean;
+}
+
+interface Props {
+  project: ProjectLike;
+  href?: string;
+  external?: boolean;
+}
+
+const { project, href = project.href, external = project.external ?? false } = Astro.props;
+const Tag = href ? "a" : "article";
+---
+<Tag
+  href={href}
+  class:list={["project-card", href && "is-link"]}
+  {...(external ? { target: "_blank", rel: "noopener" } : {})}
+>
+  <div class="project-card-top">
+    <div>
+      <h3>{project.title}</h3>
+      <p>{project.shortSummary ?? project.summary}</p>
+    </div>
+    {href && <span class="project-card-arrow" aria-hidden="true">↗</span>}
+  </div>
+  <div class="project-meta-row">
+    <span class={`badge badge-${project.status}`}>{project.status}</span>
+    <span class={`badge badge-${project.visibility}`}>{project.visibility}</span>
+  </div>
+  <div class="tag-list">
+    {project.tags.map((tag) => <span class="tag">{tag}</span>)}
+  </div>
+</Tag>

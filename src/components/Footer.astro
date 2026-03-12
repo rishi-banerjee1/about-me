@@ -1,0 +1,23 @@
+---
+import { SITE, withBase } from "../lib/site";
+---
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <p class="footer-title">{SITE.name}</p>
+      <p class="footer-copy">
+        TA leader who builds systems. Director of Talent Acquisition at Atlan.
+      </p>
+    </div>
+    <div class="footer-links">
+      <a href={withBase("/")}>Home</a>
+      <a href={withBase("/projects/")}>Projects</a>
+      <a href={SITE.github} target="_blank" rel="noopener">GitHub</a>
+      <a href={SITE.linkedin} target="_blank" rel="noopener">LinkedIn</a>
+      <a href={`mailto:${SITE.email}`}>Email</a>
+    </div>
+    <p class="footer-meta">
+      Visitor count <span data-visitor-counter>#</span>
+    </p>
+  </div>
+</footer>
