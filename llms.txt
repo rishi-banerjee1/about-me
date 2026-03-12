@@ -1,0 +1,24 @@
+# Rishi Banerjee
+
+> TA leader who builds systems. Director of Talent Acquisition at Atlan.
+
+Rishi Banerjee leads Global R&D Talent Strategy and Acquisition at Atlan across Engineering, Product, Design, IT, and Security. He builds talent operating systems, prompt governance tooling, AI evaluators, and agentic workflow products in addition to leading recruiting strategy.
+
+## Flagship Projects
+- Prompt Control Plane: deterministic prompt governance for production LLM systems ([product](https://getpcp.site/), [repo](https://github.com/rishi-banerjee1/prompt-control-plane))
+- Claude Usage Widget: native macOS widget for Claude usage visibility ([site](https://rishi-banerjee1.github.io/claude-usage-widget/), [repo](https://github.com/rishi-banerjee1/claude-usage-widget))
+- BlinkyOwl: autonomous educational YouTube Shorts system ([case study](https://rishi-banerjee1.github.io/about-me/projects/blinkyowl/))
+- Atlan Offer Wizard: personalized AI-generated offer ceremony pages ([case study](https://rishi-banerjee1.github.io/about-me/projects/atlan-offer-wizard/))
+- RishiOS MCP: talent operating system for evaluation, calibration, and JD generation ([case study](https://rishi-banerjee1.github.io/about-me/projects/rishios-mcp/))
+
+## More Systems
+- Gabbar Interview Evaluator: doctrine-backed interview scoring ([case study](https://rishi-banerjee1.github.io/about-me/projects/gabbar-interview-evaluator/))
+- AI Chief of Staff: Slack, Gmail, and Calendar triage assistant ([case study](https://rishi-banerjee1.github.io/about-me/projects/ai-chief-of-staff/))
+- Rishi Ideas: AI product research and fleet-management hub ([case study](https://rishi-banerjee1.github.io/about-me/projects/rishi-ideas/))
+
+## Links
+- Portfolio: https://rishi-banerjee1.github.io/about-me/
+- Projects: https://rishi-banerjee1.github.io/about-me/projects/
+- LinkedIn: https://www.linkedin.com/in/rishibanerjee/
+- GitHub: https://github.com/rishi-banerjee1
+- Book: https://www.amazon.in/dp/B0FQMWW9RR

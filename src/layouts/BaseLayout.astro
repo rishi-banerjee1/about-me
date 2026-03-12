@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import { SITE } from "../lib/site";
+import { SITE, withBase } from "../lib/site";
 
 interface Props {
   title: string;
@@ -19,7 +19,9 @@ const {
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, SITE.site).toString();
-const imageUrl = new URL(image, SITE.site).toString();
+const imageUrl = image.startsWith("http")
+  ? image
+  : new URL(withBase(image), SITE.site).toString();
 ---
 <!doctype html>
 <html lang="en">
