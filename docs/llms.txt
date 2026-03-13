@@ -10,6 +10,7 @@ Rishi Banerjee leads Global R&D Talent Strategy and Acquisition at Atlan across 
 - BlinkyOwl: autonomous educational YouTube Shorts system ([case study](https://rishi-banerjee1.github.io/about-me/projects/blinkyowl/))
 - Atlan Offer Wizard: personalized AI-generated offer ceremony pages ([case study](https://rishi-banerjee1.github.io/about-me/projects/atlan-offer-wizard/))
 - RishiOS MCP: talent operating system for evaluation, calibration, and JD generation ([case study](https://rishi-banerjee1.github.io/about-me/projects/rishios-mcp/))
+- BlindBench: open-source arena blind-testing 100+ LLMs on real prompts from 4 Kaggle datasets ([live](https://rishi-banerjee1.github.io/blindbench/), [repo](https://github.com/rishi-banerjee1/blindbench))
 
 ## More Systems
 - Gabbar Interview Evaluator: doctrine-backed interview scoring ([case study](https://rishi-banerjee1.github.io/about-me/projects/gabbar-interview-evaluator/))
