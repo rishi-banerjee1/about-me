@@ -17,7 +17,7 @@ const activeDetails = projects.filter((entry) => !entry.data.featured && entry.d
 >
   <Nav />
 
-  <main>
+  <main id="main-content">
     <section class="page-hero">
       <div class="container page-hero-inner" data-reveal>
         <a href={withBase("/")} class="back-link">← Back to home</a>
@@ -75,10 +75,10 @@ const activeDetails = projects.filter((entry) => !entry.data.featured && entry.d
 
     <section class="section section-alt" data-reveal>
       <div class="container">
-        {supportingSections.map((section) => (
+        {supportingSections.map((section, idx) => (
           <div class="stack-block">
             <div class="stack-intro">
-              <p class="eyebrow">Supporting Work</p>
+              <p class="eyebrow">{idx === 0 ? "Internal Tools" : "Open Source"}</p>
               <h2>{section.title}</h2>
               <p>{section.description}</p>
             </div>

@@ -89,6 +89,26 @@ body::before {
   opacity: 0.22;
 }
 
+.skip-to-content {
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  padding: 0.75rem 1.5rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: top 200ms ease;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -142,6 +162,10 @@ button {
   inset: 0;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.04));
   pointer-events: none;
+}
+
+:root[data-theme="dark"] .section-alt::before {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
 }
 
 .eyebrow {
@@ -344,6 +368,14 @@ strong {
   pointer-events: none;
 }
 
+:root[data-theme="dark"] .hero-copy::before,
+:root[data-theme="dark"] .hero-aside::before,
+:root[data-theme="dark"] .project-card::before,
+:root[data-theme="dark"] .cta-card::before,
+:root[data-theme="dark"] .detail-prose::before {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), transparent 42%);
+}
+
 .hero-copy,
 .hero-aside,
 .cta-card,
@@ -457,6 +489,11 @@ strong {
   transition: transform 220ms ease, box-shadow 220ms ease;
 }
 
+:root[data-theme="dark"] .stat-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04));
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
 .stat-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 16px 26px rgba(0, 0, 0, 0.05);
@@ -481,6 +518,16 @@ strong {
   margin: 0 auto 1.1rem;
   border: 8px solid rgba(255, 255, 255, 0.5);
   box-shadow: 0 28px 60px rgba(15, 23, 42, 0.18);
+  transition: transform 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.hero-photo:hover {
+  transform: scale(1.02);
+}
+
+:root[data-theme="dark"] .hero-photo {
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 28px 60px rgba(0, 0, 0, 0.4);
 }
 
 .hero-note {
@@ -587,6 +634,10 @@ strong {
   max-width: 42ch;
 }
 
+.project-card > .tag-list {
+  margin-top: 1.1rem;
+}
+
 .project-card-arrow {
   display: inline-flex;
   align-items: center;
@@ -632,6 +683,12 @@ strong {
   font-weight: 700;
 }
 
+:root[data-theme="dark"] .badge,
+:root[data-theme="dark"] .tag,
+:root[data-theme="dark"] .metric-pill {
+  background: rgba(255, 255, 255, 0.08);
+}
+
 .badge-flagship {
   background: rgba(15, 118, 110, 0.14);
 }
@@ -667,7 +724,19 @@ strong {
 
 .timeline {
   display: grid;
-  gap: 1rem;
+  gap: 0;
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 95px;
+  top: 2rem;
+  bottom: 2rem;
+  width: 2px;
+  background: linear-gradient(180deg, var(--accent), var(--line), var(--line));
+  opacity: 0.4;
 }
 
 .timeline-item {
@@ -675,6 +744,7 @@ strong {
   gap: 1rem;
   grid-template-columns: 190px 1fr;
   padding: 1.6rem 0;
+  position: relative;
 }
 
 .timeline-date {
@@ -682,6 +752,19 @@ strong {
   font-size: 1.08rem;
   font-weight: 600;
   color: var(--accent-strong);
+  position: relative;
+}
+
+.timeline-date::after {
+  content: "";
+  position: absolute;
+  right: -1rem;
+  top: 0.55rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
 }
 
 .timeline-body h3 {
@@ -700,6 +783,23 @@ strong {
 
 .panel-card {
   padding: 1.45rem 0;
+}
+
+.quote-card {
+  position: relative;
+}
+
+.quote-card::before {
+  content: "\201C";
+  position: absolute;
+  top: -0.2rem;
+  right: 0.5rem;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--accent);
+  opacity: 0.18;
+  pointer-events: none;
 }
 
 .quote-card p {
@@ -736,6 +836,10 @@ strong {
   inset: 0;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.45), transparent 42%);
   pointer-events: none;
+}
+
+:root[data-theme="dark"] .book-card::before {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), transparent 42%);
 }
 
 .book-content {
@@ -877,6 +981,14 @@ strong {
 
   .hero-copy {
     padding-right: 2.35rem;
+  }
+
+  .timeline::before {
+    display: none;
+  }
+
+  .timeline-date::after {
+    display: none;
   }
 }
 

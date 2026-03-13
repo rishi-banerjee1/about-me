@@ -57,6 +57,7 @@ const imageUrl = image.startsWith("http")
     {jsonLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
   </head>
   <body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
     <slot />
     <script
       is:inline

@@ -279,6 +279,16 @@ export const supportingSections = [
         status: "archive",
         href: "https://github.com/rishi-banerjee1/v0-Wellness-App",
         external: true
+      },
+      {
+        title: "BlindBench",
+        summary:
+          "Open-source arena that blind-tests 100+ AI models on real prompts from 4 Kaggle datasets. Trust scores, failure classification, BYOK support.",
+        tags: ["React", "Supabase", "Public"],
+        visibility: "public",
+        status: "active",
+        href: "https://github.com/rishi-banerjee1/blindbench",
+        external: true
       }
     ]
   }
