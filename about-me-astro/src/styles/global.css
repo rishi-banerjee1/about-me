@@ -306,14 +306,11 @@ strong {
 
 .hero-copy,
 .hero-aside,
-.panel-card,
 .project-card,
 .cta-card,
 .hero-note,
 .detail-prose,
-.detail-sidebar,
-.timeline-item,
-.logo-link {
+.detail-sidebar {
   position: relative;
   background: linear-gradient(180deg, var(--surface-strong), var(--surface));
   border: 1px solid rgba(255, 255, 255, 0.42);
@@ -322,11 +319,22 @@ strong {
   overflow: hidden;
 }
 
+.panel-card,
+.timeline-item {
+  position: relative;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1.6rem;
+}
+
+.logo-link {
+  position: relative;
+  padding: 1rem 1.2rem;
+  transition: transform 220ms ease, opacity 220ms ease;
+}
+
 .hero-copy::before,
 .hero-aside::before,
-.panel-card::before,
 .project-card::before,
-.timeline-item::before,
 .cta-card::before,
 .detail-prose::before {
   content: "";
@@ -496,14 +504,8 @@ strong {
   flex-wrap: wrap;
 }
 
-.logo-link {
-  padding: 1rem 1.2rem;
-  transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
-}
-
 .logo-link:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 20px 34px rgba(0, 0, 0, 0.08);
+  opacity: 0.7;
 }
 
 .logo-image {
@@ -564,9 +566,7 @@ strong {
     background 260ms ease;
 }
 
-.project-card.is-link:hover,
-.panel-card:hover,
-.timeline-item:hover {
+.project-card.is-link:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-strong);
   border-color: rgba(255, 255, 255, 0.6);
@@ -674,8 +674,7 @@ strong {
   display: grid;
   gap: 1rem;
   grid-template-columns: 190px 1fr;
-  padding: 1.6rem;
-  transition: transform 260ms ease, box-shadow 260ms ease, border-color 260ms ease;
+  padding: 1.6rem 0;
 }
 
 .timeline-date {
@@ -700,8 +699,7 @@ strong {
 }
 
 .panel-card {
-  padding: 1.45rem;
-  transition: transform 260ms ease, box-shadow 260ms ease, border-color 260ms ease;
+  padding: 1.45rem 0;
 }
 
 .quote-card p {
@@ -813,6 +811,14 @@ strong {
   background: transparent;
   border: 0;
   box-shadow: none;
+}
+
+.detail-sidebar .panel-card {
+  background: linear-gradient(180deg, var(--surface-strong), var(--surface));
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  padding: 1.45rem;
 }
 
 [data-reveal] {
@@ -930,9 +936,7 @@ strong {
   .hero-aside,
   .cta-card,
   .detail-prose,
-  .project-card,
-  .panel-card,
-  .timeline-item {
+  .project-card {
     padding: 1.25rem;
   }
 

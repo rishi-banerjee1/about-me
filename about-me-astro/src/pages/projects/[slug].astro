@@ -41,12 +41,8 @@ const buttons = [
         <p class="eyebrow">{project.data.category}</p>
         <h1>{project.data.title}</h1>
         <p class="hero-text">{project.data.summary}</p>
-        <div class="project-meta-row project-meta-row-large">
-          <span class={`badge badge-${project.data.status}`}>{project.data.status}</span>
-          <span class={`badge badge-${project.data.visibility}`}>{project.data.visibility}</span>
-          <span class="badge">{project.data.year}</span>
-        </div>
-        <div class="tag-list">
+        <div class="tag-list" style="margin-top: 1.35rem;">
+          <span class="tag">{project.data.year}</span>
           {project.data.tags.map((tag) => <span class="tag">{tag}</span>)}
         </div>
         <div class="button-row">

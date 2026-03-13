@@ -12,7 +12,6 @@ import {
   expertise,
   heroStats,
   organizations,
-  supportingSections,
   withBase,
   testimonials
 } from "../lib/site";
@@ -91,7 +90,7 @@ const jsonLd = {
 
     <section class="logo-section" data-reveal>
       <div class="container">
-        <p class="eyebrow">Organizations I have helped scale</p>
+        <p class="eyebrow">Career Highlights</p>
         <div class="logo-row">
           {organizations.map((org) => (
             <a href={org.href} class="logo-link">
@@ -152,7 +151,7 @@ const jsonLd = {
     <section id="expertise" class="section section-alt" data-reveal>
       <div class="container">
         <p class="eyebrow">Expertise</p>
-        <h2>How I think about talent and systems</h2>
+        <h2>What I do</h2>
         <div class="three-up-grid">
           {expertise.map((item) => (
             <article class="panel-card">
@@ -184,8 +183,8 @@ const jsonLd = {
 
     <section class="section section-alt" data-reveal>
       <div class="container">
-        <p class="eyebrow">What others say</p>
-        <h2>Signals from people I have worked with</h2>
+        <p class="eyebrow">Testimonials</p>
+        <h2>What colleagues say</h2>
         <div class="three-up-grid">
           {testimonials.map((item) => (
             <blockquote class="panel-card quote-card">
@@ -245,31 +244,6 @@ const jsonLd = {
             />
           ))}
         </div>
-      </div>
-    </section>
-
-    <section class="section section-alt" data-reveal>
-      <div class="container">
-        <div class="section-intro">
-          <div>
-            <p class="eyebrow">More Projects</p>
-            <h2>Tools, experiments &amp; open source</h2>
-          </div>
-          <a href={SITE.github} class="text-link" target="_blank" rel="noopener">View on GitHub</a>
-        </div>
-        {supportingSections.map((section) => (
-          <div class="stack-block">
-            <div class="stack-intro">
-              <h3>{section.title}</h3>
-              <p>{section.description}</p>
-            </div>
-            <div class="project-grid project-grid-compact">
-              {section.projects.map((project) => (
-                <ProjectCard project={project} />
-              ))}
-            </div>
-          </div>
-        ))}
       </div>
     </section>
 
