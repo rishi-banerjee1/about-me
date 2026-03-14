@@ -17,15 +17,14 @@ const activeDetails = projects.filter((entry) => !entry.data.featured && entry.d
 >
   <Nav />
 
-  <main>
+  <main id="main-content">
     <section class="page-hero">
       <div class="container page-hero-inner" data-reveal>
         <a href={withBase("/")} class="back-link">← Back to home</a>
         <p class="eyebrow">Projects</p>
-        <h1>Work grouped the way I would explain it live</h1>
+        <h1>Systems I've shipped</h1>
         <p class="hero-text">
-          The portfolio is strongest when it distinguishes flagship systems from supporting tools and older experiments.
-          This page does that explicitly.
+          Flagship products first, then active systems, then supporting tools and earlier work.
         </p>
       </div>
     </section>
@@ -33,7 +32,7 @@ const activeDetails = projects.filter((entry) => !entry.data.featured && entry.d
     <section class="section section-alt" data-reveal>
       <div class="container">
         <p class="eyebrow">Flagship</p>
-        <h2>Shipped systems I would lead with</h2>
+        <h2>Production systems</h2>
         <div class="project-grid">
           {flagship.map((project) => (
             <ProjectCard
@@ -54,8 +53,8 @@ const activeDetails = projects.filter((entry) => !entry.data.featured && entry.d
 
     <section class="section" data-reveal>
       <div class="container">
-        <p class="eyebrow">Deep Dives</p>
-        <h2>Other current systems worth understanding</h2>
+        <p class="eyebrow">Active</p>
+        <h2>Current systems</h2>
         <div class="project-grid project-grid-compact">
           {activeDetails.map((project) => (
             <ProjectCard
@@ -76,10 +75,10 @@ const activeDetails = projects.filter((entry) => !entry.data.featured && entry.d
 
     <section class="section section-alt" data-reveal>
       <div class="container">
-        {supportingSections.map((section) => (
+        {supportingSections.map((section, idx) => (
           <div class="stack-block">
             <div class="stack-intro">
-              <p class="eyebrow">Supporting Work</p>
+              <p class="eyebrow">{idx === 0 ? "Internal Tools" : "Open Source"}</p>
               <h2>{section.title}</h2>
               <p>{section.description}</p>
             </div>
@@ -95,11 +94,11 @@ const activeDetails = projects.filter((entry) => !entry.data.featured && entry.d
 
     <section class="section cta-section" data-reveal>
       <div class="container cta-card">
-        <p class="eyebrow">Want The Full Story?</p>
-        <h2>Some of the strongest systems are private by design</h2>
+        <p class="eyebrow">Private Projects</p>
+        <h2>Architecture walkthroughs available on request</h2>
         <p>
-          Private does not mean vague. It usually means the repo contains internal workflow, candidate data, or
-          proprietary operating detail. If a project is relevant, I’m happy to walk through the architecture and decisions.
+          Private repos contain internal workflow, candidate data, or proprietary operating detail.
+          Happy to walk through the architecture and decisions for any project listed here.
         </p>
         <div class="button-row">
           <a href={`mailto:${SITE.email}`} class="button button-primary">Request a walkthrough</a>

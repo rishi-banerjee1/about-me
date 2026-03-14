@@ -1,7 +1,7 @@
 ---
 title: Prompt Control Plane
-shortSummary: Deterministic prompt governance for production LLM systems, with stronger proof points than most prompt tooling.
-summary: Score, route, enforce policy, lock config, and audit prompt decisions before they ever reach a model. Public product, npm package, and GitHub Action.
+shortSummary: Deterministic prompt governance for production LLM systems — score, route, enforce, and audit.
+summary: Score, route, enforce policy, lock config, and audit prompt decisions before they ever reach a model. Ships as an npm package, MCP server, and GitHub Action.
 category: Prompt Governance
 section: flagship
 year: 2026
@@ -41,8 +41,8 @@ Prompt Control Plane is a deterministic governance layer for prompts. It adds st
 
 The differentiator is that the engine itself does not call an LLM. It enforces rules, structure, and repeatability around the prompt surface, which keeps the system deterministic, cheaper to run, and easier to reason about in production.
 
-## Signals
+## Distribution
 
-- Public product site, public package, and public GitHub Action
-- Strong fit with engineering governance, not just prompt tinkering
-- Clear connection to the larger thesis of making fuzzy judgment more durable
+- [Product site](https://getpcp.site/) with full documentation
+- [npm package](https://www.npmjs.com/package/pcp-engine) for local and CI integration
+- [GitHub Action](https://github.com/marketplace/actions/prompt-control-plane) for pull-request quality gates

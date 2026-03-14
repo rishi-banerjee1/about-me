@@ -3,7 +3,7 @@ export const SITE = {
   site: "https://rishi-banerjee1.github.io",
   basePath: "/about-me",
   description:
-    "TA leader who builds systems. Director of Talent Acquisition at Atlan. Builds talent operating systems, AI products, and open source tools that make hiring more rigorous and repeatable.",
+    "Director of Talent Acquisition at Atlan. Runs R&D hiring across Engineering, Product, Design, IT, and Security. Also builds the internal tools — evaluators, offer generators, prompt governance, candidate research agents.",
   email: "rpbanerjee@outlook.com",
   linkedin: "https://www.linkedin.com/in/rishibanerjee/",
   github: "https://github.com/rishi-banerjee1",
@@ -23,16 +23,16 @@ export function withBase(path = "/") {
 export const navLinks = [
   { label: "About", href: withBase("/#about") },
   { label: "Experience", href: withBase("/#experience") },
-  { label: "Projects", href: withBase("/#projects") },
   { label: "Expertise", href: withBase("/#expertise") },
-  { label: "Education", href: withBase("/#education") }
+  { label: "Education", href: withBase("/#education") },
+  { label: "Projects", href: withBase("/#projects") }
 ];
 
 export const heroStats = [
   { value: "20+", label: "Years in TA" },
   { value: "100+", label: "Leadership Hires" },
   { value: "10+", label: "Countries" },
-  { value: "22", label: "Repos Mapped" }
+  { value: "8+", label: "Products Shipped" }
 ];
 
 export const organizations = [
@@ -52,10 +52,10 @@ export const experience = [
     companyHref: "https://atlan.com",
     subtitle: "The Missing Context Layer for Data & AI",
     bullets: [
-      "Own global R&D talent strategy across Engineering, Product, Design, IT, and Security.",
-      "Lead talent partners, sourcers, and coordinators while acting as a strategic advisor on org design, role scoping, and sequencing hires against product roadmaps.",
-      "Built a disciplined talent operating model spanning intake rigor, scorecards, governance, and hiring investment planning.",
-      "Reduced time-to-hire by 40% while protecting quality bar and candidate experience."
+      "Own R&D hiring across Engineering, Product, Design, IT, and Security. Lead a team of talent partners, sourcers, and coordinators.",
+      "Advise leadership on org design, role scoping, and sequencing hires against product roadmaps.",
+      "Designed the talent operating model: intake rigor, scorecards, governance, hiring investment planning.",
+      "Reduced time-to-hire by 40%. Quality bar and candidate experience held."
     ]
   },
   {
@@ -65,9 +65,9 @@ export const experience = [
     company: "ZTek Consulting",
     subtitle: "Global Talent & RPO Services",
     bullets: [
-      "Scaled recruiting organizations and leadership hiring programs for Fortune 500 clients.",
-      "Managed multimillion-dollar TA budgets and influenced workforce plans that reduced cost-per-hire by 30% across key accounts.",
-      "Built distributed recruiting teams and delivery governance that sustained 95%+ SLA compliance."
+      "Scaled recruiting orgs and leadership hiring for Fortune 500 clients.",
+      "Managed multimillion-dollar TA budgets. Cost-per-hire dropped 30% across key accounts.",
+      "Built distributed teams and delivery governance. 95%+ SLA compliance."
     ]
   },
   {
@@ -77,8 +77,8 @@ export const experience = [
     company: "InfoCepts",
     subtitle: "Data & Analytics Services",
     bullets: [
-      "Designed multi-country talent strategies across India, the US, and Singapore.",
-      "Implemented and governed Oracle Taleo workflows and reporting.",
+      "Multi-country talent strategy across India, the US, and Singapore.",
+      "Implemented Oracle Taleo workflows and reporting governance.",
       "Built executive hiring and early-talent programs tied to curriculum partnerships."
     ]
   },
@@ -89,8 +89,8 @@ export const experience = [
     company: "GreyOrange",
     subtitle: "Robotics & automation",
     bullets: [
-      "Helped scale hiring for a robotics company during high-growth expansion.",
-      "Built structured hiring loops for technical and leadership hiring during rapid org build-out."
+      "Scaled hiring during high-growth robotics expansion.",
+      "Built structured interview loops for technical and leadership roles."
     ]
   },
   {
@@ -100,8 +100,8 @@ export const experience = [
     company: "UST and earlier roles",
     subtitle: "Recruiting, consulting, and people operations",
     bullets: [
-      "Built the foundations across recruiting delivery, stakeholder management, and talent operations.",
-      "Developed the pattern-recognition and systems instincts that later shaped the tooling work."
+      "Recruiting delivery, stakeholder management, and talent operations across multiple orgs.",
+      "Built the pattern-recognition that later shaped the systems and tooling work."
     ]
   }
 ];
@@ -110,17 +110,17 @@ export const expertise = [
   {
     title: "Talent Systems, Not Heroics",
     text:
-      "I design hiring operating systems: role architecture, evaluation loops, calibration, governance, and sequencing. The goal is repeatability, not dependence on individual interviewers having a good day."
+      "I design hiring operating systems: role architecture, evaluation loops, calibration, governance, and sequencing. Repeatability over dependence on individual interviewers having a good day."
   },
   {
     title: "Executive Talent Advisory",
     text:
-      "I work with founders and leadership teams on org design, capability gaps, investment pacing, and leadership hiring. Talent is a strategic lever only when it is tied tightly to company bets."
+      "I work with founders and leadership teams on org design, capability gaps, investment pacing, and leadership hiring. The work is tied to company bets, not headcount targets."
   },
   {
     title: "AI-Native Recruiting Tools",
     text:
-      "I build the tools my team wishes already existed: evaluators, offer experiences, prompt governance, usage visibility, and agentic systems that reduce drift in judgment."
+      "I build the tools my team uses daily — evaluators, offer experiences, prompt governance, usage tracking, candidate research agents. If a process runs often enough, it should be software."
   }
 ];
 
@@ -144,6 +144,14 @@ export const testimonials = [
   }
 ];
 
+export const book = {
+  title: "Raising the Bar",
+  subtitle: "Building High-Density Teams in the Age of AI",
+  href: "https://www.amazon.in/dp/B0FQMWW9RR",
+  description:
+    "A practical framework for building high-performing teams when AI changes what individuals can deliver. Covers hiring doctrine, evaluation design, and scaling judgment across growing organizations."
+};
+
 export const education = [
   {
     title: "Post Graduate Programme in Strategic Human Resource Management",
@@ -165,14 +173,14 @@ export const education = [
 
 export const supportingSections = [
   {
-    title: "Current AI Systems",
+    title: "AI-Powered Hiring Tools",
     description:
-      "The private systems that deepen the same thesis as the flagship work: encode doctrine, reduce drift, and make judgment more durable.",
+      "Internal tools the recruiting team uses daily.",
     projects: [
       {
         title: "Atlan Interview Assist",
         summary:
-          "Gemini-powered transcript analysis app for interviewer feedback, candidate evaluation, and PDF-ready reports against the Hiring for Great framework.",
+          "Transcript analysis app that generates structured interviewer feedback, candidate evaluations, and PDF-ready reports against our Hiring for Great framework.",
         tags: ["Next.js", "Gemini", "Private"],
         visibility: "private",
         status: "active",
@@ -182,7 +190,7 @@ export const supportingSections = [
       {
         title: "Candidate Intel Agent",
         summary:
-          "Parallel research agent that compiles candidate intelligence from resumes, GitHub, publications, and social signals into leveling and comp context.",
+          "Parallel research agent that compiles candidate intelligence from resumes, GitHub, publications, and social signals into leveling and comp briefs.",
         tags: ["AI", "Research", "Private"],
         visibility: "private",
         status: "active"
@@ -190,7 +198,7 @@ export const supportingSections = [
       {
         title: "JD Genius Builder",
         summary:
-          "Private evolution of the JD tooling line: structured, outcome-focused job descriptions with guardrails and better operator UX than the earlier prototypes.",
+          "Job description generator. Enforces structure, outcome focus, and consistency. Recruiters use it instead of writing JDs from scratch.",
         tags: ["TypeScript", "Lovable", "Private"],
         visibility: "private",
         status: "active"
@@ -198,7 +206,7 @@ export const supportingSections = [
       {
         title: "Interviewer Helper",
         summary:
-          "Real-time interview support interface for follow-up prompts and coverage guidance; currently more foundation than finished product.",
+          "Real-time interview support interface that surfaces follow-up prompts and coverage guidance during live conversations.",
         tags: ["React", "Private", "Prototype"],
         visibility: "private",
         status: "prototype",
@@ -208,14 +216,14 @@ export const supportingSections = [
     ]
   },
   {
-    title: "Explorations & Supporting Utilities",
+    title: "Open Source & Experiments",
     description:
-      "Public experiments, side utilities, and earlier tools that still show the breadth of the account even if they are not the lead narrative.",
+      "Public repos, side projects, and earlier work.",
     projects: [
       {
         title: "JD Analyser",
         summary:
-          "FastAPI + React application for improving job descriptions on clarity, inclusivity, and SEO. Strong problem framing, older implementation.",
+          "Full-stack app that scores job descriptions on clarity, inclusivity, and SEO — then suggests concrete improvements.",
         tags: ["TypeScript", "FastAPI", "Public"],
         visibility: "public",
         status: "supporting",
@@ -225,7 +233,7 @@ export const supportingSections = [
       {
         title: "v0 JD Builder",
         summary:
-          "An earlier v0-driven UI experiment that helped shape the later JD tool direction.",
+          "Early v0 prototype for structured job descriptions. Led to the later JD Genius Builder.",
         tags: ["TypeScript", "v0", "Public"],
         visibility: "public",
         status: "archive",
@@ -235,7 +243,7 @@ export const supportingSections = [
       {
         title: "Hotel Concierge",
         summary:
-          "Natural-language hotel search and ranking agent that profiles hotel DNA and explains recommendation fit, not just price.",
+          "Natural-language hotel search agent that profiles hotel DNA and explains why each recommendation fits — not just price.",
         tags: ["Python", "Search", "Public"],
         visibility: "public",
         status: "supporting",
@@ -245,17 +253,17 @@ export const supportingSections = [
       {
         title: "Repo Extract",
         summary:
-          "Contributor extraction and enrichment tool. Useful utility, but the README and polish still feel prototype-grade.",
+          "GitHub contributor extraction and enrichment tool for building candidate pipelines from open source activity.",
         tags: ["GitHub", "Utility", "Public"],
         visibility: "public",
-        status: "prototype",
+        status: "supporting",
         href: "https://github.com/rishi-banerjee1/gh-repo-extract",
         external: true
       },
       {
         title: "Homebrew AI Tools",
         summary:
-          "Supporting distribution repo for shipping developer utilities like Claude Usage Widget through Homebrew.",
+          "Homebrew tap for distributing developer utilities like Claude Usage Widget with one-command install.",
         tags: ["Homebrew", "Distribution", "Public"],
         visibility: "public",
         status: "supporting",
@@ -265,11 +273,21 @@ export const supportingSections = [
       {
         title: "Spring Wellness App",
         summary:
-          "Earlier team wellness app experiment built with Next.js and Supabase.",
+          "Team wellness check-in app. Next.js + Supabase.",
         tags: ["Next.js", "Supabase", "Public"],
         visibility: "public",
         status: "archive",
         href: "https://github.com/rishi-banerjee1/v0-Wellness-App",
+        external: true
+      },
+      {
+        title: "BlindBench",
+        summary:
+          "Open-source arena that blind-tests 100+ AI models on real prompts from 4 Kaggle datasets. Trust scores, failure classification, BYOK support.",
+        tags: ["React", "Supabase", "Public"],
+        visibility: "public",
+        status: "active",
+        href: "https://github.com/rishi-banerjee1/blindbench",
         external: true
       }
     ]

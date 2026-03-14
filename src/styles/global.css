@@ -89,6 +89,26 @@ body::before {
   opacity: 0.22;
 }
 
+.skip-to-content {
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  padding: 0.75rem 1.5rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: top 200ms ease;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -142,6 +162,10 @@ button {
   inset: 0;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.04));
   pointer-events: none;
+}
+
+:root[data-theme="dark"] .section-alt::before {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
 }
 
 .eyebrow {
@@ -306,14 +330,11 @@ strong {
 
 .hero-copy,
 .hero-aside,
-.panel-card,
 .project-card,
 .cta-card,
 .hero-note,
 .detail-prose,
-.detail-sidebar,
-.timeline-item,
-.logo-link {
+.detail-sidebar {
   position: relative;
   background: linear-gradient(180deg, var(--surface-strong), var(--surface));
   border: 1px solid rgba(255, 255, 255, 0.42);
@@ -322,11 +343,22 @@ strong {
   overflow: hidden;
 }
 
+.panel-card,
+.timeline-item {
+  position: relative;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1.6rem;
+}
+
+.logo-link {
+  position: relative;
+  padding: 1rem 1.2rem;
+  transition: transform 220ms ease, opacity 220ms ease;
+}
+
 .hero-copy::before,
 .hero-aside::before,
-.panel-card::before,
 .project-card::before,
-.timeline-item::before,
 .cta-card::before,
 .detail-prose::before {
   content: "";
@@ -334,6 +366,14 @@ strong {
   inset: 0;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.45), transparent 42%);
   pointer-events: none;
+}
+
+:root[data-theme="dark"] .hero-copy::before,
+:root[data-theme="dark"] .hero-aside::before,
+:root[data-theme="dark"] .project-card::before,
+:root[data-theme="dark"] .cta-card::before,
+:root[data-theme="dark"] .detail-prose::before {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), transparent 42%);
 }
 
 .hero-copy,
@@ -449,6 +489,11 @@ strong {
   transition: transform 220ms ease, box-shadow 220ms ease;
 }
 
+:root[data-theme="dark"] .stat-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04));
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
 .stat-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 16px 26px rgba(0, 0, 0, 0.05);
@@ -473,6 +518,16 @@ strong {
   margin: 0 auto 1.1rem;
   border: 8px solid rgba(255, 255, 255, 0.5);
   box-shadow: 0 28px 60px rgba(15, 23, 42, 0.18);
+  transition: transform 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.hero-photo:hover {
+  transform: scale(1.02);
+}
+
+:root[data-theme="dark"] .hero-photo {
+  border-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 28px 60px rgba(0, 0, 0, 0.4);
 }
 
 .hero-note {
@@ -496,14 +551,8 @@ strong {
   flex-wrap: wrap;
 }
 
-.logo-link {
-  padding: 1rem 1.2rem;
-  transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
-}
-
 .logo-link:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 20px 34px rgba(0, 0, 0, 0.08);
+  opacity: 0.7;
 }
 
 .logo-image {
@@ -564,9 +613,7 @@ strong {
     background 260ms ease;
 }
 
-.project-card.is-link:hover,
-.panel-card:hover,
-.timeline-item:hover {
+.project-card.is-link:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-strong);
   border-color: rgba(255, 255, 255, 0.6);
@@ -585,6 +632,10 @@ strong {
 .project-card-top p {
   margin: 0.75rem 0 0;
   max-width: 42ch;
+}
+
+.project-card > .tag-list {
+  margin-top: 1.1rem;
 }
 
 .project-card-arrow {
@@ -632,6 +683,12 @@ strong {
   font-weight: 700;
 }
 
+:root[data-theme="dark"] .badge,
+:root[data-theme="dark"] .tag,
+:root[data-theme="dark"] .metric-pill {
+  background: rgba(255, 255, 255, 0.08);
+}
+
 .badge-flagship {
   background: rgba(15, 118, 110, 0.14);
 }
@@ -667,15 +724,27 @@ strong {
 
 .timeline {
   display: grid;
-  gap: 1rem;
+  gap: 0;
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 95px;
+  top: 2rem;
+  bottom: 2rem;
+  width: 2px;
+  background: linear-gradient(180deg, var(--accent), var(--line), var(--line));
+  opacity: 0.4;
 }
 
 .timeline-item {
   display: grid;
   gap: 1rem;
   grid-template-columns: 190px 1fr;
-  padding: 1.6rem;
-  transition: transform 260ms ease, box-shadow 260ms ease, border-color 260ms ease;
+  padding: 1.6rem 0;
+  position: relative;
 }
 
 .timeline-date {
@@ -683,6 +752,19 @@ strong {
   font-size: 1.08rem;
   font-weight: 600;
   color: var(--accent-strong);
+  position: relative;
+}
+
+.timeline-date::after {
+  content: "";
+  position: absolute;
+  right: -1rem;
+  top: 0.55rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
 }
 
 .timeline-body h3 {
@@ -700,8 +782,24 @@ strong {
 }
 
 .panel-card {
-  padding: 1.45rem;
-  transition: transform 260ms ease, box-shadow 260ms ease, border-color 260ms ease;
+  padding: 1.45rem 0;
+}
+
+.quote-card {
+  position: relative;
+}
+
+.quote-card::before {
+  content: "\201C";
+  position: absolute;
+  top: -0.2rem;
+  right: 0.5rem;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--accent);
+  opacity: 0.18;
+  pointer-events: none;
 }
 
 .quote-card p {
@@ -720,6 +818,42 @@ strong {
 
 .three-up-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.book-card {
+  position: relative;
+  background: linear-gradient(135deg, var(--surface-strong), var(--surface));
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+  padding: 2.35rem;
+}
+
+.book-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.45), transparent 42%);
+  pointer-events: none;
+}
+
+:root[data-theme="dark"] .book-card::before {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), transparent 42%);
+}
+
+.book-content {
+  position: relative;
+  max-width: 48rem;
+}
+
+.book-content h3 {
+  color: var(--accent-strong);
+  margin-bottom: 0.75rem;
+}
+
+.book-content p {
+  margin-bottom: 1.5rem;
 }
 
 .cta-card {
@@ -783,6 +917,14 @@ strong {
   box-shadow: none;
 }
 
+.detail-sidebar .panel-card {
+  background: linear-gradient(180deg, var(--surface-strong), var(--surface));
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  padding: 1.45rem;
+}
+
 [data-reveal] {
   opacity: 0;
   transform: translateY(24px) scale(0.985);
@@ -839,6 +981,14 @@ strong {
 
   .hero-copy {
     padding-right: 2.35rem;
+  }
+
+  .timeline::before {
+    display: none;
+  }
+
+  .timeline-date::after {
+    display: none;
   }
 }
 
@@ -898,9 +1048,7 @@ strong {
   .hero-aside,
   .cta-card,
   .detail-prose,
-  .project-card,
-  .panel-card,
-  .timeline-item {
+  .project-card {
     padding: 1.25rem;
   }
 

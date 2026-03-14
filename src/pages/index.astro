@@ -6,12 +6,12 @@ import ProjectCard from "../components/ProjectCard.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import {
   SITE,
+  book,
   education,
   experience,
   expertise,
   heroStats,
   organizations,
-  supportingSections,
   withBase,
   testimonials
 } from "../lib/site";
@@ -54,20 +54,18 @@ const jsonLd = {
 >
   <Nav />
 
-  <main>
+  <main id="main-content">
     <section class="hero-section">
       <div class="container hero-grid">
         <div class="hero-copy" data-reveal>
-          <p class="eyebrow">Talent systems, AI products, and hiring doctrine encoded in software</p>
+          <p class="eyebrow">TA Leader Who Builds Systems &amp; Ships Tools</p>
           <h1>{SITE.name}</h1>
           <p class="hero-text">
-            I lead Global R&amp;D Talent Strategy &amp; Acquisition at <a href={SITE.company} target="_blank" rel="noopener">Atlan</a>.
-            I build high-performing teams, and I also build the systems that make hiring more rigorous, repeatable,
-            and useful at scale.
+            I run R&amp;D hiring at <a href={SITE.company} target="_blank" rel="noopener">Atlan</a> — Engineering, Product, Design, IT, Security.
+            I also build the tools: interview evaluators, prompt governance, offer experiences, candidate research agents.
           </p>
           <p class="hero-text hero-text-muted">
-            The strongest pattern across my GitHub is simple: turn fuzzy judgment into durable operating systems.
-            That shows up in prompt governance, talent evaluation, offer experiences, agentic triage, and open source tooling.
+            8+ products shipped. Most are internal systems. A few are public — an npm package, a macOS app, a GitHub Action, and a book.
           </p>
           <div class="button-row">
             <a href={SITE.linkedin} class="button button-primary" target="_blank" rel="noopener">LinkedIn</a>
@@ -86,20 +84,13 @@ const jsonLd = {
 
         <div class="hero-aside" data-reveal>
           <img src={withBase("/assets/headshot.jpg")} alt="Rishi Banerjee" class="hero-photo" />
-          <div class="hero-note">
-            <p class="hero-note-title">Current through GitHub review</p>
-            <p>
-              Reviewed across public and private repos on March 12, 2026. The flagship narrative now reflects the
-              actual account, not just the older public pages.
-            </p>
-          </div>
         </div>
       </div>
     </section>
 
     <section class="logo-section" data-reveal>
       <div class="container">
-        <p class="eyebrow">Organizations I have helped scale</p>
+        <p class="eyebrow">Career Highlights</p>
         <div class="logo-row">
           {organizations.map((org) => (
             <a href={org.href} class="logo-link">
@@ -117,73 +108,15 @@ const jsonLd = {
     <section id="about" class="section section-alt" data-reveal>
       <div class="container prose-block">
         <p class="eyebrow">About</p>
-        <h2>AI-native TA leader who builds systems</h2>
+        <h2>Background</h2>
         <p>
-          As Director of Talent Acquisition at Atlan, I own Global R&amp;D Talent Strategy &amp; Acquisition across
-          Engineering, Product, Design, IT, and Security. Over 20+ years, I have built and scaled TA functions across APAC,
-          North America, and Europe.
+          20+ years in talent acquisition. Built and scaled TA functions across APAC, North America, and Europe.
+          Currently own R&amp;D hiring at Atlan across five functions.
         </p>
         <p>
-          What makes the body of work unusual is that I also build the products that support the work: talent operating
-          systems, interview evaluators, private offer experiences, prompt governance, usage observability, and agentic
-          inbox triage. Some are public products, some are private internal systems, but they all come from the same instinct:
-          if a judgment process matters, it deserves a better operating system.
+          I also build the internal tools my team uses — evaluators, JD generators, offer page systems, candidate research agents.
+          The reasoning is simple: if a judgment process runs often enough, it should be software, not oral tradition.
         </p>
-      </div>
-    </section>
-
-    <section id="projects" class="section" data-reveal>
-      <div class="container">
-        <div class="section-intro">
-          <div>
-            <p class="eyebrow">Flagship Projects</p>
-            <h2>What I would lead with today</h2>
-          </div>
-          <a href={withBase("/projects/")} class="text-link">View all projects</a>
-        </div>
-        <div class="project-grid">
-          {featuredProjects.map((project) => (
-            <ProjectCard
-              project={{
-                title: project.data.title,
-                shortSummary: project.data.shortSummary,
-                summary: project.data.summary,
-                tags: project.data.tags,
-                visibility: project.data.visibility,
-                status: project.data.status
-              }}
-              href={withBase(`/projects/${project.slug}/`)}
-            />
-          ))}
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-alt" data-reveal>
-      <div class="container">
-        <div class="section-intro">
-          <div>
-            <p class="eyebrow">GitHub View</p>
-            <h2>The rest of the account, organized</h2>
-          </div>
-          <p class="section-note">
-            22 repos reviewed across public and private work. The main signal is stronger than the raw repo count:
-            talent systems, AI operators, and durable workflow tooling.
-          </p>
-        </div>
-        {supportingSections.map((section) => (
-          <div class="stack-block">
-            <div class="stack-intro">
-              <h3>{section.title}</h3>
-              <p>{section.description}</p>
-            </div>
-            <div class="project-grid project-grid-compact">
-              {section.projects.map((project) => (
-                <ProjectCard project={project} />
-              ))}
-            </div>
-          </div>
-        ))}
       </div>
     </section>
 
@@ -218,7 +151,7 @@ const jsonLd = {
     <section id="expertise" class="section section-alt" data-reveal>
       <div class="container">
         <p class="eyebrow">Expertise</p>
-        <h2>How I think about talent and systems</h2>
+        <h2>What I do</h2>
         <div class="three-up-grid">
           {expertise.map((item) => (
             <article class="panel-card">
@@ -232,8 +165,26 @@ const jsonLd = {
 
     <section class="section" data-reveal>
       <div class="container">
-        <p class="eyebrow">What others say</p>
-        <h2>Signals from people I have worked with</h2>
+        <div class="section-intro">
+          <div>
+            <p class="eyebrow">Book</p>
+            <h2>{book.title}</h2>
+          </div>
+        </div>
+        <div class="book-card">
+          <div class="book-content">
+            <h3>{book.subtitle}</h3>
+            <p>{book.description}</p>
+            <a href={book.href} class="button button-primary" target="_blank" rel="noopener">Read on Amazon</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" data-reveal>
+      <div class="container">
+        <p class="eyebrow">Testimonials</p>
+        <h2>What colleagues say</h2>
         <div class="three-up-grid">
           {testimonials.map((item) => (
             <blockquote class="panel-card quote-card">
@@ -269,13 +220,39 @@ const jsonLd = {
       </div>
     </section>
 
+    <section id="projects" class="section" data-reveal>
+      <div class="container">
+        <div class="section-intro">
+          <div>
+            <p class="eyebrow">Flagship Projects</p>
+            <h2>Products I've built</h2>
+          </div>
+          <a href={withBase("/projects/")} class="text-link">View all projects</a>
+        </div>
+        <div class="project-grid">
+          {featuredProjects.map((project) => (
+            <ProjectCard
+              project={{
+                title: project.data.title,
+                shortSummary: project.data.shortSummary,
+                summary: project.data.summary,
+                tags: project.data.tags,
+                visibility: project.data.visibility,
+                status: project.data.status
+              }}
+              href={withBase(`/projects/${project.slug}/`)}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+
     <section class="section cta-section" data-reveal>
       <div class="container cta-card">
         <p class="eyebrow">Get In Touch</p>
-        <h2>Talk talent systems, AI products, or open source</h2>
+        <h2>Let’s talk</h2>
         <p>
-          If the systems thinking here resonates, or you want to compare notes on hiring, prompt governance,
-          or agentic workflows, I’m easy to reach.
+          Hiring systems, AI tooling, or comparing notes on running talent at scale. I’m easy to reach.
         </p>
         <div class="button-row">
           <a href={`mailto:${SITE.email}`} class="button button-primary">Email me</a>

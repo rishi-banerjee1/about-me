@@ -57,6 +57,7 @@ const imageUrl = image.startsWith("http")
     {jsonLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
   </head>
   <body>
+    <a href="#main-content" class="skip-to-content">Skip to content</a>
     <slot />
     <script
       is:inline
@@ -108,8 +109,8 @@ const imageUrl = image.startsWith("http")
         )
           .then((response) => response.json())
           .then((data) => {
-            if (typeof data.count === "number") {
-              counter.textContent = String(data.count);
+            if (data.count) {
+              counter.textContent = data.count.replace(/[^0-9]/g, "") || data.count;
             } else {
               counter.textContent = "—";
             }

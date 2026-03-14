@@ -1,7 +1,7 @@
 ---
 title: Claude Usage Widget
-shortSummary: Native macOS utility with strong product polish, real user utility, and clean distribution through Homebrew.
-summary: Floating macOS widget that tracks Claude usage limits and rate limits in real time. Single-file Swift app, no runtime dependencies, strong distribution story.
+shortSummary: Native macOS menubar widget that tracks Claude usage limits in real time. Single-file Swift app, no dependencies, Homebrew install.
+summary: Floating macOS widget that shows current usage, pace against time elapsed, and countdown to reset. One-command Homebrew install.
 category: Developer Tooling
 section: flagship
 year: 2026
@@ -26,18 +26,16 @@ homebrew: https://github.com/rishi-banerjee1/homebrew-ai-tools
 ---
 ## The problem
 
-Claude usage limits are easy to hit without realizing it. That pain is operational rather than theoretical: you are mid-workflow, the session ends, and context gets lost at exactly the wrong moment.
+Claude usage limits reset on a timer. You hit the limit mid-workflow, the session ends, and context is lost. There was no native way to see how close you were.
 
 ## What I built
 
-Claude Usage Widget is a native macOS floating widget that keeps the important signals visible at all times: current usage percentage, pace against elapsed time, countdown to reset, and plain-English status states.
+A native macOS floating widget. Shows current usage percentage, pace against elapsed time, countdown to reset, and plain-English status. Single Swift file, no dependencies, no Electron wrapper.
 
-## Why it works as a portfolio piece
+## Distribution
 
-This project shows a different side of the account than the talent systems. It proves product judgment, native app craft, packaging, and distribution discipline. It is also unusually concrete: there is a live product surface, a repo, install paths, and visible iteration.
+Install via Homebrew: `brew install rishi-banerjee1/ai-tools/claude-usage-widget`. Auto-updates through the tap. Product site with screenshots and install instructions at the homepage link above.
 
-## Signals
+## Implementation decisions
 
-- Native Swift / SwiftUI implementation rather than a wrapped web view
-- Homebrew distribution via supporting tap repo
-- Better CTA surface than the earlier website version, which undersold the install story
+Went native SwiftUI instead of a web wrapper. The app stays in the menubar, uses minimal resources, and does not require a background process. Single-file architecture keeps the build trivial.

@@ -1,7 +1,7 @@
 ---
 title: Gabbar Interview Evaluator
-shortSummary: Doctrine-backed evaluator focused on agency, judgment, and craft, with unusually explicit bias safeguards.
-summary: Private interview evaluation skill that applies a custom hiring doctrine to transcripts and produces structured scorecards with risk classification and scaling assessment.
+shortSummary: Interview evaluation skill that applies a 7-layer hiring doctrine to transcripts. Outputs scorecards, risk classifications, and scaling assessments.
+summary: Takes interview transcripts and forces structure around the decision. Scores on agency, judgment, and craft — the dimensions most debriefs skip.
 category: Interview Evaluation
 section: active
 year: 2026
@@ -24,12 +24,14 @@ contactLabel: Request walkthrough
 ---
 ## The problem
 
-Interview debriefs tend to over-index on charisma, recency, or whichever interviewer speaks most confidently. The hardest dimensions to score, agency, judgment under ambiguity, and real craft motivation, are often the least consistently evaluated.
+Interview debriefs over-index on charisma, recency, or whichever interviewer speaks most confidently. The hardest dimensions — agency, judgment under ambiguity, real craft motivation — get evaluated least consistently.
 
 ## What I built
 
-Gabbar is a private evaluation skill that takes transcripts and forces structure around the decision. It outputs scorecards, risk classifications, and a clear read on whether a person will scale with the environment rather than merely pass the interview.
+Gabbar takes a transcript and outputs a structured scorecard: risk classification, scaling assessment (will this person grow with the environment or plateau), and explicit bias flags.
 
-## Why it matters
+The doctrine is 7 layers deep. Each layer targets a specific evaluation dimension. The system forces the debrief conversation to address what actually matters instead of defaulting to gut feel.
 
-This project shows the doctrine side of the portfolio in its purest form. It is smaller than RishiOS, but also more concentrated: sharp judgment framework, strong language on non-negotiables, and explicit bias safeguards.
+## Design decision
+
+Built explicit bias safeguards into the evaluation loop. The system flags when a score might be driven by pattern-matching on demographics rather than evidence. Most evaluation tools skip this entirely.

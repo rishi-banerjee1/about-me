@@ -1,7 +1,7 @@
 ---
 title: Atlan Offer Wizard
-shortSummary: Private hiring product with a sharp emotional thesis and unusually concrete candidate-experience leverage.
-summary: Personalized offer ceremony pages generated from ATS data and Claude synthesis. Turns a transactional offer stage into a memorable artifact at near-zero marginal cost.
+shortSummary: Personalized offer pages generated from ATS data. Turns a transactional moment into a candidate experience artifact.
+summary: Generates personalized offer ceremony pages as a three-act story — who the candidate is, why they belong, and the offer. Triggers from Ashby, costs ~$0.006 per page.
 category: Talent Experience Product
 section: flagship
 year: 2026
@@ -25,22 +25,18 @@ contactLabel: Request walkthrough
 ---
 ## The problem
 
-The offer stage is one of the most emotionally important moments in hiring, and most companies handle it with flat PDFs and generic email copy. It is a high-leverage moment treated like low-leverage admin.
+Most companies handle the offer stage with flat PDFs and generic email templates. It is one of the highest-leverage moments in hiring — the candidate is deciding — and we were treating it like admin.
 
 ## What I built
 
-Atlan Offer Wizard generates personalized offer pages as a three-act story:
+The system triggers from ATS state in Ashby, pulls interview and offer context, and generates a personalized page structured as a three-act story:
 
-- who the candidate is
-- why they belong at Atlan
-- the offer itself, presented with context and warmth
+- who the candidate is and what stood out
+- why they belong at Atlan specifically
+- the offer, presented with context
 
-The system triggers from ATS state, pulls interview and offer context, generates a mobile-friendly page, and gives recruiters a shareable artifact instead of a generic message thread.
+Recruiters get a shareable link instead of a copy-paste email. Each page costs roughly $0.006 to generate. Runs on Cloudflare Workers + Hono.
 
-## Why it matters
+## How it changed things
 
-This is one of the strongest examples of using AI for high-touch experience design rather than generic automation. It keeps the emotional meaning of the moment while removing manual bottlenecks from the team.
-
-## Portfolio implication
-
-This page now needs to do more work because the repo is private. The value has to be legible from the case study itself: what the system does, what it changes in candidate experience, and why it was worth building.
+Candidates started screenshotting their offer pages and sharing them. The team stopped writing offer emails from scratch. The cost is negligible and the generation is automatic once the ATS state changes.

@@ -31,11 +31,7 @@ const Tag = href ? "a" : "article";
     </div>
     {href && <span class="project-card-arrow" aria-hidden="true">↗</span>}
   </div>
-  <div class="project-meta-row">
-    <span class={`badge badge-${project.status}`}>{project.status}</span>
-    <span class={`badge badge-${project.visibility}`}>{project.visibility}</span>
-  </div>
   <div class="tag-list">
-    {project.tags.map((tag) => <span class="tag">{tag}</span>)}
+    {project.tags.filter((tag) => !["Private", "Public", "Prototype"].includes(tag)).map((tag) => <span class="tag">{tag}</span>)}
   </div>
 </Tag>

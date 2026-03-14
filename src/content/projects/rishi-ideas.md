@@ -1,7 +1,7 @@
 ---
 title: Rishi Ideas
-shortSummary: AI product research and fleet-management hub for coordinating multiple agent projects with consistency.
-summary: Private hub for product research, multi-agent project management, and doc alignment across agent-driven repos.
+shortSummary: Research and fleet management hub. Coordinates multiple agent projects, keeps docs aligned, enforces release discipline.
+summary: Hub for AI product research, multi-agent project management, and documentation alignment across repos.
 category: Agent Orchestration
 section: active
 year: 2026
@@ -24,12 +24,12 @@ contactLabel: Request walkthrough
 ---
 ## The problem
 
-Once multiple AI projects exist at once, inconsistency becomes the default. Docs drift, release steps get skipped, and product research quality varies depending on who or what ran the exploration.
+Once you have multiple AI projects running at once, inconsistency is the default. Docs drift, release steps get skipped, research quality varies.
 
 ## What I built
 
-Rishi Ideas acts as a hub for idea generation, fleet management, documentation alignment, and release sequencing. It is less a single product than an operating layer for agent-driven product development.
+A coordination layer. Four parallel research subagents vet product ideas against cost, effort, and monetization filters. Fleet management audits all repos for stale docs, hardcoded dates, and missing error handling. Release tooling enforces a consistent ship sequence.
 
-## Why it matters
+## Why it exists
 
-This project makes the meta-layer visible: not just shipping agents, but building systems that keep a portfolio of agents coherent.
+It is less a product and more an operating system for the rest of the products. Without it, each project would drift independently.
