@@ -7,4 +7,9 @@ Thumbs.db
 node_modules/
 .astro/
 dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
 *.pdf
