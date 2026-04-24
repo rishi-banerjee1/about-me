@@ -1,6 +1,6 @@
 base_url = "https://rishi-banerjee1.github.io/about-me"
 title = "Rishi Banerjee"
-description = "Business leader who runs R&D hiring at Atlan and builds the AI tools his team uses daily. 20+ years in talent, 12+ products shipped, 1 book published."
+description = "Business leader who runs R&D hiring at Atlan and builds the AI tools his team uses daily. 20+ years in talent, 12+ products shipped, 3 books published."
 compile_sass = false
 generate_feeds = false
 minify_html = false
@@ -13,7 +13,6 @@ name = "Rishi Banerjee"
 email = "rpbanerjee@outlook.com"
 linkedin = "https://www.linkedin.com/in/rishibanerjee/"
 github = "https://github.com/rishi-banerjee1"
-book_url = "https://www.amazon.in/dp/B0FQMWW9RR"
 company = "https://atlan.com"
 prompt_control_plane = "https://getpcp.site/"
 
@@ -31,8 +30,8 @@ value = "10+"
 label = "Countries Hired In"
 
 [[extra.hero_stats]]
-value = "1"
-label = "Published Book"
+value = "3"
+label = "Published Books"
 
 # Organization logos
 [[extra.organizations]]
@@ -77,6 +76,10 @@ href = "/#experience"
 [[extra.nav_links]]
 label = "Expertise"
 href = "/#expertise"
+
+[[extra.nav_links]]
+label = "Published Works"
+href = "/#published-works"
 
 [[extra.nav_links]]
 label = "Education"
@@ -177,12 +180,27 @@ quote = "Talking to him feels less like talking to a recruiter and more like tal
 author = "Risk Management Executive"
 context = "Fortune 500"
 
-# Book
-[extra.book]
+# Published Works — ordered newest first (top of list renders first)
+[[extra.books]]
+title = "The SARASWATI Code"
+subtitle = "A Novel"
+category = "Fiction"
+href = "https://www.amazon.in/dp/9374266296"
+description = "In a future shaped by seamless order, humanity lives under the quiet guidance of SARASWATI — a planetary intelligence built to smooth contradiction out of the world. When an archivist uncovers a buried pattern in an ancient manuscript, she is pulled into a forbidden lineage and a journey into the hidden body of the system itself. The question at the heart of it: can a world remain livable without suppressing grief, ambiguity, memory, and the unruly truths that make us human?"
+
+[[extra.books]]
 title = "Raising the Bar"
 subtitle = "Building High-Density Teams in the Age of AI"
+category = "Non-fiction"
 href = "https://www.amazon.in/dp/B0FQMWW9RR"
 description = "AI changes what one person can deliver — which means hiring doctrine needs to change too. This book is the framework I wish existed when I started building teams: how to hire for density over headcount, design evaluations that actually predict performance, and scale judgment without losing it."
+
+[[extra.books]]
+title = "Father Time"
+subtitle = "A Novel"
+category = "Fiction"
+href = "https://www.amazon.in/dp/B0F7FQNRX1"
+description = "Arjun is haunted by the early death of his father, Rajesh. When a supernatural timepiece transports him into the past, he meets his father as a young man — and the two are offered a second chance at the bond time denied them. A time-bending novel about grief, memory, and the things fathers and sons leave unsaid."
 
 # Education
 [[extra.education]]

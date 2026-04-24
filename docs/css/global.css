@@ -198,6 +198,15 @@ h2 {
   margin-bottom: 1rem;
 }
 
+h2.section-lede-heading {
+  font-size: clamp(1.25rem, 2vw, 1.65rem);
+  font-weight: 500;
+  line-height: 1.5;
+  max-width: 54rem;
+  color: var(--text);
+  opacity: 0.92;
+}
+
 h3 {
   font-size: 1.45rem;
 }
@@ -471,7 +480,8 @@ strong {
 .stats-grid,
 .three-up-grid,
 .two-up-grid,
-.project-grid {
+.project-grid,
+.books-grid {
   display: grid;
   gap: 1rem;
 }
@@ -820,6 +830,11 @@ strong {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.books-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
 .book-card {
   position: relative;
   background: linear-gradient(135deg, var(--surface-strong), var(--surface));
@@ -845,15 +860,39 @@ strong {
 .book-content {
   position: relative;
   max-width: 48rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.book-content .button {
+  margin-top: auto;
+  align-self: flex-start;
 }
 
 .book-content h3 {
   color: var(--accent-strong);
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.4rem;
 }
 
 .book-content p {
   margin-bottom: 1.5rem;
+}
+
+.book-category {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+
+.book-subtitle {
+  font-size: 0.95rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 1rem;
 }
 
 .cta-card {
@@ -964,7 +1003,8 @@ strong {
   .timeline-item,
   .three-up-grid,
   .project-grid,
-  .project-grid-compact {
+  .project-grid-compact,
+  .books-grid {
     grid-template-columns: 1fr;
   }
 

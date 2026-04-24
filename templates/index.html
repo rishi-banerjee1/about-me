@@ -46,7 +46,7 @@
         <h1>{{ config.extra.name }}</h1>
         <p class="hero-text">
           I lead R&amp;D hiring at <a href="{{ config.extra.company }}" target="_blank" rel="noopener">Atlan</a> &mdash; Engineering, Product, Design, IT, Security.
-          But I don't just run recruiting. I build the systems underneath it: interview evaluators, prompt governance frameworks, candidate research agents, offer page generators, an npm package, a macOS menubar app, and a book on hiring in the age of AI.
+          But I don't just run recruiting. I build the systems underneath it: interview evaluators, prompt governance frameworks, candidate research agents, offer page generators, an npm package, a macOS menubar app, a book on hiring in the age of AI, and two novels.
         </p>
         <p class="hero-text hero-text-muted">
           Most talent leaders optimize funnels. I build the infrastructure underneath them. When a judgment call happens 200 times with no system backing it up, I turn it into software.
@@ -150,20 +150,26 @@
     </div>
   </section>
 
-  <section class="section" data-reveal>
+  <section id="published-works" class="section" data-reveal>
     <div class="container">
       <div class="section-intro">
         <div>
-          <p class="eyebrow">Book</p>
-          <h2>{{ config.extra.book.title }}</h2>
+          <p class="eyebrow">Published Works</p>
+          <h2 class="section-lede-heading">Writing is one of my favorite things &mdash; it&rsquo;s how the storyteller in me gets out. Three books so far, across fiction and the craft of hiring.</h2>
         </div>
       </div>
-      <div class="book-card">
-        <div class="book-content">
-          <h3>{{ config.extra.book.subtitle }}</h3>
-          <p>{{ config.extra.book.description }}</p>
-          <a href="{{ config.extra.book.href }}" class="button button-primary" target="_blank" rel="noopener">Read on Amazon</a>
-        </div>
+      <div class="books-grid">
+        {% for book in config.extra.books %}
+          <article class="book-card">
+            <div class="book-content">
+              <p class="book-category">{{ book.category }}</p>
+              <h3>{{ book.title }}</h3>
+              <p class="book-subtitle">{{ book.subtitle }}</p>
+              <p>{{ book.description }}</p>
+              <a href="{{ book.href }}" class="button button-primary" target="_blank" rel="noopener">See more on Amazon</a>
+            </div>
+          </article>
+        {% endfor %}
       </div>
     </div>
   </section>
