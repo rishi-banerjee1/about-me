@@ -5,7 +5,7 @@ template = "projects/page.html"
 
 [extra]
 shortSummary = "Interview evaluation skill that applies a 7-layer hiring doctrine to transcripts. Outputs scorecards, risk classifications, and scaling assessments."
-summary = "Takes interview transcripts and forces structure around the decision. Scores on agency, judgment, and craft — the dimensions most debriefs skip."
+summary = "Takes interview transcripts and forces structure around the decision. Scores on agency, judgment, and craft: the dimensions most debriefs skip."
 category = "Interview Evaluation"
 section = "active"
 year = 2026
@@ -22,7 +22,7 @@ contactLabel = "Request walkthrough"
 
 ## The problem
 
-Interview debriefs over-index on charisma, recency, or whichever interviewer speaks most confidently. The hardest dimensions — agency, judgment under ambiguity, real craft motivation — get evaluated least consistently.
+Interview debriefs over-index on charisma, recency, or whichever interviewer speaks most confidently. The hardest dimensions (agency, judgment under ambiguity, real craft motivation) get evaluated least consistently.
 
 ## What I built
 

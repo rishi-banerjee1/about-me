@@ -4,7 +4,7 @@ weight = 5
 template = "projects/page.html"
 
 [extra]
-shortSummary = "Talent operating system that encodes hiring doctrine into software — scoring, JD generation, calibration, and drift detection."
+shortSummary = "Talent operating system that encodes hiring doctrine into software: scoring, JD generation, calibration, and drift detection."
 summary = "MCP server with 6 operating modes. Scores candidates, generates JDs, builds exec briefs, structures notes, runs calibration, and learns from overrides."
 category = "Talent Operating System"
 section = "flagship"
@@ -35,8 +35,8 @@ RishiOS encodes the operating logic directly into an MCP server. Six modes:
 - Generate calibration references
 - Learn from override patterns without losing the base doctrine
 
-Built in TypeScript with the MCP SDK and Zod for runtime validation. Every decision is auditable — the system tracks what changed and why.
+Built in TypeScript with the MCP SDK and Zod for runtime validation. Every decision is auditable. The system tracks what changed and why.
 
 ## Trade-off
 
-The doctrine is opinionated. That is the point. A team that disagrees with the framework should not use this system — it enforces a specific view of what good hiring looks like. The alternative is no system at all, which means drift.
+The doctrine is opinionated. That is the point. A team that disagrees with the framework should not use this system. It enforces a specific view of what good hiring looks like. The alternative is no system at all, which means drift.

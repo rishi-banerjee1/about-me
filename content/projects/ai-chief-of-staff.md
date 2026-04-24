@@ -28,8 +28,8 @@ Important work gets buried under message volume. Slack, Gmail, and calendar invi
 
 The system reads across all three sources, classifies work by urgency and action type, drafts responses where useful, and keeps a ledger of what is still open versus resolved.
 
-Runs on scheduled automations. Maintains durable state between runs — it knows what was flagged yesterday and whether it was closed. Morning briefings surface the P0 items before the day starts.
+Runs on scheduled automations. Maintains durable state between runs. It knows what was flagged yesterday and whether it was closed. Morning briefings surface the P0 items before the day starts.
 
 ## Why a ledger matters
 
-Most triage agents produce summaries. Summaries are disposable — you read them once and the context is gone. A ledger persists. It tracks items to resolution and creates accountability.
+Most triage agents produce summaries. Summaries are disposable. You read them once and the context is gone. A ledger persists. It tracks items to resolution and creates accountability.

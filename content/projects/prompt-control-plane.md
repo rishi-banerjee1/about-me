@@ -4,7 +4,7 @@ weight = 1
 template = "projects/page.html"
 
 [extra]
-shortSummary = "Deterministic prompt governance for production LLM systems — score, route, enforce, and audit."
+shortSummary = "Deterministic prompt governance for production LLM systems: score, route, enforce, and audit."
 summary = "Score, route, enforce policy, lock config, and audit prompt decisions before they ever reach a model. Ships as an npm package, MCP server, and GitHub Action."
 category = "Prompt Governance"
 section = "flagship"

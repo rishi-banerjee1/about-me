@@ -4,7 +4,7 @@ weight = 3
 template = "projects/page.html"
 
 [extra]
-shortSummary = "Blind-test 100+ LLMs side by side. Real prompts, no marketing — just truth scores and failure analysis."
+shortSummary = "Blind-test 100+ LLMs side by side. Real prompts, no marketing. Just truth scores and failure analysis."
 summary = "Open-source arena that blind-tests 100+ AI models on real prompts from 4 Kaggle datasets. Generates trust scores, win rates, and classifies 10 failure types. BYOK support keeps API keys client-side."
 category = "AI Evaluation"
 section = "flagship"
@@ -41,5 +41,5 @@ React + Vite frontend deployed to GitHub Pages. Supabase backend with Edge Funct
 
 ## Distribution
 
-- [Live arena](https://rishi-banerjee1.github.io/blindbench/) — test models immediately
-- [GitHub repo](https://github.com/rishi-banerjee1/blindbench) — full source, seed scripts, deployment guide
+- [Live arena](https://rishi-banerjee1.github.io/blindbench/): test models immediately
+- [GitHub repo](https://github.com/rishi-banerjee1/blindbench): full source, seed scripts, deployment guide

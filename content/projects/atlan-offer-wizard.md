@@ -5,7 +5,7 @@ template = "projects/page.html"
 
 [extra]
 shortSummary = "Personalized offer pages generated from ATS data. Turns a transactional moment into a candidate experience artifact."
-summary = "Generates personalized offer ceremony pages as a three-act story — who the candidate is, why they belong, and the offer. Triggers from Ashby, costs ~$0.006 per page."
+summary = "Generates personalized offer ceremony pages as a three-act story: who the candidate is, why they belong, and the offer. Triggers from Ashby, costs ~$0.006 per page."
 category = "Talent Experience Product"
 section = "flagship"
 year = 2026
@@ -22,7 +22,7 @@ contactLabel = "Request walkthrough"
 
 ## The problem
 
-Most companies handle the offer stage with flat PDFs and generic email templates. It is one of the highest-leverage moments in hiring — the candidate is deciding — and we were treating it like admin.
+Most companies handle the offer stage with flat PDFs and generic email templates. It is one of the highest-leverage moments in hiring (the candidate is deciding), and we were treating it like admin.
 
 ## What I built
 
