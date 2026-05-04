@@ -1,8 +1,8 @@
 # Rishi Banerjee
 
-> TA leader who builds systems. Director of Talent Acquisition at Atlan.
+> TA leader who builds systems. Global Head of Talent Acquisition at kAIgentic.
 
-Rishi Banerjee leads Global R&D Talent Strategy and Acquisition at Atlan across Engineering, Product, Design, IT, and Security. He builds talent operating systems, prompt governance tooling, AI evaluators, and agentic workflow products in addition to leading recruiting strategy.
+Rishi Banerjee is Global Head of Talent Acquisition at kAIgentic, building talent systems for enterprise AI. Previously, he led Global R&D Talent Strategy and Acquisition at Atlan across Engineering, Product, Design, IT, and Security. He builds talent operating systems, prompt governance tooling, AI evaluators, and agentic workflow products in addition to leading recruiting strategy.
 
 ## Flagship Projects
 - Prompt Control Plane: deterministic prompt governance for production LLM systems ([product](https://getpcp.site/), [repo](https://github.com/rishi-banerjee1/prompt-control-plane))

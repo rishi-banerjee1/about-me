@@ -1,6 +1,6 @@
 base_url = "https://rishi-banerjee1.github.io/about-me"
 title = "Rishi Banerjee"
-description = "Business leader who runs R&D hiring at Atlan and builds the AI tools his team uses daily. 20+ years in talent, 12+ products shipped, 3 books published."
+description = "Global Head of Talent Acquisition at kAIgentic, building talent systems for enterprise AI. 20+ years in talent, 12+ tools shipped, 3 books published."
 compile_sass = false
 generate_feeds = false
 minify_html = false
@@ -13,7 +13,7 @@ name = "Rishi Banerjee"
 email = "rpbanerjee@outlook.com"
 linkedin = "https://www.linkedin.com/in/rishibanerjee/"
 github = "https://github.com/rishi-banerjee1"
-company = "https://atlan.com"
+company = "https://kaigentic.com"
 prompt_control_plane = "https://getpcp.site/"
 
 # Hero stats
@@ -34,6 +34,12 @@ value = "3"
 label = "Published Books"
 
 # Organization logos
+[[extra.organizations]]
+name = "kAIgentic"
+logo = "/assets/kaigentic-logo.svg"
+href = "#exp-kaigentic"
+invert_in_dark = false
+
 [[extra.organizations]]
 name = "Atlan"
 logo = "/assets/Blue.svg"
@@ -91,15 +97,28 @@ href = "/#projects"
 
 # Experience timeline
 [[extra.experience]]
+id = "exp-kaigentic"
+date = "May 2026 - Present"
+title = "Global Head of Talent Acquisition"
+company = "kAIgentic"
+company_href = "https://kaigentic.com"
+subtitle = "Agentic AI for enterprise transformation"
+bullets = [
+  "Lead global talent acquisition for an enterprise AI company building governed agents from tacit work knowledge.",
+  "Build the talent operating system for a Day 1 team with global ambition across Asia, Europe, North America, and Japan.",
+  "Partner with leadership on workforce design, hiring sequencing, and the talent density needed to scale agentic AI products."
+]
+
+[[extra.experience]]
 id = "exp-atlan"
-date = "Aug 2022 - Present"
+date = "Aug 2022 - May 2026"
 title = "R&D Talent Strategy & Talent Acquisition"
 company = "Atlan"
 company_href = "https://atlan.com"
 subtitle = "The Missing Context Layer for Data & AI"
 bullets = [
-  "Lead R&D hiring across Engineering, Product, Design, IT, and Security. Own the team, the process, and the tooling.",
-  "Advise founders and leadership on org design, capability gaps, role scoping, and sequencing hires against product bets.",
+  "Led R&D hiring across Engineering, Product, Design, IT, and Security. Owned the team, the process, and the tooling.",
+  "Advised founders and leadership on org design, capability gaps, role scoping, and sequencing hires against product bets.",
   "Designed the talent operating model from scratch: structured scorecards, calibrated evaluation loops, intake rigor, governance frameworks, hiring investment planning.",
   "Built 8+ internal AI tools the team uses daily: interview evaluators, candidate research agents, offer page systems, JD generators.",
   "Cut time-to-hire by 40% while holding the quality bar and candidate experience scores.",

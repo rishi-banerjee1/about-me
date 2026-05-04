@@ -27,7 +27,7 @@ git add -A && git commit -m "..." && git push origin main
 2. **Base path**: Set in `config.toml` as `base_url`. Zola's `get_url()` handles the `/about-me/` prefix automatically — no manual helper needed.
 3. **Analytics**: GoatCounter at `rishisite.goatcounter.com`
 4. **Book reference**: "Raising the Bar: Building High-Density Teams in the Age of AI" — Amazon India link: `https://www.amazon.in/dp/B0FQMWW9RR`
-5. **Title**: Director of Talent Acquisition at Atlan
+5. **Title**: Global Head of Talent Acquisition at kAIgentic
 6. **Real screenshots only** — never AI-generated composites or mock-ups
 
 ## Architecture
