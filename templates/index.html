@@ -81,7 +81,7 @@
             <img
               src="{{ get_url(path=org.logo | trim_start_matches(pat='/')) }}"
               alt="{{ org.name }}"
-              class="logo-image{% if org.invert_in_dark %} logo-image-invert{% endif %}"
+              class="logo-image{% if org.invert_in_dark %} logo-image-invert{% endif %}{% if org.preserve_color %} logo-image-preserve-color{% endif %}"
             />
           </a>
         {% endfor %}

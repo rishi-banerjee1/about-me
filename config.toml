@@ -36,9 +36,10 @@ label = "Published Books"
 # Organization logos
 [[extra.organizations]]
 name = "kAIgentic"
-logo = "/assets/kaigentic-logo.svg"
+logo = "/assets/kaigentic-logo.png"
 href = "#exp-kaigentic"
 invert_in_dark = false
+preserve_color = true
 
 [[extra.organizations]]
 name = "Atlan"
