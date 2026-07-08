@@ -22,7 +22,7 @@
   },
   "url": "{{ config.base_url | safe }}",
   "image": "{{ config.base_url | safe }}/assets/headshot.jpg",
-  "sameAs": ["{{ config.extra.linkedin | safe }}", "{{ config.extra.github | safe }}"],
+  "sameAs": ["{{ config.extra.linkedin | safe }}", "{{ config.extra.github | safe }}", "{{ config.extra.medium | safe }}"],
   "alumniOf": {
     "@type": "EducationalOrganization",
     "name": "IIM Nagpur"
@@ -53,6 +53,7 @@
         </p>
         <div class="button-row">
           <a href="{{ config.extra.linkedin }}" class="button button-primary" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="{{ config.extra.medium }}" class="button button-secondary" target="_blank" rel="noopener">Medium</a>
           <a href="{{ config.extra.prompt_control_plane }}" class="button button-secondary" target="_blank" rel="noopener">Prompt Control Plane</a>
           <a href="{{ config.extra.github }}" class="button button-secondary" target="_blank" rel="noopener">GitHub</a>
         </div>

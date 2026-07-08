@@ -66,15 +66,44 @@
       }
 
       if (navToggle && navMenu) {
+        const closeNav = () => {
+          navMenu.classList.remove("is-open");
+          navToggle.setAttribute("aria-expanded", "false");
+          navToggle.setAttribute("aria-label", "Open navigation");
+        };
+
         navToggle.addEventListener("click", () => {
           const next = navMenu.classList.toggle("is-open");
           navToggle.setAttribute("aria-expanded", String(next));
+          navToggle.setAttribute("aria-label", next ? "Close navigation" : "Open navigation");
         });
 
         navMenu.addEventListener("click", (event) => {
-          if (event.target instanceof HTMLElement && event.target.tagName === "A") {
-            navMenu.classList.remove("is-open");
-            navToggle.setAttribute("aria-expanded", "false");
+          if (event.target instanceof Element && event.target.closest("a")) {
+            closeNav();
+          }
+        });
+
+        document.addEventListener("click", (event) => {
+          if (
+            navMenu.classList.contains("is-open") &&
+            event.target instanceof Node &&
+            !navMenu.contains(event.target) &&
+            !navToggle.contains(event.target)
+          ) {
+            closeNav();
+          }
+        });
+
+        document.addEventListener("keydown", (event) => {
+          if (event.key === "Escape") {
+            closeNav();
+          }
+        });
+
+        window.addEventListener("resize", () => {
+          if (window.innerWidth > 900) {
+            closeNav();
           }
         });
       }
