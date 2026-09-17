@@ -183,14 +183,24 @@ text = "When repeated work clouds judgment or slows a team down, I build durable
 
 # Testimonials
 [[extra.testimonials]]
-quote = "Instrumental in the best executive-level hires that helped us scale rapidly."
-author = "Senior Technology Leader"
-context = "Data & Analytics"
+quote = "Rishi never failed to separate the signal from the noise... Among the very few TA Leaders who can have business level convos and get a seat on the table."
+author = "Global Talent Acquisition leader"
+context = "Enterprise SaaS"
 
 [[extra.testimonials]]
-quote = "One of the rare TA leaders who doesn't just recruit for the business, he influences how leadership thinks about talent as a competitive lever."
-author = "Head of Global TA"
-context = "Enterprise SaaS"
+quote = "Rishi brings in the right level of gravitas, partnering and action. He has been instrumental in the best executive level hires that helped us scale rapidly."
+author = "Co-founder"
+context = "Enterprise data company"
+
+[[extra.testimonials]]
+quote = "Rishi has a great eye for detail, and has consistently been a great judge of culture and technical fit in hiring."
+author = "Engineering leader"
+context = "Global technology company"
+
+[[extra.testimonials]]
+quote = "He comes out as a true brand ambassador who lives culture of the company in & out & he is surely bound to leave you amazed with his grasp over technical concepts."
+author = "Head of Engineering"
+context = "Global consumer technology"
 
 # Published Works, ordered newest first (top of list renders first)
 [[extra.books]]
