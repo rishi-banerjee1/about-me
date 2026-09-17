@@ -1,6 +1,6 @@
 base_url = "https://rishi-banerjee1.github.io/about-me"
 title = "Rishi Banerjee"
-description = "Global Head of Talent Acquisition at kAIgentic, the enterprise intelligence layer. 20+ years in talent, 12+ tools shipped, 3 books published."
+description = "Global talent leader, advisor, and systems builder. 20+ years building talent functions across global technology businesses."
 compile_sass = false
 generate_feeds = false
 minify_html = false
@@ -74,28 +74,24 @@ invert_in_dark = true
 
 # Navigation links
 [[extra.nav_links]]
-label = "About"
-href = "/#about"
+label = "Advisory"
+href = "/advisory/"
 
 [[extra.nav_links]]
-label = "Experience"
-href = "/#experience"
+label = "Leadership Impact"
+href = "/leadership-impact/"
 
 [[extra.nav_links]]
-label = "Expertise"
-href = "/#expertise"
+label = "Talent Systems"
+href = "/#talent-systems"
 
 [[extra.nav_links]]
-label = "Published Works"
-href = "/#published-works"
-
-[[extra.nav_links]]
-label = "Education"
-href = "/#education"
+label = "Writing"
+href = "/#writing"
 
 [[extra.nav_links]]
 label = "Projects"
-href = "/#projects"
+href = "/projects/"
 
 # Experience timeline
 [[extra.experience]]
@@ -174,16 +170,16 @@ bullets = [
 
 # Expertise panels
 [[extra.expertise]]
-title = "Hiring as a System, Not a Hustle"
-text = "Most recruiting teams run on muscle memory and tribal knowledge. I design the operating system underneath: structured scorecards, calibrated evaluation loops, intake rigor, governance. The goal is that a great hiring decision doesn't depend on which interviewer had coffee that morning."
+title = "Talent strategy and operating design"
+text = "I help leadership teams connect workforce decisions to the business: the capability to build, the sequence to hire, and the operating conditions that make good judgment repeatable."
 
 [[extra.expertise]]
-title = "Founder-Level Talent Advisory"
-text = "I sit in the room where org design happens, not waiting for a req to land. Capability gaps, hiring sequencing, leadership profiles, comp philosophy. The question isn't 'who do we hire?' It's 'what bet are we making, and who makes it succeed?'"
+title = "Hiring quality and interview architecture"
+text = "I build hiring environments where evidence, standards, and decision ownership are clear enough to scale without losing the bar."
 
 [[extra.expertise]]
-title = "If It Repeats, I Automate It"
-text = "Interview evaluators, offer page generators, candidate research systems, prompt governance, API usage dashboards. I build these because I got tired of watching my team do the same judgment call 200 times with no system backing them up. Most of these are internal. Some escaped into open source."
+title = "AI-native talent systems"
+text = "When repeated work clouds judgment or slows a team down, I build durable systems around it: with the governance, adoption, and accountability that make technology useful."
 
 # Testimonials
 [[extra.testimonials]]
@@ -239,11 +235,11 @@ tags = [
   "Advanced LinkedIn Recruiter",
 ]
 
-# Supporting sections (for projects listing page)
+# Supporting projects (for projects listing page)
 [[extra.supporting_sections]]
-title = "AI-Powered Hiring Tools"
-description = "Internal tools the recruiting team uses daily."
-eyebrow = "Internal Tools"
+title = "Applied talent systems"
+description = "Selected systems that support the talent function in practice."
+eyebrow = "Talent Systems"
 
 [[extra.supporting_sections.projects]]
 title = "Atlan Interview Assist"
@@ -255,7 +251,7 @@ href = "https://v0-re-main-interview-assist.vercel.app"
 external = true
 
 [[extra.supporting_sections.projects]]
-title = "Candidate Intel Agent"
+title = "Candidate Intel Platform"
 summary = "Parallel research platform that compiles candidate intelligence from resumes, GitHub, publications, and social signals into leveling and comp briefs."
 tags = ["AI", "Research", "Private"]
 visibility = "private"
@@ -334,13 +330,4 @@ tags = ["Next.js", "Supabase", "Public"]
 visibility = "public"
 status = "archive"
 href = "https://github.com/rishi-banerjee1/v0-Wellness-App"
-external = true
-
-[[extra.supporting_sections.projects]]
-title = "BlindBench"
-summary = "Open-source arena that blind-tests 100+ AI models on real prompts from 4 Kaggle datasets. Trust scores, failure classification, BYOK support."
-tags = ["React", "Supabase", "Public"]
-visibility = "public"
-status = "active"
-href = "https://github.com/rishi-banerjee1/blindbench"
 external = true

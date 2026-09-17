@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 
-{% block title %}Rishi Banerjee - Business Leader, Builder, Talent Strategist{% endblock %}
+{% block title %}Rishi Banerjee - Global Talent Leader, Advisor, Systems Builder{% endblock %}
 {% block description %}{{ config.description }}{% endblock %}
-{% block og_title %}Rishi Banerjee - Business Leader, Builder, Talent Strategist{% endblock %}
+{% block og_title %}Rishi Banerjee - Global Talent Leader, Advisor, Systems Builder{% endblock %}
 {% block og_description %}{{ config.description }}{% endblock %}
-{% block tw_title %}Rishi Banerjee - Business Leader, Builder, Talent Strategist{% endblock %}
+{% block tw_title %}Rishi Banerjee - Global Talent Leader, Advisor, Systems Builder{% endblock %}
 {% block tw_description %}{{ config.description }}{% endblock %}
 
 {% block json_ld %}
@@ -15,19 +15,12 @@
   "name": "{{ config.extra.name | safe }}",
   "jobTitle": "Global Head of Talent Acquisition",
   "description": "{{ config.description | safe }}",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "kAIgentic",
-    "url": "{{ config.extra.company | safe }}"
-  },
+  "worksFor": { "@type": "Organization", "name": "kAIgentic", "url": "{{ config.extra.company | safe }}" },
   "url": "{{ config.base_url | safe }}",
   "image": "{{ config.base_url | safe }}/assets/headshot.jpg",
   "sameAs": ["{{ config.extra.linkedin | safe }}", "{{ config.extra.github | safe }}", "{{ config.extra.medium | safe }}"],
-  "alumniOf": {
-    "@type": "EducationalOrganization",
-    "name": "IIM Nagpur"
-  },
-  "knowsAbout": ["Talent Acquisition", "AI systems", "Prompt governance", "Evaluation frameworks", "Hiring systems"]
+  "alumniOf": { "@type": "EducationalOrganization", "name": "IIM Nagpur" },
+  "knowsAbout": ["Talent strategy", "Talent acquisition", "Hiring systems", "Evaluation frameworks", "AI systems"]
 }
 </script>
 {% endblock %}
@@ -35,221 +28,109 @@
 {% block body %}
 {% include "partials/nav.html" %}
 
-{% set projects_section = get_section(path="projects/_index.md") %}
-{% set featured_projects = projects_section.pages | filter(attribute="extra.featured", value=true) | sort(attribute="extra.order") %}
-
 <main id="main-content">
   <section class="hero-section">
     <div class="container hero-grid">
       <div class="hero-copy" data-reveal>
-        <p class="eyebrow">Business Leader. Builder. Talent Strategist.</p>
-        <h1>{{ config.extra.name }}</h1>
-        <p class="hero-text">
-          I head global talent acquisition at <a href="{{ config.extra.company }}" target="_blank" rel="noopener">kAIgentic</a>, the enterprise intelligence layer: a platform that turns tacit work knowledge into operational intelligence.
-          Before this, I headed R&amp;D hiring at Atlan across Engineering, Product, Design, IT, and Security. I don't just run recruiting. I build the systems underneath it: interview evaluators, prompt governance frameworks, candidate research systems, offer page generators, an npm package, a macOS menubar app, a book on hiring in the age of AI, and two novels.
+        <p class="eyebrow">Global Talent Leader · Advisor · Systems Builder</p>
+        <h1>Build a talent function that scales with the business.</h1>
+        <p class="hero-role-line">
+          Currently <strong>Global Head of Talent Acquisition at <a href="{{ config.extra.company }}" target="_blank" rel="noopener">kAIgentic</a></strong>, with 20+ years building talent capability across startups, enterprises, and 10+ countries.
         </p>
-        <p class="hero-text hero-text-muted">
-          Most talent leaders optimize funnels. I build the infrastructure underneath them. When a judgment call happens 200 times with no system backing it up, I turn it into software.
+        <p class="hero-text">
+          I build talent strategies, high-performing teams, rigorous hiring systems, and AI-native operating models that improve judgment, quality, and speed.
         </p>
         <div class="button-row">
-          <a href="{{ config.extra.linkedin }}" class="button button-primary" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="{{ config.extra.medium }}" class="button button-secondary" target="_blank" rel="noopener">Medium</a>
-          <a href="{{ config.extra.prompt_control_plane }}" class="button button-secondary" target="_blank" rel="noopener">Prompt Control Plane</a>
-          <a href="{{ config.extra.github }}" class="button button-secondary" target="_blank" rel="noopener">GitHub</a>
+          <a href="{{ get_url(path='@/leadership-impact.md') }}" class="button button-primary">Explore leadership impact</a>
+          <a href="{{ get_url(path='@/advisory.md') }}" class="button button-secondary">Discuss an advisory project</a>
         </div>
         <div class="stats-grid">
           {% for stat in config.extra.hero_stats %}
-            <div class="stat-card">
-              <strong>{{ stat.value }}</strong>
-              <span>{{ stat.label }}</span>
-            </div>
+            <div class="stat-card"><strong>{{ stat.value }}</strong><span>{{ stat.label }}</span></div>
           {% endfor %}
         </div>
       </div>
-
       <div class="hero-aside" data-reveal>
         <img src="{{ get_url(path='assets/headshot.jpg') }}" alt="Rishi Banerjee" class="hero-photo" />
-      </div>
-    </div>
-  </section>
-
-  <section class="logo-section" data-reveal>
-    <div class="container">
-      <p class="eyebrow">Career Highlights</p>
-      <div class="logo-row">
-        {% for org in config.extra.organizations %}
-          <a href="{{ org.href }}" class="logo-link">
-            <img
-              src="{{ get_url(path=org.logo | trim_start_matches(pat='/')) }}"
-              alt="{{ org.name }}"
-              class="logo-image{% if org.invert_in_dark %} logo-image-invert{% endif %}{% if org.preserve_color %} logo-image-preserve-color{% endif %}"
-            />
-          </a>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
-  <section id="about" class="section section-alt" data-reveal>
-    <div class="container prose-block">
-      <p class="eyebrow">About</p>
-      <h2>The short version</h2>
-      <p>
-        20 years of building and scaling talent functions across APAC, North America, and Europe. Currently Global Head of Talent Acquisition at kAIgentic, building the talent engine for the enterprise intelligence layer.
-      </p>
-      <p>
-        Before kAIgentic, I headed R&amp;D hiring at Atlan across Engineering, Product, Design, IT, and Security. The building started because I kept watching the same problems repeat: inconsistent interview feedback, offer pages that looked like they were made in 2011, candidate research that took hours and lived in someone's head. So I started writing code. Not scripts. Real products, with UIs, APIs, and users.
-      </p>
-      <p>
-        Now it's the thing I'm known for. The team runs on systems I built. Some of those tools are open source: an npm package with 700+ installs, a macOS app, a GitHub Action used in CI pipelines, and a prompt governance framework that other teams have adopted.
-      </p>
-    </div>
-  </section>
-
-  <section id="experience" class="section" data-reveal>
-    <div class="container">
-      <p class="eyebrow">Experience</p>
-      <h2>Career</h2>
-      <div class="timeline">
-        {% for item in config.extra.experience %}
-          <article class="timeline-item" id="{{ item.id }}">
-            <div class="timeline-date">{{ item.date }}</div>
-            <div class="timeline-body">
-              <h3>{{ item.title }}</h3>
-              <p class="timeline-company">
-                {% if item.company_href %}
-                  <a href="{{ item.company_href }}" target="_blank" rel="noopener">{{ item.company }}</a>
-                {% else %}
-                  {{ item.company }}
-                {% endif %}
-                {% if item.subtitle %} - {{ item.subtitle }}{% endif %}
-              </p>
-              <ul>
-                {% for bullet in item.bullets %}
-                  <li>{{ bullet }}</li>
-                {% endfor %}
-              </ul>
-            </div>
-          </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
-  <section id="expertise" class="section section-alt" data-reveal>
-    <div class="container">
-      <p class="eyebrow">Expertise</p>
-      <h2>How I operate</h2>
-      <div class="three-up-grid">
-        {% for item in config.extra.expertise %}
-          <article class="panel-card">
-            <h3>{{ item.title }}</h3>
-            <p>{{ item.text }}</p>
-          </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
-  <section id="published-works" class="section" data-reveal>
-    <div class="container">
-      <div class="section-intro">
-        <div>
-          <p class="eyebrow">Published Works</p>
-          <h2 class="section-lede-heading">Writing is one of my favorite things. It&rsquo;s how the storyteller in me gets out. Three books so far, across fiction and the craft of hiring.</h2>
-        </div>
-      </div>
-      <div class="books-grid">
-        {% for book in config.extra.books %}
-          <article class="book-card">
-            <div class="book-content">
-              <p class="book-category">{{ book.category }}</p>
-              <h3>{{ book.title }}</h3>
-              <p class="book-subtitle">{{ book.subtitle }}</p>
-              <p>{{ book.description }}</p>
-              <a href="{{ book.href }}" class="button button-primary" target="_blank" rel="noopener">See more on Amazon</a>
-            </div>
-          </article>
-        {% endfor %}
+        <p class="hero-note">Currently Global Head of Talent Acquisition at <a href="{{ config.extra.company }}" target="_blank" rel="noopener">kAIgentic</a>, the enterprise intelligence layer.</p>
       </div>
     </div>
   </section>
 
   <section class="section section-alt" data-reveal>
     <div class="container">
-      <p class="eyebrow">Testimonials</p>
-      <h2>What colleagues say</h2>
+      <p class="eyebrow">Start Here</p>
+      <h2>Two ways to work together</h2>
+      <div class="two-up-grid pathway-grid">
+        <a class="panel-card pathway-card" href="{{ get_url(path='@/leadership-impact.md') }}">
+          <p class="eyebrow">Leadership</p><h3>For organisations seeking a Talent leader</h3>
+          <p>Global and multi-country leadership, workforce strategy, team building, executive partnership, operating rigor, and AI-native transformation.</p>
+          <span class="text-link">View leadership experience</span>
+        </a>
+        <a class="panel-card pathway-card" href="{{ get_url(path='@/advisory.md') }}">
+          <p class="eyebrow">Advisory</p><h3>For organisations solving a specific talent problem</h3>
+          <p>Talent-function builds, transformation mandates, hiring architecture, capability building, and systems that make good decisions repeatable.</p>
+          <span class="text-link">Explore advisory services</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section" data-reveal>
+    <div class="container prose-block">
+      <p class="eyebrow">A personal operating portfolio</p>
+      <h2>The work behind the work</h2>
+      <p>I head global Talent Acquisition at kAIgentic and previously headed R&amp;D talent strategy and acquisition at Atlan across Engineering, Product, Design, IT, and Security. My work sits at the intersection of business strategy, talent judgment, and the systems that help teams perform at a higher standard.</p>
+      <p>When a judgment call happens repeatedly without a system supporting it, I turn it into a repeatable workflow, governance model, or product. The details stay private. The impact is visible in stronger hiring decisions, clearer operating rhythm, and talent functions built to scale.</p>
+    </div>
+  </section>
+
+  <section id="leadership-impact" class="section section-alt" data-reveal>
+    <div class="container">
+      <div class="section-intro"><div><p class="eyebrow">Leadership Impact</p><h2>What I have built and changed</h2></div><a href="{{ get_url(path='@/leadership-impact.md') }}" class="text-link">View leadership impact</a></div>
       <div class="three-up-grid">
-        {% for item in config.extra.testimonials %}
-          <blockquote class="panel-card quote-card">
-            <p>"{{ item.quote }}"</p>
-            <footer>
-              <strong>{{ item.author }}</strong>
-              <span>{{ item.context }}</span>
-            </footer>
-          </blockquote>
-        {% endfor %}
+        <article class="panel-card"><h3>Global talent operating models</h3><p>Built and scaled hiring capability across APAC, North America, and Europe, with the governance and rhythm needed for distributed teams.</p></article>
+        <article class="panel-card"><h3>Higher-quality hiring decisions</h3><p>Established more rigorous evaluation environments across technical, product, corporate, and leadership hiring, protecting the bar as organisations scale.</p></article>
+        <article class="panel-card"><h3>Systems that compound</h3><p>Modernised talent operations with durable systems for research, evaluation, candidate experience, and decision support.</p></article>
       </div>
     </div>
   </section>
 
-  <section id="education" class="section section-alt" data-reveal>
+  <section id="talent-systems" class="section" data-reveal>
     <div class="container">
-      <p class="eyebrow">Education &amp; Certifications</p>
-      <h2>Credentials</h2>
-      <div class="two-up-grid">
-        {% for item in config.extra.education %}
-          <article class="panel-card">
-            <h3>{{ item.title }}</h3>
-            <p class="subtle-label">{{ item.institution }}</p>
-            {% if item.text %}<p>{{ item.text }}</p>{% endif %}
-            {% if item.tags %}
-              <div class="tag-list">
-                {% for tag in item.tags %}
-                  <span class="tag">{{ tag }}</span>
-                {% endfor %}
-              </div>
-            {% endif %}
-          </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
-  <section id="projects" class="section" data-reveal>
-    <div class="container">
-      <div class="section-intro">
-        <div>
-          <p class="eyebrow">Flagship Projects</p>
-          <h2>Products I've built</h2>
-        </div>
-        <a href="{{ get_url(path='@/projects/_index.md') }}" class="text-link">View all projects</a>
-      </div>
+      <div class="section-intro"><div><p class="eyebrow">Talent Systems</p><h2>Systems built around better judgment</h2></div><a href="{{ get_url(path='@/projects/_index.md') }}" class="text-link">View all projects</a></div>
       <div class="project-grid">
-        {% for project in featured_projects %}
-          {% set card_title = project.title %}
-          {% set card_summary = project.extra.shortSummary | default(value=project.extra.summary) %}
-          {% set card_tags = project.extra.tags %}
-          {% set card_href = project.permalink %}
-          {% set card_external = false %}
-          {% include "partials/project-card.html" %}
-        {% endfor %}
+        <a href="{{ get_url(path='@/projects/rishios-mcp.md') }}" class="project-card is-link"><div class="project-card-top"><div><h3>RishiOS</h3><p>A talent operating system designed to make hiring judgment more consistent and auditable.</p></div><span class="project-card-arrow" aria-hidden="true">&#8599;</span></div></a>
+        <a href="{{ get_url(path='@/projects/gabbar-interview-evaluator.md') }}" class="project-card is-link"><div class="project-card-top"><div><h3>Gabbar Interview Evaluator</h3><p>Structured decision support for interview evaluation and debrief quality.</p></div><span class="project-card-arrow" aria-hidden="true">&#8599;</span></div></a>
+        <a href="{{ get_url(path='@/projects/sourcing-compass.md') }}" class="project-card is-link"><div class="project-card-top"><div><h3>Sourcing Compass</h3><p>Talent-market intelligence that helps teams start search with a better map.</p></div><span class="project-card-arrow" aria-hidden="true">&#8599;</span></div></a>
+        <a href="{{ get_url(path='@/interview-architecture.md') }}" class="project-card is-link"><div class="project-card-top"><div><h3>Interview Architecture</h3><p>A proof page on building durable hiring standards without exposing the playbook.</p></div><span class="project-card-arrow" aria-hidden="true">&#8599;</span></div></a>
       </div>
     </div>
+  </section>
+
+  <section id="writing" class="section section-alt" data-reveal>
+    <div class="container">
+      <div class="section-intro"><div><p class="eyebrow">Writing</p><h2>Ideas made public</h2></div><a href="{{ config.extra.medium }}" class="text-link" target="_blank" rel="noopener">Read on Medium</a></div>
+      <div class="two-up-grid">
+        <article class="book-card featured-book"><div class="book-content"><p class="book-category">Leadership doctrine</p><h3>Raising the Bar</h3><p class="book-subtitle">Building High-Density Teams in the Age of AI</p><p>A practical point of view on talent density, evidence-led evaluation, and scaling judgment without losing it.</p><a href="https://www.amazon.in/dp/B0FQMWW9RR" class="button button-primary" target="_blank" rel="noopener">See the book</a></div></article>
+        <article class="panel-card writing-card"><p class="eyebrow">Writing beyond work</p><h3>Stories, systems, and the space between them</h3><p>I also write fiction. <em>The SARASWATI Code</em> and <em>Father Time</em> live alongside essays and working notes on Medium.</p><div class="button-row"><a href="{{ config.extra.medium }}" class="button button-secondary" target="_blank" rel="noopener">Medium</a><a href="https://www.amazon.in/dp/9374266296" class="button button-secondary" target="_blank" rel="noopener">Books</a></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" data-reveal>
+    <div class="container"><p class="eyebrow">Trusted perspective</p><h2>What colleagues say</h2><div class="three-up-grid">
+      {% for item in config.extra.testimonials %}
+        <blockquote class="panel-card quote-card"><p>"{{ item.quote }}"</p><footer><strong>{{ item.author }}</strong><span>{{ item.context }}</span></footer></blockquote>
+      {% endfor %}
+    </div></div>
   </section>
 
   <section class="section cta-section" data-reveal>
-    <div class="container cta-card">
-      <p class="eyebrow">Get In Touch</p>
-      <h2>Let's talk</h2>
-      <p>
-        Whether it's hiring systems, AI tooling for talent teams, org design, or just comparing notes on scaling recruiting without losing your mind, I'm easy to reach.
-      </p>
-      <div class="button-row">
-        <a href="mailto:{{ config.extra.email }}" class="button button-primary">Email me</a>
-        <a href="{{ config.extra.linkedin }}" class="button button-secondary" target="_blank" rel="noopener">Connect on LinkedIn</a>
-      </div>
-    </div>
+    <div class="container cta-card"><p class="eyebrow">Start a conversation</p><h2>There are two useful places to begin.</h2><p>For a defined talent challenge or for a senior leadership mandate, choose the conversation that best fits the moment.</p><div class="button-row cta-dual-actions">
+      <a href="mailto:{{ config.extra.email }}?subject=Advisory%20project%20conversation&body=Organisation%20and%20stage%3A%0AProblem%20to%20solve%3A%0ADesired%20outcome%3A%0ATimeline%3A%0AType%20of%20support%20required%3A" class="button button-primary">Discuss an advisory project</a>
+      <a href="mailto:{{ config.extra.email }}?subject=Leadership%20conversation&body=Company%20and%20role%3A%0ABusiness%20stage%3A%0AGeographic%20scope%3A%0ALeadership%20mandate%3A%0AWhy%20the%20role%20exists%20now%3A" class="button button-secondary">Start a leadership conversation</a>
+    </div></div>
   </section>
 </main>
 

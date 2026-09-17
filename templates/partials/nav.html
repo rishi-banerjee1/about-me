@@ -28,6 +28,7 @@
       {% for link in config.extra.nav_links %}
         <li><a href="{{ config.base_url ~ link.href }}">{{ link.label }}</a></li>
       {% endfor %}
+      <li><a href="{{ get_url(path='@/interview-architecture.md') }}">Interview Architecture</a></li>
       {% if current_path is containing("/projects") %}
         <li><a href="{{ get_url(path='@/projects/_index.md') }}">All Projects</a></li>
       {% endif %}

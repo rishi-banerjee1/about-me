@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - Rishi Banerjee{% endblock %}
+{% block description %}{{ page.description | default(value=config.description) }}{% endblock %}
+{% block og_title %}{{ page.title }} - Rishi Banerjee{% endblock %}
+{% block og_description %}{{ page.description | default(value=config.description) }}{% endblock %}
+{% block tw_title %}{{ page.title }} - Rishi Banerjee{% endblock %}
+{% block tw_description %}{{ page.description | default(value=config.description) }}{% endblock %}
+
+{% block body %}
+{% include "partials/nav.html" %}
+<main id="main-content">
+  <section class="page-hero">
+    <div class="container page-hero-inner" data-reveal>
+      <a href="{{ config.base_url }}" class="back-link">&larr; Back to home</a>
+      {% if page.extra.eyebrow %}<p class="eyebrow">{{ page.extra.eyebrow }}</p>{% endif %}
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}<p class="hero-text">{{ page.description }}</p>{% endif %}
+    </div>
+  </section>
+  <section class="section section-alt" data-reveal>
+    <div class="container detail-prose standard-prose">
+      {{ page.content | safe }}
+    </div>
+  </section>
+</main>
+{% include "partials/footer.html" %}
+{% endblock %}

@@ -4,17 +4,17 @@ weight = 7
 template = "projects/page.html"
 
 [extra]
-shortSummary = "Triage assistant for Slack, Gmail, and Calendar. Classifies work, drafts responses, tracks items to resolution."
+shortSummary = "Workflow platform for Slack, Gmail, and Calendar. Classifies work, drafts responses, and tracks items to resolution."
 summary = "Reads across Slack, Gmail, and Calendar. Classifies incoming work by urgency, drafts responses, and maintains a durable ledger of open items."
-category = "Agentic Workflow"
-section = "active"
+category = "Workflow Platform"
+section = "ai"
 year = 2026
 order = 7
 featured = false
 detail = true
 status = "active"
 visibility = "private"
-tags = ["Python", "Slack", "Gmail", "Google Calendar", "Agentic triage"]
+tags = ["Python", "Slack", "Gmail", "Google Calendar", "Workflow triage"]
 metrics = ["Morning briefing", "P0 monitor", "Durable ledger"]
 contactHref = "mailto:rpbanerjee@outlook.com?subject=AI%20Chief%20of%20Staff"
 contactLabel = "Request walkthrough"

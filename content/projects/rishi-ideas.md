@@ -6,8 +6,8 @@ template = "projects/page.html"
 [extra]
 shortSummary = "Research and fleet management hub. Coordinates multiple platform projects, keeps docs aligned, enforces release discipline."
 summary = "Hub for AI product research, platform project management, and documentation alignment across repos."
-category = "Agent Orchestration"
-section = "active"
+category = "Research Platform"
+section = "ai"
 year = 2026
 order = 8
 featured = false

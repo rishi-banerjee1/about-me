@@ -423,6 +423,20 @@ strong {
   font-size: 1.12rem;
 }
 
+.hero-role-line {
+  max-width: 52rem;
+  margin: 1.25rem 0 0;
+  color: var(--text);
+  font-size: 1.03rem;
+}
+
+.hero-role-line a {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: rgba(15, 118, 110, 0.35);
+  text-underline-offset: 0.18em;
+}
+
 .hero-text a,
 .prose-block a,
 .timeline-company a,
@@ -557,6 +571,14 @@ strong {
 .hero-note {
   padding: 1.2rem 1.25rem;
   background: linear-gradient(135deg, var(--surface-tint), rgba(255, 255, 255, 0.38));
+}
+
+.hero-note a {
+  color: var(--text);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: rgba(15, 118, 110, 0.35);
+  text-underline-offset: 0.18em;
 }
 
 .hero-note-title,
@@ -842,6 +864,64 @@ strong {
 
 .two-up-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.pathway-grid {
+  margin-top: 1.75rem;
+}
+
+.pathway-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 17rem;
+  text-decoration: none;
+  transition: transform 260ms ease, box-shadow 260ms ease, border-color 260ms ease;
+}
+
+.pathway-card h3 {
+  max-width: 18ch;
+}
+
+.pathway-card .text-link {
+  margin-top: auto;
+  font-weight: 800;
+}
+
+.pathway-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-strong);
+  border-color: var(--line-strong);
+}
+
+.writing-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.writing-card .button-row {
+  margin-top: auto;
+}
+
+.cta-dual-actions {
+  justify-content: center;
+}
+
+.standard-prose {
+  max-width: 760px;
+}
+
+.standard-prose h2:first-child {
+  margin-top: 0;
+}
+
+.standard-prose h2 {
+  margin-top: 2.8rem;
+}
+
+.standard-prose ul {
+  padding-left: 1.25rem;
 }
 
 .three-up-grid {
