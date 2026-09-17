@@ -183,19 +183,14 @@ text = "When repeated work clouds judgment or slows a team down, I build durable
 
 # Testimonials
 [[extra.testimonials]]
-quote = "One of the rare TA leaders who doesn't just recruit for the business, he influences how leadership thinks about talent as a competitive lever."
-author = "Head of Global TA"
-context = "Enterprise SaaS"
-
-[[extra.testimonials]]
 quote = "Instrumental in the best executive-level hires that helped us scale rapidly."
 author = "Senior Technology Leader"
 context = "Data & Analytics"
 
 [[extra.testimonials]]
-quote = "Talking to him feels less like talking to a recruiter and more like talking to an experienced colleague who has done the homework."
-author = "Risk Management Executive"
-context = "Fortune 500"
+quote = "One of the rare TA leaders who doesn't just recruit for the business, he influences how leadership thinks about talent as a competitive lever."
+author = "Head of Global TA"
+context = "Enterprise SaaS"
 
 # Published Works, ordered newest first (top of list renders first)
 [[extra.books]]
