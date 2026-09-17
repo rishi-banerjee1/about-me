@@ -5,7 +5,7 @@ template = "projects/page.html"
 
 [extra]
 shortSummary = "Deterministic prompt governance for production LLM systems: score, route, enforce, and audit."
-summary = "Score, route, enforce policy, lock config, and audit prompt decisions before they ever reach a model. Ships as an npm package, MCP server, and GitHub Action."
+summary = "I score, route, enforce policy, lock configuration, and audit prompt decisions before a model call. The system ships as an npm package, MCP server, and GitHub Action."
 category = "Prompt Governance"
 section = "ai"
 year = 2026

@@ -5,7 +5,7 @@ template = "projects/page.html"
 
 [extra]
 shortSummary = "Personalized offer pages generated from ATS data. Turns a transactional moment into a candidate experience artifact."
-summary = "Generates personalized offer ceremony pages as a three-act story: who the candidate is, why they belong, and the offer. Triggers from Ashby, costs ~$0.006 per page."
+summary = "I built personalised offer ceremony pages that turn ATS context into a three-act candidate narrative. Triggered from Ashby at roughly $0.006 per page."
 category = "Talent Experience Product"
 section = "talent"
 year = 2026
@@ -29,11 +29,11 @@ Most companies handle the offer stage with flat PDFs and generic email templates
 The system triggers from ATS state in Ashby, pulls interview and offer context, and generates a personalized page structured as a three-act story:
 
 - who the candidate is and what stood out
-- why they belong at Atlan specifically
+- the connection between the candidate and Atlan
 - the offer, presented with context
 
 Recruiters get a shareable link instead of a copy-paste email. Each page costs roughly $0.006 to generate. Runs on Cloudflare Workers + Hono.
 
 ## How it changed things
 
-Candidates started screenshotting their offer pages and sharing them. The team stopped writing offer emails from scratch. The cost is negligible and the generation is automatic once the ATS state changes.
+I turned an inconsistent communication moment into a structured candidate experience. Offer content no longer begins as a blank email, and generation is automatic once the ATS state changes.

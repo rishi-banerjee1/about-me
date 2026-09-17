@@ -8,6 +8,7 @@
     {% set page_url = current_url | default(value=config.base_url) %}
     <link rel="canonical" href="{{ page_url }}" />
     <meta name="keywords" content="Rishi Banerjee, Talent Acquisition, kAIgentic, Atlan, AI systems, hiring, open source, MCP, prompt governance" />
+    <link rel="icon" href="{{ get_url(path='favicon.svg') }}" type="image/svg+xml" />
 
     {% set og_type = "website" %}
     {% block og_type %}{% endblock %}
@@ -110,22 +111,23 @@
 
       const counter = document.querySelector("[data-visitor-counter]");
       if (counter) {
-        fetch(
-          "https://rishisite.goatcounter.com/counter/" +
-            encodeURIComponent(location.pathname.replace(/\/$/, "") || "/") +
-            ".json"
-        )
-          .then((response) => response.json())
-          .then((data) => {
-            if (data.count) {
-              counter.textContent = data.count.replace(/[^0-9]/g, "") || data.count;
-            } else {
+        const updateVisitorCounter = () => {
+          const counterUrl = new URL("https://rishisite.goatcounter.com/counter/TOTAL.json");
+          counterUrl.searchParams.set("t", Date.now().toString());
+
+          fetch(counterUrl, { cache: "no-store" })
+            .then((response) => response.json())
+            .then((data) => {
+              const count = data.count_unique || data.count;
+              counter.textContent = count ? count.replace(/[^0-9]/g, "") || count : "\u2014";
+            })
+            .catch(() => {
               counter.textContent = "\u2014";
-            }
-          })
-          .catch(() => {
-            counter.textContent = "\u2014";
-          });
+            });
+        };
+
+        updateVisitorCounter();
+        window.setInterval(updateVisitorCounter, 60_000);
       }
 
       const observer = new IntersectionObserver(

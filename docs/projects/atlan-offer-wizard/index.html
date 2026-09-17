@@ -4,23 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atlan Offer Wizard - Rishi Banerjee</title>
-    <meta name="description" content="Generates personalized offer ceremony pages as a three-act story: who the candidate is, why they belong, and the offer. Triggers from Ashby, costs ~$0.006 per page." />
+    <meta name="description" content="I built personalised offer ceremony pages that turn ATS context into a three-act candidate narrative. Triggered from Ashby at roughly $0.006 per page." />
     
     <link rel="canonical" href="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me&#x2F;projects&#x2F;atlan-offer-wizard&#x2F;" />
     <meta name="keywords" content="Rishi Banerjee, Talent Acquisition, kAIgentic, Atlan, AI systems, hiring, open source, MCP, prompt governance" />
+    <link rel="icon" href="https://rishi-banerjee1.github.io/about-me/favicon.svg" type="image/svg+xml" />
 
     
     
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me&#x2F;projects&#x2F;atlan-offer-wizard&#x2F;" />
     <meta property="og:title" content="Atlan Offer Wizard - Rishi Banerjee" />
-    <meta property="og:description" content="Generates personalized offer ceremony pages as a three-act story: who the candidate is, why they belong, and the offer. Triggers from Ashby, costs ~$0.006 per page." />
+    <meta property="og:description" content="I built personalised offer ceremony pages that turn ATS context into a three-act candidate narrative. Triggered from Ashby at roughly $0.006 per page." />
     
     <meta property="og:image" content="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me&#x2F;assets&#x2F;headshot.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Atlan Offer Wizard - Rishi Banerjee" />
-    <meta name="twitter:description" content="Generates personalized offer ceremony pages as a three-act story: who the candidate is, why they belong, and the offer. Triggers from Ashby, costs ~$0.006 per page." />
+    <meta name="twitter:description" content="I built personalised offer ceremony pages that turn ATS context into a three-act candidate narrative. Triggered from Ashby at roughly $0.006 per page." />
     <meta name="twitter:image" content="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me&#x2F;assets&#x2F;headshot.jpg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -77,7 +78,6 @@
       
         <li><a href="https://rishi-banerjee1.github.io/about-me/projects/">Projects</a></li>
       
-      <li><a href="https://rishi-banerjee1.github.io/about-me/interview-architecture/">Interview Architecture</a></li>
       
         <li><a href="https://rishi-banerjee1.github.io/about-me/projects/">All Projects</a></li>
       
@@ -95,7 +95,7 @@
       <a href="https://rishi-banerjee1.github.io/about-me/projects/" class="back-link">&larr; Back to projects</a>
       <p class="eyebrow">Talent Experience Product</p>
       <h1>Atlan Offer Wizard</h1>
-      <p class="hero-text">Generates personalized offer ceremony pages as a three-act story: who the candidate is, why they belong, and the offer. Triggers from Ashby, costs ~$0.006 per page.</p>
+      <p class="hero-text">I built personalised offer ceremony pages that turn ATS context into a three-act candidate narrative. Triggered from Ashby at roughly $0.006 per page.</p>
       <div class="tag-list" style="margin-top: 1.35rem;">
         <span class="tag">2026</span>
         
@@ -145,12 +145,12 @@
 <p>The system triggers from ATS state in Ashby, pulls interview and offer context, and generates a personalized page structured as a three-act story:</p>
 <ul>
 <li>who the candidate is and what stood out</li>
-<li>why they belong at Atlan specifically</li>
+<li>the connection between the candidate and Atlan</li>
 <li>the offer, presented with context</li>
 </ul>
 <p>Recruiters get a shareable link instead of a copy-paste email. Each page costs roughly $0.006 to generate. Runs on Cloudflare Workers + Hono.</p>
 <h2 id="how-it-changed-things">How it changed things</h2>
-<p>Candidates started screenshotting their offer pages and sharing them. The team stopped writing offer emails from scratch. The cost is negligible and the generation is automatic once the ATS state changes.</p>
+<p>I turned an inconsistent communication moment into a structured candidate experience. Offer content no longer begins as a blank email, and generation is automatic once the ATS state changes.</p>
 
       </article>
       <aside class="detail-sidebar">
@@ -197,6 +197,7 @@
       <a href="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me">Home</a>
       <a href="https://rishi-banerjee1.github.io/about-me/advisory/">Advisory</a>
       <a href="https://rishi-banerjee1.github.io/about-me/leadership-impact/">Leadership Impact</a>
+      <a href="https://rishi-banerjee1.github.io/about-me/proof-of-work/">Proof of Work</a>
       <a href="https://rishi-banerjee1.github.io/about-me/projects/">Projects</a>
       <a href="https:&#x2F;&#x2F;github.com&#x2F;rishi-banerjee1" target="_blank" rel="noopener">GitHub</a>
       <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;rishibanerjee&#x2F;" target="_blank" rel="noopener">LinkedIn</a>
@@ -204,7 +205,7 @@
       <a href="mailto:rpbanerjee@outlook.com">Email</a>
     </div>
     <p class="footer-meta">
-      Visitor count <span data-visitor-counter>#</span>
+      Site visitors <span data-visitor-counter>#</span>
     </p>
   </div>
 </footer>
@@ -281,22 +282,23 @@
 
       const counter = document.querySelector("[data-visitor-counter]");
       if (counter) {
-        fetch(
-          "https://rishisite.goatcounter.com/counter/" +
-            encodeURIComponent(location.pathname.replace(/\/$/, "") || "/") +
-            ".json"
-        )
-          .then((response) => response.json())
-          .then((data) => {
-            if (data.count) {
-              counter.textContent = data.count.replace(/[^0-9]/g, "") || data.count;
-            } else {
+        const updateVisitorCounter = () => {
+          const counterUrl = new URL("https://rishisite.goatcounter.com/counter/TOTAL.json");
+          counterUrl.searchParams.set("t", Date.now().toString());
+
+          fetch(counterUrl, { cache: "no-store" })
+            .then((response) => response.json())
+            .then((data) => {
+              const count = data.count_unique || data.count;
+              counter.textContent = count ? count.replace(/[^0-9]/g, "") || count : "\u2014";
+            })
+            .catch(() => {
               counter.textContent = "\u2014";
-            }
-          })
-          .catch(() => {
-            counter.textContent = "\u2014";
-          });
+            });
+        };
+
+        updateVisitorCounter();
+        window.setInterval(updateVisitorCounter, 60_000);
       }
 
       const observer = new IntersectionObserver(

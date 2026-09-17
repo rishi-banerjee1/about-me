@@ -7,7 +7,7 @@ template = "projects/page.html"
 shortSummary = "Research and fleet management hub. Coordinates multiple platform projects, keeps docs aligned, enforces release discipline."
 summary = "Hub for AI product research, platform project management, and documentation alignment across repos."
 category = "Research Platform"
-section = "ai"
+section = "archive"
 year = 2026
 order = 8
 featured = false
@@ -22,7 +22,7 @@ contactLabel = "Request walkthrough"
 
 ## The problem
 
-Once you have multiple AI projects running at once, inconsistency is the default. Docs drift, release steps get skipped, research quality varies.
+With multiple AI projects running at once, inconsistency is the default. Docs drift, release steps get skipped, and research quality varies.
 
 ## What I built
 

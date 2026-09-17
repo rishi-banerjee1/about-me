@@ -8,6 +8,7 @@
     
     <link rel="canonical" href="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me&#x2F;projects&#x2F;blinkyowl&#x2F;" />
     <meta name="keywords" content="Rishi Banerjee, Talent Acquisition, kAIgentic, Atlan, AI systems, hiring, open source, MCP, prompt governance" />
+    <link rel="icon" href="https://rishi-banerjee1.github.io/about-me/favicon.svg" type="image/svg+xml" />
 
     
     
@@ -77,7 +78,6 @@
       
         <li><a href="https://rishi-banerjee1.github.io/about-me/projects/">Projects</a></li>
       
-      <li><a href="https://rishi-banerjee1.github.io/about-me/interview-architecture/">Interview Architecture</a></li>
       
         <li><a href="https://rishi-banerjee1.github.io/about-me/projects/">All Projects</a></li>
       
@@ -208,6 +208,7 @@
       <a href="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me">Home</a>
       <a href="https://rishi-banerjee1.github.io/about-me/advisory/">Advisory</a>
       <a href="https://rishi-banerjee1.github.io/about-me/leadership-impact/">Leadership Impact</a>
+      <a href="https://rishi-banerjee1.github.io/about-me/proof-of-work/">Proof of Work</a>
       <a href="https://rishi-banerjee1.github.io/about-me/projects/">Projects</a>
       <a href="https:&#x2F;&#x2F;github.com&#x2F;rishi-banerjee1" target="_blank" rel="noopener">GitHub</a>
       <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;rishibanerjee&#x2F;" target="_blank" rel="noopener">LinkedIn</a>
@@ -215,7 +216,7 @@
       <a href="mailto:rpbanerjee@outlook.com">Email</a>
     </div>
     <p class="footer-meta">
-      Visitor count <span data-visitor-counter>#</span>
+      Site visitors <span data-visitor-counter>#</span>
     </p>
   </div>
 </footer>
@@ -292,22 +293,23 @@
 
       const counter = document.querySelector("[data-visitor-counter]");
       if (counter) {
-        fetch(
-          "https://rishisite.goatcounter.com/counter/" +
-            encodeURIComponent(location.pathname.replace(/\/$/, "") || "/") +
-            ".json"
-        )
-          .then((response) => response.json())
-          .then((data) => {
-            if (data.count) {
-              counter.textContent = data.count.replace(/[^0-9]/g, "") || data.count;
-            } else {
+        const updateVisitorCounter = () => {
+          const counterUrl = new URL("https://rishisite.goatcounter.com/counter/TOTAL.json");
+          counterUrl.searchParams.set("t", Date.now().toString());
+
+          fetch(counterUrl, { cache: "no-store" })
+            .then((response) => response.json())
+            .then((data) => {
+              const count = data.count_unique || data.count;
+              counter.textContent = count ? count.replace(/[^0-9]/g, "") || count : "\u2014";
+            })
+            .catch(() => {
               counter.textContent = "\u2014";
-            }
-          })
-          .catch(() => {
-            counter.textContent = "\u2014";
-          });
+            });
+        };
+
+        updateVisitorCounter();
+        window.setInterval(updateVisitorCounter, 60_000);
       }
 
       const observer = new IntersectionObserver(

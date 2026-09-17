@@ -19,7 +19,7 @@ For organisations that need more confidence in the quality and consistency of hi
 
 ## AI-Native TA and HR Transformation
 
-For teams that want technology to improve the quality and speed of talent work without creating new risk or fragmented process. I help identify where systems can support judgment, how the organisation adopts them, and the governance required to make them durable.
+I help talent teams use technology to improve the quality and speed of work without creating new risk or fragmented process. I identify where systems can support judgment, support adoption, and establish the governance required to make the work durable.
 
 ## Fractional Leadership and Team Coaching
 

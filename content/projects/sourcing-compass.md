@@ -22,13 +22,13 @@ github = "https://github.com/rishi-banerjee1/Sourcing_Compass"
 
 ## The problem
 
-Sourcing strategy begins with a question that most tools skip entirely: *where does this talent actually come from?* Job boards give you who's actively looking. LinkedIn gives you who exists. Neither tells you which companies to target, which non-obvious pools carry relevant experience, or which adjacent industries are worth a Boolean search.
+Sourcing strategy begins with a question that most tools skip entirely: *where does this talent actually come from?* Job boards show active candidates. LinkedIn shows who exists. Neither reveals the target companies, non-obvious pools with relevant experience, or adjacent industries worth a Boolean search.
 
 That mapping usually happens in a recruiter's head, informally, before any search begins. It takes experience, domain knowledge, and an hour of desk research most teams don't have.
 
 ## What I built
 
-Sourcing Compass is a one-page React app. You describe the role (title, seniority, company context, key skills, exclusions) and the AI returns four structured categories:
+Sourcing Compass is a one-page React app. It takes role context such as title, seniority, company context, key skills, and exclusions, then returns four structured categories:
 
 - **Target companies**: the most likely sources, with fit scores and tags
 - **Adjacent talent pools**: consulting firms, research labs, adjacent verticals that carry transferable experience

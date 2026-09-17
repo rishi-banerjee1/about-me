@@ -238,12 +238,26 @@ tags = [
 # Supporting projects (for projects listing page)
 [[extra.supporting_sections]]
 title = "Applied talent systems"
-description = "Selected systems that support the talent function in practice."
+description = "High-leverage systems in active use across kAIgentic."
 eyebrow = "Talent Systems"
 
 [[extra.supporting_sections.projects]]
+title = "AOP & Hiring System"
+summary = "System of record for annual operating plans and open roles. Models headcount, cost, attrition, backfills, scenarios, and hiring progress with two-way ATS sync and restricted compensation access."
+tags = ["Workforce Planning", "ATS Sync", "Scenario Modelling", "RBAC"]
+visibility = "private"
+status = "active"
+
+[[extra.supporting_sections.projects]]
+title = "Resume Screener"
+summary = "Rubric-based decision support for resume batches. Produces banded, evidence-backed rankings and targeted screening questions without becoming an automated gate."
+tags = ["Evaluation", "Decision Support", "Hiring Quality"]
+visibility = "private"
+status = "active"
+
+[[extra.supporting_sections.projects]]
 title = "Atlan Interview Assist"
-summary = "Transcript analysis app that generates structured interviewer feedback, candidate evaluations, and PDF-ready reports against our Hiring for Great framework."
+summary = "Transcript analysis system for structured interviewer feedback, candidate evaluation, and decision-ready reports."
 tags = ["Next.js", "Gemini", "Private"]
 visibility = "private"
 status = "active"
@@ -257,77 +271,14 @@ tags = ["AI", "Research", "Private"]
 visibility = "private"
 status = "active"
 
+[[extra.supporting_sections]]
+title = "Private AI systems"
+description = "High-complexity systems in active use that sit outside the talent workflow."
+eyebrow = "AI Systems and Labs"
+
 [[extra.supporting_sections.projects]]
-title = "JD Genius Builder"
-summary = "Job description generator. Enforces structure, outcome focus, and consistency. Recruiters use it instead of writing JDs from scratch."
-tags = ["TypeScript", "Lovable", "Private"]
+title = "Video Generator"
+summary = "Turns a document, PDF, or URL into a narrated, branded film with voice selection, music, review-before-render, and a zero-cost render pipeline."
+tags = ["Media Pipeline", "Brand System", "Rendering"]
 visibility = "private"
 status = "active"
-
-[[extra.supporting_sections.projects]]
-title = "Interviewer Helper"
-summary = "Real-time interview support interface that surfaces follow-up prompts and coverage guidance during live conversations."
-tags = ["React", "Private", "Prototype"]
-visibility = "private"
-status = "prototype"
-href = "https://interviewer-helper.vercel.app"
-external = true
-
-[[extra.supporting_sections]]
-title = "Open Source & Experiments"
-description = "Public repos, side projects, and earlier work."
-eyebrow = "Open Source"
-
-[[extra.supporting_sections.projects]]
-title = "JD Analyser"
-summary = "Full-stack app that scores job descriptions on clarity, inclusivity, and SEO, then suggests concrete improvements."
-tags = ["TypeScript", "FastAPI", "Public"]
-visibility = "public"
-status = "supporting"
-href = "https://github.com/rishi-banerjee1/JD-Analyser"
-external = true
-
-[[extra.supporting_sections.projects]]
-title = "v0 JD Builder"
-summary = "Early v0 prototype for structured job descriptions. Led to the later JD Genius Builder."
-tags = ["TypeScript", "v0", "Public"]
-visibility = "public"
-status = "archive"
-href = "https://github.com/rishi-banerjee1/v0-JD-Builder"
-external = true
-
-[[extra.supporting_sections.projects]]
-title = "Hotel Concierge"
-summary = "Natural-language hotel search platform that profiles hotel DNA and explains why each recommendation fits, not just price."
-tags = ["Python", "Search", "Public"]
-visibility = "public"
-status = "supporting"
-href = "https://github.com/rishi-banerjee1/Natural-Language-Hotel-Searcher"
-external = true
-
-[[extra.supporting_sections.projects]]
-title = "Repo Extract"
-summary = "GitHub contributor extraction and enrichment tool for building candidate pipelines from open source activity."
-tags = ["GitHub", "Utility", "Public"]
-visibility = "public"
-status = "supporting"
-href = "https://github.com/rishi-banerjee1/gh-repo-extract"
-external = true
-
-[[extra.supporting_sections.projects]]
-title = "Homebrew AI Tools"
-summary = "Homebrew tap for distributing developer utilities like Claude Usage Widget with one-command install."
-tags = ["Homebrew", "Distribution", "Public"]
-visibility = "public"
-status = "supporting"
-href = "https://github.com/rishi-banerjee1/homebrew-ai-tools"
-external = true
-
-[[extra.supporting_sections.projects]]
-title = "Spring Wellness App"
-summary = "Team wellness check-in app. Next.js + Supabase."
-tags = ["Next.js", "Supabase", "Public"]
-visibility = "public"
-status = "archive"
-href = "https://github.com/rishi-banerjee1/v0-Wellness-App"
-external = true

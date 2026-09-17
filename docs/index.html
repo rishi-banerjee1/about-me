@@ -8,6 +8,7 @@
     
     <link rel="canonical" href="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me&#x2F;" />
     <meta name="keywords" content="Rishi Banerjee, Talent Acquisition, kAIgentic, Atlan, AI systems, hiring, open source, MCP, prompt governance" />
+    <link rel="icon" href="https://rishi-banerjee1.github.io/about-me/favicon.svg" type="image/svg+xml" />
 
     
     
@@ -93,7 +94,6 @@
       
         <li><a href="https://rishi-banerjee1.github.io/about-me/projects/">Projects</a></li>
       
-      <li><a href="https://rishi-banerjee1.github.io/about-me/interview-architecture/">Interview Architecture</a></li>
       
       <li><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;rishibanerjee&#x2F;" target="_blank" rel="noopener">LinkedIn</a></li>
       <li><a href="https:&#x2F;&#x2F;github.com&#x2F;rishi-banerjee1" target="_blank" rel="noopener">GitHub</a></li>
@@ -171,7 +171,7 @@
       <div class="section-intro"><div><p class="eyebrow">Leadership Impact</p><h2>What I have built and changed</h2></div><a href="https://rishi-banerjee1.github.io/about-me/leadership-impact/" class="text-link">View leadership impact</a></div>
       <div class="three-up-grid">
         <article class="panel-card"><h3>Global talent operating models</h3><p>Built and scaled hiring capability across APAC, North America, and Europe, with the governance and rhythm needed for distributed teams.</p></article>
-        <article class="panel-card"><h3>Higher-quality hiring decisions</h3><p>Established more rigorous evaluation environments across technical, product, corporate, and leadership hiring, protecting the bar as organisations scale.</p></article>
+        <a href="https://rishi-banerjee1.github.io/about-me/proof-of-work/" class="panel-card pathway-card proof-card"><h3>Higher-quality hiring decisions</h3><p>Established more rigorous evaluation environments across technical, product, corporate, and leadership hiring, protecting the bar as organisations scale.</p><span class="text-link">Explore proof of work</span></a>
         <article class="panel-card"><h3>Systems that compound</h3><p>Modernised talent operations with durable systems for research, evaluation, candidate experience, and decision support.</p></article>
       </div>
     </div>
@@ -184,7 +184,7 @@
         <a href="https://rishi-banerjee1.github.io/about-me/projects/rishios-mcp/" class="project-card is-link"><div class="project-card-top"><div><h3>RishiOS</h3><p>A talent operating system designed to make hiring judgment more consistent and auditable.</p></div><span class="project-card-arrow" aria-hidden="true">&#8599;</span></div></a>
         <a href="https://rishi-banerjee1.github.io/about-me/projects/gabbar-interview-evaluator/" class="project-card is-link"><div class="project-card-top"><div><h3>Gabbar Interview Evaluator</h3><p>Structured decision support for interview evaluation and debrief quality.</p></div><span class="project-card-arrow" aria-hidden="true">&#8599;</span></div></a>
         <a href="https://rishi-banerjee1.github.io/about-me/projects/sourcing-compass/" class="project-card is-link"><div class="project-card-top"><div><h3>Sourcing Compass</h3><p>Talent-market intelligence that helps teams start search with a better map.</p></div><span class="project-card-arrow" aria-hidden="true">&#8599;</span></div></a>
-        <a href="https://rishi-banerjee1.github.io/about-me/interview-architecture/" class="project-card is-link"><div class="project-card-top"><div><h3>Interview Architecture</h3><p>A proof page on building durable hiring standards without exposing the playbook.</p></div><span class="project-card-arrow" aria-hidden="true">&#8599;</span></div></a>
+        <a href="https://rishi-banerjee1.github.io/about-me/proof-of-work/" class="project-card is-link"><div class="project-card-top"><div><h3>Proof of Work</h3><p>Selected public writing and evidence behind the way I approach talent, leadership, and systems.</p></div><span class="project-card-arrow" aria-hidden="true">&#8599;</span></div></a>
       </div>
     </div>
   </section>
@@ -231,6 +231,7 @@
       <a href="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me">Home</a>
       <a href="https://rishi-banerjee1.github.io/about-me/advisory/">Advisory</a>
       <a href="https://rishi-banerjee1.github.io/about-me/leadership-impact/">Leadership Impact</a>
+      <a href="https://rishi-banerjee1.github.io/about-me/proof-of-work/">Proof of Work</a>
       <a href="https://rishi-banerjee1.github.io/about-me/projects/">Projects</a>
       <a href="https:&#x2F;&#x2F;github.com&#x2F;rishi-banerjee1" target="_blank" rel="noopener">GitHub</a>
       <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;rishibanerjee&#x2F;" target="_blank" rel="noopener">LinkedIn</a>
@@ -238,7 +239,7 @@
       <a href="mailto:rpbanerjee@outlook.com">Email</a>
     </div>
     <p class="footer-meta">
-      Visitor count <span data-visitor-counter>#</span>
+      Site visitors <span data-visitor-counter>#</span>
     </p>
   </div>
 </footer>
@@ -315,22 +316,23 @@
 
       const counter = document.querySelector("[data-visitor-counter]");
       if (counter) {
-        fetch(
-          "https://rishisite.goatcounter.com/counter/" +
-            encodeURIComponent(location.pathname.replace(/\/$/, "") || "/") +
-            ".json"
-        )
-          .then((response) => response.json())
-          .then((data) => {
-            if (data.count) {
-              counter.textContent = data.count.replace(/[^0-9]/g, "") || data.count;
-            } else {
+        const updateVisitorCounter = () => {
+          const counterUrl = new URL("https://rishisite.goatcounter.com/counter/TOTAL.json");
+          counterUrl.searchParams.set("t", Date.now().toString());
+
+          fetch(counterUrl, { cache: "no-store" })
+            .then((response) => response.json())
+            .then((data) => {
+              const count = data.count_unique || data.count;
+              counter.textContent = count ? count.replace(/[^0-9]/g, "") || count : "\u2014";
+            })
+            .catch(() => {
               counter.textContent = "\u2014";
-            }
-          })
-          .catch(() => {
-            counter.textContent = "\u2014";
-          });
+            });
+        };
+
+        updateVisitorCounter();
+        window.setInterval(updateVisitorCounter, 60_000);
       }
 
       const observer = new IntersectionObserver(

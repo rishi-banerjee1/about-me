@@ -7,7 +7,7 @@ template = "standard-page.html"
 eyebrow = "Leadership"
 +++
 
-My career has been spent building talent capability where the business needs it most: across markets, functions, and moments of change. I focus on the outcomes and enduring capability created, not the private mechanics behind them.
+I have built talent capability where the business needs it most: across markets, functions, and moments of change. I focus on the outcomes and enduring capability created, not the private mechanics behind my work.
 
 ## Global talent capability
 
@@ -24,6 +24,8 @@ Modernised the operating layer around talent: planning, decision support, analyt
 ## Systems that compound
 
 Built systems that reduce repeated effort and make good judgment more repeatable across a team. The public portfolio shows selected examples. The underlying doctrine, workflow design, and implementation detail remain private.
+
+[Explore selected proof of work](../proof-of-work/)
 
 ## Career history
 

@@ -26,14 +26,14 @@ LLM benchmarks are run by the same companies selling the models. Marketing claim
 
 ## What I built
 
-BlindBench is an open-source evaluation arena. It pulls real prompts from 4 Kaggle datasets, runs them through 100+ models, and scores responses on correctness, reasoning depth, and failure patterns. The interface strips model names during evaluation so judgment is unbiased.
+I built BlindBench as an open-source evaluation arena. I use real prompts from 4 Kaggle datasets, run those prompts through 100+ models, and score responses on correctness, reasoning depth, and failure patterns. I keep model names hidden during evaluation so judgment is less biased.
 
 Key design choices:
 
 - **Blind testing**: Model identities hidden during evaluation to eliminate brand bias.
 - **Truth scoring**: Composite score based on correctness, reasoning quality, and consistency.
 - **Failure classification**: 10 distinct failure types (hallucination, logic errors, refusal bias, etc.) tracked per model.
-- **BYOK (Bring Your Own Key)**: API keys encrypted in transit, used once, never stored. Free-tier models work without any key.
+- **Bring-a-key mode**: API keys are encrypted in transit, used once, and never stored. Free-tier models work without a key.
 
 ## Architecture
 

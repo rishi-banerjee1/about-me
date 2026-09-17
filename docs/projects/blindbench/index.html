@@ -8,6 +8,7 @@
     
     <link rel="canonical" href="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me&#x2F;projects&#x2F;blindbench&#x2F;" />
     <meta name="keywords" content="Rishi Banerjee, Talent Acquisition, kAIgentic, Atlan, AI systems, hiring, open source, MCP, prompt governance" />
+    <link rel="icon" href="https://rishi-banerjee1.github.io/about-me/favicon.svg" type="image/svg+xml" />
 
     
     
@@ -77,7 +78,6 @@
       
         <li><a href="https://rishi-banerjee1.github.io/about-me/projects/">Projects</a></li>
       
-      <li><a href="https://rishi-banerjee1.github.io/about-me/interview-architecture/">Interview Architecture</a></li>
       
         <li><a href="https://rishi-banerjee1.github.io/about-me/projects/">All Projects</a></li>
       
@@ -148,13 +148,13 @@
         <h2 id="the-problem">The problem</h2>
 <p>LLM benchmarks are run by the same companies selling the models. Marketing claims are not evidence. There was no easy way to blind-test models side by side on real prompts and see which ones actually hold up.</p>
 <h2 id="what-i-built">What I built</h2>
-<p>BlindBench is an open-source evaluation arena. It pulls real prompts from 4 Kaggle datasets, runs them through 100+ models, and scores responses on correctness, reasoning depth, and failure patterns. The interface strips model names during evaluation so judgment is unbiased.</p>
+<p>I built BlindBench as an open-source evaluation arena. I use real prompts from 4 Kaggle datasets, run those prompts through 100+ models, and score responses on correctness, reasoning depth, and failure patterns. I keep model names hidden during evaluation so judgment is less biased.</p>
 <p>Key design choices:</p>
 <ul>
 <li><strong>Blind testing</strong>: Model identities hidden during evaluation to eliminate brand bias.</li>
 <li><strong>Truth scoring</strong>: Composite score based on correctness, reasoning quality, and consistency.</li>
 <li><strong>Failure classification</strong>: 10 distinct failure types (hallucination, logic errors, refusal bias, etc.) tracked per model.</li>
-<li><strong>BYOK (Bring Your Own Key)</strong>: API keys encrypted in transit, used once, never stored. Free-tier models work without any key.</li>
+<li><strong>Bring-a-key mode</strong>: API keys are encrypted in transit, used once, and never stored. Free-tier models work without a key.</li>
 </ul>
 <h2 id="architecture">Architecture</h2>
 <p>React + Vite frontend deployed to GitHub Pages. Supabase backend with Edge Functions that proxy LLM calls server-side. Materialized views power the leaderboard and failure analytics. Four seeded Kaggle datasets provide the evaluation corpus.</p>
@@ -209,6 +209,7 @@
       <a href="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me">Home</a>
       <a href="https://rishi-banerjee1.github.io/about-me/advisory/">Advisory</a>
       <a href="https://rishi-banerjee1.github.io/about-me/leadership-impact/">Leadership Impact</a>
+      <a href="https://rishi-banerjee1.github.io/about-me/proof-of-work/">Proof of Work</a>
       <a href="https://rishi-banerjee1.github.io/about-me/projects/">Projects</a>
       <a href="https:&#x2F;&#x2F;github.com&#x2F;rishi-banerjee1" target="_blank" rel="noopener">GitHub</a>
       <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;rishibanerjee&#x2F;" target="_blank" rel="noopener">LinkedIn</a>
@@ -216,7 +217,7 @@
       <a href="mailto:rpbanerjee@outlook.com">Email</a>
     </div>
     <p class="footer-meta">
-      Visitor count <span data-visitor-counter>#</span>
+      Site visitors <span data-visitor-counter>#</span>
     </p>
   </div>
 </footer>
@@ -293,22 +294,23 @@
 
       const counter = document.querySelector("[data-visitor-counter]");
       if (counter) {
-        fetch(
-          "https://rishisite.goatcounter.com/counter/" +
-            encodeURIComponent(location.pathname.replace(/\/$/, "") || "/") +
-            ".json"
-        )
-          .then((response) => response.json())
-          .then((data) => {
-            if (data.count) {
-              counter.textContent = data.count.replace(/[^0-9]/g, "") || data.count;
-            } else {
+        const updateVisitorCounter = () => {
+          const counterUrl = new URL("https://rishisite.goatcounter.com/counter/TOTAL.json");
+          counterUrl.searchParams.set("t", Date.now().toString());
+
+          fetch(counterUrl, { cache: "no-store" })
+            .then((response) => response.json())
+            .then((data) => {
+              const count = data.count_unique || data.count;
+              counter.textContent = count ? count.replace(/[^0-9]/g, "") || count : "\u2014";
+            })
+            .catch(() => {
               counter.textContent = "\u2014";
-            }
-          })
-          .catch(() => {
-            counter.textContent = "\u2014";
-          });
+            });
+        };
+
+        updateVisitorCounter();
+        window.setInterval(updateVisitorCounter, 60_000);
       }
 
       const observer = new IntersectionObserver(

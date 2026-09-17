@@ -7,7 +7,7 @@ template = "projects/page.html"
 shortSummary = "Native macOS menubar widget that tracks Claude usage limits in real time. Single-file Swift app, no dependencies, Homebrew install."
 summary = "Floating macOS widget that shows current usage, pace against time elapsed, and countdown to reset. One-command Homebrew install."
 category = "Developer Tooling"
-section = "ai"
+section = "archive"
 year = 2026
 order = 2
 featured = false
@@ -23,7 +23,7 @@ homebrew = "https://github.com/rishi-banerjee1/homebrew-ai-tools"
 
 ## The problem
 
-Claude usage limits reset on a timer. You hit the limit mid-workflow, the session ends, and context is lost. There was no native way to see how close you were.
+Claude usage limits reset on a timer. Hitting the limit mid-workflow ends the session and loses context. There was no native way to see how close the limit was.
 
 ## What I built
 
