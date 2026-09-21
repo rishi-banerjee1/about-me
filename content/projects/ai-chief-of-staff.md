@@ -6,6 +6,8 @@ template = "projects/page.html"
 [extra]
 shortSummary = "Workflow platform for Slack, Gmail, and Calendar. Classifies work, drafts responses, and tracks items to resolution."
 summary = "Reads across Slack, Gmail, and Calendar. Classifies incoming work by urgency, drafts responses, and maintains a durable ledger of open items."
+audience = "Leaders and operators managing a high volume of cross-functional communication and follow-through."
+value = "Turns scattered messages and meetings into a prioritized, accountable work ledger."
 category = "Workflow Platform"
 section = "ai"
 year = 2026

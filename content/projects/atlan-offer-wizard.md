@@ -6,6 +6,8 @@ template = "projects/page.html"
 [extra]
 shortSummary = "Personalized offer pages generated from ATS data. Turns a transactional moment into a candidate experience artifact."
 summary = "I built personalised offer ceremony pages that turn ATS context into a three-act candidate narrative. Triggered from Ashby at roughly $0.006 per page."
+audience = "Talent leaders and hiring teams who want an offer to reinforce the candidate's decision to join."
+value = "Turns a transactional document into a deliberate candidate experience at the most important moment."
 category = "Talent Experience Product"
 section = "talent"
 year = 2026

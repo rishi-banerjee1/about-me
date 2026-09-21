@@ -6,6 +6,8 @@ template = "projects/page.html"
 [extra]
 shortSummary = "Interview evaluation skill that applies a 7-layer hiring doctrine to transcripts. Outputs scorecards, risk classifications, and scaling assessments."
 summary = "Takes interview transcripts and forces structure around the decision. Scores on agency, judgment, and craft: the dimensions most debriefs skip."
+audience = "Hiring managers, interviewers, and Talent teams that need a more disciplined debrief process."
+value = "Makes the reasoning behind an interview decision visible, comparable, and easier to calibrate."
 category = "Interview Evaluation"
 section = "talent"
 year = 2026

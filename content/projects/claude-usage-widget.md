@@ -6,6 +6,8 @@ template = "projects/page.html"
 [extra]
 shortSummary = "Native macOS menubar widget that tracks Claude usage limits in real time. Single-file Swift app, no dependencies, Homebrew install."
 summary = "Floating macOS widget that shows current usage, pace against time elapsed, and countdown to reset. One-command Homebrew install."
+audience = "AI power users who need an at-a-glance view of their working capacity during the day."
+value = "Makes usage limits visible before they interrupt an important stretch of work."
 category = "Developer Tooling"
 section = "archive"
 year = 2026

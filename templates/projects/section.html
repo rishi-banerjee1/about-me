@@ -37,6 +37,8 @@
           {% set card_tags = project.extra.tags %}
           {% set card_href = project.permalink %}
           {% set card_external = false %}
+          {% set card_audience = project.extra.audience | default(value="") %}
+          {% set card_value = project.extra.value | default(value="") %}
           {% include "partials/project-card.html" %}
         {% endfor %}
       </div>
@@ -57,6 +59,8 @@
                 {% set card_tags = proj.tags %}
                 {% set card_href = proj.href | default(value="") %}
                 {% set card_external = proj.external | default(value=false) %}
+                {% set card_audience = proj.audience | default(value="") %}
+                {% set card_value = proj.value | default(value="") %}
                 {% include "partials/project-card.html" %}
               {% endfor %}
             </div>
@@ -77,6 +81,8 @@
           {% set card_tags = project.extra.tags %}
           {% set card_href = project.permalink %}
           {% set card_external = false %}
+          {% set card_audience = project.extra.audience | default(value="") %}
+          {% set card_value = project.extra.value | default(value="") %}
           {% include "partials/project-card.html" %}
         {% endfor %}
       </div>
@@ -100,6 +106,8 @@
               {% set card_tags = proj.tags %}
               {% set card_href = proj.href | default(value="") %}
               {% set card_external = proj.external | default(value=false) %}
+              {% set card_audience = proj.audience | default(value="") %}
+              {% set card_value = proj.value | default(value="") %}
               {% include "partials/project-card.html" %}
             {% endfor %}
           </div>

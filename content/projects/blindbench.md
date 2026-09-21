@@ -6,6 +6,8 @@ template = "projects/page.html"
 [extra]
 shortSummary = "Blind-test 100+ LLMs side by side. Real prompts, no marketing. Just truth scores and failure analysis."
 summary = "Open-source arena that blind-tests 100+ AI models on real prompts from 4 Kaggle datasets. Generates trust scores, win rates, and classifies 10 failure types. BYOK support keeps API keys client-side."
+audience = "AI builders and technical leaders choosing models for work that needs more than a demo."
+value = "Replaces vendor-led model selection with comparable evidence from real prompts and failure patterns."
 category = "AI Evaluation"
 section = "ai"
 year = 2026

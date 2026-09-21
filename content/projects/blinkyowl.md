@@ -6,6 +6,8 @@ template = "projects/page.html"
 [extra]
 shortSummary = "Fully autonomous kids video pipeline with safety gates, observability, and self-improving feedback loops."
 summary = "Production-grade system that generates, publishes, and self-improves educational YouTube Shorts for kids. Private repo, but with public proof via channel and observability dashboard."
+audience = "Education and media operators building safe, repeatable short-form video programs."
+value = "Makes an end-to-end content pipeline observable and scalable without losing safeguards."
 category = "Autonomous Media System"
 section = "archive"
 year = 2026

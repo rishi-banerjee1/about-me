@@ -249,6 +249,8 @@ eyebrow = "Talent Systems"
 [[extra.supporting_sections.projects]]
 title = "Hiring Command Center (TA CentCom)"
 summary = "A talent operations intelligence layer that turns ATS data into role health, funnel waiting time, interview efficiency, and severity-ranked actions. Built to make hiring bottlenecks and ownership visible, with Ashby as the current integration example."
+audience = "Heads of Talent, People leaders, Engineering leaders, and hiring teams managing complex or high-volume hiring."
+value = "Turns weekly hiring reviews into a clear action agenda, with bottlenecks and ownership visible."
 tags = ["Talent Operations", "Hiring Analytics", "SLA Management", "Open Source"]
 visibility = "public"
 status = "active"
@@ -258,6 +260,8 @@ external = true
 [[extra.supporting_sections.projects]]
 title = "AOP & Hiring System"
 summary = "System of record for annual operating plans and open roles. Models headcount, cost, attrition, backfills, scenarios, and hiring progress with two-way ATS sync and restricted compensation access."
+audience = "Founders, Finance and People leaders, and Talent teams planning headcount across a changing business."
+value = "Connects workforce plans, hiring demand, cost scenarios, and execution in one operating view."
 tags = ["Workforce Planning", "ATS Sync", "Scenario Modelling", "RBAC"]
 visibility = "private"
 status = "active"
@@ -265,6 +269,8 @@ status = "active"
 [[extra.supporting_sections.projects]]
 title = "Resume Screener"
 summary = "Rubric-based decision support for resume batches. Produces banded, evidence-backed rankings and targeted screening questions without becoming an automated gate."
+audience = "Talent teams and hiring managers handling high application volumes for roles where judgment still matters."
+value = "Moves early-stage screening from keyword sorting to a consistent, evidence-backed view of fit."
 tags = ["Evaluation", "Decision Support", "Hiring Quality"]
 visibility = "private"
 status = "active"
@@ -272,6 +278,8 @@ status = "active"
 [[extra.supporting_sections.projects]]
 title = "Atlan Interview Assist"
 summary = "Transcript analysis system for structured interviewer feedback, candidate evaluation, and decision-ready reports."
+audience = "Hiring managers, interviewers, and Talent teams running structured hiring across multiple roles."
+value = "Turns interview conversations into comparable evidence and decision-ready debriefs."
 tags = ["Next.js", "Gemini", "Private"]
 visibility = "private"
 status = "active"
@@ -281,6 +289,8 @@ external = true
 [[extra.supporting_sections.projects]]
 title = "Candidate Intel Platform"
 summary = "Parallel research platform that compiles candidate intelligence from resumes, GitHub, publications, and social signals into leveling and comp briefs."
+audience = "Talent partners and hiring leaders assessing specialist candidates where context matters beyond the resume."
+value = "Brings fragmented public signals into a focused brief for better leveling and compensation conversations."
 tags = ["AI", "Research", "Private"]
 visibility = "private"
 status = "active"
@@ -293,6 +303,8 @@ eyebrow = "AI Systems and Labs"
 [[extra.supporting_sections.projects]]
 title = "Video Generator"
 summary = "Turns a document, PDF, or URL into a narrated, branded film with voice selection, music, review-before-render, and a zero-cost render pipeline."
+audience = "Operators and content teams turning existing expertise into clear, reusable video communication."
+value = "Shortens the path from source material to a reviewable, on-brand film."
 tags = ["Media Pipeline", "Brand System", "Rendering"]
 visibility = "private"
 status = "active"

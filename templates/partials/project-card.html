@@ -14,6 +14,22 @@
     </div>
     {% if card_href %}<span class="project-card-arrow" aria-hidden="true">&#8599;</span>{% endif %}
   </div>
+  {% if card_audience or card_value %}
+  <div class="project-card-details">
+    {% if card_audience %}
+    <div>
+      <p class="project-card-label">Helpful for</p>
+      <p>{{ card_audience }}</p>
+    </div>
+    {% endif %}
+    {% if card_value %}
+    <div>
+      <p class="project-card-label">What it enables</p>
+      <p>{{ card_value }}</p>
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
   <div class="tag-list">
     {% for tag in card_tags %}
       {% if tag != "Private" and tag != "Public" and tag != "Prototype" %}
