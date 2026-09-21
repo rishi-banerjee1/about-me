@@ -247,6 +247,15 @@ description = "High-leverage systems in active use across kAIgentic."
 eyebrow = "Talent Systems"
 
 [[extra.supporting_sections.projects]]
+title = "Hiring Command Center (TA CentCom)"
+summary = "A talent operations intelligence layer that turns ATS data into role health, funnel waiting time, interview efficiency, and severity-ranked actions. Built to make hiring bottlenecks and ownership visible, with Ashby as the current integration example."
+tags = ["Talent Operations", "Hiring Analytics", "SLA Management", "Open Source"]
+visibility = "public"
+status = "active"
+href = "https://github.com/rishi-banerjee1/TA-Command-Center"
+external = true
+
+[[extra.supporting_sections.projects]]
 title = "AOP & Hiring System"
 summary = "System of record for annual operating plans and open roles. Models headcount, cost, attrition, backfills, scenarios, and hiring progress with two-way ATS sync and restricted compensation access."
 tags = ["Workforce Planning", "ATS Sync", "Scenario Modelling", "RBAC"]
