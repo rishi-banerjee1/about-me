@@ -7,7 +7,7 @@ template = "standard-page.html"
 eyebrow = "Advisory"
 +++
 
-Advisory work begins when talent has become a business constraint, a transformation mandate, or a question that needs senior ownership. The public work describes the kinds of outcomes created; the operating detail stays inside each engagement.
+Working with leadership teams when talent has become a business constraint, a transformation mandate, or a question that needs senior ownership. The public work describes the kinds of outcomes created; the operating detail stays inside each engagement.
 
 ## Talent Function Build and Transformation
 
@@ -19,7 +19,7 @@ For organisations that need more confidence in the quality and consistency of hi
 
 ## AI-Native TA and HR Transformation
 
-Technology can improve the quality and speed of talent work without creating new risk or fragmented process. The focus is on where systems can support judgment, enable adoption, and establish the governance required to make the work durable.
+Helping talent teams use technology to improve the quality and speed of work without creating new risk or fragmented process. The focus is on where systems can support judgment, enable adoption, and establish the governance required to make the work durable.
 
 ## Fractional Leadership and Team Coaching
 

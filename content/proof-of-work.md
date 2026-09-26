@@ -11,7 +11,7 @@ The most valuable parts of the work are not published as a playbook. The judgmen
 
 ## A TA engine built around the business it serves
 
-Hiring is a business system, not a request queue. The starting question is what this team or company must be able to do next, what talent will make that possible, and what the cost is of getting the decision wrong or waiting too long. Workforce planning, market intelligence, search strategy, and operating rigor then come together in one TA engine.
+Hiring is a business system, not a request queue. Starting with what this team or company must be able to do next, what talent will make that possible, and what the cost is of getting the decision wrong or waiting too long. Workforce planning, market intelligence, search strategy, and operating rigor then come together in one TA engine.
 
 This is the logic behind my work on capacity planning and the business cost of vacancies:
 
@@ -30,7 +30,7 @@ These articles reflect that point of view:
 
 ## Unblocking searches by changing the conditions around them
 
-When a critical search stalls, the answer is rarely just more sourcing. The constraint needs to be surfaced: role clarity, market reality, interviewer alignment, candidate proposition, or decision velocity. Then the leadership team can change the conditions around the search. The objective is not simply to fill a role, but to help the company hire the person who can change its trajectory. Selected individual leadership mandates span technical, product, commercial, and business functions.
+When a critical search stalls, the answer is rarely just more sourcing. The constraint is diagnosed across role clarity, market reality, interviewer alignment, candidate proposition, and decision velocity, then changed with the leadership team. The objective is not simply to fill a role, but to help the company hire the person who can change its trajectory. Selected individual leadership mandates span technical, product, commercial, and business functions.
 
 ## A talent brand people can believe
 
@@ -43,14 +43,14 @@ This is why the work pays attention to how markets form, how people choose a com
 
 ## Technology that gives judgment more leverage
 
-Technology becomes valuable when it improves the work and the decisions around it. The systems give recruiters and leaders better context, faster visibility, and more capacity for work that requires human judgment. The aim is not automation for its own sake, and accountability is never outsourced.
+Technology becomes valuable when it improves the work and the decisions around it. Systems built for recruiters and leaders provide better context, faster visibility, and more capacity for work that requires human judgment. The aim is not automation for its own sake, and accountability is never outsourced.
 
 - [Scrappy, Strategic, and Self-Built: Vibe Coding in Talent Acquisition](https://medium.com/@risbane1002/scrappy-strategic-and-self-built-vibe-coding-in-talent-acquisition-3ba97e2da002)
 - [From T-Shaped to E-Shaped: How the Engineering Talent Profile Has Evolved](https://medium.com/@risbane1002/from-t-shaped-to-e-shaped-how-the-engineering-talent-profile-has-evolved-21e7786d7d8f)
 
 ## The value a business should expect
 
-The right talent partner is the go-to person when a business is trying to solve a consequential hiring, organisation-design, or talent-brand problem. That can mean leading the TA function, owning a critical search as a Senior Principal or Chief Recruiter, or taking on a defined advisory engagement. In every case, the value is the same: clear thinking, high judgment, and a talent engine that helps the business move.
+The aim is to be the go-to talent partner when a business is trying to solve a consequential hiring, organisation-design, or talent-brand problem. That can mean leading the TA function, owning a critical search as a Senior Principal or Chief Recruiter, or taking on a defined advisory engagement. In every case, the value is the same: clear thinking, high judgment, and a talent engine that helps the business move.
 
 ## The boundary
 
