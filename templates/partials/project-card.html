@@ -3,9 +3,9 @@
     card_title, card_summary, card_tags (array), card_href (string or empty), card_external (bool)
 #}
 {% if card_href %}
-<a href="{{ card_href }}" class="project-card is-link"{% if card_external %} target="_blank" rel="noopener"{% endif %}>
+<a href="{{ card_href }}" class="project-card is-link{% if card_featured %} is-featured{% endif %}"{% if card_external %} target="_blank" rel="noopener"{% endif %}>
 {% else %}
-<article class="project-card">
+<article class="project-card{% if card_featured %} is-featured{% endif %}">
 {% endif %}
   <div class="project-card-top">
     <div>

@@ -351,6 +351,10 @@ strong {
   grid-template-columns: minmax(0, 1.35fr) minmax(290px, 0.85fr);
 }
 
+.detail-layout {
+  align-items: start;
+}
+
 .hero-copy,
 .hero-aside,
 .project-card,
@@ -654,6 +658,14 @@ strong {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.project-grid-featured {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.section-heading-spacer {
+  margin-top: 3rem;
+}
+
 .project-card {
   padding: 1.5rem;
   transition:
@@ -661,6 +673,20 @@ strong {
     box-shadow 260ms ease,
     border-color 260ms ease,
     background 260ms ease;
+}
+
+.project-card.is-featured {
+  padding: 1.85rem;
+}
+
+.project-card.is-featured .project-card-top h3,
+.project-card.is-featured .project-card-top p {
+  max-width: 68ch;
+}
+
+.project-card.is-featured .project-card-details {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
 }
 
 .project-card.is-link:hover {
@@ -1074,6 +1100,8 @@ strong {
 .detail-sidebar {
   display: grid;
   gap: 1rem;
+  align-content: start;
+  align-items: start;
   background: transparent;
   border: 0;
   box-shadow: none;
@@ -1128,6 +1156,10 @@ strong {
   .project-grid,
   .project-grid-compact,
   .books-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card.is-featured .project-card-details {
     grid-template-columns: 1fr;
   }
 

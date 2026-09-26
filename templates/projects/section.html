@@ -12,6 +12,8 @@
 
 {% set all_projects = section.pages | sort(attribute="extra.order") %}
 {% set talent_systems = all_projects | filter(attribute="extra.section", value="talent") %}
+{% set featured_talent_systems = talent_systems | filter(attribute="extra.featured", value=true) %}
+{% set standard_talent_systems = talent_systems | filter(attribute="extra.featured", value=false) %}
 {% set ai_systems = all_projects | filter(attribute="extra.section", value="ai") %}
 
 <main id="main-content">
@@ -29,9 +31,9 @@
   <section class="section section-alt" data-reveal>
     <div class="container">
       <p class="eyebrow">Talent Systems</p>
-      <h2>Built for better talent judgment</h2>
-      <div class="project-grid">
-        {% for project in talent_systems %}
+      <h2>Featured work</h2>
+      <div class="project-grid project-grid-featured">
+        {% for project in featured_talent_systems %}
           {% set card_title = project.title %}
           {% set card_summary = project.extra.shortSummary | default(value=project.extra.summary) %}
           {% set card_tags = project.extra.tags %}
@@ -39,6 +41,23 @@
           {% set card_external = false %}
           {% set card_audience = project.extra.audience | default(value="") %}
           {% set card_value = project.extra.value | default(value="") %}
+          {% set card_featured = true %}
+          {% include "partials/project-card.html" %}
+        {% endfor %}
+      </div>
+      <div class="section-heading-spacer">
+        <h2>Built for better talent judgment</h2>
+      </div>
+      <div class="project-grid">
+        {% for project in standard_talent_systems %}
+          {% set card_title = project.title %}
+          {% set card_summary = project.extra.shortSummary | default(value=project.extra.summary) %}
+          {% set card_tags = project.extra.tags %}
+          {% set card_href = project.permalink %}
+          {% set card_external = false %}
+          {% set card_audience = project.extra.audience | default(value="") %}
+          {% set card_value = project.extra.value | default(value="") %}
+          {% set card_featured = false %}
           {% include "partials/project-card.html" %}
         {% endfor %}
       </div>
@@ -61,6 +80,7 @@
                 {% set card_external = proj.external | default(value=false) %}
                 {% set card_audience = proj.audience | default(value="") %}
                 {% set card_value = proj.value | default(value="") %}
+                {% set card_featured = false %}
                 {% include "partials/project-card.html" %}
               {% endfor %}
             </div>
@@ -83,6 +103,7 @@
           {% set card_external = false %}
           {% set card_audience = project.extra.audience | default(value="") %}
           {% set card_value = project.extra.value | default(value="") %}
+          {% set card_featured = false %}
           {% include "partials/project-card.html" %}
         {% endfor %}
       </div>
@@ -108,6 +129,7 @@
               {% set card_external = proj.external | default(value=false) %}
               {% set card_audience = proj.audience | default(value="") %}
               {% set card_value = proj.value | default(value="") %}
+              {% set card_featured = false %}
               {% include "partials/project-card.html" %}
             {% endfor %}
           </div>

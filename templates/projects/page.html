@@ -74,8 +74,8 @@
         <div class="panel-card">
           <p class="eyebrow">Access</p>
           {% if page.extra.visibility == "private" %}
-            <h3>Private repo</h3>
-            <p>Code is internal. Architecture and design decisions documented here.</p>
+            <h3>Private system</h3>
+            <p>{{ page.extra.accessNote | default(value="Code and operating data are private. I share the business problem, design judgment, and outcome here.") }}</p>
           {% else %}
             <h3>Public repo</h3>
             <p>Code is public. Links above point to the repo and live surfaces.</p>
@@ -90,7 +90,7 @@
       <p class="eyebrow">More Projects</p>
       <h2>See what else I've built</h2>
       <p>
-        Hiring tools, prompt governance, automation systems, and open-source utilities.
+        Talent systems, operating tools, automation, and selected portfolio work.
       </p>
       <div class="button-row">
         <a href="{{ get_url(path='@/projects/_index.md') }}" class="button button-primary">Browse more projects</a>
