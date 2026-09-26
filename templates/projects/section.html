@@ -21,9 +21,9 @@
     <div class="container page-hero-inner" data-reveal>
       <a href="{{ config.base_url }}" class="back-link">&larr; Back to home</a>
       <p class="eyebrow">Projects</p>
-      <h1>Systems I've shipped</h1>
+      <h1>Systems built and shipped</h1>
       <p class="hero-text">
-        A selected portfolio grouped by the business problem at the centre of the work. I share the outcome and intent, not the underlying operating detail.
+        A selected portfolio grouped by the business problem at the centre of the work. The outcome and intent are shared, not the underlying operating detail.
       </p>
     </div>
   </section>
@@ -116,8 +116,10 @@
         {% if section_data.eyebrow != "Talent Systems" %}
         <div class="stack-block">
           <div class="stack-intro">
-            <p class="eyebrow">{{ section_data.eyebrow }}</p>
-            <h2>{{ section_data.title }}</h2>
+            <div>
+              <p class="eyebrow">{{ section_data.eyebrow }}</p>
+              <h2>{{ section_data.title }}</h2>
+            </div>
             <p>{{ section_data.description }}</p>
           </div>
           <div class="project-grid project-grid-compact">
@@ -151,14 +153,14 @@
 
   <section class="section cta-section" data-reveal>
     <div class="container cta-card">
-      <p class="eyebrow">Private work</p>
-      <h2>Selected work is discussed discreetly</h2>
+      <p class="eyebrow">Start a conversation</p>
+      <h2>The work is a starting point, not the whole story.</h2>
       <p>
-        Some systems contain proprietary operating detail or sensitive data. I can discuss the business problem, the design judgment, and the outcome in the right context.
+        For a TA leadership role, Senior Principal or Chief Recruiter opportunity, or an advisory engagement, the business problem, design judgment, and outcome can be discussed in the right context.
       </p>
       <div class="button-row">
-        <a href="{{ get_url(path='@/advisory.md') }}" class="button button-primary">Discuss an advisory project</a>
-        <a href="{{ config.extra.linkedin }}" class="button button-secondary" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:{{ config.extra.email }}?subject=Leadership%20opportunity&body=Company%20and%20role%3A%0ABusiness%20stage%3A%0AGeographic%20scope%3A%0AMandate%3A%0AWhy%20the%20role%20exists%20now%3A" class="button button-primary">Discuss a leadership role</a>
+        <a href="{{ get_url(path='@/advisory.md') }}" class="button button-secondary">Discuss an advisory engagement</a>
       </div>
     </div>
   </section>
