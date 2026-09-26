@@ -7,7 +7,7 @@ template = "standard-page.html"
 eyebrow = "Leadership"
 +++
 
-Currently leading Talent Acquisition where technical ambition, global complexity, and business pace demand more than recruiting capacity. The work is to build the people, systems, and operating discipline that make growth possible while keeping the quality bar intact.
+Currently leading Talent Acquisition where technical ambition, global complexity, and business pace demand more than recruiting capacity. The work is to build the people, systems, and operating discipline that make growth possible while raising the quality bar.
 
 ## Global talent capability
 
@@ -29,9 +29,9 @@ Building systems that reduce repeated effort and make good judgment more repeata
 
 ## The art and craft of recruiting
 
-Every hire raises or lowers the bar. There is no neutral. That conviction, set out in *Raising the Bar*, is the foundation of the work: recruiting is not activity to be processed, but a discipline of business judgment. Nearly a decade has been spent running global executive and leadership searches across technical, product, commercial, corporate, and business functions. The craft runs from translating a business problem into a role, reading the market, and finding exceptional people to creating the conditions for rigorous evaluation, meaningful candidate engagement, and a close built on conviction.
+Every hire raises or lowers the bar. There is no neutral. That conviction, set out in *Raising the Bar*, is the foundation of the work: recruiting is a discipline of business judgment. Nearly a decade has been spent running global executive and leadership searches across technical, product, commercial, corporate, and business functions. The craft runs from translating a business problem into a role, reading the market, and finding exceptional people to creating the conditions for rigorous evaluation, meaningful candidate engagement, and a close built on conviction.
 
-The strongest searches are not a sequence of requisition, sourcing, and interviews. I run them as a managed decision process: establish what the business genuinely needs next, calibrate the hiring team around observable evidence, and keep the candidate experience worthy of the talent being pursued. This is the shift from recruiter to Talent Partner: someone who helps a business define the problem, make better trade-offs, and earn the attention of people who can change the outcome. Selected individual leadership mandates are where this close, high-judgment work can materially change the result.
+The strongest searches are managed decision processes. I run them by establishing what the business genuinely needs next, calibrating the hiring team around observable evidence, and keeping the candidate experience worthy of the talent being pursued. This is the shift from recruiter to Talent Partner: someone who helps a business define the problem, make better trade-offs, and earn the attention of people who can change the outcome. Selected individual leadership mandates are where this close, high-judgment work can materially change the result.
 
 ## Unblocking a critical leadership search
 
@@ -49,11 +49,11 @@ That perspective changes both evaluation and engagement. It helps leaders distin
 
 ## Employer brand built through the hiring experience
 
-Employer brand is not separate from recruiting. It is what the market learns from the quality of the role story, the precision of the outreach, the calibre of the conversations, and the way an offer is made. Employer-brand and candidate-experience work has included EVP development, talent-brand initiatives, offer experience, and the manager capability needed to make the promise believable.
+Employer brand takes shape through recruiting. It is what the market learns from the quality of the role story, the precision of the outreach, the calibre of the conversations, and the way an offer is made. Employer-brand and candidate-experience work has included EVP development, talent-brand initiatives, offer experience, and the manager capability needed to make the promise believable.
 
 At Atlan, an early intern-hiring program I led generated substantial voluntary attention: people in the broader technology community created LinkedIn and YouTube content about it without being asked. The result mattered because the program gave people something real to talk about. The work created a clear proposition and experience; the market did the amplification. That is the kind of employer brand that matters: specific, credible, and carried forward by people who have experienced it.
 
-The goal is not attention for its own sake. It is to earn the right candidates to engage, keep them engaged through a demanding process, and make the company clearer in the market it needs to hire from.
+The goal is to earn the attention of the right candidates, keep them engaged through a demanding process, and make the company clearer in the market it needs to hire from.
 
 ## Selected mandates
 

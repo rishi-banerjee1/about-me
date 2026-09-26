@@ -7,7 +7,7 @@ template = "standard-page.html"
 eyebrow = "Advisory"
 +++
 
-Working with leadership teams when talent has become a business constraint, a transformation mandate, or a question that needs senior ownership. Every engagement starts with the same standard: the talent function must help the business scale without lowering the bar. Fractional TA leadership, fractional hiring leadership, and defined advisory work are available for global SaaS and technology businesses. The public work describes the kinds of outcomes created; the operating detail stays inside each engagement.
+Working with leadership teams when talent has become a business constraint, a transformation mandate, or a question that needs senior ownership. Every engagement starts with the same standard: the talent function must help the business raise the bar as it scales. Fractional TA leadership, fractional hiring leadership, and defined advisory work are available for global SaaS and technology businesses. The public work describes the kinds of outcomes created; the operating detail stays inside each engagement.
 
 ## Talent Function Build and Transformation
 

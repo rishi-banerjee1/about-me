@@ -7,7 +7,7 @@ template = "standard-page.html"
 eyebrow = "Public Evidence"
 +++
 
-The most valuable parts of the work are not published as a playbook. The judgment, operating design, and leadership context belong inside each mandate. *[Raising the Bar](https://www.amazon.in/dp/B0FQMWW9RR)* is the public expression of that point of view: a case for Talent Partners and leaders to treat every hire as a decision that raises or lowers the company's future. This page covers the problems worth solving, the standards behind the work, and selected public writing that shows the thinking underneath it.
+The public work shares the thinking and outcomes; the diagnostic detail, operating design, and leadership context stay inside each mandate. *[Raising the Bar](https://www.amazon.in/dp/B0FQMWW9RR)* is the public expression of that point of view: a case for Talent Partners and leaders to treat every hire as a decision that raises or lowers the company's future. This page covers the problems worth solving, the standards behind the work, and selected public writing that shows the thinking underneath it.
 
 ## Founder Hindsight
 
@@ -24,7 +24,7 @@ This is the logic behind my work on capacity planning and the business cost of v
 
 ## A shared definition of great
 
-The work begins with a shared definition of what great looks like for a specific role and level. It is not about creating more process. It is about enough clarity for a hiring team to distinguish role fit from a generally impressive profile, weigh trade-offs honestly, and make a decision with conviction. Structured interviews, scorecards, interviewer calibration, and market evidence are useful only when they produce better judgment.
+The work begins with a shared definition of what great looks like for a specific role and level. It creates enough clarity for a hiring team to distinguish role fit from a generally impressive profile, weigh trade-offs honestly, and make a decision with conviction. Structured interviews, scorecards, interviewer calibration, and market evidence earn their place when they produce better judgment.
 
 These articles reflect that point of view:
 
@@ -42,7 +42,7 @@ When a critical search stalls, the answer is rarely just more sourcing. The cons
 
 ## A talent brand people can believe
 
-Employer brand is the accumulated evidence of what it is like to work with a company. The strongest version is not campaign-led. It is carried by an honest role story, high-quality candidate conversations, thoughtful hiring experiences, and employees who want to tell others about what they are building.
+Employer brand is the accumulated evidence of what it is like to work with a company. The strongest version is built through an honest role story, high-quality candidate conversations, thoughtful hiring experiences, and employees who want to tell others about what they are building.
 
 This is why the work pays attention to how markets form, how people choose a company, and how leaders communicate the work:
 
@@ -51,7 +51,7 @@ This is why the work pays attention to how markets form, how people choose a com
 
 ## Technology that gives judgment more leverage
 
-Technology becomes valuable when it improves the work and the decisions around it. Systems built for recruiters and leaders provide better context, faster visibility, and more capacity for work that requires human judgment. The aim is not automation for its own sake, and accountability is never outsourced.
+Technology becomes valuable when it improves the work and the decisions around it. Systems built for recruiters and leaders provide better context, faster visibility, and more capacity for work that requires human judgment. Automation earns its place when it increases that capacity, while accountability remains human.
 
 - [Scrappy, Strategic, and Self-Built: Vibe Coding in Talent Acquisition](https://medium.com/@risbane1002/scrappy-strategic-and-self-built-vibe-coding-in-talent-acquisition-3ba97e2da002)
 - [From T-Shaped to E-Shaped: How the Engineering Talent Profile Has Evolved](https://medium.com/@risbane1002/from-t-shaped-to-e-shaped-how-the-engineering-talent-profile-has-evolved-21e7786d7d8f)
