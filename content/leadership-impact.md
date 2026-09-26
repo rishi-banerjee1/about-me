@@ -1,6 +1,6 @@
 +++
 title = "Leadership Impact"
-description = "Selected outcomes from global Talent Acquisition leadership, operating-model design, and talent systems work."
+description = "Bangalore-based global Talent Acquisition leader for SaaS and technology businesses, spanning executive search, talent strategy, operating-model design, and hiring systems."
 template = "standard-page.html"
 
 [extra]
@@ -19,7 +19,7 @@ Designing stronger hiring environments where leadership teams can make decisions
 
 ## Talent operations that scale
 
-Modernised the operating layer around talent: planning, decision support, analytics, candidate experience, and governance. At Atlan, this included reducing time-to-hire by 40% while protecting the quality bar and candidate experience.
+Modernised the operating layer around talent: role and level clarity, planning, decision support, analytics, candidate experience, and governance. At Atlan, this included reducing time-to-hire by 40% while protecting the quality bar and candidate experience.
 
 ## Systems that compound
 
@@ -27,11 +27,11 @@ Building systems that reduce repeated effort and make good judgment more repeata
 
 [Explore selected proof of work](../proof-of-work/)
 
-## Recruiting craft: running the search, not just filling it
+## The art and craft of recruiting
 
-Executive search and hands-on recruiting are the foundation of the work. Nearly a decade has been spent running global executive and leadership searches across technical, product, commercial, corporate, and business functions. The full work matters: translating a business need into a role, reading a market, finding and engaging exceptional people, preparing both sides for a high-quality process, assessing evidence, and closing with conviction.
+Every hire raises or lowers the bar. There is no neutral. That conviction, set out in *Raising the Bar*, is the foundation of the work: recruiting is not activity to be processed, but a discipline of business judgment. Nearly a decade has been spent running global executive and leadership searches across technical, product, commercial, corporate, and business functions. The craft runs from translating a business problem into a role, reading the market, and finding exceptional people to creating the conditions for rigorous evaluation, meaningful candidate engagement, and a close built on conviction.
 
-The strongest searches are not a sequence of requisition, sourcing, and interviews. I run them as a managed decision process: establish what the business genuinely needs next, calibrate the hiring team around observable evidence, and keep the candidate experience worthy of the talent being pursued. That is how a search becomes a signal-rich decision, rather than an extended exercise in preferences. Selected individual leadership mandates are where this close, high-judgment work can materially change the outcome.
+The strongest searches are not a sequence of requisition, sourcing, and interviews. I run them as a managed decision process: establish what the business genuinely needs next, calibrate the hiring team around observable evidence, and keep the candidate experience worthy of the talent being pursued. This is the shift from recruiter to Talent Partner: someone who helps a business define the problem, make better trade-offs, and earn the attention of people who can change the outcome. Selected individual leadership mandates are where this close, high-judgment work can materially change the result.
 
 ## Unblocking a critical leadership search
 

@@ -1,13 +1,13 @@
 +++
 title = "Advisory"
-description = "Discrete advisory support for founders, CHROs, and leadership teams building or transforming talent capability."
+description = "Fractional Talent Acquisition leadership and advisory support for global SaaS and technology companies building or transforming talent capability."
 template = "standard-page.html"
 
 [extra]
 eyebrow = "Advisory"
 +++
 
-Working with leadership teams when talent has become a business constraint, a transformation mandate, or a question that needs senior ownership. The public work describes the kinds of outcomes created; the operating detail stays inside each engagement.
+Working with leadership teams when talent has become a business constraint, a transformation mandate, or a question that needs senior ownership. Every engagement starts with the same standard: the talent function must help the business scale without lowering the bar. Fractional TA leadership, fractional hiring leadership, and defined advisory work are available for global SaaS and technology businesses. The public work describes the kinds of outcomes created; the operating detail stays inside each engagement.
 
 ## Talent Function Build and Transformation
 
@@ -15,13 +15,13 @@ For startups creating a talent function and enterprises modernising fragmented o
 
 ## Hiring and Interview Architecture
 
-For organisations that need more confidence in the quality and consistency of hiring decisions. The focus is on creating an evaluation environment that gives leadership clearer evidence and a durable standard as the organisation grows.
+For organisations that need more confidence in the quality and consistency of hiring decisions. The work begins by defining what great looks like for the role and level, then creating an evaluation environment that gives leadership clearer evidence and a durable standard as the organisation grows.
 
 ## AI-Native TA and HR Transformation
 
-Helping talent teams use technology to improve the quality and speed of work without creating new risk or fragmented process. The focus is on where systems can support judgment, enable adoption, and establish the governance required to make the work durable.
+Helping talent teams use technology to improve the quality and speed of work without creating new risk or fragmented process. The focus is on where systems can make high-judgment work more repeatable, enable adoption, and establish the governance required to make the work durable.
 
-## Fractional Leadership and Team Coaching
+## Fractional Talent Acquisition Leadership and Team Coaching
 
 For leaders who need hands-on senior support through an inflection point: a new market, a capability build, a team reset, or a high-stakes hiring mandate. This can include leadership partnership, operating cadence, recruiter capability, and transformation ownership.
 

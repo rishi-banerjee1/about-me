@@ -1,6 +1,6 @@
 base_url = "https://rishi-banerjee1.github.io/about-me"
 title = "Rishi Banerjee"
-description = "Global talent leader, advisor, and systems builder. 20+ years building talent functions across global technology businesses."
+description = "Bangalore-based global Talent Acquisition leader. 20+ years building talent functions, executive search, and hiring systems for global SaaS and technology businesses."
 compile_sass = false
 generate_feeds = false
 minify_html = false
@@ -215,7 +215,7 @@ title = "Raising the Bar"
 subtitle = "Building High-Density Teams in the Age of AI"
 category = "Non-fiction"
 href = "https://www.amazon.in/dp/B0FQMWW9RR"
-description = "AI changes what one person can deliver, which means hiring doctrine needs to change too. This book is the framework I wish existed when I started building teams: how to hire for density over headcount, design evaluations that actually predict performance, and scale judgment without losing it."
+description = "Every hire raises or lowers the bar. Drawing on global SaaS talent leadership, this book treats recruiting as a business craft: define the problem before the profile, build talent density, create credible candidate experiences, and use AI without outsourcing human judgment."
 
 [[extra.books]]
 title = "Father Time"

@@ -3,22 +3,17 @@
     <div>
       <p class="footer-title">{{ config.extra.name }}</p>
       <p class="footer-copy">
-        Global talent leader, advisor, and systems builder.
+        Global talent leader for SaaS and technology businesses.
       </p>
     </div>
     <div class="footer-links">
-      <a href="{{ config.base_url }}">Home</a>
-      <a href="{{ get_url(path='@/advisory.md') }}">Advisory</a>
-      <a href="{{ get_url(path='@/leadership-impact.md') }}">Leadership Impact</a>
-      <a href="{{ get_url(path='@/proof-of-work.md') }}">Proof of Work</a>
-      <a href="{{ get_url(path='@/projects/_index.md') }}">Projects</a>
       <a href="{{ config.extra.github }}" target="_blank" rel="noopener">GitHub</a>
       <a href="{{ config.extra.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
       <a href="{{ config.extra.medium }}" target="_blank" rel="noopener">Medium</a>
-      <a href="mailto:{{ config.extra.email }}">Email</a>
     </div>
-    <p class="footer-meta">
-      Site visitors <span data-visitor-counter>#</span>
-    </p>
+    <div class="footer-actions">
+      <a href="mailto:{{ config.extra.email }}" class="button button-primary">Contact me</a>
+      <p class="footer-meta">Site visitors <span data-visitor-counter>#</span></p>
+    </div>
   </div>
 </footer>

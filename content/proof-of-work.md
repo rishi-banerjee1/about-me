@@ -1,13 +1,13 @@
 +++
 title = "Proof of Work"
-description = "Selected public writing and systems that show an approach to talent, leadership, and organisational scale."
+description = "Public evidence of talent acquisition, executive search, talent operations, internal applications, hiring systems, and global SaaS talent strategy work."
 template = "standard-page.html"
 
 [extra]
 eyebrow = "Public Evidence"
 +++
 
-The most valuable parts of the work are not published as a playbook. The judgment, operating design, and leadership context belong inside each mandate. This page covers the problems worth solving, the standards behind the work, and selected public writing that shows the thinking underneath it.
+The most valuable parts of the work are not published as a playbook. The judgment, operating design, and leadership context belong inside each mandate. *[Raising the Bar](https://www.amazon.in/dp/B0FQMWW9RR)* is the public expression of that point of view: a case for Talent Partners and leaders to treat every hire as a decision that raises or lowers the company's future. This page covers the problems worth solving, the standards behind the work, and selected public writing that shows the thinking underneath it.
 
 ## A TA engine built around the business it serves
 
@@ -18,15 +18,19 @@ This is the logic behind my work on capacity planning and the business cost of v
 - [Scaling Talent Acquisition with Capacity Planning: A Data-Driven Framework](https://medium.com/@risbane1002/scaling-talent-acquisition-with-capacity-planning-a-data-driven-framework-470b28b0007d)
 - [The Silent Revenue Killer: How Opportunity Cost in Hiring Impacts Business Outcomes](https://medium.com/@risbane1002/the-silent-revenue-killer-how-opportunity-cost-in-hiring-impacts-business-outcomes-bf1466f42a03)
 
-## Clearer critical hiring decisions
+## A shared definition of great
 
-The work is not to create more process. It is to create enough shared clarity that a hiring team can distinguish role fit from a generally impressive profile, weigh trade-offs honestly, and make a decision with conviction. Structured interviews, scorecards, interviewer calibration, and market evidence are useful only when they produce better judgment.
+The work begins with a shared definition of what great looks like for a specific role and level. It is not about creating more process. It is about enough clarity for a hiring team to distinguish role fit from a generally impressive profile, weigh trade-offs honestly, and make a decision with conviction. Structured interviews, scorecards, interviewer calibration, and market evidence are useful only when they produce better judgment.
 
 These articles reflect that point of view:
 
 - [Hiring for Great vs. Hiring for Role Fit](https://medium.com/@risbane1002/hiring-for-great-vs-hiring-for-role-fit-what-are-you-really-optimizing-for-14eed271ef96)
 - [The Human Touch: Why Interviewer Insight Still Matters in Tech Hiring](https://medium.com/@risbane1002/the-human-touch-why-interviewer-insight-still-matters-in-tech-hiring-96fb8dd9ac22)
 - [Speed vs. Accuracy: What Most HRBPs Get Wrong](https://medium.com/@risbane1002/speed-vs-accuracy-what-most-hrbps-get-wrong-dab5d6c02212)
+
+## The art and craft of recruiting
+
+Recruiting craft combines commercial understanding, talent intelligence, search strategy, assessment, candidate judgment, and the ability to close with integrity. The work is not to persuade someone into a role at any cost. It is to help a company and candidate understand whether the problem, the environment, and the opportunity are genuinely right for each other. That is how a process protects talent density and gives exceptional people a credible reason to engage.
 
 ## Unblocking searches by changing the conditions around them
 
