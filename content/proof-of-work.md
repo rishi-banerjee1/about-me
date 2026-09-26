@@ -9,6 +9,10 @@ eyebrow = "Public Evidence"
 
 The most valuable parts of the work are not published as a playbook. The judgment, operating design, and leadership context belong inside each mandate. *[Raising the Bar](https://www.amazon.in/dp/B0FQMWW9RR)* is the public expression of that point of view: a case for Talent Partners and leaders to treat every hire as a decision that raises or lowers the company's future. This page covers the problems worth solving, the standards behind the work, and selected public writing that shows the thinking underneath it.
 
+## Founder Hindsight
+
+[Founder Hindsight](../founder-hindsight/) is a long-form synthesis of 33 founder and operator accounts across 13 tensions in hiring, organisation design, AI, and scale. It is written for SaaS founders and operators making consequential people decisions: the stage-fit of a leader, when to add a layer, whether to hire ahead of demand, and where human judgment still earns its cost. The accounts are paraphrased and linked to their sources; the readings are my interpretation and open to dispute.
+
 ## A TA engine built around the business it serves
 
 Hiring is a business system, not a request queue. Starting with what this team or company must be able to do next, what talent will make that possible, and what the cost is of getting the decision wrong or waiting too long. Workforce planning, market intelligence, search strategy, and operating rigor then come together in one TA engine.
