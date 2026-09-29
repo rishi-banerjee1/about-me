@@ -19,6 +19,7 @@ REQUIRED_ROUTES = (
     "leadership-impact/index.html",
     "proof-of-work/index.html",
     "projects/index.html",
+    "recruiting-craft/index.html",
     "founder-hindsight/index.html",
 )
 URL_ATTRIBUTES = ("href", "src")

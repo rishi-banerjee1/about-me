@@ -25,9 +25,10 @@
       </button>
     </div>
     <ul id="primary-navigation" class="nav-links" data-nav-menu>
-      {% for link in config.extra.nav_links %}
-        <li><a href="{{ config.base_url ~ link.href }}">{{ link.label }}</a></li>
-      {% endfor %}
+      {%- for link in config.extra.nav_links %}
+        {%- set link_url = config.base_url ~ link.href %}
+        <li><a href="{{ link_url }}"{% if current_url is defined and current_url == link_url %} aria-current="page"{% endif %}>{{ link.label }}</a></li>
+      {%- endfor %}
     </ul>
   </div>
 </nav>

@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% block title %}{{ config.title }}{% endblock %}</title>
     <meta name="description" content="{% block description %}{{ config.description }}{% endblock %}" />
-    {% set page_url = current_url | default(value=config.base_url) %}
+    {%- set page_url = current_url | default(value=config.base_url) %}
     <link rel="canonical" href="{{ page_url }}" />
     <meta name="keywords" content="Rishi Banerjee, global talent acquisition leader, SaaS talent acquisition, Bangalore recruiter, fractional TA leader, fractional hiring leader, executive search, talent strategy, talent operations, talent systems, internal applications, hiring systems, AI-native talent acquisition" />
     <link rel="icon" href="{{ get_url(path='favicon.svg') }}" type="image/svg+xml" />
 
-    {% set og_type = "website" %}
-    {% block og_type %}{% endblock %}
+    {%- set og_type = "website" %}
+    {%- block og_type %}{% endblock %}
     <meta property="og:type" content="{{ og_type }}" />
     <meta property="og:url" content="{{ page_url }}" />
     <meta property="og:title" content="{% block og_title %}{{ config.title }}{% endblock %}" />
     <meta property="og:description" content="{% block og_description %}{{ config.description }}{% endblock %}" />
-    {% set og_image = config.base_url ~ "/assets/headshot.jpg" %}
+    {%- set og_image = config.base_url ~ "/assets/headshot.jpg" %}
     <meta property="og:image" content="{% block og_image %}{{ og_image }}{% endblock %}" />
 
     <meta name="twitter:card" content="summary_large_image" />
@@ -35,11 +35,11 @@
         document.documentElement.dataset.theme = theme;
       })();
     </script>
-    {% block json_ld %}{% endblock %}
+    {%- block json_ld %}{% endblock %}
   </head>
   <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
-    {% block body %}{% endblock %}
+    {%- block body %}{% endblock %}
     <script
       data-goatcounter="https://rishisite.goatcounter.com/count"
       async

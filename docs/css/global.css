@@ -1199,6 +1199,125 @@ strong {
   transform: translateY(0) scale(1);
 }
 
+/* Recruiting Craft: a reading-led page within the portfolio. */
+.craft-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.85fr);
+  align-items: start;
+  gap: clamp(2rem, 5vw, 5rem);
+  margin-top: 2rem;
+}
+
+.craft-hero h1 {
+  max-width: 11ch;
+  font-size: clamp(3.1rem, 6.4vw, 5.3rem);
+  line-height: 1.04;
+}
+
+.craft-hero .hero-text {
+  margin: 1.8rem 0 1.25rem;
+  max-width: 38rem;
+}
+
+.craft-signature {
+  max-width: 36rem;
+  margin: 0 0 1.1rem;
+  color: var(--text);
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.65;
+}
+
+.craft-scope {
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.craft-perspective {
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-md);
+  background: var(--surface-tint);
+}
+
+.craft-perspective blockquote {
+  margin: 1.5rem 0;
+  font-family: "Fraunces", Georgia, serif;
+  font-size: clamp(1.75rem, 2.7vw, 2.4rem);
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}
+
+.craft-perspective p:not(.eyebrow) { font-size: 0.96rem; }
+
+.craft-reading-layout {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.65fr) minmax(0, 2fr);
+  align-items: start;
+  gap: clamp(2rem, 6vw, 6rem);
+  margin-top: 2.5rem;
+  padding-top: 3rem;
+  border-top: 1px solid var(--line-strong);
+}
+
+.craft-contents { position: sticky; top: 7rem; }
+.craft-contents ol { margin: 0; padding-left: 1.4rem; }
+.craft-contents li { padding: 0.45rem 0 0.45rem 0.3rem; font-size: 0.9rem; line-height: 1.5; }
+.craft-contents li::marker { color: var(--accent); font-size: 0.75rem; }
+.craft-contents a:hover { color: var(--accent-strong); }
+.craft-prose { min-width: 0; max-width: 48rem; padding-bottom: 1rem; }
+.craft-prose h2 {
+  margin: 3.5rem 0 1.25rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+  font-size: clamp(1.85rem, 3vw, 2.5rem);
+  line-height: 1.16;
+  text-wrap: pretty;
+  scroll-margin-top: 7rem;
+}
+.craft-prose h2:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+.craft-prose p { margin: 0 0 1.25rem; }
+.craft-prose a, .craft-related a, .craft-reference a {
+  color: var(--accent-strong);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.craft-evidence {
+  margin: 2rem 0;
+  padding: 1.6rem 1.8rem;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+.craft-evidence p:last-child { margin-bottom: 0; }
+.craft-testimonial { margin: 2rem 0; padding: 0.5rem 0 0.5rem 1.5rem; border-left: 2px solid var(--line-strong); }
+.craft-testimonial p { color: var(--text); font-family: "Fraunces", Georgia, serif; font-size: 1.35rem; line-height: 1.5; }
+.craft-testimonial footer { color: var(--muted); font-size: 0.85rem; }
+.craft-contact-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; border-top: 1px solid var(--line-strong); padding-top: 3rem; }
+.craft-contact h2 { font-size: clamp(2rem, 3.5vw, 2.8rem); line-height: 1.15; }
+.craft-contact p:first-child { margin-top: 0; }
+.craft-related, .craft-reference { font-size: 0.9rem; }
+.craft-reference { margin-top: 1.5rem; }
+.nav-links a[aria-current="page"] { color: var(--accent-strong); }
+.nav-links a[aria-current="page"]::after { transform: scaleX(1); }
+
+@media (max-width: 980px) {
+  .craft-hero-grid, .craft-contact-inner { grid-template-columns: 1fr; gap: 2rem; }
+  .craft-hero h1 { max-width: 17ch; }
+  .craft-reading-layout { grid-template-columns: 1fr; gap: 2.5rem; }
+  .craft-contents { position: static; }
+  .craft-contents ol { columns: 2; column-gap: 2rem; }
+  .craft-contents li { break-inside: avoid; }
+  .craft-prose { max-width: none; }
+}
+
+@media (max-width: 520px) {
+  .craft-reading-layout { margin-top: 1.5rem; padding-top: 2rem; }
+  .craft-contents ol { columns: 1; }
+  .craft-evidence { padding: 1.3rem; }
+  .craft-prose h2 { margin-top: 2.75rem; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

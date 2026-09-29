@@ -17,9 +17,11 @@ Built and scaled talent models across APAC, North America, and Europe, working a
 
 Designing stronger hiring environments where leadership teams can make decisions with clearer evidence, shared standards, and better accountability. This work has supported technical and leadership hiring through periods of rapid growth and organisational change.
 
+The partnership stays close to the work: helping leaders define the problem behind a role, make trade-offs visible, prepare interviewers to assess distinct evidence, and turn a debrief into a decision. This is how stronger hiring judgment becomes a capability leaders can use repeatedly.
+
 ## Talent operations that scale
 
-Modernised the operating layer around talent: role and level clarity, planning, decision support, analytics, candidate experience, and governance. At Atlan, this included reducing time-to-hire by 40% while protecting the quality bar and candidate experience.
+Modernised the operating layer around talent: role and level clarity, planning, decision support, analytics, candidate experience, and governance. This gives Talent, hiring leaders, and business partners a shared view of the plan, the search, and the action required when they diverge. At Atlan, this included reducing time-to-hire by 40% while protecting the quality bar and candidate experience.
 
 ## Systems that compound
 
@@ -27,33 +29,11 @@ Building systems that reduce repeated effort and make good judgment more repeata
 
 [Explore selected proof of work](../proof-of-work/)
 
-## The art and craft of recruiting
+## Recruiting judgment behind the leadership
 
-Every hire raises or lowers the bar. There is no neutral. That conviction, set out in *Raising the Bar*, is the foundation of the work: recruiting is a discipline of business judgment. Nearly a decade has been spent running global executive and leadership searches across technical, product, commercial, corporate, and business functions. The craft runs from translating a business problem into a role, reading the market, and finding exceptional people to creating the conditions for rigorous evaluation, meaningful candidate engagement, and a close built on conviction.
+Leadership experience is grounded in the practice of recruiting: defining roles with business leaders, finding and engaging talent, assessing evidence, and closing consequential hires. That craft also shapes how I develop recruiters and work with hiring teams.
 
-The strongest searches are managed decision processes. I run them by establishing what the business genuinely needs next, calibrating the hiring team around observable evidence, and keeping the candidate experience worthy of the talent being pursued. This is the shift from recruiter to Talent Partner: someone who helps a business define the problem, make better trade-offs, and earn the attention of people who can change the outcome. Selected individual leadership mandates are where this close, high-judgment work can materially change the result.
-
-## Unblocking a critical leadership search
-
-One recurring pattern in leadership hiring is a search that has been open for months despite a strong flow of candidates. The apparent problem is usually supply. The real problem is often that founders, leaders, and interviewers are each assessing for a different version of the role. This can happen in a technical leadership search, a commercial leadership search, or any role where the stakes are high and the brief has not been made explicit.
-
-In one such search, I brought the decision-makers together around market intelligence and explicit trade-offs: what was non-negotiable, what could be developed after joining, and what the market would realistically offer, then recalibrated the interview team, clarified the evidence each conversation needed to produce, and reset the candidate narrative. The search, which had been open for six months, closed within the next three weeks; the leader joined the following month.
-
-The lesson is simple: a search can move only as fast as the organisation's clarity. Talent intelligence, structured assessment, interviewer calibration, and a credible candidate story are all part of the same work.
-
-## Seeing the person behind the profile
-
-Recruiting with the judgment of a business leader who understands how work gets done, and with common sense about people. A resume is evidence, not the person. The real signal sits in the context behind the work: what a candidate chose to solve, the constraints they worked within, the people they influenced, the standards they held, and the kind of environment in which they will do their best work.
-
-That perspective changes both evaluation and engagement. It helps leaders distinguish an impressive career history from a fit for the problem at hand. It also lets me understand what genuinely matters to a candidate: the work, the people, the room to build, the learning curve, or the chance to create a meaningful result. Exceptional candidates do not need a sales pitch. They need a clear, honest reason to believe the work will matter.
-
-## Employer brand built through the hiring experience
-
-Employer brand takes shape through recruiting. It is what the market learns from the quality of the role story, the precision of the outreach, the calibre of the conversations, and the way an offer is made. Employer-brand and candidate-experience work has included EVP development, talent-brand initiatives, offer experience, and the manager capability needed to make the promise believable.
-
-At Atlan, an early intern-hiring program I led generated substantial voluntary attention: people in the broader technology community created LinkedIn and YouTube content about it without being asked. The result mattered because the program gave people something real to talk about. The work created a clear proposition and experience; the market did the amplification. That is the kind of employer brand that matters: specific, credible, and carried forward by people who have experienced it.
-
-The goal is to earn the attention of the right candidates, keep them engaged through a demanding process, and make the company clearer in the market it needs to hire from.
+[Explore The Art & Craft of Recruiting](../recruiting-craft/) for how I own searches, assess talent, advise hiring leaders, and develop stronger teams.
 
 ## Selected mandates
 
@@ -73,4 +53,4 @@ At **kAIgentic**, I lead global Talent Acquisition for an enterprise intelligenc
 
 ## Consider a leadership role
 
-For senior TA leadership, Senior Principal, and Chief Recruiter roles, the most useful context is the company and role, business stage, geographic scope, mandate, and the business inflection point that makes the role matter now. Selected individual leadership-search mandates are also in scope across technical, product, commercial, and business functions. [Discuss a leadership role](mailto:rpbanerjee@outlook.com?subject=Leadership%20opportunity&body=Company%20and%20role%3A%0ABusiness%20stage%3A%0AGeographic%20scope%3A%0AMandate%3A%0AWhy%20the%20role%20exists%20now%3A)
+For senior TA leadership roles, the most useful context is the company and role, business stage, geographic scope, mandate, and the business inflection point that makes the role matter now. For Principal and Chief Recruiter opportunities, [read The Art & Craft of Recruiting](../recruiting-craft/). [Discuss a leadership role](mailto:rpbanerjee@outlook.com?subject=Leadership%20opportunity&body=Company%20and%20role%3A%0ABusiness%20stage%3A%0AGeographic%20scope%3A%0AMandate%3A%0AWhy%20the%20role%20exists%20now%3A)

@@ -74,6 +74,10 @@ invert_in_dark = true
 
 # Navigation links
 [[extra.nav_links]]
+label = "Art & Craft"
+href = "/recruiting-craft/"
+
+[[extra.nav_links]]
 label = "Advisory"
 href = "/advisory/"
 
