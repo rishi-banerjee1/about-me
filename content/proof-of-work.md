@@ -15,7 +15,7 @@ The public work shares the thinking and outcomes; the diagnostic detail, operati
 
 ## A TA engine built around the business it serves
 
-Hiring is a business system, not a request queue. Starting with what this team or company must be able to do next, what talent will make that possible, and what the cost is of getting the decision wrong or waiting too long. Workforce planning, market intelligence, search strategy, and operating rigor then come together in one TA engine.
+Hiring is a business system, not a request queue. Starting with what this team or company must be able to do next, what talent will make that possible, and what the cost is of getting the decision wrong or waiting too long. Workforce planning, market intelligence, search strategy, and operating rigor then come together in one TA engine that makes the decisions needing leadership attention and action visible.
 
 This is the logic behind my work on capacity planning and the business cost of vacancies:
 
@@ -24,7 +24,7 @@ This is the logic behind my work on capacity planning and the business cost of v
 
 ## A shared definition of great
 
-The work begins with a shared definition of what great looks like for a specific role and level. It creates enough clarity for a hiring team to distinguish role fit from a generally impressive profile, weigh trade-offs honestly, and make a decision with conviction. Structured interviews, scorecards, interviewer calibration, and market evidence earn their place when they produce better judgment.
+The work begins with a shared definition of what great looks like for a specific role and level. It creates enough clarity for a hiring team to distinguish role fit from a generally impressive profile, weigh trade-offs honestly, and make a decision with conviction. It also gives leaders a practical way to coach interviewers, interrogate evidence, and stay engaged with the candidate at the moments that matter. Structured interviews, scorecards, interviewer calibration, and market evidence earn their place when they produce better judgment.
 
 These articles reflect that point of view:
 
@@ -32,9 +32,11 @@ These articles reflect that point of view:
 - [The Human Touch: Why Interviewer Insight Still Matters in Tech Hiring](https://medium.com/@risbane1002/the-human-touch-why-interviewer-insight-still-matters-in-tech-hiring-96fb8dd9ac22)
 - [Speed vs. Accuracy: What Most HRBPs Get Wrong](https://medium.com/@risbane1002/speed-vs-accuracy-what-most-hrbps-get-wrong-dab5d6c02212)
 
-## The art and craft of recruiting
+## The Art & Craft of Recruiting
 
 Recruiting craft combines commercial understanding, talent intelligence, search strategy, assessment, candidate judgment, and the ability to close with integrity. The work is not to persuade someone into a role at any cost. It is to help a company and candidate understand whether the problem, the environment, and the opportunity are genuinely right for each other. That is how a process protects talent density and gives exceptional people a credible reason to engage.
+
+[Explore The Art & Craft of Recruiting](../recruiting-craft/) for hands-on search, candidate judgment, and the coaching and tools that make the craft repeatable.
 
 ## Unblocking searches by changing the conditions around them
 

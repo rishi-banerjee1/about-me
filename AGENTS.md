@@ -29,6 +29,12 @@ These rules are the source of truth for agents and maintainers working on this s
 - Keep copy grounded in source material in this repository and materials the owner has provided. Do not invent metrics, quotes, credentials, or outcomes. Do not expose private repository details.
 - Do not name other people in public site copy. Do not use comparisons to position the site owner. Do not use em dashes in shipped copy.
 
+## Art & Craft page intent
+
+- Establish personal recruiting credibility for Principal and Chief Recruiter work through search ownership, sourcing, assessment, candidate engagement, stakeholder counsel, closing, and mentoring.
+- The book is supporting source material, with a discreet reference. Do not turn the page into a book summary or promotion.
+- Do not restore the selected-outcomes strip. Use confirmed career scope, recommendations, and relevant work artifacts; unconfirmed anecdotes must not be presented as facts.
+
 ## Local preview and verification
 
 ```bash

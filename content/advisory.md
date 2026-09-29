@@ -15,7 +15,7 @@ For startups creating a talent function and enterprises modernising fragmented o
 
 ## Hiring and Interview Architecture
 
-For organisations that need more confidence in the quality and consistency of hiring decisions. The work begins by defining what great looks like for the role and level, then creating an evaluation environment that gives leadership clearer evidence and a durable standard as the organisation grows.
+For organisations that need more confidence in the quality and consistency of hiring decisions. The work begins by defining what great looks like for the role and level, then creating an evaluation environment that gives leadership clearer evidence and a durable standard as the organisation grows. It can include coaching hiring leaders and interviewers through role trade-offs, structured assessment, candidate conversations, and the decisions that follow.
 
 ## AI-Native TA and HR Transformation
 
@@ -23,7 +23,7 @@ Helping talent teams use technology to improve the quality and speed of work wit
 
 ## Fractional Talent Acquisition Leadership and Team Coaching
 
-For leaders who need hands-on senior support through an inflection point: a new market, a capability build, a team reset, or a high-stakes hiring mandate. This can include leadership partnership, operating cadence, recruiter capability, and transformation ownership.
+For leaders who need hands-on senior support through an inflection point: a new market, a capability build, a team reset, or a high-stakes hiring mandate. This can include leadership partnership, a hiring cadence that resolves decisions and ownership, recruiter capability, and transformation ownership.
 
 ## Ways to engage
 
