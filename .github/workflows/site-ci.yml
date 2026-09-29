@@ -1,0 +1,55 @@
+name: Website CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Website CI / Build and verify
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          fetch-depth: 0
+
+      - name: Install Zola
+        uses: taiki-e/install-action@4cef1412cce204788f482e778a0b9187f9626a29 # v2.87.21
+        with:
+          tool: zola@0.22.1
+
+      - name: Build GitHub Pages output
+        run: ./build.sh
+
+      - name: Check required pages, local links, and anchors
+        run: python3 scripts/check_site.py
+
+      - name: Check patch whitespace
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          base="${BASE_SHA:-HEAD^}"
+          if [[ "$base" =~ ^0+$ ]]; then base="HEAD^"; fi
+          git diff --check "$base" HEAD
+
+      - name: Require generated output to be committed
+        shell: bash
+        run: |
+          git diff --exit-code -- docs
+          untracked="$(git ls-files --others --exclude-standard docs)"
+          if [[ -n "$untracked" ]]; then
+            printf '%s\n' "$untracked"
+            echo "Generated files under docs/ are missing from the commit. Run ./build.sh and commit the output."
+            exit 1
+          fi
