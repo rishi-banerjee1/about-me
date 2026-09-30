@@ -1,11 +1,11 @@
 +++
 title = "The Art & Craft of Recruiting"
-description = "How I personally own searches, find and engage talent, assess judgment, advise hiring leaders, and develop teams."
+description = "Personal search ownership, talent discovery, assessment, candidate engagement, hiring advice, and team development."
 template = "recruiting-craft.html"
 
 [extra]
 eyebrow = "Art & Craft"
-intro = "I own searches from the first conversation about the role to the decision to join: understanding the work, finding the people, assessing their contribution, and building trust on both sides."
+intro = "My search work spans the first conversation about the role to the decision to join: understanding the work, finding the people, assessing their contribution, and building trust on both sides."
 +++
 
 ## Understand the work before defining the hire
