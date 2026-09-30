@@ -8,6 +8,7 @@ import re
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urljoin, urlsplit
+from xml.etree import ElementTree
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -86,6 +87,25 @@ def main() -> int:
     base_url = match.group(1).rstrip("/") + "/"
     base_parts = urlsplit(base_url)
     base_path = base_parts.path.rstrip("/") + "/"
+
+    robots_file = OUTPUT / "robots.txt"
+    if not robots_file.is_file():
+        print("robots.txt is missing.", file=sys.stderr)
+        return 1
+    sitemap_urls = re.findall(r"^Sitemap:\s*(\S+)", robots_file.read_text(), re.MULTILINE)
+    if not sitemap_urls:
+        print("robots.txt must advertise the generated sitemap.", file=sys.stderr)
+        return 1
+    for sitemap_url in sitemap_urls:
+        if not sitemap_url.startswith(base_url):
+            print(f"Sitemap must use the canonical site URL: {sitemap_url}", file=sys.stderr)
+            return 1
+        sitemap_file = route_file(sitemap_url[len(base_url):])
+        try:
+            ElementTree.parse(sitemap_file)
+        except (OSError, ElementTree.ParseError) as error:
+            print(f"Advertised sitemap is missing or invalid: {error}", file=sys.stderr)
+            return 1
 
     pages: dict[Path, PageParser] = {}
     for html_file in sorted(OUTPUT.rglob("*.html")):
