@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 
-{% block title %}Rishi Banerjee | Global Talent Acquisition Leader for SaaS{% endblock %}
+{% block title %}Rishi Banerjee | Principal Recruiter & Talent Leader{% endblock %}
 {% block description %}{{ config.description }}{% endblock %}
-{% block og_title %}Rishi Banerjee | Global Talent Acquisition Leader for SaaS{% endblock %}
+{% block og_title %}Rishi Banerjee | Principal Recruiter & Talent Leader{% endblock %}
 {% block og_description %}{{ config.description }}{% endblock %}
-{% block tw_title %}Rishi Banerjee | Global Talent Acquisition Leader for SaaS{% endblock %}
+{% block tw_title %}Rishi Banerjee | Principal Recruiter & Talent Leader{% endblock %}
 {% block tw_description %}{{ config.description }}{% endblock %}
 
 {% block json_ld %}
@@ -22,7 +22,7 @@
   "homeLocation": { "@type": "Place", "name": "Bangalore, India" },
   "contactPoint": { "@type": "ContactPoint", "contactType": "professional inquiries", "email": "{{ config.extra.email | safe }}" },
   "alumniOf": { "@type": "EducationalOrganization", "name": "IIM Nagpur" },
-  "knowsAbout": ["Global talent acquisition", "SaaS talent acquisition", "Talent strategy", "Executive search", "Fractional talent acquisition leadership", "Talent operations", "Talent systems", "Internal applications", "Hiring systems", "Evaluation frameworks", "AI-native talent acquisition"]
+  "knowsAbout": ["Technical recruiting", "Candidate assessment", "Recruiter development", "Global talent acquisition", "SaaS talent acquisition", "Talent strategy", "Executive search", "Fractional talent acquisition leadership", "Talent operations", "Talent systems", "Internal applications", "Hiring systems", "Evaluation frameworks", "AI-native talent acquisition"]
 }
 </script>
 {% endblock %}
@@ -34,17 +34,17 @@
   <section class="hero-section">
     <div class="container hero-grid">
       <div class="hero-copy" data-reveal>
-        <p class="eyebrow">Global Talent Leader · Advisor · Systems Builder</p>
-        <h1>Build a global talent function that raises the bar as it scales.</h1>
+        <p class="eyebrow">Principal Recruiter · Talent Leader · Advisor · Systems Builder</p>
+        <h1>Find exceptional people. Build stronger teams. Raise the bar.</h1>
         <p class="hero-role-line">
           Bangalore-based and currently <strong>Global Head of Talent Acquisition at <a href="{{ config.extra.company }}" target="_blank" rel="noopener">kAIgentic</a></strong>, with 20+ years building talent capability across startups, enterprises, and 10+ countries.
         </p>
         <p class="hero-text">
-          Hands-on recruiting and talent leadership for the next stage of a global SaaS or technology business. Finding exceptional people, coaching leaders toward better hiring decisions, and developing the capability to do that consistently. Every hire raises or lowers the bar.
+          I bring hands-on recruiting, global talent leadership, and a builder’s approach to hiring. I own consequential searches, help leaders make sound hiring decisions, and develop the teams and systems that make good judgment repeatable.
         </p>
         <div class="button-row">
+          <a href="{{ get_url(path='@/recruiting-craft.md') }}" class="button button-primary">Explore Art &amp; Craft</a>
           <a href="{{ get_url(path='@/leadership-impact.md') }}" class="button button-primary">Explore leadership impact</a>
-          <a href="{{ get_url(path='@/recruiting-craft.md') }}" class="button button-secondary">Explore Art &amp; Craft</a>
         </div>
         <div class="stats-grid">
           {% for stat in config.extra.hero_stats %}
@@ -54,7 +54,6 @@
       </div>
       <div class="hero-aside" data-reveal>
         <img src="{{ get_url(path='assets/headshot.jpg') }}" alt="Rishi Banerjee" class="hero-photo" />
-        <p class="hero-note">Currently Global Head of Talent Acquisition at <a href="{{ config.extra.company }}" target="_blank" rel="noopener">kAIgentic</a>, the enterprise intelligence layer.</p>
       </div>
     </div>
   </section>
