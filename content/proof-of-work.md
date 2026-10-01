@@ -7,9 +7,9 @@ template = "standard-page.html"
 eyebrow = "Public Evidence"
 +++
 
-The public work shares the thinking and outcomes; the diagnostic detail, operating design, and leadership context stay inside each mandate. *[Raising the Bar](https://www.amazon.in/dp/B0FQMWW9RR)* is the public expression of that point of view: a case for Talent Partners and leaders to treat every hire as a decision that raises or lowers the company's future. This page covers the problems worth solving, the standards behind the work, and selected public writing that shows the thinking underneath it.
+This page brings the public evidence together: confirmed outcomes, working systems, published thinking, and the recruiting practice behind them. The diagnostic detail, operating design, and leadership context stay inside each mandate. *[Raising the Bar](https://www.amazon.in/dp/B0FQMWW9RR)* is the public expression of that point of view: a case for Talent Partners and leaders to treat every hire as a decision that raises or lowers the company's future.
 
-## Founder Hindsight
+## Founder Hindsight makes the trade-offs behind people decisions visible
 
 [Founder Hindsight](../founder-hindsight/) is a long-form synthesis of 33 founder and operator accounts across 13 tensions in hiring, organisation design, AI, and scale. It is written for SaaS founders and operators making consequential people decisions: the stage-fit of a leader, when to add a layer, whether to hire ahead of demand, and where human judgment still earns its cost. The accounts are paraphrased and linked to their sources; the readings are my interpretation and open to dispute.
 
@@ -32,7 +32,7 @@ These articles reflect that point of view:
 - [The Human Touch: Why Interviewer Insight Still Matters in Tech Hiring](https://medium.com/@risbane1002/the-human-touch-why-interviewer-insight-still-matters-in-tech-hiring-96fb8dd9ac22)
 - [Speed vs. Accuracy: What Most HRBPs Get Wrong](https://medium.com/@risbane1002/speed-vs-accuracy-what-most-hrbps-get-wrong-dab5d6c02212)
 
-## The Art & Craft of Recruiting
+## Recruiting craft connects business context to candidate judgment
 
 Recruiting craft combines commercial understanding, talent intelligence, search strategy, assessment, candidate judgment, and the ability to close with integrity. The work is not to persuade someone into a role at any cost. It is to help a company and candidate understand whether the problem, the environment, and the opportunity are genuinely right for each other. That is how a process protects talent density and gives exceptional people a credible reason to engage.
 
@@ -58,12 +58,10 @@ Technology becomes valuable when it improves the work and the decisions around i
 - [Scrappy, Strategic, and Self-Built: Vibe Coding in Talent Acquisition](https://medium.com/@risbane1002/scrappy-strategic-and-self-built-vibe-coding-in-talent-acquisition-3ba97e2da002)
 - [From T-Shaped to E-Shaped: How the Engineering Talent Profile Has Evolved](https://medium.com/@risbane1002/from-t-shaped-to-e-shaped-how-the-engineering-talent-profile-has-evolved-21e7786d7d8f)
 
-## The value a business should expect
+## The business gets clearer decisions and a talent engine that can move
 
-The aim is to be the go-to talent partner when a business is trying to solve a consequential hiring, organisation-design, or talent-brand problem. That can mean leading the TA function, owning a critical search as a Senior Principal or Chief Recruiter, or taking on a defined advisory engagement. In every case, the value is the same: clear thinking, high judgment, and a talent engine that helps the business move.
+The aim is to be the go-to talent partner when a business is trying to solve a consequential hiring, organisation-design, or talent-brand problem. That can mean leading the TA function, owning a critical search as a Senior Principal or Chief Talent Partner, or taking on a defined advisory engagement. In every case, the value is the same: clear thinking, high judgment, and a talent engine that helps the business move.
 
 ## The boundary
 
 These articles share the thinking, not the implementation. Engagement work remains confidential: the diagnostic detail, operating mechanics, decision frameworks, materials, and systems design are built for the organisation and the moment.
-
-[Discuss an advisory engagement](mailto:rpbanerjee@outlook.com?subject=Advisory%20engagement&body=Organisation%20and%20stage%3A%0AProblem%20to%20solve%3A%0ADesired%20outcome%3A%0ATimeline%3A%0AType%20of%20support%20required%3A)

@@ -25,14 +25,10 @@ Helping talent teams use technology to improve the quality and speed of work wit
 
 For leaders who need hands-on senior support through an inflection point: a new market, a capability build, a team reset, or a high-stakes hiring mandate. This can include leadership partnership, a hiring cadence that resolves decisions and ownership, recruiter capability, and transformation ownership.
 
-## Ways to engage
+## The engagement should match the problem and stage
 
 - Diagnostic or strategy sprint
 - Defined transformation project
 - Fractional leadership mandate
 - Leadership or TA-team advisory
 - Interviewer or recruiter capability programme
-
-## Discuss an advisory engagement
-
-The useful starting point is the organisation's stage, the problem to solve, the outcome that matters, the timeline, and the type of support required. [Discuss an advisory engagement](mailto:rpbanerjee@outlook.com?subject=Advisory%20engagement&body=Organisation%20and%20stage%3A%0AProblem%20to%20solve%3A%0ADesired%20outcome%3A%0ATimeline%3A%0AType%20of%20support%20required%3A)

@@ -527,7 +527,7 @@ strong {
 }
 
 .stats-grid {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-top: 1.8rem;
 }
 
@@ -573,6 +573,12 @@ strong {
 
 .hero-photo:hover {
   transform: scale(1.02);
+}
+
+.hero-hello {
+  display: flex;
+  width: min(340px, 100%);
+  margin: 0 auto;
 }
 
 :root[data-theme="dark"] .hero-photo {
@@ -735,6 +741,11 @@ strong {
 .project-card-top p {
   margin: 0.75rem 0 0;
   max-width: 42ch;
+}
+
+.project-card-top .project-problem {
+  color: var(--text);
+  font-weight: 700;
 }
 
 .project-card-details {
@@ -960,7 +971,64 @@ strong {
 }
 
 .pathway-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
   margin-top: 1.75rem;
+}
+
+.pathway-card-primary {
+  grid-column: 1 / -1;
+  padding: 2rem 0 2.25rem;
+}
+
+.pathway-card-primary h3 {
+  font-size: clamp(1.8rem, 3vw, 2.35rem);
+}
+
+.pathway-card-primary > p:not(.eyebrow) {
+  max-width: 58rem;
+  font-size: 1.08rem;
+}
+
+.primary-focus-boundary {
+  grid-column: 1 / -1;
+  max-width: 62rem;
+  margin: -0.2rem 0 0.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent);
+  color: var(--text);
+  font-weight: 600;
+}
+
+.pathway-proof {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--line);
+}
+
+.pathway-proof > div {
+  padding: 1.35rem;
+  background: var(--surface-strong);
+}
+
+.pathway-proof p:not(.eyebrow) {
+  margin: 0.55rem 0 1rem;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.pathway-proof .text-link {
+  font-size: 0.88rem;
+}
+
+.pathway-card-supporting {
+  padding-top: 0.4rem;
 }
 
 .pathway-card {
@@ -1000,8 +1068,89 @@ strong {
   margin-top: auto;
 }
 
+.founder-hindsight-card {
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+.systems-supporting {
+  margin: 1.4rem 0 0;
+  max-width: 62rem;
+}
+
+.systems-supporting a {
+  color: var(--text);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: rgba(15, 118, 110, 0.35);
+  text-underline-offset: 0.18em;
+}
+
+.systems-summary-groups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+}
+
+.systems-summary-groups p:last-child {
+  margin-bottom: 0;
+}
+
+.systems-summary-groups a {
+  color: var(--text);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: rgba(15, 118, 110, 0.35);
+  text-underline-offset: 0.18em;
+}
+
+.systems-collection-list {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.systems-collection-list li {
+  display: grid;
+  gap: 0.15rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.systems-collection-list li:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.systems-collection-list span {
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
 .cta-dual-actions {
   justify-content: center;
+}
+
+.cta-hierarchy {
+  align-items: center;
+}
+
+.cta-hierarchy .cta-other-label {
+  margin-left: 0.4rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.cta-hierarchy .text-link {
+  font-size: 0.92rem;
 }
 
 .standard-prose {
@@ -1046,6 +1195,56 @@ strong {
 .books-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.25rem;
+}
+
+.writing-proof-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(260px, 0.85fr);
+  gap: 1.25rem;
+}
+
+.featured-writing-card {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.72fr) minmax(0, 1.5fr);
+  gap: clamp(1.5rem, 3vw, 2.5rem);
+  align-items: center;
+}
+
+.book-cover {
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 24px 44px rgba(24, 29, 37, 0.22);
+}
+
+.medium-writing-card {
+  display: flex;
+  align-items: center;
+}
+
+.medium-writing-card .book-content {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.writing-secondary-heading {
+  margin: 2.5rem 0 1rem;
+}
+
+.writing-secondary-heading .eyebrow {
+  margin-bottom: 0.35rem;
+}
+
+.writing-secondary-heading p:last-child {
+  margin: 0;
+}
+
+.books-grid-secondary {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .book-card {
@@ -1361,8 +1560,25 @@ strong {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .writing-proof-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .systems-summary-groups {
+    grid-template-columns: 1fr;
+  }
+
   .pathway-grid {
+    grid-template-columns: 1fr;
     align-items: stretch;
+  }
+
+  .pathway-proof {
+    grid-template-columns: 1fr;
+  }
+
+  .pathway-card-primary {
+    grid-column: auto;
   }
 
   .section-intro,
@@ -1457,8 +1673,14 @@ strong {
   }
 
   .stats-grid,
-  .two-up-grid {
+  .two-up-grid,
+  .books-grid-secondary,
+  .featured-writing-card {
     grid-template-columns: 1fr;
+  }
+
+  .book-cover {
+    max-width: 220px;
   }
 
   .hero-copy,
@@ -1471,6 +1693,14 @@ strong {
 
   .button-row {
     gap: 0.7rem;
+  }
+
+  .cta-hierarchy {
+    flex-direction: column;
+  }
+
+  .cta-hierarchy .cta-other-label {
+    margin: 0.4rem 0 0;
   }
 
   .button {
