@@ -5,6 +5,7 @@ template = "projects/page.html"
 
 [extra]
 shortSummary = "Talent operating system that encodes hiring doctrine into software: scoring, JD generation, calibration, and drift detection."
+problem = "Hiring standards drift when role definition, assessment evidence, calibration, and decision notes live in separate workflows."
 summary = "MCP server with 6 operating modes. Scores candidates, generates JDs, builds exec briefs, structures notes, runs calibration, and learns from overrides."
 audience = "Talent leaders and hiring teams seeking consistent standards across a growing hiring organization."
 value = "Turns hiring doctrine into repeatable, auditable operating workflows."

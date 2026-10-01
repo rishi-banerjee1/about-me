@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 
-{% block title %}Projects - Rishi Banerjee{% endblock %}
+{% block title %}Talent Systems - Rishi Banerjee{% endblock %}
 {% block description %}Selected talent systems, AI tools, and hiring products that make high-judgment recruiting more repeatable.{% endblock %}
-{% block og_title %}Projects - Rishi Banerjee{% endblock %}
+{% block og_title %}Talent Systems - Rishi Banerjee{% endblock %}
 {% block og_description %}Selected talent systems, AI tools, and hiring products that make high-judgment recruiting more repeatable.{% endblock %}
-{% block tw_title %}Projects - Rishi Banerjee{% endblock %}
+{% block tw_title %}Talent Systems - Rishi Banerjee{% endblock %}
 {% block tw_description %}Selected talent systems, AI tools, and hiring products that make high-judgment recruiting more repeatable.{% endblock %}
 
 {% block body %}
@@ -14,16 +14,15 @@
 {% set talent_systems = all_projects | filter(attribute="extra.section", value="talent") %}
 {% set featured_talent_systems = talent_systems | filter(attribute="extra.featured", value=true) %}
 {% set standard_talent_systems = talent_systems | filter(attribute="extra.featured", value=false) %}
-{% set ai_systems = all_projects | filter(attribute="extra.section", value="ai") %}
 
 <main id="main-content">
   <section class="page-hero">
     <div class="container page-hero-inner" data-reveal>
       <a href="{{ config.base_url }}" class="back-link">&larr; Back to home</a>
-      <p class="eyebrow">Projects</p>
-      <h1>Systems built and shipped</h1>
+      <p class="eyebrow">Talent Systems</p>
+      <h1>Talent systems built and shipped</h1>
       <p class="hero-text">
-        A selected portfolio of systems that make high-judgment recruiting more repeatable. The shared aim is simple: raise the bar while helping the TA engine move with greater clarity, speed, and accountability. Outcomes and intent are shared, not the underlying operating detail.
+        Three systems are presented in detail because I am comfortable walking a hiring team or reference through the problem, the design decisions, and what I built. The rest are grouped by theme below.
       </p>
     </div>
   </section>
@@ -31,7 +30,7 @@
   <section class="section section-alt" data-reveal>
     <div class="container">
       <p class="eyebrow">Talent Systems</p>
-      <h2>Systems that raise the bar</h2>
+      <h2>These systems make hiring judgment visible and repeatable</h2>
       <div class="project-grid project-grid-featured">
         {% for project in featured_talent_systems %}
           {% set card_title = project.title %}
@@ -45,109 +44,36 @@
           {% include "partials/project-card.html" %}
         {% endfor %}
       </div>
-      <div class="section-heading-spacer">
-        <h2>Built for better talent judgment</h2>
-      </div>
+      <div class="section-heading-spacer"><h2>Two systems strengthen the work before and after an interview</h2></div>
       <div class="project-grid">
-        {% for project in standard_talent_systems %}
-          {% set card_title = project.title %}
-          {% set card_summary = project.extra.shortSummary | default(value=project.extra.summary) %}
-          {% set card_tags = project.extra.tags %}
-          {% set card_href = project.permalink %}
-          {% set card_external = false %}
-          {% set card_audience = project.extra.audience | default(value="") %}
-          {% set card_value = project.extra.value | default(value="") %}
-          {% set card_featured = false %}
-          {% include "partials/project-card.html" %}
-        {% endfor %}
+        {%- for project in standard_talent_systems %}
+          {%- if project.slug == "gabbar-interview-evaluator" or project.slug == "sourcing-compass" %}
+            {%- set card_title = project.title %}
+            {%- set card_summary = project.extra.shortSummary | default(value=project.extra.summary) %}
+            {%- set card_tags = project.extra.tags %}
+            {%- set card_href = project.permalink %}
+            {%- set card_external = false %}
+            {%- set card_audience = project.extra.audience | default(value="") %}
+            {%- set card_value = project.extra.value | default(value="") %}
+            {%- set card_featured = false %}
+            {%- include "partials/project-card.html" %}
+          {%- endif %}
+        {%- endfor %}
       </div>
-      {% for section_data in config.extra.supporting_sections %}
-        {% if section_data.eyebrow == "Talent Systems" %}
-          <div class="stack-block">
-            <div class="stack-intro">
-              <div>
-                <p class="eyebrow">{{ section_data.eyebrow }}</p>
-                <h2>{{ section_data.title }}</h2>
-              </div>
-              <p>{{ section_data.description }}</p>
-            </div>
-            <div class="project-grid project-grid-compact">
-              {% for proj in section_data.projects %}
-                {% set card_title = proj.title %}
-                {% set card_summary = proj.summary %}
-                {% set card_tags = proj.tags %}
-                {% set card_href = proj.href | default(value="") %}
-                {% set card_external = proj.external | default(value=false) %}
-                {% set card_audience = proj.audience | default(value="") %}
-                {% set card_value = proj.value | default(value="") %}
-                {% set card_featured = false %}
-                {% include "partials/project-card.html" %}
-              {% endfor %}
-            </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </section>
-
-  <section class="section" data-reveal>
-    <div class="container">
-      <p class="eyebrow">AI Systems and Labs</p>
-      <h2>Broader builder work</h2>
-      <div class="project-grid project-grid-compact">
-        {% for project in ai_systems %}
-          {% set card_title = project.title %}
-          {% set card_summary = project.extra.shortSummary | default(value=project.extra.summary) %}
-          {% set card_tags = project.extra.tags %}
-          {% set card_href = project.permalink %}
-          {% set card_external = false %}
-          {% set card_audience = project.extra.audience | default(value="") %}
-          {% set card_value = project.extra.value | default(value="") %}
-          {% set card_featured = false %}
-          {% include "partials/project-card.html" %}
-        {% endfor %}
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-alt" data-reveal>
-    <div class="container">
-      {% for section_data in config.extra.supporting_sections %}
-        {% if section_data.eyebrow != "Talent Systems" %}
-        <div class="stack-block">
-          <div class="stack-intro">
-            <div>
-              <p class="eyebrow">{{ section_data.eyebrow }}</p>
-              <h2>{{ section_data.title }}</h2>
-            </div>
-            <p>{{ section_data.description }}</p>
-          </div>
-          <div class="project-grid project-grid-compact">
-            {% for proj in section_data.projects %}
-              {% set card_title = proj.title %}
-              {% set card_summary = proj.summary %}
-              {% set card_tags = proj.tags %}
-              {% set card_href = proj.href | default(value="") %}
-              {% set card_external = proj.external | default(value=false) %}
-              {% set card_audience = proj.audience | default(value="") %}
-              {% set card_value = proj.value | default(value="") %}
-              {% set card_featured = false %}
-              {% include "partials/project-card.html" %}
-            {% endfor %}
-          </div>
+      <div class="systems-summary-groups">
+        <div class="systems-collection-card">
+          <p class="eyebrow">Also built for talent</p>
+          <ul class="systems-collection-list">
+            <li><a href="{{ get_url(path='@/projects/rishios-mcp.md') }}">RishiOS</a><span>Hiring standards drift when role definition, evidence, calibration, and notes live separately. RishiOS brings them into one auditable operating system.</span></li>
+            <li><strong>AOP &amp; Hiring System</strong><span>Workforce planning across headcount, cost, attrition, scenarios, hiring progress, and two-way ATS sync.</span></li>
+            <li><strong>Resume Screener</strong><span>Rubric-based, evidence-backed review of resume batches with targeted screening questions.</span></li>
+            <li><strong>Atlan Interview Assist</strong><span>Transcript analysis for structured interviewer feedback, candidate evaluation, and decision-ready reports.</span></li>
+            <li><strong>Candidate Intel Platform</strong><span>Candidate research across resumes, GitHub, publications, and public signals for leveling and compensation context.</span></li>
+            <li><a href="{{ get_url(path='@/projects/atlan-offer-wizard.md') }}">Atlan Offer Wizard</a><span>Personalised offer pages grounded in the candidate conversations that came before the offer.</span></li>
+          </ul>
         </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </section>
-
-  <section class="section" data-reveal>
-    <div class="container prose-block">
-      <p class="eyebrow">Operating infrastructure</p>
-      <h2>Additional projects include</h2>
-      <p>
-        Employment operations, records, reporting, workflow automation, and company-specific utilities that keep the talent function moving.
-      </p>
+        <div><p class="eyebrow">Broader builder work</p><p><a href="{{ get_url(path='@/projects/prompt-control-plane.md') }}">Prompt Control Plane</a>, <a href="{{ get_url(path='@/projects/blindbench.md') }}">BlindBench</a>, an <a href="{{ get_url(path='@/projects/ai-chief-of-staff.md') }}">AI Chief of Staff</a>, and a video-generation pipeline.</p></div>
+      </div>
     </div>
   </section>
 
@@ -156,11 +82,13 @@
       <p class="eyebrow">Start a conversation</p>
       <h2>The work is where the conversation begins.</h2>
       <p>
-        For a TA leadership role, Senior Principal or Chief Recruiter opportunity, or an advisory engagement, the business problem, design judgment, and outcome can be discussed in the right context.
+        For a TA leadership role, Senior Principal or Chief Talent Partner opportunity, or an advisory engagement, the business problem, design judgment, and outcome can be discussed in the right context.
       </p>
-      <div class="button-row">
-        <a href="mailto:{{ config.extra.email }}?subject=Leadership%20opportunity&body=Company%20and%20role%3A%0ABusiness%20stage%3A%0AGeographic%20scope%3A%0AMandate%3A%0AWhy%20the%20role%20exists%20now%3A" class="button button-primary">Discuss a leadership role</a>
-        <a href="{{ get_url(path='@/advisory.md') }}" class="button button-secondary">Discuss an advisory engagement</a>
+      <div class="button-row cta-hierarchy">
+        <a href="mailto:{{ config.extra.email }}?subject=Principal%20or%20Chief%20Talent%20Partner%20opportunity&amp;body=Company%20and%20role%3A%0AMandate%3A%0AGeographic%20scope%3A%0AWhy%20this%20hire%20matters%20now%3A" class="button button-primary">Discuss a Talent Partner role</a>
+        <span class="cta-other-label">Other ways to work together</span>
+        <a href="mailto:{{ config.extra.email }}?subject=Leadership%20opportunity&amp;body=Company%20and%20role%3A%0ABusiness%20stage%3A%0AGeographic%20scope%3A%0AMandate%3A%0AWhy%20the%20role%20exists%20now%3A" class="text-link">Discuss a leadership role</a>
+        <a href="mailto:{{ config.extra.email }}?subject=Advisory%20engagement&amp;body=Organisation%20and%20stage%3A%0AProblem%20to%20solve%3A%0ADesired%20outcome%3A%0ATimeline%3A%0AType%20of%20support%20required%3A" class="text-link">Discuss an advisory engagement</a>
       </div>
     </div>
   </section>

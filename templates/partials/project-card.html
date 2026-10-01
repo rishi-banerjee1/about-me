@@ -10,6 +10,7 @@
   <div class="project-card-top">
     <div>
       <h3>{{ card_title }}</h3>
+      {% if project.extra.problem %}<p class="project-problem">{{ project.extra.problem }}</p>{% endif %}
       <p>{{ card_summary }}</p>
     </div>
     {% if card_href %}<span class="project-card-arrow" aria-hidden="true">&#8599;</span>{% endif %}

@@ -12,7 +12,7 @@ I am Global Head of Talent Acquisition at kAIgentic, the enterprise intelligence
 - RishiOS MCP: talent operating system for evaluation, calibration, and JD generation ([case study](https://rishi-banerjee1.github.io/about-me/projects/rishios-mcp/))
 
 ## More Systems
-- Gabbar Interview Evaluator: doctrine-backed interview scoring ([case study](https://rishi-banerjee1.github.io/about-me/projects/gabbar-interview-evaluator/))
+- Interview Evaluator: transcript-based coaching for interviewer development and structured hiring ([case study](https://rishi-banerjee1.github.io/about-me/projects/gabbar-interview-evaluator/))
 - AI Chief of Staff: Slack, Gmail, and Calendar triage assistant ([case study](https://rishi-banerjee1.github.io/about-me/projects/ai-chief-of-staff/))
 - Rishi Ideas: AI product research and fleet-management hub ([case study](https://rishi-banerjee1.github.io/about-me/projects/rishi-ideas/))
 

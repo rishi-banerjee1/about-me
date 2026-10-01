@@ -30,10 +30,6 @@ label = "Tools Shipped"
 value = "10+"
 label = "Countries Hired In"
 
-[[extra.hero_stats]]
-value = "3"
-label = "Published Books"
-
 # Organization logos
 [[extra.organizations]]
 name = "kAIgentic"
@@ -82,20 +78,12 @@ label = "Advisory"
 href = "/advisory/"
 
 [[extra.nav_links]]
-label = "Leadership Impact"
-href = "/leadership-impact/"
-
-[[extra.nav_links]]
 label = "Talent Systems"
-href = "/#talent-systems"
+href = "/projects/"
 
 [[extra.nav_links]]
 label = "Writing"
 href = "/#writing"
-
-[[extra.nav_links]]
-label = "Projects"
-href = "/projects/"
 
 # Experience timeline
 [[extra.experience]]

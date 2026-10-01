@@ -5,6 +5,7 @@ template = "projects/page.html"
 
 [extra]
 shortSummary = "The command center for the TA engine: where time is being lost, who owns the next move, and what needs action."
+problem = "Critical searches lose momentum when teams can see status but cannot see the constraint, the owner, or the decision required."
 summary = "TA CentCom turns ATS activity into a management view of TA engine health, accountable delay, and the actions required to keep critical searches moving."
 audience = "TA leaders, People leaders, and executives accountable for critical hiring and the health of the TA engine."
 value = "Replaces status-driven hiring reviews with a management view of TA engine health, bottlenecks, ownership, and action."

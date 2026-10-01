@@ -28,7 +28,7 @@ I look closely at how someone applies their skills: the problem they chose to so
 
 The same discipline matters in a debrief. I ask what observation supports a judgment, where interviewers have conflicting evidence, and what we still need to learn. A concern should be specific enough to investigate; a recommendation should make its reasoning visible.
 
-[Interview Evaluator tool](../projects/gabbar-interview-evaluator/) reflects that approach through structured evidence and potential-bias flags. It supports the assessment conversation. Accountability for interpreting the evidence and making the hiring decision stays with people.
+[Interview Evaluator](../projects/gabbar-interview-evaluator/) extends that discipline into interviewer development. Built as part of my interviewer training program, it helps interviewers recognise their strengths, identify areas for improvement, and practise a more structured approach to assessment.
 
 ## Be the advisor who keeps the search moving
 

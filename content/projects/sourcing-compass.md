@@ -5,6 +5,7 @@ template = "projects/page.html"
 
 [extra]
 shortSummary = "An AI talent mapper that turns a job title into a full sourcing landscape in under 10 seconds."
+problem = "Teams entering unfamiliar talent markets often begin searching before they have mapped where relevant capability may sit."
 summary = "Type a role, get a structured map of target companies, adjacent talent pools, wildcard bets, and ranked job titles, with live connection lines showing how nodes relate across categories. Built for recruiters who know that sourcing strategy starts before the Boolean search."
 audience = "Recruiters and hiring leaders entering specialist or unfamiliar talent markets."
 value = "Moves sourcing strategy upstream, from a Boolean search to a deliberate map of the market."
