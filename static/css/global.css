@@ -200,6 +200,16 @@ h1 {
   font-size: clamp(3.1rem, 8vw, 5.8rem);
 }
 
+.hero-copy h1 {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  letter-spacing: 0;
+}
+
+@media (max-width: 520px) {
+  .hero-copy h1 { font-size: 2.35rem; }
+}
+
 h2 {
   font-size: clamp(2.15rem, 4.5vw, 3.4rem);
   margin-bottom: 1rem;
@@ -1399,6 +1409,9 @@ strong {
 }
 
 /* Recruiting Craft: a reading-led page within the portfolio. */
+.craft-page, .craft-page h1, .craft-page h2, .craft-page .eyebrow {
+  letter-spacing: 0;
+}
 .craft-hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.85fr);
@@ -1409,7 +1422,7 @@ strong {
 
 .craft-hero h1 {
   max-width: 11ch;
-  font-size: clamp(3.1rem, 6.4vw, 5.3rem);
+  font-size: 4rem;
   line-height: 1.04;
 }
 
@@ -1433,18 +1446,16 @@ strong {
 }
 
 .craft-perspective {
-  padding: clamp(1.5rem, 3vw, 2.5rem);
-  border: 1px solid var(--line-strong);
-  border-radius: var(--radius-md);
-  background: var(--surface-tint);
+  padding: 1.5rem 0 0;
+  border-top: 2px solid var(--accent);
 }
 
 .craft-perspective blockquote {
   margin: 1.5rem 0;
   font-family: "Fraunces", Georgia, serif;
-  font-size: clamp(1.75rem, 2.7vw, 2.4rem);
+  font-size: 2rem;
   line-height: 1.25;
-  letter-spacing: -0.025em;
+  letter-spacing: 0;
 }
 
 .craft-perspective p:not(.eyebrow) { font-size: 0.96rem; }
@@ -1459,7 +1470,7 @@ strong {
   border-top: 1px solid var(--line-strong);
 }
 
-.craft-contents { position: sticky; top: 7rem; }
+.craft-contents { position: sticky; top: 7rem; max-height: calc(100dvh - 8rem); overflow-y: auto; }
 .craft-contents ol { margin: 0; padding-left: 1.4rem; }
 .craft-contents li { padding: 0.45rem 0 0.45rem 0.3rem; font-size: 0.9rem; line-height: 1.5; }
 .craft-contents li::marker { color: var(--accent); font-size: 0.75rem; }
@@ -1469,13 +1480,25 @@ strong {
   margin: 3.5rem 0 1.25rem;
   padding-top: 2rem;
   border-top: 1px solid var(--line);
-  font-size: clamp(1.85rem, 3vw, 2.5rem);
+  font-size: 2rem;
   line-height: 1.16;
   text-wrap: pretty;
   scroll-margin-top: 7rem;
 }
 .craft-prose h2:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
 .craft-prose p { margin: 0 0 1.25rem; }
+.craft-prose blockquote {
+  margin: 2rem 0;
+  padding: 0.25rem 0 0.25rem 1.5rem;
+  border-left: 3px solid var(--accent);
+}
+.craft-prose blockquote p {
+  color: var(--text);
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0;
+}
 .craft-prose a, .craft-related a, .craft-reference a {
   color: var(--accent-strong);
   text-decoration: underline;
@@ -1493,7 +1516,7 @@ strong {
 .craft-testimonial p { color: var(--text); font-family: "Fraunces", Georgia, serif; font-size: 1.35rem; line-height: 1.5; }
 .craft-testimonial footer { color: var(--muted); font-size: 0.85rem; }
 .craft-contact-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; border-top: 1px solid var(--line-strong); padding-top: 3rem; }
-.craft-contact h2 { font-size: clamp(2rem, 3.5vw, 2.8rem); line-height: 1.15; }
+.craft-contact h2 { font-size: 2.5rem; line-height: 1.15; }
 .craft-contact p:first-child { margin-top: 0; }
 .craft-related, .craft-reference { font-size: 0.9rem; }
 .craft-reference { margin-top: 1.5rem; }
@@ -1504,13 +1527,16 @@ strong {
   .craft-hero-grid, .craft-contact-inner { grid-template-columns: 1fr; gap: 2rem; }
   .craft-hero h1 { max-width: 17ch; }
   .craft-reading-layout { grid-template-columns: 1fr; gap: 2.5rem; }
-  .craft-contents { position: static; }
+  .craft-contents { position: static; max-height: none; overflow: visible; }
   .craft-contents ol { columns: 2; column-gap: 2rem; }
   .craft-contents li { break-inside: avoid; }
   .craft-prose { max-width: none; }
 }
 
 @media (max-width: 520px) {
+  .craft-hero h1 { font-size: 2.75rem; }
+  .craft-perspective blockquote, .craft-contact h2 { font-size: 1.75rem; }
+  .craft-prose h2 { font-size: 1.65rem; }
   .craft-reading-layout { margin-top: 1.5rem; padding-top: 2rem; }
   .craft-contents ol { columns: 1; }
   .craft-evidence { padding: 1.3rem; }

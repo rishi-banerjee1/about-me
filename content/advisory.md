@@ -17,6 +17,8 @@ For startups creating a talent function and enterprises modernising fragmented o
 
 For organisations that need more confidence in the quality and consistency of hiring decisions. The work begins by defining what great looks like for the role and level, then creating an evaluation environment that gives leadership clearer evidence and a durable standard as the organisation grows. It can include coaching hiring leaders and interviewers through role trade-offs, structured assessment, candidate conversations, and the decisions that follow.
 
+The working environment belongs in that design: decision authority, dependencies, pace of change, and the support available to a new hire. Candidate conversations should explain those conditions accurately. The same understanding needs to connect the success profile, interview evidence, offer commitments, and learning after the hire joins.
+
 ## AI-Native TA and HR Transformation
 
 Helping talent teams use technology to improve the quality and speed of work without creating new risk or fragmented process. The focus is on where systems can make high-judgment work more repeatable, enable adoption, and establish the governance required to make the work durable.

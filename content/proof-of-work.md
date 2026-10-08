@@ -38,6 +38,8 @@ Recruiting craft combines commercial understanding, talent intelligence, search 
 
 [Explore The Art & Craft of Recruiting](../recruiting-craft/) for hands-on search, candidate judgment, and the coaching and tools that make the craft repeatable.
 
+The revised and expanded second edition of *Raising the Bar* develops this thinking through worked examples and eight linked tools. It examines how to assess the working environment, make an opportunity relevant to an individual candidate, distinguish missing evidence from a demonstrated gap, and learn from what happens after a hire joins. It is written for recruiters across geographies who want to grow into trusted Talent Partners.
+
 ## Unblocking searches by changing the conditions around them
 
 When a critical search stalls, the answer is rarely just more sourcing. The constraint is diagnosed across role clarity, market reality, interviewer alignment, candidate proposition, and decision velocity, then changed with the leadership team. The objective is not simply to fill a role, but to help the company hire the person who can change its trajectory. Selected individual leadership mandates span technical, product, commercial, and business functions.
