@@ -7,7 +7,7 @@ template = "standard-page.html"
 eyebrow = "Public Evidence"
 +++
 
-This page brings the public evidence together: confirmed outcomes, working systems, published thinking, and the recruiting practice behind them. The diagnostic detail, operating design, and leadership context stay inside each mandate. *[Raising the Bar](https://www.amazon.in/dp/B0FQMWW9RR)* is the public expression of that point of view: a case for Talent Partners and leaders to treat every hire as a decision that raises or lowers the company's future.
+This page brings the public evidence together: confirmed outcomes, working systems, published thinking, and the recruiting practice behind them. The diagnostic detail, operating design, and leadership context stay inside each mandate. *[Raising the Bar](https://www.amazon.in/dp/B0HMC6ZD7M)* is the public expression of that point of view: a case for Talent Partners and leaders to treat every hire as a decision that raises or lowers the company's future.
 
 ## Founder Hindsight makes the trade-offs behind people decisions visible
 
