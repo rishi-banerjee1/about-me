@@ -50,4 +50,4 @@ I coach recruiters, hiring leaders, and interviewers through the decisions a liv
 
 The aim is growing independence in judgment. A Talent Partner should be able to recognise when the brief needs challenging, when the search needs a different direction, and when a candidate needs a more honest conversation. Reviewing those moments together turns experience into capability the recruiter can carry into the next search.
 
-I have written more about this practice in *[Raising the Bar](https://www.amazon.in/dp/B0FQMWW9RR)*.
+I have written more about this practice in the revised and expanded second edition of *[Raising the Bar](https://www.amazon.in/dp/B0HMC6ZD7M)*.
