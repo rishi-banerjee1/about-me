@@ -4,12 +4,12 @@ weight = 5
 template = "projects/page.html"
 
 [extra]
-shortSummary = "Talent operating system that encodes hiring doctrine into software: scoring, JD generation, calibration, and drift detection."
-problem = "Hiring standards drift when role definition, assessment evidence, calibration, and decision notes live in separate workflows."
-summary = "MCP server with 6 operating modes. Scores candidates, generates JDs, builds exec briefs, structures notes, runs calibration, and learns from overrides."
+shortSummary = "Talent evaluation tools for role-specific assessment, scorecard validation, and explicit evidence checks."
+problem = "A shared hiring framework is hard to apply consistently when role expectations, evidence, and assessment decisions are disconnected."
+summary = "An MCP server that applies role- and level-specific assessment weights, validates scorecards, and checks recorded evidence against a defined hiring rule."
 audience = "Talent leaders and hiring teams seeking consistent standards across a growing hiring organization."
-value = "Turns hiring doctrine into repeatable, auditable operating workflows."
-category = "Talent Operating System"
+value = "Makes assessment criteria and rule-based results explicit for a hiring team to examine."
+category = "Talent Evaluation"
 section = "talent"
 year = 2026
 order = 1
@@ -18,28 +18,35 @@ detail = true
 status = "flagship"
 visibility = "private"
 tags = ["TypeScript", "MCP SDK", "Zod", "Talent OS", "Evaluation"]
-metrics = ["6 operating modes", "Drift detection", "Audit trail"]
+metrics = ["Role and level weighting", "Scorecard validation", "Evidence checks"]
 contactHref = "mailto:rpbanerjee@outlook.com?subject=RishiOS%20MCP%20walkthrough"
 contactLabel = "Request walkthrough"
 +++
 
 ## The problem
 
-Hiring doctrine usually lives as oral tradition. Each interviewer interprets the bar differently, notes are inconsistent, and calibration decays over time. The company has a philosophy but not an operating system.
+RishiOS addresses a problem I care about: keeping a shared hiring standard connected to the notes, assessments, and decisions people make every day.
 
 ## What I built
 
-RishiOS encodes the operating logic directly into an MCP server. Six modes:
+The current MCP server brings together assessment tools and reusable prompts. Its implemented tools support:
 
-- Score candidates on a shared framework
-- Generate job descriptions aligned to the rubric
-- Build executive briefs from raw context
-- Structure loose interview notes into consistent formats
-- Generate calibration references
-- Learn from override patterns without losing the base doctrine
+- Applying assessment weights for the role and level.
+- Calculating a result from supplied rubric scores.
+- Validating scorecards and normalising invalid score values.
+- Providing assessment guidance and checks for misleading signals.
+- Retrieving an evolving hiring rule and evaluating recorded evidence against it.
 
-Built in TypeScript with the MCP SDK and Zod for runtime validation. Every decision is auditable. The system tracks what changed and why.
+The newer rule-based work connects the written requirements for a job with evidence of AI-building experience and coachability. It can surface an incomplete job definition or an outstanding assessment step alongside the result and its reasons. The criteria are still being refined.
 
-## Trade-off
+Built in TypeScript with the MCP SDK and Zod, the server makes these checks available within an MCP workflow. It works with the scores and observations supplied to it; it does not independently establish that a candidate’s claims are true.
 
-The doctrine is opinionated. That is the point. A team that disagrees with the framework should not use this system. It enforces a specific view of what good hiring looks like. The alternative is no system at all, which means drift.
+## How it fits my practice
+
+I want the hiring team to be able to explain how it reached a view. A visible framework gives us something to question: whether the criteria fit the work, whether the evidence supports the assessment, and where another conversation would help.
+
+That connects RishiOS to my work on [defining great and developing interviewers](../../advisory/#define-great-before-designing-the-interview). The software applies the recorded rules. People remain responsible for interpreting the evidence and making the hiring decision.
+
+## Where the work stands
+
+The current implementation focuses on evaluation, scorecard checks, and an evolving evidence rule. The broader talent operating-system specification describes a wider direction. Automated learning from overrides, drift detection, and a persistent audit trail are not claimed here as delivered features.

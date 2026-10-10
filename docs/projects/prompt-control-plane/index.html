@@ -134,7 +134,7 @@
 <li>a GitHub Action for pull-request quality gates</li>
 </ul>
 <h2 id="why-it-matters">Why it matters</h2>
-<p>The differentiator is that the engine itself does not call an LLM. It enforces rules, structure, and repeatability around the prompt surface, which keeps the system deterministic, cheaper to run, and easier to reason about in production.</p>
+<p>I kept LLM calls out of the engine itself. Rules and policy checks run deterministically, so the team can inspect how a prompt decision was made and reproduce it later.</p>
 <h2 id="distribution">Distribution</h2>
 <ul>
 <li><a rel="external" href="https://getpcp.site/">Product site</a> with full documentation</li>

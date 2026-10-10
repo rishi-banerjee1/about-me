@@ -15,7 +15,7 @@ This page brings the public evidence together: confirmed outcomes, working syste
 
 ## A TA engine built around the business it serves
 
-Hiring is a business system, not a request queue. Starting with what this team or company must be able to do next, what talent will make that possible, and what the cost is of getting the decision wrong or waiting too long. Workforce planning, market intelligence, search strategy, and operating rigor then come together in one TA engine that makes the decisions needing leadership attention and action visible.
+My planning starts with what the team needs to do next and what is holding it back. From there, I connect workforce priorities, market research, and search decisions. I want leaders to see where their involvement will make a difference.
 
 This is the logic behind my work on capacity planning and the business cost of vacancies:
 
@@ -24,7 +24,7 @@ This is the logic behind my work on capacity planning and the business cost of v
 
 ## A shared definition of great
 
-The work begins with a shared definition of what great looks like for a specific role and level. It creates enough clarity for a hiring team to distinguish role fit from a generally impressive profile, weigh trade-offs honestly, and make a decision with conviction. It also gives leaders a practical way to coach interviewers, interrogate evidence, and stay engaged with the candidate at the moments that matter. Structured interviews, scorecards, interviewer calibration, and market evidence earn their place when they produce better judgment.
+What would make this a great hire here? I explore that with hiring leaders before we decide how to interview. It connects the role to Talent Density: what someone adds to the team’s capability and how they help others succeed. Much of the work is then coaching interviewers to recognise that contribution, follow a useful line of questioning, and explain their assessment.
 
 These articles reflect that point of view:
 
@@ -42,11 +42,11 @@ The revised and expanded second edition of *Raising the Bar* develops this think
 
 ## Unblocking searches by changing the conditions around them
 
-When a critical search stalls, the answer is rarely just more sourcing. The constraint is diagnosed across role clarity, market reality, interviewer alignment, candidate proposition, and decision velocity, then changed with the leadership team. The objective is not simply to fill a role, but to help the company hire the person who can change its trajectory. Selected individual leadership mandates span technical, product, commercial, and business functions.
+When a search stalls, I look at where the difficulty actually sits: the brief, the market, the interviews, the opportunity, or a decision we have not made. That gives the hiring leader and me something specific to change. My leadership search work has spanned technical, product, commercial, and business functions.
 
 ## A talent brand people can believe
 
-Employer brand is the accumulated evidence of what it is like to work with a company. The strongest version is built through an honest role story, high-quality candidate conversations, thoughtful hiring experiences, and employees who want to tell others about what they are building.
+I am interested in the gap between what a company says about working there and what candidates experience. The role story, the conversations, and the people they meet all shape whether they believe it.
 
 This is why the work pays attention to how markets form, how people choose a company, and how leaders communicate the work:
 
@@ -55,7 +55,7 @@ This is why the work pays attention to how markets form, how people choose a com
 
 ## Technology that gives judgment more leverage
 
-Technology becomes valuable when it improves the work and the decisions around it. Systems built for recruiters and leaders provide better context, faster visibility, and more capacity for work that requires human judgment. Automation earns its place when it increases that capacity, while accountability remains human.
+Building tools gives me another way to work on recruiting problems. I look for repeated effort, missing context, or a decision that is hard to follow, then build something the team can inspect and use. These articles describe that part of my work.
 
 - [Scrappy, Strategic, and Self-Built: Vibe Coding in Talent Acquisition](https://medium.com/@risbane1002/scrappy-strategic-and-self-built-vibe-coding-in-talent-acquisition-3ba97e2da002)
 - [From T-Shaped to E-Shaped: How the Engineering Talent Profile Has Evolved](https://medium.com/@risbane1002/from-t-shaped-to-e-shaped-how-the-engineering-talent-profile-has-evolved-21e7786d7d8f)

@@ -26,7 +26,7 @@ contactLabel = "Request walkthrough"
 
 ## The problem
 
-Educational video creation is repetitive, expensive, and hard to sustain consistently. A single short normally means ideation, scripting, illustration, voice, edit, upload, and analytics review. Most creators burn out before consistency ever compounds.
+Educational video creation is repetitive, expensive, and hard to sustain consistently. A single short normally means ideation, scripting, illustration, voice, edit, upload, and analytics review. I wanted to explore how those steps could work together in a repeatable pipeline.
 
 ## What I built
 
@@ -34,7 +34,7 @@ BlinkyOwl is an autonomous pipeline that handles the entire loop: topic selectio
 
 ## Why it matters
 
-This project is one of the clearest examples of systems thinking in the account. It combines:
+This project brought several interests together for me:
 
 - multi-step orchestration
 - strict kids-content safety gates

@@ -656,7 +656,8 @@ strong {
 }
 
 .section-intro {
-  display: inline-flex;
+  display: flex;
+  width: 100%;
   justify-content: flex-start;
   gap: 1.1rem;
   align-items: end;
@@ -1054,7 +1055,7 @@ strong {
 .pathway-card h3 {
   align-self: stretch;
   max-width: none;
-  text-align: center;
+  text-align: left;
 }
 
 .pathway-card .text-link {
@@ -1754,4 +1755,111 @@ strong {
 #interview-frameworks-and-ai .text-link {
   display: inline-block;
   margin-top: 0.5rem;
+}
+
+/* Keep action alignment consistent within the homepage's different layouts. */
+.hero-copy > .button-row {
+  justify-content: center;
+  align-items: center;
+}
+
+.pathway-proof > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pathway-proof > div > .text-link {
+  margin-top: auto;
+}
+
+#interview-frameworks-and-ai .two-up-grid > .panel-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#interview-frameworks-and-ai .two-up-grid > .panel-card > .text-link {
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+#about-the-work {
+  scroll-margin-top: 5rem;
+}
+
+/* Let editorial headings and linked cards follow one reading edge. */
+#about-the-work h2,
+.pathway-card h3,
+.section-intro h2 {
+  text-wrap: wrap;
+  line-height: 1.12;
+}
+
+.pathway-card-primary > p:not(.eyebrow) {
+  max-width: none;
+}
+
+.section-intro > div {
+  min-width: 0;
+  flex: 1;
+}
+
+.section-intro > .text-link {
+  flex: 0 0 auto;
+}
+
+/* Standalone calls to action are centred within their own card or section.
+   Inline evidence links remain part of the sentence. */
+.pathway-card > .text-link,
+.pathway-proof > div > .text-link,
+#interview-frameworks-and-ai .panel-card > .text-link {
+  align-self: center;
+  text-align: center;
+}
+
+#interview-frameworks-and-ai > .container > .panel-card > .text-link {
+  display: block;
+  text-align: center;
+}
+
+.section-actions,
+.testimonial-more {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.book-content > .button {
+  align-self: center;
+  display: table;
+  margin-inline: auto;
+}
+
+.connect-actions,
+.founder-hindsight-card .button-row {
+  justify-content: center;
+}
+
+/* Homepage system cards share one layout and collapse together. */
+.talent-system-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  align-items: stretch;
+}
+.talent-system-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: 100%;
+}
+.talent-system-card h3 { line-height: 1.2; }
+.talent-system-card > .text-link {
+  margin-top: auto;
+  padding-top: 1rem;
+  align-self: center;
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .talent-system-grid { grid-template-columns: minmax(0, 1fr); }
 }

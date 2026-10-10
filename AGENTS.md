@@ -31,6 +31,10 @@ These rules are the source of truth for agents and maintainers working on this s
 
 ## Site positioning
 
+- Explain recruiting practice in a personal, conversational voice grounded in Rishi’s work. Avoid instructional or preachy prose. Connect hiring for great to Talent Density in the context of the team; distinguish the interview standard from post-hire evidence of improvement.
+
+- Present interview-framework work primarily as developing interviewer capability and judgment through coaching, lines of questioning, feedback, and calibration. Do not frame it as building a question bank.
+
 - Position business outcomes around hiring efficiency and effectiveness, team capability, and dependable delivery. Never frame lower cost or cost reduction as the goal; do not relabel cost savings as effectiveness metrics.
 
 - Present Rishi and his work, ideas, and recruiting practice. The intended takeaway is that he is worth connecting with, not that he is seeking a job.
@@ -71,3 +75,10 @@ The `--no-port-append` option matters when the local base URL already contains a
 - The configured site address is `https://rishi-banerjee1.github.io/about-me/`.
 - `main` requires pull requests and the `Website CI / Build and verify` status check, enforces the rule for administrators, and blocks force pushes and branch deletion.
 - The CI workflow is pinned to Zola 0.22.1 and pins each GitHub Action to a full commit SHA. Review and update these pins deliberately when upgrading.
+
+## Formatting contracts
+
+- Homepage Talent Systems uses three equal cards: Sourcing Compass, Interview Evaluator, TA CentCom; RishiOS stays a supporting link.
+- Centre standalone CTAs within their card or section; preserve inline links in prose.
+- Use natural heading wrapping, no forced line breaks. Preserve a consistent reading edge for labels, headings, and body text.
+- Run `python3 scripts/check_formatting.py` alongside site checks. These are structural/CSS contracts, not a substitute for desktop/mobile browser review.

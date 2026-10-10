@@ -38,7 +38,7 @@ Prompt Control Plane is a deterministic governance layer for prompts. It adds st
 
 ## Why it matters
 
-The differentiator is that the engine itself does not call an LLM. It enforces rules, structure, and repeatability around the prompt surface, which keeps the system deterministic, cheaper to run, and easier to reason about in production.
+I kept LLM calls out of the engine itself. Rules and policy checks run deterministically, so the team can inspect how a prompt decision was made and reproduce it later.
 
 ## Distribution
 

@@ -125,12 +125,12 @@
     <div class="container detail-layout">
       <article class="detail-prose">
         <h2 id="the-problem">The problem</h2>
-<p>LLM benchmarks are run by the same companies selling the models. Marketing claims are not evidence. There was no easy way to blind-test models side by side on real prompts and see which ones actually hold up.</p>
+<p>I wanted to compare models on the same prompts without seeing their names first, then look closely at where their answers failed. BlindBench grew out of that interest in making model choices easier to examine.</p>
 <h2 id="what-i-built">What I built</h2>
 <p>I built BlindBench as an open-source evaluation arena. I use real prompts from 4 Kaggle datasets, run those prompts through 100+ models, and score responses on correctness, reasoning depth, and failure patterns. I keep model names hidden during evaluation so judgment is less biased.</p>
 <p>Key design choices:</p>
 <ul>
-<li><strong>Blind testing</strong>: Model identities hidden during evaluation to eliminate brand bias.</li>
+<li><strong>Blind testing</strong>: Model identities hidden during evaluation to reduce brand bias.</li>
 <li><strong>Truth scoring</strong>: Composite score based on correctness, reasoning quality, and consistency.</li>
 <li><strong>Failure classification</strong>: 10 distinct failure types (hallucination, logic errors, refusal bias, etc.) tracked per model.</li>
 <li><strong>Bring-a-key mode</strong>: API keys are encrypted in transit, used once, and never stored. Free-tier models work without a key.</li>
@@ -148,7 +148,7 @@
         <div class="panel-card">
           <p class="eyebrow">Summary</p>
           <h3>What it does</h3>
-          <p>Blind-test 100+ LLMs side by side. Real prompts, no marketing. Just truth scores and failure analysis.</p>
+          <p>Compare 100+ LLMs with model identities hidden, shared prompts, response scores, and failure analysis.</p>
         </div>
         <div class="panel-card">
           <p class="eyebrow">Access</p>

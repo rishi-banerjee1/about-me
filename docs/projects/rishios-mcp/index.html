@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RishiOS MCP - Rishi Banerjee</title>
-    <meta name="description" content="MCP server with 6 operating modes. Scores candidates, generates JDs, builds exec briefs, structures notes, runs calibration, and learns from overrides." />
+    <meta name="description" content="An MCP server that applies role- and level-specific assessment weights, validates scorecards, and checks recorded evidence against a defined hiring rule." />
     <link rel="canonical" href="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me&#x2F;projects&#x2F;rishios-mcp&#x2F;" />
     <link rel="icon" href="https://rishi-banerjee1.github.io/about-me/favicon.svg" type="image/svg+xml" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me&#x2F;projects&#x2F;rishios-mcp&#x2F;" />
     <meta property="og:title" content="RishiOS MCP - Rishi Banerjee" />
-    <meta property="og:description" content="MCP server with 6 operating modes. Scores candidates, generates JDs, builds exec briefs, structures notes, runs calibration, and learns from overrides." />
+    <meta property="og:description" content="An MCP server that applies role- and level-specific assessment weights, validates scorecards, and checks recorded evidence against a defined hiring rule." />
     <meta property="og:image" content="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me&#x2F;assets&#x2F;headshot.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="RishiOS MCP - Rishi Banerjee" />
-    <meta name="twitter:description" content="MCP server with 6 operating modes. Scores candidates, generates JDs, builds exec briefs, structures notes, runs calibration, and learns from overrides." />
+    <meta name="twitter:description" content="An MCP server that applies role- and level-specific assessment weights, validates scorecards, and checks recorded evidence against a defined hiring rule." />
     <meta name="twitter:image" content="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me&#x2F;assets&#x2F;headshot.jpg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -72,9 +72,9 @@
   <section class="page-hero">
     <div class="container page-hero-inner" data-reveal>
       <a href="https://rishi-banerjee1.github.io/about-me/projects/" class="back-link">&larr; Back to talent systems</a>
-      <p class="eyebrow">Talent Operating System</p>
+      <p class="eyebrow">Talent Evaluation</p>
       <h1>RishiOS MCP</h1>
-      <p class="hero-text">MCP server with 6 operating modes. Scores candidates, generates JDs, builds exec briefs, structures notes, runs calibration, and learns from overrides.</p>
+      <p class="hero-text">An MCP server that applies role- and level-specific assessment weights, validates scorecards, and checks recorded evidence against a defined hiring rule.</p>
       <div class="tag-list" style="margin-top: 1.35rem;">
         <span class="tag">2026</span>
         
@@ -104,11 +104,11 @@
       
         <div class="metrics-row">
           
-            <span class="metric-pill">6 operating modes</span>
+            <span class="metric-pill">Role and level weighting</span>
           
-            <span class="metric-pill">Drift detection</span>
+            <span class="metric-pill">Scorecard validation</span>
           
-            <span class="metric-pill">Audit trail</span>
+            <span class="metric-pill">Evidence checks</span>
           
         </div>
       
@@ -119,27 +119,30 @@
     <div class="container detail-layout">
       <article class="detail-prose">
         <h2 id="the-problem">The problem</h2>
-<p>Hiring doctrine usually lives as oral tradition. Each interviewer interprets the bar differently, notes are inconsistent, and calibration decays over time. The company has a philosophy but not an operating system.</p>
+<p>RishiOS addresses a problem I care about: keeping a shared hiring standard connected to the notes, assessments, and decisions people make every day.</p>
 <h2 id="what-i-built">What I built</h2>
-<p>RishiOS encodes the operating logic directly into an MCP server. Six modes:</p>
+<p>The current MCP server brings together assessment tools and reusable prompts. Its implemented tools support:</p>
 <ul>
-<li>Score candidates on a shared framework</li>
-<li>Generate job descriptions aligned to the rubric</li>
-<li>Build executive briefs from raw context</li>
-<li>Structure loose interview notes into consistent formats</li>
-<li>Generate calibration references</li>
-<li>Learn from override patterns without losing the base doctrine</li>
+<li>Applying assessment weights for the role and level.</li>
+<li>Calculating a result from supplied rubric scores.</li>
+<li>Validating scorecards and normalising invalid score values.</li>
+<li>Providing assessment guidance and checks for misleading signals.</li>
+<li>Retrieving an evolving hiring rule and evaluating recorded evidence against it.</li>
 </ul>
-<p>Built in TypeScript with the MCP SDK and Zod for runtime validation. Every decision is auditable. The system tracks what changed and why.</p>
-<h2 id="trade-off">Trade-off</h2>
-<p>The doctrine is opinionated. That is the point. A team that disagrees with the framework should not use this system. It enforces a specific view of what good hiring looks like. The alternative is no system at all, which means drift.</p>
+<p>The newer rule-based work connects the written requirements for a job with evidence of AI-building experience and coachability. It can surface an incomplete job definition or an outstanding assessment step alongside the result and its reasons. The criteria are still being refined.</p>
+<p>Built in TypeScript with the MCP SDK and Zod, the server makes these checks available within an MCP workflow. It works with the scores and observations supplied to it; it does not independently establish that a candidate’s claims are true.</p>
+<h2 id="how-it-fits-my-practice">How it fits my practice</h2>
+<p>I want the hiring team to be able to explain how it reached a view. A visible framework gives us something to question: whether the criteria fit the work, whether the evidence supports the assessment, and where another conversation would help.</p>
+<p>That connects RishiOS to my work on <a href="../../advisory/#define-great-before-designing-the-interview">defining great and developing interviewers</a>. The software applies the recorded rules. People remain responsible for interpreting the evidence and making the hiring decision.</p>
+<h2 id="where-the-work-stands">Where the work stands</h2>
+<p>The current implementation focuses on evaluation, scorecard checks, and an evolving evidence rule. The broader talent operating-system specification describes a wider direction. Automated learning from overrides, drift detection, and a persistent audit trail are not claimed here as delivered features.</p>
 
       </article>
       <aside class="detail-sidebar">
         <div class="panel-card">
           <p class="eyebrow">Summary</p>
           <h3>What it does</h3>
-          <p>Talent operating system that encodes hiring doctrine into software: scoring, JD generation, calibration, and drift detection.</p>
+          <p>Talent evaluation tools for role-specific assessment, scorecard validation, and explicit evidence checks.</p>
         </div>
         <div class="panel-card">
           <p class="eyebrow">Access</p>

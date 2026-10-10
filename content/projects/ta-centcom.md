@@ -48,7 +48,7 @@ TA CentCom treats the ATS as the system of record for recruiting and creates a s
 - **Interviewer capacity:** feedback completion and workload signals that reveal constraints before they stall hiring
 - **Action agenda:** a prioritized list of the records, owners, and overdue decisions that need attention
 
-The objective is not a prettier dashboard. It is a weekly leadership mechanism that surfaces the few actions most likely to improve hiring outcomes.
+I designed this view to help a hiring review end with a clear set of actions and owners.
 
 ## Design judgment
 
@@ -60,4 +60,4 @@ Every insight is designed to remain traceable to the underlying hiring record. T
 
 The TA engine loses momentum when delay, ownership, and constrained capacity are not visible early enough to act.
 
-TA CentCom is built to change that. It turns the hiring function from a sequence of disconnected updates into a TA engine that leaders can inspect, manage, and improve.
+That is the problem I built TA CentCom around: giving the team a shared view of where help is needed and who can move the work forward.

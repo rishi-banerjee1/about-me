@@ -1,5 +1,5 @@
 +++
-title = "Atlan Offer Wizard"
+title = "Offer Wizard"
 weight = 4
 template = "projects/page.html"
 
@@ -18,20 +18,20 @@ status = "flagship"
 visibility = "private"
 tags = ["Cloudflare Workers", "Hono", "Claude", "Ashby API", "Hiring"]
 metrics = ["~$0.006 per page", "3-act offer narrative", "ATS-triggered generation"]
-contactHref = "mailto:rpbanerjee@outlook.com?subject=Atlan%20Offer%20Wizard%20walkthrough"
+contactHref = "mailto:rpbanerjee@outlook.com?subject=Offer%20Wizard%20walkthrough"
 contactLabel = "Request walkthrough"
 +++
 
 ## The problem
 
-Most companies handle the offer stage with flat PDFs and generic email templates. It is one of the highest-leverage moments in hiring (the candidate is deciding), and we were treating it like admin.
+I wanted the offer to carry forward the conversations that made the opportunity meaningful to the candidate: their contribution, their connection with the team, and what they might build next.
 
 ## What I built
 
 The system triggers from ATS state in Ashby, pulls interview and offer context, and generates a personalized page structured as a three-act story:
 
 - who the candidate is and what stood out
-- the connection between the candidate and Atlan
+- the connection between the candidate and the company
 - the offer, presented with context
 
 Recruiters get a shareable link instead of a copy-paste email. Each page costs roughly $0.006 to generate. Runs on Cloudflare Workers + Hono.

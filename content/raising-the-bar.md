@@ -6,7 +6,7 @@ template = "book.html"
 eyebrow = "A book by Rishi Banerjee"
 +++
 
-*Raising the Bar* explores the Art & Craft of Recruiting: how recruiters connect business needs, candidate judgment, and the conditions that help people do good work. The revised and expanded second edition is written for recruiters across geographies who want to grow into trusted Talent Partners.
+I wrote *Raising the Bar* to explore the Art & Craft of Recruiting: how recruiters connect business needs, candidate judgment, and the conditions that help people do good work. The revised and expanded second edition is written for recruiters across geographies who want to grow into trusted Talent Partners.
 
 ## What the book covers
 
@@ -18,7 +18,7 @@ From that foundation, the book examines finding relevant talent, assessing perso
 
 Worked examples and eight practical tools connect the ideas to a live search. They help readers examine the working environment, position an opportunity, distinguish missing evidence from a demonstrated gap, and learn from what happens after someone joins.
 
-The central discipline is keeping the business problem, the candidate conversation, the assessment, and the commitments made during hiring connected.
+The thread running through the book is Talent Density: how each hire can add to a team’s capability and help the people around them succeed. I connect that idea to the practical conversations and decisions a recruiter faces during a search.
 
 ## Who it is for
 

@@ -25,9 +25,9 @@ github = "https://github.com/rishi-banerjee1/Sourcing_Compass"
 
 ## The problem
 
-Sourcing strategy begins with a question that most tools skip entirely: *where does this talent actually come from?* Job boards show active candidates. LinkedIn shows who exists. Neither reveals the target companies, non-obvious pools with relevant experience, or adjacent industries worth a Boolean search.
+I built Sourcing Compass around an early search question: *where might people have done work that matters for this role?* I wanted a way to explore target companies, adjacent industries, and less obvious talent pools together.
 
-That mapping usually happens in a recruiter's head, informally, before any search begins. It takes experience, domain knowledge, and an hour of desk research most teams don't have.
+Making that map visible gives a recruiter and hiring leader something to discuss, challenge, and refine before outreach.
 
 ## What I built
 
