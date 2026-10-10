@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Page not found | Rishi Banerjee{% endblock %}
+{% block body %}
+{% include "partials/nav.html" %}
+<main id="main-content" class="section">
+  <div class="container"><h1>Page not found</h1><p>This address may have changed. <a href="{{ config.base_url }}">Return to the homepage</a>.</p></div>
+</main>
+{% include "partials/footer.html" %}
+{% endblock %}
