@@ -24,7 +24,7 @@ contactLabel = "Request walkthrough"
 
 ## The problem
 
-Most companies handle the offer stage with flat PDFs and generic email templates. It is one of the highest-leverage moments in hiring (the candidate is deciding), and we were treating it like admin.
+I wanted the offer to carry forward the conversations that made the opportunity meaningful to the candidate: their contribution, their connection with the team, and what they might build next.
 
 ## What I built
 

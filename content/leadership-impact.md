@@ -7,21 +7,21 @@ template = "standard-page.html"
 eyebrow = "Leadership"
 +++
 
-Talent leadership connects the business’s next priorities with the people, hiring decisions, and team capability needed to deliver them. My work spans global R&D talent acquisition, executive search, enterprise recruiting delivery, and building a talent function at an early stage.
+My work in talent leadership spans global R&D talent acquisition, executive search, enterprise recruiting delivery, and building a talent function at an early stage.
 
-Across those settings, the responsibility stays close to the work: clarify what the business needs, help leaders make sound decisions, and develop teams that can carry that judgment forward.
+Across those settings, I keep coming back to the same question: how can this team become more capable through the people it hires and develops? That is the connection between my leadership work and Talent Density. The unit of work may be a role, a team, a function, or several together. I look at the capability already in place, how responsibilities connect, and what needs to change as the organisation grows.
 
 ## Lead across markets while staying close to the work
 
 Led talent strategy and acquisition across Engineering, Product, Design, IT, Security, executive hiring, and corporate functions, with scope across India, North America, Europe, and APAC.
 
-Global scope requires shared standards and an understanding of local market conditions. Workforce priorities, role expectations, search strategy, and candidate conversations need to connect. A hiring plan becomes useful when leaders can see which capabilities matter next and where the market requires a trade-off.
+Working across markets means holding a shared view of the role while paying attention to what is different locally. I bring workforce priorities, market feedback, and candidate conversations together so leaders can see where the plan holds and where we need to reconsider it.
 
 ## Turn hiring decisions into a leadership capability
 
 My partnership with hiring leaders begins with the problem behind the role. Together, we define the contribution required, the authority and support available, and the evidence that will help us judge a candidate’s ability to succeed.
 
-That work continues through interview design and calibration. Each interviewer needs a clear purpose; each conclusion needs supporting evidence. When a debrief exposes disagreement, the task is to identify what remains unresolved and who will resolve it. These conversations also develop a leader’s ability to assess, challenge, and decide on the next search.
+That work continues through interview design and calibration. I help interviewers understand what they are exploring and why. When we disagree in a debrief, I want to hear how each person reached their view and what we still need to learn. Working through that together is part of developing better hiring judgment.
 
 [Explore the work on hiring and interview architecture](../advisory/#hiring-and-interview-architecture).
 
@@ -46,7 +46,7 @@ The questions are practical: which capability is needed first, what can the curr
 
 Hands-on search remains part of how I lead. Working through a difficult intake, examining assessment evidence, or preparing a candidate conversation makes coaching specific. Team members learn to bring a recommendation, explain their reasoning, and own the next action.
 
-The aim is increasing independence in judgment. Stronger teams can advise hiring leaders, recognise when the brief needs to change, and explain trade-offs with confidence. That capability grows through feedback on real work and reflection on what happens after the hire.
+What I want to see over time is more independence: someone bringing a considered recommendation, challenging a brief with good reasons, or handling a difficult conversation with confidence. Feedback on real work, including what happens after a hire, gives us a way to keep learning.
 
 [Explore The Art & Craft of Recruiting](../recruiting-craft/).
 

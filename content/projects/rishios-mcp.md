@@ -25,7 +25,7 @@ contactLabel = "Request walkthrough"
 
 ## The problem
 
-Hiring doctrine usually lives as oral tradition. Each interviewer interprets the bar differently, notes are inconsistent, and calibration decays over time. The company has a philosophy but not an operating system.
+RishiOS addresses a problem I care about: keeping a shared hiring standard connected to the notes, assessments, and decisions people make every day.
 
 ## What I built
 
@@ -42,4 +42,4 @@ Built in TypeScript with the MCP SDK and Zod for runtime validation. Every decis
 
 ## Trade-off
 
-The doctrine is opinionated. That is the point. A team that disagrees with the framework should not use this system. It enforces a specific view of what good hiring looks like. The alternative is no system at all, which means drift.
+I built RishiOS around a specific hiring framework. That makes its assumptions visible, but it also means a team needs to examine those assumptions before adopting it. I would want that conversation before putting it into a hiring workflow.

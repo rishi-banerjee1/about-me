@@ -33,6 +33,24 @@ Interview Evaluator reviews an interview transcript and gives the interviewer st
 
 The tool uses a seven-layer hiring doctrine to examine how the conversation was structured, how evidence was gathered, and where judgment may need more support. The feedback gives interviewers something concrete to practise in their next interview while helping hiring teams build a more consistent approach to assessment.
 
+## Define what great looks like
+
+I start with the hiring team’s definition of great. What does reliable performance look like here, and what could someone contribute that would make the whole team stronger? That is the connection to Talent Density: the capability and judgment a person adds, including how they help others succeed.
+
+To reach that definition, I work with leaders on the business need, examine examples of strong contribution, and compare how interviewers interpret the evidence. We write down the essential capabilities and the few differentiators we agree matter for this context.
+
+In coaching, I bring that conversation back to what we actually heard. Did we understand the person’s contribution? Did we explore how they learned or helped their team? Where did an impressive answer leave an important question unresolved? Those discussions help interviewers develop their own judgment.
+
+Read more about [how I define great and translate it into an interview framework](../../advisory/#define-great-before-designing-the-interview).
+
+## Grow the interviewer’s judgment
+
+My focus is helping interviewers listen for the evidence that matters and decide where to probe. Coaching examines how a line of questioning develops: whether the interviewer follows an important detail, gives the candidate space to explain, and checks an interpretation before reaching a conclusion.
+
+Reviewing an interview makes feedback specific. We can identify where useful evidence emerged, where a follow-up was missed, and where the judgment needs more support. Calibration then brings those assessments into discussion so interviewers can examine their reasoning and carry the learning into the next conversation.
+
+The tool supports this development through feedback on actual interviews. The aim is increasing independence and consistency in the interviewer’s judgment.
+
 ## The framework work around the tool
 
 The newer work addresses the design of the interview itself: define the evidence a role requires, give each interviewer a clear area to examine, and connect the decision record to what was actually observed. A written standard should be shared before interviews begin, with changes visible to the team.

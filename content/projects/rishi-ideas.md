@@ -24,7 +24,7 @@ contactLabel = "Request walkthrough"
 
 ## The problem
 
-With multiple AI projects running at once, inconsistency is the default. Docs drift, release steps get skipped, and research quality varies.
+I built this to help coordinate multiple AI projects: keeping research, documentation, and release steps connected as the work changes.
 
 ## What I built
 
@@ -32,4 +32,4 @@ A coordination layer. Four parallel research workflows vet product ideas against
 
 ## Why it exists
 
-It is less a product and more an operating system for the rest of the products. Without it, each project would drift independently.
+It is less a product and more an operating system for the rest of the products. It gives me one place to keep track of how the projects are moving.

@@ -35,6 +35,9 @@ jobs:
       - name: Check required pages, local links, and anchors
         run: python3 scripts/check_site.py
 
+      - name: Check formatting contracts
+        run: python3 scripts/check_formatting.py
+
       - name: Check patch whitespace
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}

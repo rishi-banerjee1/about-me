@@ -34,4 +34,4 @@ Runs on scheduled automations. Maintains durable state between runs. It knows wh
 
 ## Why a ledger matters
 
-Most triage tools produce summaries. Summaries are disposable: one read, then the context is gone. A ledger persists, tracks items to resolution, and creates accountability.
+I wanted the system to remember what remained open after a briefing was read. The ledger carries those items forward and tracks them through to resolution.
