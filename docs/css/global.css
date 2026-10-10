@@ -1737,3 +1737,21 @@ strong {
     text-align: left;
   }
 }
+
+/* Shared contact actions: align button and text-link as one group. */
+.connect-actions {
+  align-items: center;
+}
+
+.cta-card .connect-actions {
+  justify-content: center;
+}
+
+#interview-frameworks-and-ai > .container > .panel-card {
+  margin-bottom: 2rem;
+}
+
+#interview-frameworks-and-ai .text-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+}

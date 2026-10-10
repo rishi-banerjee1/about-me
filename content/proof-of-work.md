@@ -7,7 +7,7 @@ template = "standard-page.html"
 eyebrow = "Public Evidence"
 +++
 
-This page brings the public evidence together: confirmed outcomes, working systems, published thinking, and the recruiting practice behind them. The diagnostic detail, operating design, and leadership context stay inside each mandate. *[Raising the Bar](https://www.amazon.in/dp/B0HMC6ZD7M)* is the public expression of that point of view: a case for Talent Partners and leaders to treat every hire as a decision that raises or lowers the company's future.
+This page brings the public evidence together: confirmed outcomes, working systems, published thinking, and the recruiting practice behind them. The diagnostic detail, operating design, and leadership context stay inside each mandate. *[Raising the Bar](../raising-the-bar/)* is the public expression of that point of view: a case for Talent Partners and leaders to treat every hire as a decision that raises or lowers the company's future.
 
 ## Founder Hindsight makes the trade-offs behind people decisions visible
 
@@ -62,7 +62,7 @@ Technology becomes valuable when it improves the work and the decisions around i
 
 ## The business gets clearer decisions and a talent engine that can move
 
-The aim is to be the go-to talent partner when a business is trying to solve a consequential hiring, organisation-design, or talent-brand problem. That can mean leading the TA function, owning a critical search as a Senior Principal or Chief Talent Partner, or taking on a defined advisory engagement. In every case, the value is the same: clear thinking, high judgment, and a talent engine that helps the business move.
+Across search, talent leadership, and advisory work, the same questions recur: what does the business need to change, what evidence will support the decision, and who owns the next action? The work on these pages shows how I approach those questions through recruiting practice, team development, and systems.
 
 ## The boundary
 
