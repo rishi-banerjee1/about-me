@@ -7,48 +7,53 @@ template = "standard-page.html"
 eyebrow = "Leadership"
 +++
 
-My leadership practice stays grounded in hands-on search, trusted partnership with hiring leaders, and developing stronger teams.
+Talent leadership connects the business’s next priorities with the people, hiring decisions, and team capability needed to deliver them. My work spans global R&D talent acquisition, executive search, enterprise recruiting delivery, and building a talent function at an early stage.
 
-Currently leading Talent Acquisition where technical ambition, global complexity, and business pace demand more than recruiting capacity. The work is to build the people, systems, and operating discipline that make growth possible while raising the quality bar.
+Across those settings, the responsibility stays close to the work: clarify what the business needs, help leaders make sound decisions, and develop teams that can carry that judgment forward.
 
-## Global scope works when the function stays close to the business
+## Lead across markets while staying close to the work
 
-Built and scaled talent models across APAC, North America, and Europe, working across Engineering, Product, Design, IT, Security, executive hiring, and corporate functions. The common thread is a function that can operate globally while staying close to the business it serves.
+Led talent strategy and acquisition across Engineering, Product, Design, IT, Security, executive hiring, and corporate functions, with scope across India, North America, Europe, and APAC.
 
-## Leaders make better hiring decisions when the evidence and ownership are clear
+Global scope requires shared standards and an understanding of local market conditions. Workforce priorities, role expectations, search strategy, and candidate conversations need to connect. A hiring plan becomes useful when leaders can see which capabilities matter next and where the market requires a trade-off.
 
-Designing stronger hiring environments where leadership teams can make decisions with clearer evidence, shared standards, and better accountability. This work has supported technical and leadership hiring through periods of rapid growth and organisational change.
+## Turn hiring decisions into a leadership capability
 
-The partnership stays close to the work: helping leaders define the problem behind a role, make trade-offs visible, prepare interviewers to assess distinct evidence, and turn a debrief into a decision. This is how stronger hiring judgment becomes a capability leaders can use repeatedly.
+My partnership with hiring leaders begins with the problem behind the role. Together, we define the contribution required, the authority and support available, and the evidence that will help us judge a candidate’s ability to succeed.
 
-## Talent operations must reveal where leadership action is needed
+That work continues through interview design and calibration. Each interviewer needs a clear purpose; each conclusion needs supporting evidence. When a debrief exposes disagreement, the task is to identify what remains unresolved and who will resolve it. These conversations also develop a leader’s ability to assess, challenge, and decide on the next search.
 
-Modernised the operating layer around talent: role and level clarity, planning, decision support, analytics, candidate experience, and governance. This gives Talent, hiring leaders, and business partners a shared view of the plan, the search, and the action required when they diverge. At Atlan, this included reducing time-to-hire by 40% while protecting the quality bar and candidate experience.
+[Explore the work on hiring and interview architecture](../advisory/#hiring-and-interview-architecture).
 
-## The right systems preserve judgment as the organisation grows
+## Make delivery more predictable and constraints visible
 
-Building systems that reduce repeated effort and make good judgment more repeatable across a team. The public portfolio shows selected examples. The underlying doctrine, workflow design, and implementation detail remain private.
+Modernised talent operations through clearer roles and levels, workforce planning, analytics, candidate experience, and decision ownership. The aim is a shared view of what the business needs, where a search is losing momentum, and what action will move it forward.
 
-[Explore selected proof of work](../proof-of-work/)
+Results across distinct leadership settings include:
 
-## Leadership stays credible when it remains grounded in recruiting
+- **40% reduction in time-to-hire** while leading global R&D talent acquisition for a scaling technology business.
+- **95%+ compliance with agreed service levels on key enterprise client accounts** while leading global Talent and recruitment process outsourcing delivery.
 
-Leadership experience is grounded in the practice of recruiting: defining roles with business leaders, finding and engaging talent, assessing evidence, and closing consequential hires. That craft also shapes how I develop recruiters and work with hiring teams.
+Those results came from different mandates and measure delivery efficiency and reliability. Effectiveness also requires examining whether the hire contributes as expected and whether the team makes sound decisions. The goal is a talent function that uses its capacity well and helps the business hire successfully.
 
-[Explore The Art & Craft of Recruiting](../recruiting-craft/) for how I own searches, assess talent, advise hiring leaders, and develop stronger teams.
+## Build the talent function for the next stage
 
-## The work spans global scale, executive search, and early-stage build
+Current work includes leading Talent Acquisition for an early-stage enterprise intelligence platform with international ambitions. The responsibility is to connect workforce design to hiring sequence, establish a shared assessment standard, and build the operating habits a growing team needs.
 
-### Building global R&D talent capability
+The questions are practical: which capability is needed first, what can the current team absorb, and which decisions need leadership attention? Recruiting capacity, interviewer readiness, and the experience promised to candidates have to develop together.
 
-At **Atlan**, I led R&D talent strategy and acquisition across Engineering, Product, Design, IT, and Security in India, North America, Europe, and APAC. The mandate combined senior hiring, workforce planning, recruiting leadership, and a more rigorous operating model for a rapidly scaling technical organisation. Time-to-hire reduced by 40% while protecting the quality bar and candidate experience.
+## Develop teams through consequential work
 
-### Leading global executive search and RPO delivery
+Hands-on search remains part of how I lead. Working through a difficult intake, examining assessment evidence, or preparing a candidate conversation makes coaching specific. Team members learn to bring a recommendation, explain their reasoning, and own the next action.
 
-At **ZTek Consulting**, I led global Talent and RPO services for enterprise clients, including leadership hiring across North America, Europe, and APAC. The work required sound search judgment, distributed-team leadership, and an ability to make hiring delivery more predictable across markets. Key client accounts saw a 30% reduction in cost per hire and 95%+ SLA compliance.
+The aim is increasing independence in judgment. Stronger teams can advise hiring leaders, recognise when the brief needs to change, and explain trade-offs with confidence. That capability grows through feedback on real work and reflection on what happens after the hire.
 
-### Building a global TA engine from day one
+[Explore The Art & Craft of Recruiting](../recruiting-craft/).
 
-At **kAIgentic**, I lead global Talent Acquisition for an enterprise intelligence platform with ambition across Asia, Europe, North America, and Japan. The work is to build the TA engine early: connect workforce design to hiring sequence, establish the quality bar, and create the operating discipline that lets a small team scale deliberately.
+## Build systems that support the team’s judgment
 
-[View my full career history on LinkedIn](https://www.linkedin.com/in/rishibanerjee/)
+The systems I build address recurring problems in the work. [TA CentCom](../projects/ta-centcom/) makes search health, constraints, and ownership visible. [Interview Evaluator](../projects/gabbar-interview-evaluator/) supports interviewer development. [RishiOS](../projects/rishios-mcp/) connects hiring standards, assessment evidence, and calibration.
+
+Each gives the team something concrete to inspect and act on. The people responsible for the hiring decision remain accountable for it.
+
+[Explore selected proof of work](../proof-of-work/) or [view my career history on LinkedIn](https://www.linkedin.com/in/rishibanerjee/).
