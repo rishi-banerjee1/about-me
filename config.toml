@@ -257,7 +257,7 @@ visibility = "private"
 status = "active"
 
 [[extra.supporting_sections.projects]]
-title = "Atlan Interview Assist"
+title = "Interview Assist"
 summary = "Transcript analysis system for structured interviewer feedback, candidate evaluation, and decision-ready reports."
 audience = "Hiring managers, interviewers, and Talent teams running structured hiring across multiple roles."
 value = "Turns interview conversations into comparable evidence and decision-ready debriefs."

@@ -52,7 +52,7 @@ What I want to see over time is more independence: someone bringing a considered
 
 ## Build systems that support the team’s judgment
 
-The systems I build address recurring problems in the work. [TA CentCom](../projects/ta-centcom/) makes search health, constraints, and ownership visible. [Interview Evaluator](../projects/gabbar-interview-evaluator/) supports interviewer development. [RishiOS](../projects/rishios-mcp/) connects hiring standards, assessment evidence, and calibration.
+The systems I build address recurring problems in the work. [TA CentCom](../projects/ta-centcom/) makes search health, constraints, and ownership visible. [Interview Evaluator](../projects/gabbar-interview-evaluator/) supports interviewer development. [RishiOS](../projects/rishios-mcp/) supports role-specific evaluation and scorecard validation.
 
 Each gives the team something concrete to inspect and act on. The people responsible for the hiring decision remain accountable for it.
 

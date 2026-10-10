@@ -62,6 +62,6 @@ That is part of the wider [Art & Craft of Recruiting](../recruiting-craft/): und
 
 ## AI in the recruiting workflow
 
-Finding AI-native talent and building AI-enabled recruiting systems are connected areas of my work. [Interview Evaluator](../projects/gabbar-interview-evaluator/) supports interviewer development; [RishiOS](../projects/rishios-mcp/) connects hiring standards, evidence, and calibration. The people responsible for a hire remain accountable for the decision.
+Finding AI-native talent and building AI-enabled recruiting systems are connected areas of my work. [Interview Evaluator](../projects/gabbar-interview-evaluator/) supports interviewer development; [RishiOS](../projects/rishios-mcp/) applies assessment criteria and checks recorded evidence. The people responsible for a hire remain accountable for the decision.
 
 Research and synthesis need source checks. AI-generated claims about a candidate cannot establish their capability. This discipline also runs through *[Raising the Bar](../raising-the-bar/)*.

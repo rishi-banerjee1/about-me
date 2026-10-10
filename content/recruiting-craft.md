@@ -74,7 +74,7 @@ I ask myself: if we selected this person tomorrow, what would they still need to
 
 That includes being clear when the role cannot meet a priority. A respectful decision not to proceed can be the right outcome. When we do move forward, I want the commitments made during the search to reach the people responsible for onboarding and the work itself.
 
-I built [Atlan Offer Wizard](../projects/atlan-offer-wizard/) to carry that understanding into the offer itself: what stood out about the person, their connection to the company, and the opportunity ahead. The artifact makes the final communication personal and grounded in the conversations that came before it.
+I built [Offer Wizard](../projects/atlan-offer-wizard/) to carry that understanding into the offer itself: what stood out about the person, their connection to the company, and the opportunity ahead. The artifact makes the final communication personal and grounded in the conversations that came before it.
 
 ## Develop teams through the work
 
