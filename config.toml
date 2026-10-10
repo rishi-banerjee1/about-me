@@ -74,6 +74,10 @@ label = "Art & Craft"
 href = "/recruiting-craft/"
 
 [[extra.nav_links]]
+label = "Hiring for AI Talent"
+href = "/ai-native-talent/"
+
+[[extra.nav_links]]
 label = "Advisory"
 href = "/advisory/"
 

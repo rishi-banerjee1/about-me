@@ -1,14 +1,27 @@
 +++
 title = "Finding and Assessing AI-Native Talent"
-description = "Rishi Banerjee’s approach to AI-native talent: define the work, find relevant builders, and assess judgment, contribution, and learning through evidence."
+description = "Finding the people who can build with AI and make the team stronger. My approach connects search, technical evidence, hiring judgment, and Talent Density."
 template = "standard-page.html"
 [extra]
 eyebrow = "Talent Partner · AI-native talent"
 +++
 
+My work on AI-native talent brings together hands-on search, partnership with hiring leaders, and the perspective of building AI tools myself. I want to understand both what someone can contribute now and how they could help the team grow as the technology and the work change.
+
 When a hiring conversation starts with “AI-native talent”, I want to understand what we mean for this team. What will the person build or change, and where does AI change the capability we need? A research role, an AI product role, and an engineering role using AI extensively need different evidence.
 
-This is how I approach the search and the conversations that follow.
+That can be a single critical hire, a new team, or capability being built across a function. I work with leaders to connect the search to that wider picture, make the assessment specific, and give candidates a clear sense of the work they would own.
+
+## From the business need to the hiring decision
+
+The work comes together in four places:
+
+- **Shape the mandate:** agree what the team needs to become capable of, what is already there, and what contribution would raise Talent Density.
+- **Find relevant builders:** follow the problems people have worked on, including adjacent talent pools and less obvious career paths.
+- **Make the problem worth exploring:** connect the work with people whose interests and experience give them a reason to care, then help the team explain the contribution they could make.
+- **Help both sides decide:** develop the interviewers’ lines of questioning, examine the evidence together, and make the opportunity and its constraints clear to the candidate.
+
+The sections below show how I approach those conversations.
 
 ## Define what AI-native means for this role
 
@@ -54,11 +67,21 @@ When something is unclear, I would rather name the unanswered question and agree
 
 This is part of how I build [interview frameworks](../advisory/#hiring-and-interview-architecture): a standard the team can apply, question, and improve through the work.
 
-## Make the opportunity worth exploring
+## Connect the problem with the people it could excite
 
-I want an approach to someone to have a reason behind it: something in their work that connects with a problem they might enjoy owning. From there, the conversation gets into the scope, colleagues, constraints, and room to learn. Meeting the people they would work with helps a candidate form their own view.
+Part of my work is helping leaders explain why the problem is worth someone’s attention. Before approaching candidates, I want to understand who it affects, what makes it difficult, what has already been tried, and what solving it would make possible. That gives us a more useful starting point than a list of technologies or responsibilities.
 
-That is part of the wider [Art & Craft of Recruiting](../recruiting-craft/): understanding the business, assessing contribution, advising the hiring team, and helping both sides make an informed choice.
+Then I think about who might find that work compelling. Someone drawn to research may want to explore the unanswered technical question and the room to experiment. A product-minded engineer may be more interested in the user problem, the feedback loop, and the path to putting something useful into people’s hands. An experienced platform builder may want to understand the reliability challenges and the scope to influence architecture. Those are starting points for a conversation; I want to hear what actually interests the person.
+
+That connection also shapes where I search. The people most interested in a problem may have encountered it in another industry, contributed to an adjacent tool, or written thoughtfully about a constraint the team is facing. Their work gives me a specific reason to reach out and a way to explain why this conversation might be worth their time.
+
+For example, a brief about building an AI assistant becomes more tangible when we can explain whose work it supports, where current answers fall short, and what the person would have the authority to change. For someone interested in evaluation, the open question may be how to tell whether the system is useful in messy real-world conditions. For someone focused on adoption, it may be how to fit it into a workflow people already rely on.
+
+I want the excitement to come from the work itself: a meaningful problem, thoughtful colleagues, and a contribution the person can see themselves making. We talk openly about the constraints too, including data access, resources, decision authority, and what is still uncertain. Meeting the people they would work with helps a candidate test that picture and form their own view.
+
+This carries through the search. As I learn what matters to the candidate, I help the hiring team make the next conversation more relevant. The aim is a shared understanding of why the opportunity is worth pursuing and what both sides would need for it to work.
+
+That is part of the wider [Art & Craft of Recruiting](../recruiting-craft/): understanding the business, recognising the right audience for its problems, and helping both sides make an informed choice.
 
 ## AI in the recruiting workflow
 
