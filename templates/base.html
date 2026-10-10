@@ -11,7 +11,7 @@
 
     {%- set og_type = "website" %}
     {%- block og_type %}{% endblock %}
-    <meta property="og:type" content="{{ og_type }}" />
+    <meta property="og:type" content="{% block og_type_value %}{{ og_type }}{% endblock %}" />
     <meta property="og:url" content="{{ page_url }}" />
     <meta property="og:title" content="{% block og_title %}{{ config.title }}{% endblock %}" />
     <meta property="og:description" content="{% block og_description %}{{ config.description }}{% endblock %}" />
@@ -21,7 +21,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{% block tw_title %}{{ config.title }}{% endblock %}" />
     <meta name="twitter:description" content="{% block tw_description %}{{ config.description }}{% endblock %}" />
-    <meta name="twitter:image" content="{{ og_image }}" />
+    <meta name="twitter:image" content="{% block tw_image %}{{ og_image }}{% endblock %}" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

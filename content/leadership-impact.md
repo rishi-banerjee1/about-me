@@ -7,7 +7,7 @@ template = "standard-page.html"
 eyebrow = "Leadership"
 +++
 
-I remain open to selected senior TA leadership mandates, with hands-on search and Talent Partner work as my primary focus.
+My leadership practice stays grounded in hands-on search, trusted partnership with hiring leaders, and developing stronger teams.
 
 Currently leading Talent Acquisition where technical ambition, global complexity, and business pace demand more than recruiting capacity. The work is to build the people, systems, and operating discipline that make growth possible while raising the quality bar.
 

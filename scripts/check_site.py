@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import sys
+import json
 import re
 from html.parser import HTMLParser
 from pathlib import Path
@@ -21,6 +22,8 @@ REQUIRED_ROUTES = (
     "proof-of-work/index.html",
     "projects/index.html",
     "recruiting-craft/index.html",
+    "ai-native-talent/index.html",
+    "raising-the-bar/index.html",
     "founder-hindsight/index.html",
 )
 URL_ATTRIBUTES = ("href", "src")
@@ -31,12 +34,19 @@ class PageParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.urls: list[tuple[str, str]] = []
         self.anchors: set[str] = set()
+        self.canonicals: list[str] = []
+        self.description = ""
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        values = dict(attrs)
+        if tag == "link" and values.get("rel") == "canonical":
+            self.canonicals.append(values.get("href", ""))
+        if tag == "meta" and values.get("name") == "description":
+            self.description = values.get("content", "") or ""
         self._record(attrs)
 
     def handle_startendtag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        self._record(attrs)
+        self.handle_starttag(tag, attrs)
 
     def _record(self, attrs: list[tuple[str, str | None]]) -> None:
         values = dict(attrs)
@@ -118,6 +128,26 @@ def main() -> int:
         pages[html_file.resolve()] = parser
 
     errors: list[str] = []
+    # Protect the focused search landing pages in the existing CI gate.
+    for route in (display(path) for path in OUTPUT.rglob("index.html")):
+        path = (OUTPUT / route).resolve()
+        parser = pages[path]
+        expected = base_url + route.removesuffix("index.html")
+        if parser.canonicals != [expected]:
+            errors.append(f"{route}: canonical must be {expected}")
+        if not parser.description.strip():
+            errors.append(f"{route}: missing search description")
+        html = path.read_text()
+        if not re.search(r"<title>[^<]+</title>", html):
+            errors.append(f"{route}: missing title")
+        for payload in re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S):
+            try:
+                json.loads(payload)
+            except json.JSONDecodeError:
+                errors.append(f"{route}: invalid structured data JSON")
+    book_html = (OUTPUT / "raising-the-bar/index.html").read_text()
+    if '"@type": "Book"' not in book_html:
+        errors.append("Book landing page must include Book structured data")
     checked_links = 0
     for source_file, parser in pages.items():
         source_rel = source_file.relative_to(OUTPUT.resolve())

@@ -4,9 +4,9 @@ weight = 6
 template = "projects/page.html"
 
 [extra]
-shortSummary = "Transcript-based coaching that helps interviewers recognise their strengths and identify specific areas for improvement."
+shortSummary = "Interviewer coaching and framework work connecting role standards, interview evidence, and practical feedback."
 problem = "Interviewers rarely receive specific feedback on how their questions, evidence, and judgment affect a hiring decision."
-summary = "Built as part of an interviewer training program to help hiring teams learn from their own interviews and develop a more structured approach to assessment."
+summary = "A transcript-based coaching tool, with related framework work on written standards, evidence ownership, and how interviewers reach a supported judgment."
 audience = "Interviewers, hiring managers, and Talent teams building stronger interviewing capability."
 value = "Turns completed interviews into practical feedback that interviewers can use in the next conversation."
 category = "Interviewer Enablement"
@@ -18,7 +18,7 @@ detail = true
 status = "active"
 visibility = "private"
 tags = ["Claude Code", "Interviewer Training", "Structured Hiring", "Bias Safeguards"]
-metrics = ["7-layer doctrine", "Structured feedback", "Bias safeguards"]
+metrics = ["Interviewer coaching", "Evidence-led assessment", "Framework design"]
 contactHref = "mailto:rpbanerjee@outlook.com?subject=Interview%20Evaluator"
 contactLabel = "Request walkthrough"
 +++
@@ -32,6 +32,18 @@ Interviewer training can stay abstract when it is separated from the interviews 
 Interview Evaluator reviews an interview transcript and gives the interviewer structured feedback on their strengths and areas for improvement. I built it as part of my interviewer training program so development could continue through the work itself.
 
 The tool uses a seven-layer hiring doctrine to examine how the conversation was structured, how evidence was gathered, and where judgment may need more support. The feedback gives interviewers something concrete to practise in their next interview while helping hiring teams build a more consistent approach to assessment.
+
+## The framework work around the tool
+
+The newer work addresses the design of the interview itself: define the evidence a role requires, give each interviewer a clear area to examine, and connect the decision record to what was actually observed. A written standard should be shared before interviews begin, with changes visible to the team.
+
+For AI-building roles, the inquiry follows a system through real use: what the person shipped, personally owned, operated, measured, and learned. Coachability is examined through reasoning: how someone explains a choice, considers a relevant challenge, and changes their view when better evidence warrants it.
+
+The record needs to distinguish confirmed evidence, missing evidence, and demonstrated gaps. That helps the team identify a focused follow-up and gives interviewer coaching a concrete basis: which question produced useful evidence, where the conversation stopped short, and what to practise next.
+
+This framework work is being developed separately from the transcript tool. The newer criteria are not presented here as implemented automated scoring features. The framework and interviewer guidance remain useful in a human-led interview and debrief.
+
+Explore my approach to [finding and assessing AI-native talent](../../ai-native-talent/) and [building interview frameworks](../../advisory/#hiring-and-interview-architecture).
 
 ## Design decision
 

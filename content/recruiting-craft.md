@@ -1,6 +1,6 @@
 +++
 title = "The Art & Craft of Recruiting"
-description = "How I shape roles, find relevant talent, assess evidence, position opportunities, and help candidates and hiring managers make sound decisions."
+description = "Rishi Banerjee’s Talent Partner practice: executive search, technical recruiting, candidate assessment, hiring leader counsel, and team development."
 template = "recruiting-craft.html"
 
 [extra]
@@ -33,6 +33,8 @@ I map target organisations, adjacent pools, and variations in role scope, then t
 I built [Sourcing Compass](../projects/sourcing-compass/) to make that early reasoning visible: target companies, adjacent pools, less obvious sources, and related titles. It gives a recruiter and hiring leader something concrete to examine together before outreach begins.
 
 A conversation can remain valuable when the current role is wrong for someone. I want to understand what would make a future conversation useful and ask permission to stay in touch. When an introduction makes sense, a short brief they can forward gives the other person a choice. Relationships deserve attention beyond the vacancy that brought us together.
+
+For AI-related searches, I follow the same discipline through the work someone has built, their contribution, and how they test and improve it. Read more about my approach to [finding and assessing AI-native talent](../ai-native-talent/).
 
 ## Make the opportunity relevant to the person
 
@@ -82,4 +84,4 @@ The aim is growing independence in judgment. Reviewing a difficult intake, an in
 
 The same standard guides how I use AI. Research and synthesis can create more room for recruiting, but generated claims need source checks. A polished summary cannot establish a candidate’s capability. Recruiters and hiring managers remain responsible for the evidence and the decision.
 
-I have written more about this practice in the revised and expanded second edition of *[Raising the Bar](https://www.amazon.in/dp/B0HMC6ZD7M)*.
+I have written more about this practice in the revised and expanded second edition of *[Raising the Bar](../raising-the-bar/)*.

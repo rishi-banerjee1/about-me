@@ -1,0 +1,20 @@
+{% extends "standard-page.html" %}
+{% block og_image %}{{ get_url(path='assets/raising-the-bar-cover.jpg') }}{% endblock %}
+{% block tw_image %}{{ get_url(path='assets/raising-the-bar-cover.jpg') }}{% endblock %}
+{% block json_ld %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "@id": "{{ page.permalink | safe }}#book",
+  "name": {{ page.title | json_encode() | safe }},
+  "description": {{ page.description | json_encode() | safe }},
+  "url": {{ page.permalink | json_encode() | safe }},
+  "image": "{{ get_url(path='assets/raising-the-bar-cover.jpg') | safe }}",
+  "author": {"@type": "Person", "name": "Rishi Banerjee", "url": "{{ config.base_url | safe }}/", "@id": "{{ config.base_url | safe }}/#person"},
+  "bookEdition": "Revised and expanded second edition",
+  "inLanguage": "en",
+  "sameAs": "https://www.amazon.in/dp/B0HMC6ZD7M"
+}
+</script>
+{% endblock %}

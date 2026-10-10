@@ -29,9 +29,17 @@ These rules are the source of truth for agents and maintainers working on this s
 - Keep copy grounded in source material in this repository and materials the owner has provided. Do not invent metrics, quotes, credentials, or outcomes. Do not expose private repository details.
 - Do not name other people in public site copy. Do not use comparisons to position the site owner. Do not use em dashes in shipped copy.
 
+## Site positioning
+
+- Present Rishi and his work, ideas, and recruiting practice. The intended takeaway is that he is worth connecting with, not that he is seeking a job.
+- Use conversational invitations such as "Say hello" and "exchange notes on Talent". Do not restore role-availability statements, mandate intake forms, or job-seeking CTAs.
+- Distinguish finding and assessing AI-native talent from building AI-native recruiting systems. Keep both visible. SEO must use relevant content and descriptive metadata, never keyword stuffing or ranking guarantees. The book has a dedicated `/raising-the-bar/` landing page.
+- Give interview framework building and AI-native recruiting explicit, source-backed coverage. Keep private implementation details private.
+- Current local review checkpoint: `work/connection-positioning-checkpoint.md`. The owner approved publication of this revision after review. Future revisions still require approval.
+
 ## Art & Craft page intent
 
-- Establish personal recruiting credibility for Principal and Chief Recruiter work through search ownership, sourcing, assessment, candidate engagement, stakeholder counsel, closing, and mentoring.
+- Establish personal recruiting credibility through search ownership, sourcing, assessment, candidate engagement, stakeholder counsel, closing, and mentoring.
 - The book is supporting source material, with a discreet reference. Do not turn the page into a book summary or promotion.
 - Do not restore the selected-outcomes strip. Use confirmed career scope, recommendations, and relevant work artifacts; unconfirmed anecdotes must not be presented as facts.
 

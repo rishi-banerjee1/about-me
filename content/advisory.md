@@ -1,13 +1,13 @@
 +++
 title = "Advisory"
-description = "Fractional Talent Acquisition leadership and advisory support for global SaaS and technology companies building or transforming talent capability."
+description = "How I work with leaders on talent strategy, interview frameworks, team development, and AI-native recruiting."
 template = "standard-page.html"
 
 [extra]
 eyebrow = "Advisory"
 +++
 
-Working with leadership teams when talent has become a business constraint, a transformation mandate, or a question that needs senior ownership. Every engagement starts with the same standard: the talent function must help the business raise the bar as it scales. Fractional TA leadership, fractional hiring leadership, and defined advisory work are available for global SaaS and technology businesses. The public work describes the kinds of outcomes created; the operating detail stays inside each engagement.
+Advisory is an extension of my work with hiring leaders: understanding the business constraint, making the choices clear, and helping the team develop its own judgment. These are the questions and areas of practice that recur across that work.
 
 ## Talent Function Build and Transformation
 
@@ -19,6 +19,12 @@ For organisations that need more confidence in the quality and consistency of hi
 
 The working environment belongs in that design: decision authority, dependencies, pace of change, and the support available to a new hire. Candidate conversations should explain those conditions accurately. The same understanding needs to connect the success profile, interview evidence, offer commitments, and learning after the hire joins.
 
+A usable framework makes four things explicit: the evidence required for the role, who will examine it, how observations support a judgment, and what happens when evidence is missing. I connect the success profile, question areas, interviewer guidance, and decision record so they work as one system.
+
+The standard should be written and shared before interviews begin. When it changes, the team needs to know which assessments require another look. Calibration also needs room to separate capability required today from how someone learns and responds as the work changes.
+
+For AI-building roles, that becomes a focused examination of what the person shipped, owned, operated, measured, and learned. Read more about [finding and assessing AI-native talent](../ai-native-talent/).
+
 ## AI-Native TA and HR Transformation
 
 Helping talent teams use technology to improve the quality and speed of work without creating new risk or fragmented process. The focus is on where systems can make high-judgment work more repeatable, enable adoption, and establish the governance required to make the work durable.
@@ -27,10 +33,6 @@ Helping talent teams use technology to improve the quality and speed of work wit
 
 For leaders who need hands-on senior support through an inflection point: a new market, a capability build, a team reset, or a high-stakes hiring mandate. This can include leadership partnership, a hiring cadence that resolves decisions and ownership, recruiter capability, and transformation ownership.
 
-## The engagement should match the problem and stage
+## Start with the question the team needs to answer
 
-- Diagnostic or strategy sprint
-- Defined transformation project
-- Fractional leadership mandate
-- Leadership or TA-team advisory
-- Interviewer or recruiter capability programme
+The starting point might be a hiring standard people interpret differently, a search that keeps stalling, or a team adopting AI without a clear place for it in the work. The useful first step is to understand the constraint with the people closest to it, agree what needs to change, and make ownership clear.
