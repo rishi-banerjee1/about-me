@@ -1863,3 +1863,13 @@ strong {
 @media (max-width: 900px) {
   .talent-system-grid { grid-template-columns: minmax(0, 1fr); }
 }
+
+.copyright-notice {
+  margin: 1rem auto 0;
+  max-width: 58rem;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.65;
+  color: var(--muted);
+}
+.copyright-notice a { text-decoration: underline; text-underline-offset: 0.15em; }

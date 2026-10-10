@@ -43,3 +43,9 @@ checks = {
 for label, pattern in checks.items():
     assert re.search(pattern, css, re.S), 'Missing layout rule: '+label
 print('Formatting contracts passed: card structure, responsive grid, and CTA alignment rules.')
+
+for page in (ROOT / "docs").rglob("*.html"):
+    html = page.read_text()
+    assert 'data-copyright-year' in html and 'All rights reserved.' in html, f"Missing copyright notice: {page}"
+    assert 'copyright.js' in html, f"Missing dynamic copyright year: {page}"
+print('Copyright footer coverage passed on all HTML pages.')
