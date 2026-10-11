@@ -1,69 +1,65 @@
 +++
 title = "Proof of Work"
-description = "Public evidence of talent acquisition, executive search, talent operations, internal applications, hiring systems, and global SaaS talent strategy work."
+description = "Delivery outcomes, recruiting tools, and published thinking from Rishi Banerjee’s work in Talent Acquisition and hiring judgment."
 template = "standard-page.html"
 
 [extra]
 eyebrow = "Public Evidence"
 +++
 
-This page brings the public evidence together: confirmed outcomes, working systems, published thinking, and the recruiting practice behind them. The diagnostic detail, operating design, and leadership context stay inside each mandate. *[Raising the Bar](../raising-the-bar/)* is the public expression of that point of view: a case for Talent Partners and leaders to treat every hire as a decision that raises or lowers the company's future.
+There are several ways to get to know my work: the delivery outcomes, the systems you can explore, and the thinking behind a difficult decision. Each shows a different part of the practice. Company and candidate details remain confidential.
 
-## Founder Hindsight makes the trade-offs behind people decisions visible
+## Delivery outcomes from distinct mandates
 
-[Founder Hindsight](../founder-hindsight/) is a long-form synthesis of 33 founder and operator accounts across 13 tensions in hiring, organisation design, AI, and scale. It is written for SaaS founders and operators making consequential people decisions: the stage-fit of a leader, when to add a layer, whether to hire ahead of demand, and where human judgment still earns its cost. The accounts are paraphrased and linked to their sources; the readings are my interpretation and open to dispute.
+- **40% reduction in time-to-hire** while leading global R&D talent acquisition for a scaling technology business.
+- **95%+ compliance with agreed service levels on key enterprise client accounts** while leading global Talent and recruitment process outsourcing delivery.
 
-## A TA engine built around the business it serves
+These results came from separate mandates. They describe delivery efficiency and reliability. Assessing a hire’s contribution and the capability they add to a team requires evidence after they join.
 
-My planning starts with what the team needs to do next and what is holding it back. From there, I connect workforce priorities, market research, and search decisions. I want leaders to see where their involvement will make a difference.
+[Explore the leadership work behind these outcomes](../leadership-impact/).
 
-This is the logic behind my work on capacity planning and the business cost of vacancies:
+## Systems you can explore
 
-- [Scaling Talent Acquisition with Capacity Planning: A Data-Driven Framework](https://medium.com/@risbane1002/scaling-talent-acquisition-with-capacity-planning-a-data-driven-framework-470b28b0007d)
-- [The Silent Revenue Killer: How Opportunity Cost in Hiring Impacts Business Outcomes](https://medium.com/@risbane1002/the-silent-revenue-killer-how-opportunity-cost-in-hiring-impacts-business-outcomes-bf1466f42a03)
+Building tools lets me turn recurring recruiting problems into something a team can inspect, question, and use.
 
-## A shared definition of great
+- **[Sourcing Compass](../projects/sourcing-compass/):** a first map of organisations, adjacent talent pools, and related titles to test before outreach. It makes the search assumptions visible.
+- **[Interview Evaluator](../projects/gabbar-interview-evaluator/):** feedback on interview conversations, including where a line of questioning found evidence and where it stopped short. It supports interviewer development.
+- **[TA CentCom](../projects/ta-centcom/):** a shared view of search constraints, ownership, and next actions. It helps bring the delivery conversation to the decision that needs attention.
+- **[RishiOS](../projects/rishios-mcp/):** role- and level-specific evaluation, scorecard validation, and checks against recorded evidence. It helps people apply a shared assessment framework.
 
-What would make this a great hire here? I explore that with hiring leaders before we decide how to interview. It connects the role to Talent Density: what someone adds to the team’s capability and how they help others succeed. Much of the work is then coaching interviewers to recognise that contribution, follow a useful line of questioning, and explain their assessment.
+The project pages explain their scope and design choices. These artifacts show what I have built; they do not establish a measured hiring outcome on their own.
 
-These articles reflect that point of view:
+## A worked decision: does this problem need another hire?
+
+*Adapted from an illustrative example in the revised edition of Raising the Bar. This is a demonstration of the reasoning, with no company or candidate details.*
+
+A team asks for a senior engineer because releases keep slipping. Before turning that request into a search, I would examine where the work gets stuck. In the example, two leaders have unresolved ownership of architecture decisions. Another engineer would inherit the same blockage.
+
+The first decision is to clarify who can make those calls. Then we can examine the work that remains: does the team lack expertise, need more capacity, or need support to develop someone already there? If an external hire is still needed, the brief should explain the capability they will add and the authority they will have to use it.
+
+That changes what the hiring conversation must establish. We need a reason to hire that holds up after examining the underlying constraint. The example stops at that decision; it makes no claim about a completed hire or a delivery improvement.
+
+[Explore how I develop the team’s hiring judgment](../advisory/#hiring-and-interview-architecture).
+
+## Published thinking behind the practice
+
+These pieces let you examine my reasoning and bring your own experience to it.
+
+### Planning the work and the talent it needs
+
+- [Scaling Talent Acquisition with Capacity Planning](https://medium.com/@risbane1002/scaling-talent-acquisition-with-capacity-planning-a-data-driven-framework-470b28b0007d)
+- [How Opportunity Cost in Hiring Impacts Business Outcomes](https://medium.com/@risbane1002/the-silent-revenue-killer-how-opportunity-cost-in-hiring-impacts-business-outcomes-bf1466f42a03)
+
+### Developing hiring judgment
 
 - [Hiring for Great vs. Hiring for Role Fit](https://medium.com/@risbane1002/hiring-for-great-vs-hiring-for-role-fit-what-are-you-really-optimizing-for-14eed271ef96)
-- [The Human Touch: Why Interviewer Insight Still Matters in Tech Hiring](https://medium.com/@risbane1002/the-human-touch-why-interviewer-insight-still-matters-in-tech-hiring-96fb8dd9ac22)
+- [Why Interviewer Insight Still Matters in Tech Hiring](https://medium.com/@risbane1002/the-human-touch-why-interviewer-insight-still-matters-in-tech-hiring-96fb8dd9ac22)
 - [Speed vs. Accuracy: What Most HRBPs Get Wrong](https://medium.com/@risbane1002/speed-vs-accuracy-what-most-hrbps-get-wrong-dab5d6c02212)
 
-## Recruiting craft connects business context to candidate judgment
+### Building teams and systems
 
-Recruiting craft combines commercial understanding, talent intelligence, search strategy, assessment, candidate judgment, and the ability to close with integrity. The work is not to persuade someone into a role at any cost. It is to help a company and candidate understand whether the problem, the environment, and the opportunity are genuinely right for each other. That is how a process protects talent density and gives exceptional people a credible reason to engage.
-
-[Explore The Art & Craft of Recruiting](../recruiting-craft/) for hands-on search, candidate judgment, and the coaching and tools that make the craft repeatable.
-
-The revised and expanded second edition of *Raising the Bar* develops this thinking through worked examples and eight linked tools. It examines how to assess the working environment, make an opportunity relevant to an individual candidate, distinguish missing evidence from a demonstrated gap, and learn from what happens after a hire joins. It is written for recruiters across geographies who want to grow into trusted Talent Partners.
-
-## Unblocking searches by changing the conditions around them
-
-When a search stalls, I look at where the difficulty actually sits: the brief, the market, the interviews, the opportunity, or a decision we have not made. That gives the hiring leader and me something specific to change. My leadership search work has spanned technical, product, commercial, and business functions.
-
-## A talent brand people can believe
-
-I am interested in the gap between what a company says about working there and what candidates experience. The role story, the conversations, and the people they meet all shape whether they believe it.
-
-This is why the work pays attention to how markets form, how people choose a company, and how leaders communicate the work:
-
-- [How Nestle Built a Market, and What It Teaches Us About Scaling Organisations](https://medium.com/@risbane1002/how-nestle-built-a-market-and-what-it-teaches-us-about-scaling-organisations-8c4dadfe1f9a)
+- [Vibe Coding in Talent Acquisition](https://medium.com/@risbane1002/scrappy-strategic-and-self-built-vibe-coding-in-talent-acquisition-3ba97e2da002)
+- [How the Engineering Talent Profile Has Evolved](https://medium.com/@risbane1002/from-t-shaped-to-e-shaped-how-the-engineering-talent-profile-has-evolved-21e7786d7d8f)
 - [What Happens When Everything Fails at Once? Leadership.](https://medium.com/@risbane1002/what-happens-when-everything-fails-at-once-leadership-06f1d235a302)
 
-## Technology that gives judgment more leverage
-
-Building tools gives me another way to work on recruiting problems. I look for repeated effort, missing context, or a decision that is hard to follow, then build something the team can inspect and use. These articles describe that part of my work.
-
-- [Scrappy, Strategic, and Self-Built: Vibe Coding in Talent Acquisition](https://medium.com/@risbane1002/scrappy-strategic-and-self-built-vibe-coding-in-talent-acquisition-3ba97e2da002)
-- [From T-Shaped to E-Shaped: How the Engineering Talent Profile Has Evolved](https://medium.com/@risbane1002/from-t-shaped-to-e-shaped-how-the-engineering-talent-profile-has-evolved-21e7786d7d8f)
-
-## The business gets clearer decisions and a talent engine that can move
-
-Across search, talent leadership, and advisory work, the same questions recur: what does the business need to change, what evidence will support the decision, and who owns the next action? The work on these pages shows how I approach those questions through recruiting practice, team development, and systems.
-
-## The boundary
-
-These articles share the thinking, not the implementation. Engagement work remains confidential: the diagnostic detail, operating mechanics, decision frameworks, materials, and systems design are built for the organisation and the moment.
+[Founder Hindsight](../founder-hindsight/) brings together founder and operator accounts of people decisions, with linked sources and my interpretations. *[Raising the Bar](../raising-the-bar/)* develops the recruiting practice through worked examples and practical tools. Both are invitations to examine the choices behind the work.

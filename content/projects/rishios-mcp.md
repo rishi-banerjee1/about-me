@@ -45,7 +45,7 @@ Built in TypeScript with the MCP SDK and Zod, the server makes these checks avai
 
 I want the hiring team to be able to explain how it reached a view. A visible framework gives us something to question: whether the criteria fit the work, whether the evidence supports the assessment, and where another conversation would help.
 
-That connects RishiOS to my work on [defining great and developing interviewers](../../advisory/#define-great-before-designing-the-interview). The software applies the recorded rules. People remain responsible for interpreting the evidence and making the hiring decision.
+That connects RishiOS to my work on [structured interviews, feedback, and hiring decisions](../../advisory/#structured-interviews-feedback-and-hiring-decisions): agree on the evidence, give each conversation a purpose, and bring observations, assessments, and open questions into the debrief. The software applies the recorded rules. People remain responsible for interpreting the evidence and making the hiring decision.
 
 ## Where the work stands
 

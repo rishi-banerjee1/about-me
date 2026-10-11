@@ -5,15 +5,12 @@ template = "standard-page.html"
 
 [extra]
 eyebrow = "Advisory"
+show_contents = true
 +++
 
 Advisory is an extension of my work with hiring leaders: understanding the business constraint, making the choices clear, and helping the team develop its own judgment. These are the questions and areas of practice that recur across that work.
 
-## Talent Function Build and Transformation
-
-For startups creating a talent function and enterprises modernising fragmented or legacy models. The work can cover leadership alignment, workforce and hiring strategy, operating rhythm, team capability, and the conditions needed to keep the function aligned with the business as it grows.
-
-## Hiring and Interview Architecture
+## Develop the team’s hiring judgment {#hiring-and-interview-architecture}
 
 Much of my work with hiring leaders starts with a deceptively simple conversation: what would make this a great hire for this team? Getting to a shared answer takes some work. It also changes how we interview, what we listen for, and how we make the final decision.
 
@@ -33,9 +30,20 @@ Getting there takes more than agreeing on a few adjectives. I work through three
 
 We capture that agreement in a written success profile: the contribution, the relevant conditions, and the evidence we will look for. Early interviews help reveal gaps in our definition. Any revision is made explicit so we can revisit affected assessments. This gives the team a shared starting point and a way to keep learning.
 
-Take a role responsible for a production system. Resolving an incident reliably matters. I would also want to hear whether the person understood why it kept happening, changed something that prevented a recurrence, and helped colleagues use what they learned. Their own contribution and the support they had are part of that story.
+As an illustration, take a role responsible for a production system. Resolving an incident reliably matters. I would also want to hear whether the person understood why it kept happening, changed something that prevented a recurrence, and helped colleagues use what they learned. If colleagues can then diagnose similar issues independently, the whole team gains capability. Their own contribution and the support they had are part of that story.
 
 Hiring for great gives us a standard to assess against. Whether Talent Density actually improves becomes clearer after the hire joins: in their contribution, how they grow, and what becomes possible for the team.
+
+### Structured interviews, feedback, and hiring decisions
+
+I want an interview team to finish with evidence it can use together. That starts with a shared definition of great and a clear purpose for each conversation. My approach connects four things:
+
+1. **Agree on what we need to learn.** Translate the success profile into observable evidence, with expectations appropriate to the role and level. Give each interviewer clear areas to explore and a consistent basis for assessment.
+2. **Build a conversation around that purpose.** Prepare lines of questioning and relevant work examples, leaving room to follow the candidate’s reasoning. Coaching helps interviewers probe deeply and recognise when they have enough evidence.
+3. **Write feedback that explains the judgment.** Before the debrief, capture what the candidate said or demonstrated, the assessment against the agreed standard, and what remains uncertain. Something a round did not explore stays an open question.
+4. **Use the debrief to reach a considered decision.** Compare the evidence, examine differing interpretations, and agree whether a focused follow-up is needed. The decision should make the strengths, concerns, and trade-offs clear.
+
+[RishiOS](../projects/rishios-mcp/) supports parts of this work through role-specific criteria and scorecard checks. The wider practice is about developing people who can explain and challenge an assessment. A score helps organise the discussion; the hiring team owns the decision.
 
 ### Develop interviewers who can recognise the evidence
 
@@ -47,6 +55,16 @@ The coaching gets specific when we review an interview together. We look at wher
 
 Calibration is another chance to learn. When two interviewers reach different conclusions, I want to understand what each heard and how they interpreted it. Sometimes we need another conversation with the candidate. Sometimes we need to revisit our own assumptions. Over time, I want interviewers to become more confident in their judgment and more comfortable explaining or revising it.
 
+### From an impression to an assessment
+
+Here is an illustrative coaching example, with no candidate or company details.
+
+An interviewer writes, “Strong ownership. Led a difficult launch.” I would want to understand what led them to that conclusion. Did we hear which decision the candidate owned, what they changed when the plan failed, and how they involved colleagues?
+
+The next conversation follows those gaps. A more useful assessment might read: “The candidate identified a rollout risk, proposed a staged release, and explained the trade-off to the team. Their account supports judgment on this decision. We still need evidence of how they developed others.”
+
+That is progress even when the final hiring decision remains open. The interviewer can explain what the evidence supports, what is missing, and what to explore next. Reviewing that shift together is part of how I help people grow their judgment.
+
 ### Keep the framework connected to the team
 
 I bring the success profile, lines of questioning, coaching, and decision notes together around the same definition of great. Writing it down before interviews helps us stay honest when a search becomes urgent. If our understanding of the role changes, we revisit the assessments affected by that change.
@@ -55,13 +73,19 @@ The environment matters just as much. Authority, support, dependencies, and the 
 
 For AI-building roles, these conversations get into what someone shipped, owned, operated, measured, and learned. Read more about [how I find and assess AI-native talent](../ai-native-talent/).
 
-## AI-Native TA and HR Transformation
+## Supporting the wider talent function
 
-My interest starts with where the team spends its effort and where better context would help. From there, I explore what AI can prepare or connect, what people need to review, and how the tool will fit into their day-to-day work.
+### Build and develop the talent function {#talent-function-build-and-transformation}
 
-## Fractional Talent Acquisition Leadership and Team Coaching
+For startups creating a talent function and enterprises modernising fragmented or legacy models. The work can cover leadership alignment, workforce and hiring strategy, operating rhythm, team capability, and the conditions needed to keep the function aligned with the business as it grows.
 
-This work brings me alongside leaders through a new market, a team reset, or a difficult hiring mandate. The conversations move between immediate decisions and the capability we want the team to develop: how they advise, assess, and take ownership of the work.
+### Put AI to work in recruiting {#ai-native-ta-and-hr-transformation}
+
+My interest starts with where the team spends its effort and where better context would help. From there, I explore what AI can prepare or connect, what people need to review, and how the tool will fit into their day-to-day work. The [systems I have built](../projects/) make those design choices inspectable.
+
+### Lead through a change in the business {#fractional-talent-acquisition-leadership-and-team-coaching}
+
+This work brings me alongside leaders through a new market, a team reset, or a difficult hiring mandate. The conversations move between immediate decisions and the capability we want the team to develop: how they advise, assess, and take ownership of the work. My [leadership experience](../leadership-impact/) gives the wider context.
 
 ## Start with the question the team needs to answer
 

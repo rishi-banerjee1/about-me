@@ -4,6 +4,7 @@ description = "Finding the people who can build with AI and make the team strong
 template = "standard-page.html"
 [extra]
 eyebrow = "Talent Partner · AI-native talent"
+show_contents = true
 +++
 
 My work on AI-native talent brings together hands-on search, partnership with hiring leaders, and the perspective of building AI tools myself. I want to understand both what someone can contribute now and how they could help the team grow as the technology and the work change.
@@ -37,36 +38,6 @@ Each is a lead to examine. Public visibility is uneven; confidential work may le
 
 [Sourcing Compass](../projects/sourcing-compass/) reflects the broader search discipline: making target organisations, adjacent pools, and related titles visible before outreach begins.
 
-## Follow the proof from launch to learning
-
-For a role that requires production AI experience, I want to understand one system in depth. I follow the story through:
-
-- **Use:** who relied on it and what work it helped them do.
-- **Ownership:** what the person designed, built, or decided themselves.
-- **Operation:** what failed after launch, how they diagnosed it, and what they changed.
-- **Measurement:** how they knew it worked, what they compared it with, and what the measure missed.
-- **Constraints:** how data access, security, customer requirements, cost, or reliability changed the design.
-
-The role determines which evidence is essential and how current the experience needs to be. Using AI tools is useful context; a production-building role needs evidence of building and operating the system itself. Specialist depth needs the right specialist assessor.
-
-A precise account of a failure can be particularly useful. It connects personal responsibility, diagnosis, and learning in a way that a polished demonstration alone cannot establish.
-
-## Look for a reasoned view that can evolve
-
-Coachability matters alongside the capability needed today. I look for someone who can explain a decision, examine a challenge to it, and revise their view when better evidence changes the answer. They should also be able to explain why an objection does not change their reasoning.
-
-An interview can explore that through a real design decision: what information was available, what would have changed the choice, and how the person responds to a relevant new constraint. The useful evidence is the reasoning and the change it produces.
-
-That opens a second question: how will this person grow as the work changes? The immediate requirements should be clear and limited to what the role truly needs. Learning, judgment under ambiguity, and the ability to improve the team’s thinking deserve their own examination.
-
-## Write the standard before judging the candidate
-
-Before interviews begin, I work with the hiring team to write down what we are looking for and who will explore each part. In the debrief, I want us to be able to trace our conclusions back to what the candidate said or demonstrated.
-
-When something is unclear, I would rather name the unanswered question and agree on a useful follow-up. If our understanding of the role changes, we also need to revisit the assessments that change affects.
-
-This is part of how I build [interview frameworks](../advisory/#hiring-and-interview-architecture): a standard the team can apply, question, and improve through the work.
-
 ## Connect the problem with the people it could excite
 
 Part of my work is helping leaders explain why the problem is worth someone’s attention. Before approaching candidates, I want to understand who it affects, what makes it difficult, what has already been tried, and what solving it would make possible. That gives us a more useful starting point than a list of technologies or responsibilities.
@@ -82,6 +53,38 @@ I want the excitement to come from the work itself: a meaningful problem, though
 This carries through the search. As I learn what matters to the candidate, I help the hiring team make the next conversation more relevant. The aim is a shared understanding of why the opportunity is worth pursuing and what both sides would need for it to work.
 
 That is part of the wider [Art & Craft of Recruiting](../recruiting-craft/): understanding the business, recognising the right audience for its problems, and helping both sides make an informed choice.
+
+## Assess the contribution and help both sides decide
+
+### Follow the proof from launch to learning
+
+For a role that requires production AI experience, I want to understand one system in depth. I follow the story through:
+
+- **Use:** who relied on it and what work it helped them do.
+- **Ownership:** what the person designed, built, or decided themselves.
+- **Operation:** what failed after launch, how they diagnosed it, and what they changed.
+- **Measurement:** how they knew it worked, what they compared it with, and what the measure missed.
+- **Constraints:** how data access, security, customer requirements, cost, or reliability changed the design.
+
+The role determines which evidence is essential and how current the experience needs to be. Using AI tools is useful context; a production-building role needs evidence of building and operating the system itself. Specialist depth needs the right specialist assessor.
+
+A precise account of a failure can be particularly useful. It connects personal responsibility, diagnosis, and learning in a way that a polished demonstration alone cannot establish.
+
+### Look for a reasoned view that can evolve
+
+Coachability matters alongside the capability needed today. I look for someone who can explain a decision, examine a challenge to it, and revise their view when better evidence changes the answer. They should also be able to explain why an objection does not change their reasoning.
+
+An interview can explore that through a real design decision: what information was available, what would have changed the choice, and how the person responds to a relevant new constraint. The useful evidence is the reasoning and the change it produces.
+
+That opens a second question: how will this person grow as the work changes? The immediate requirements should be clear and limited to what the role truly needs. Learning, judgment under ambiguity, and the ability to improve the team’s thinking deserve their own examination.
+
+### Structure the interviews and feedback {#write-the-standard-before-judging-the-candidate}
+
+I work with the hiring team to agree what each conversation needs to establish: technical depth, personal contribution, judgment, or learning. Interviewers prepare relevant lines of questioning against the same role standard, with room to follow what the candidate brings.
+
+Feedback records the evidence, the interviewer’s assessment, and the unanswered questions before we discuss it together. In the debrief, we examine where our interpretations differ and what would resolve the uncertainty. An area a round did not cover needs follow-up; it tells us nothing yet about the candidate’s capability.
+
+That is how I connect [structured interviews and feedback](../advisory/#structured-interviews-feedback-and-hiring-decisions) to a hiring decision the team can explain. If the role standard changes, we revisit the assessments affected by it.
 
 ## AI in the recruiting workflow
 
