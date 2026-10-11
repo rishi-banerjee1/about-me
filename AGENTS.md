@@ -31,6 +31,8 @@ These rules are the source of truth for agents and maintainers working on this s
 
 ## Site positioning
 
+- Do not feature quantitative career outcome claims for now. The owner wants those results kept out of public site copy because they require detailed context. Establish credibility through qualitative scope, judgment, and inspectable artifacts. Do not recommend adding outcome metrics merely to achieve a review score. This does not automatically prohibit factual career-scope counts or clearly labelled teaching examples.
+
 - Explain recruiting practice in a personal, conversational voice grounded in Rishi’s work. Avoid instructional or preachy prose. Connect hiring for great to Talent Density in the context of the team; distinguish the interview standard from post-hire evidence of improvement.
 
 - Present interview-framework work primarily as developing interviewer capability and judgment through coaching, lines of questioning, feedback, and calibration. Do not frame it as building a question bank.

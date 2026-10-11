@@ -1,22 +1,13 @@
 +++
 title = "Proof of Work"
-description = "Delivery outcomes, recruiting tools, and published thinking from Rishi Banerjee’s work in Talent Acquisition and hiring judgment."
+description = "Recruiting tools, worked illustrations, and published thinking from Rishi Banerjee’s work in Talent Acquisition and hiring judgment."
 template = "standard-page.html"
 
 [extra]
 eyebrow = "Public Evidence"
 +++
 
-There are several ways to get to know my work: the delivery outcomes, the systems you can explore, and the thinking behind a difficult decision. Each shows a different part of the practice. Company and candidate details remain confidential.
-
-## Delivery outcomes from distinct mandates
-
-- **40% reduction in time-to-hire** while leading global R&D talent acquisition for a scaling technology business.
-- **95%+ compliance with agreed service levels on key enterprise client accounts** while leading global Talent and recruitment process outsourcing delivery.
-
-These results came from separate mandates. They describe delivery efficiency and reliability. Assessing a hire’s contribution and the capability they add to a team requires evidence after they join.
-
-[Explore the leadership work behind these outcomes](../leadership-impact/).
+The systems here make my work inspectable. The worked example shows how I approach a decision, and the writing develops the thinking behind it. Company and candidate details remain confidential.
 
 ## Systems you can explore
 
@@ -27,7 +18,7 @@ Building tools lets me turn recurring recruiting problems into something a team 
 - **[TA CentCom](../projects/ta-centcom/):** a shared view of search constraints, ownership, and next actions. It helps bring the delivery conversation to the decision that needs attention.
 - **[RishiOS](../projects/rishios-mcp/):** role- and level-specific evaluation, scorecard validation, and checks against recorded evidence. It helps people apply a shared assessment framework.
 
-The project pages explain their scope and design choices. These artifacts show what I have built; they do not establish a measured hiring outcome on their own.
+The project pages explain their scope and design choices. You can also explore the [leadership context](../leadership-impact/) behind the work.
 
 ## A worked decision: does this problem need another hire?
 
