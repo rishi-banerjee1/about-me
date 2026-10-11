@@ -5,7 +5,7 @@ template = "projects/page.html"
 
 [extra]
 shortSummary = "Personalized offer pages generated from ATS data. Turns a transactional moment into a candidate experience artifact."
-summary = "I built personalised offer ceremony pages that turn ATS context into a three-act candidate narrative. Triggered from Ashby at roughly $0.006 per page."
+summary = "I built personalised offer ceremony pages that turn ATS context into a three-act candidate narrative. Triggered from Ashby."
 audience = "Talent leaders and hiring teams who want an offer to reinforce the candidate's decision to join."
 value = "Turns a transactional document into a deliberate candidate experience at the most important moment."
 category = "Talent Experience Product"
@@ -17,7 +17,7 @@ detail = true
 status = "flagship"
 visibility = "private"
 tags = ["Cloudflare Workers", "Hono", "Claude", "Ashby API", "Hiring"]
-metrics = ["~$0.006 per page", "3-act offer narrative", "ATS-triggered generation"]
+metrics = ["Personalised offer pages", "3-act offer narrative", "ATS-triggered generation"]
 contactHref = "mailto:rpbanerjee@outlook.com?subject=Offer%20Wizard%20walkthrough"
 contactLabel = "Request walkthrough"
 +++
@@ -34,7 +34,7 @@ The system triggers from ATS state in Ashby, pulls interview and offer context, 
 - the connection between the candidate and the company
 - the offer, presented with context
 
-Recruiters get a shareable link instead of a copy-paste email. Each page costs roughly $0.006 to generate. Runs on Cloudflare Workers + Hono.
+Recruiters get a shareable link instead of a copy-paste email. Runs on Cloudflare Workers + Hono.
 
 ## How it changed things
 

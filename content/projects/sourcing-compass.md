@@ -4,7 +4,7 @@ weight = 3
 template = "projects/page.html"
 
 [extra]
-shortSummary = "An AI talent mapper that turns a job title into a full sourcing landscape in under 10 seconds."
+shortSummary = "An AI talent mapper that turns a job title into a sourcing landscape to examine and refine."
 problem = "Teams entering unfamiliar talent markets often begin searching before they have mapped where relevant capability may sit."
 summary = "Type a role, get a structured map of target companies, adjacent talent pools, wildcard bets, and ranked job titles, with live connection lines showing how nodes relate across categories. Built for recruiters who know that sourcing strategy starts before the Boolean search."
 audience = "Recruiters and hiring leaders entering specialist or unfamiliar talent markets."
@@ -18,7 +18,7 @@ detail = true
 status = "flagship"
 visibility = "public"
 tags = ["React", "Groq", "Llama 3.3", "Talent Intelligence", "Open Source"]
-metrics = ["4 sourcing dimensions per query", "5 to 10 second generation time", "Zero backend, fully static"]
+metrics = ["4 sourcing dimensions per query", "On-demand landscape generation", "Zero backend, fully static"]
 homepage = "https://rishi-banerjee1.github.io/Sourcing_Compass/"
 github = "https://github.com/rishi-banerjee1/Sourcing_Compass"
 +++

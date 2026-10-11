@@ -29,12 +29,7 @@ That work continues through interview design and calibration. I help interviewer
 
 Modernised talent operations through clearer roles and levels, workforce planning, analytics, candidate experience, and decision ownership. The aim is a shared view of what the business needs, where a search is losing momentum, and what action will move it forward.
 
-Results across distinct leadership settings include:
-
-- **40% reduction in time-to-hire** while leading global R&D talent acquisition for a scaling technology business.
-- **95%+ compliance with agreed service levels on key enterprise client accounts** while leading global Talent and recruitment process outsourcing delivery.
-
-Those results came from different mandates and measure delivery efficiency and reliability. Effectiveness also requires examining whether the hire contributes as expected and whether the team makes sound decisions. The goal is a talent function that uses its capacity well and helps the business hire successfully.
+In global R&D hiring and enterprise recruiting delivery, that means helping teams use their capacity well, follow through on commitments, and bring unresolved decisions to the right people. What a hire contributes after joining remains part of how we learn from the work.
 
 ## Build the talent function for the next stage
 

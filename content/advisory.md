@@ -20,8 +20,6 @@ For me, hiring for great is a way to judge whether a hire can improve **Talent D
 
 Good performance means doing the work reliably. When I look for great, I also want to understand what someone might make better: a problem they can see more clearly, a decision they can improve, or a practice their colleagues can learn from. What counts depends on the team, the level, and the work ahead. Great is contextual. Sometimes we are defining one person’s contribution; sometimes we are building a team or rethinking a function. I want to understand how the pieces fit: the capabilities already there, what is missing, and how ownership and collaboration need to work as the organisation grows.
 
-I work with the hiring leader to make that distinction concrete. We agree on the capability needed from day one, then explore what could make the contribution exceptional: ownership, judgment when the answer is unclear, learning, and how the person helps others do better work. Those are the things our conversations with candidates need to uncover.
-
 Getting there takes more than agreeing on a few adjectives. I work through three conversations with the leaders involved:
 
 1. **What needs to change?** We start with the business’s next stage, the capability already in the team, and what is missing. That helps us decide whether we are shaping one role, a team, or a wider function, and what contribution would matter.
@@ -49,11 +47,9 @@ I want an interview team to finish with evidence it can use together. That start
 
 This is where much of my effort goes. A framework comes to life through the person conducting the interview. I help interviewers get comfortable listening closely, following an interesting detail, and asking the next question that opens up the candidate’s thinking.
 
-Often, there is more to learn in an answer we have already heard. What did the person decide themselves? What other options did they consider? What changed because of their work? A useful line of questioning follows that thread and gives the candidate room to explain.
+Reviewing an interview together makes the coaching specific: where did we find depth, where did we move on too quickly, and which conclusion needs more support? [Interview Evaluator](../projects/gabbar-interview-evaluator/) helps that learning continue through feedback on actual conversations.
 
-The coaching gets specific when we review an interview together. We look at where the conversation found depth, where we moved on too quickly, and whether the evidence supports the conclusion. I built [Interview Evaluator](../projects/gabbar-interview-evaluator/) to help that learning continue through feedback on actual interviews.
-
-Calibration is another chance to learn. When two interviewers reach different conclusions, I want to understand what each heard and how they interpreted it. Sometimes we need another conversation with the candidate. Sometimes we need to revisit our own assumptions. Over time, I want interviewers to become more confident in their judgment and more comfortable explaining or revising it.
+Over time, I want interviewers to need less help: to follow an important detail, test their interpretation, and explain or revise their view with confidence.
 
 ### From an impression to an assessment
 
@@ -66,8 +62,6 @@ The next conversation follows those gaps. A more useful assessment might read: �
 That is progress even when the final hiring decision remains open. The interviewer can explain what the evidence supports, what is missing, and what to explore next. Reviewing that shift together is part of how I help people grow their judgment.
 
 ### Keep the framework connected to the team
-
-I bring the success profile, lines of questioning, coaching, and decision notes together around the same definition of great. Writing it down before interviews helps us stay honest when a search becomes urgent. If our understanding of the role changes, we revisit the assessments affected by that change.
 
 The environment matters just as much. Authority, support, dependencies, and the pace of change all affect what someone can contribute. I want those conditions understood by the hiring team and discussed openly with candidates, then followed through after they join.
 
