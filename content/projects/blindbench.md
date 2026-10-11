@@ -5,7 +5,7 @@ template = "projects/page.html"
 
 [extra]
 shortSummary = "Compare 100+ LLMs with model identities hidden, shared prompts, response scores, and failure analysis."
-summary = "Open-source arena that blind-tests 100+ AI models on real prompts from 4 Kaggle datasets. Generates trust scores, win rates, and classifies 10 failure types. BYOK support keeps API keys client-side."
+summary = "Open-source arena that blind-tests 100+ AI models on real prompts from 4 Kaggle datasets. Generates trust scores, win rates, and classifies 10 failure types. Bring-a-key requests pass through a server-side function to the model provider."
 audience = "AI builders and technical leaders choosing models for work that needs more than a demo."
 value = "Replaces vendor-led model selection with comparable evidence from real prompts and failure patterns."
 category = "AI Evaluation"
@@ -17,7 +17,7 @@ detail = true
 status = "flagship"
 visibility = "public"
 tags = ["React", "Supabase", "Vite", "TailwindCSS", "Kaggle", "Open Source"]
-metrics = ["106+ models tested", "4 Kaggle datasets", "10 failure types", "Zero key storage"]
+metrics = ["106+ models tested", "4 Kaggle datasets", "10 failure types", "Bring your own key"]
 homepage = "https://rishi-banerjee1.github.io/blindbench/"
 github = "https://github.com/rishi-banerjee1/blindbench"
 +++
@@ -35,7 +35,7 @@ Key design choices:
 - **Blind testing**: Model identities hidden during evaluation to reduce brand bias.
 - **Truth scoring**: Composite score based on correctness, reasoning quality, and consistency.
 - **Failure classification**: 10 distinct failure types (hallucination, logic errors, refusal bias, etc.) tracked per model.
-- **Bring-a-key mode**: API keys are encrypted in transit, used once, and never stored. Free-tier models work without a key.
+- **Bring-a-key mode**: Keys are sent with the request to a Supabase Edge Function, which calls the model provider. Free-tier models work without a user-provided key.
 
 ## Architecture
 

@@ -42,7 +42,7 @@ Nodes are connected. Hover any card and dashed lines show which companies map to
 
 ## Why it matters
 
-This replaces a specific and repeatable part of every sourcing kick-off: the landscape-mapping step that should happen before any Boolean search. It's fast enough to do live on a hiring manager call, specific enough to change actual search behaviour, and open enough that any recruiter can use it without a budget conversation.
+This gives a sourcing kick-off a first map of relevant organisations, adjacent talent pools, and related titles. I treat that map as a set of hypotheses to check with the hiring leader and against the market. It gives us something specific to challenge and refine before outreach begins.
 
 The combination of zero backend (fully static, Groq API key in the browser), instant deployment via GitHub Pages, and a UI designed for recruiters rather than engineers makes it unusually low-friction to adopt.
 

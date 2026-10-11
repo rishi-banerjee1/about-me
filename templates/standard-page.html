@@ -13,16 +13,34 @@
   <section class="page-hero">
     <div class="container page-hero-inner" data-reveal>
       <a href="{{ config.base_url }}" class="back-link">&larr; Back to home</a>
-      {% if page.extra.eyebrow %}<p class="eyebrow">{{ page.extra.eyebrow }}</p>{% endif %}
+      {% if page.extra.eyebrow %}<p class="eyebrow">{{ page.extra.eyebrow }}</p>{%- endif %}
       <h1>{{ page.title }}</h1>
-      {% if page.description %}<p class="hero-text">{{ page.description }}</p>{% endif %}
+      {% if page.description %}<p class="hero-text">{{ page.description }}</p>{%- endif %}
     </div>
   </section>
+  {%- if page.extra.show_contents | default(value=false) %}
+  <div class="container craft-reading-layout">
+    <nav class="craft-contents" aria-label="On this page">
+      <p class="eyebrow">On this page</p>
+      <ol>
+        {%- for heading in page.toc %}
+        <li><a href="#{{ heading.id }}">{{ heading.title }}</a>
+          {%- if heading.children %}
+          <ul>{% for child in heading.children %}<li><a href="#{{ child.id }}">{{ child.title }}</a></li>{%- endfor %}</ul>
+          {%- endif %}
+        </li>
+        {%- endfor %}
+      </ol>
+    </nav>
+    <article class="craft-prose">{{ page.content | safe }}</article>
+  </div>
+  {%- else %}
   <section class="section section-alt">
     <div class="container detail-prose standard-prose">
       {{ page.content | safe }}
     </div>
   </section>
+  {%- endif %}
   {%- if page.slug == "leadership-impact" or page.slug == "advisory" or page.slug == "proof-of-work" or page.slug == "ai-native-talent" or page.slug == "raising-the-bar" %}
   <section class="section cta-section" data-reveal>
     <div class="container cta-card">

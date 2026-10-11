@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BlindBench - Rishi Banerjee</title>
-    <meta name="description" content="Open-source arena that blind-tests 100+ AI models on real prompts from 4 Kaggle datasets. Generates trust scores, win rates, and classifies 10 failure types. BYOK support keeps API keys client-side." />
+    <meta name="description" content="Open-source arena that blind-tests 100+ AI models on real prompts from 4 Kaggle datasets. Generates trust scores, win rates, and classifies 10 failure types. Bring-a-key requests pass through a server-side function to the model provider." />
     <link rel="canonical" href="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me&#x2F;projects&#x2F;blindbench&#x2F;" />
     <link rel="icon" href="https://rishi-banerjee1.github.io/about-me/favicon.svg" type="image/svg+xml" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me&#x2F;projects&#x2F;blindbench&#x2F;" />
     <meta property="og:title" content="BlindBench - Rishi Banerjee" />
-    <meta property="og:description" content="Open-source arena that blind-tests 100+ AI models on real prompts from 4 Kaggle datasets. Generates trust scores, win rates, and classifies 10 failure types. BYOK support keeps API keys client-side." />
+    <meta property="og:description" content="Open-source arena that blind-tests 100+ AI models on real prompts from 4 Kaggle datasets. Generates trust scores, win rates, and classifies 10 failure types. Bring-a-key requests pass through a server-side function to the model provider." />
     <meta property="og:image" content="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me&#x2F;assets&#x2F;headshot.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="BlindBench - Rishi Banerjee" />
-    <meta name="twitter:description" content="Open-source arena that blind-tests 100+ AI models on real prompts from 4 Kaggle datasets. Generates trust scores, win rates, and classifies 10 failure types. BYOK support keeps API keys client-side." />
+    <meta name="twitter:description" content="Open-source arena that blind-tests 100+ AI models on real prompts from 4 Kaggle datasets. Generates trust scores, win rates, and classifies 10 failure types. Bring-a-key requests pass through a server-side function to the model provider." />
     <meta name="twitter:image" content="https:&#x2F;&#x2F;rishi-banerjee1.github.io&#x2F;about-me&#x2F;assets&#x2F;headshot.jpg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -75,7 +75,7 @@
       <a href="https://rishi-banerjee1.github.io/about-me/projects/" class="back-link">&larr; Back to talent systems</a>
       <p class="eyebrow">AI Evaluation</p>
       <h1>BlindBench</h1>
-      <p class="hero-text">Open-source arena that blind-tests 100+ AI models on real prompts from 4 Kaggle datasets. Generates trust scores, win rates, and classifies 10 failure types. BYOK support keeps API keys client-side.</p>
+      <p class="hero-text">Open-source arena that blind-tests 100+ AI models on real prompts from 4 Kaggle datasets. Generates trust scores, win rates, and classifies 10 failure types. Bring-a-key requests pass through a server-side function to the model provider.</p>
       <div class="tag-list" style="margin-top: 1.35rem;">
         <span class="tag">2026</span>
         
@@ -115,7 +115,7 @@
           
             <span class="metric-pill">10 failure types</span>
           
-            <span class="metric-pill">Zero key storage</span>
+            <span class="metric-pill">Bring your own key</span>
           
         </div>
       
@@ -134,7 +134,7 @@
 <li><strong>Blind testing</strong>: Model identities hidden during evaluation to reduce brand bias.</li>
 <li><strong>Truth scoring</strong>: Composite score based on correctness, reasoning quality, and consistency.</li>
 <li><strong>Failure classification</strong>: 10 distinct failure types (hallucination, logic errors, refusal bias, etc.) tracked per model.</li>
-<li><strong>Bring-a-key mode</strong>: API keys are encrypted in transit, used once, and never stored. Free-tier models work without a key.</li>
+<li><strong>Bring-a-key mode</strong>: Keys are sent with the request to a Supabase Edge Function, which calls the model provider. Free-tier models work without a user-provided key.</li>
 </ul>
 <h2 id="architecture">Architecture</h2>
 <p>React + Vite frontend deployed to GitHub Pages. Supabase backend with Edge Functions that proxy LLM calls server-side. Materialized views power the leaderboard and failure analytics. Four seeded Kaggle datasets provide the evaluation corpus.</p>

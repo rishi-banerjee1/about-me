@@ -49,7 +49,7 @@ My focus is helping interviewers listen for the evidence that matters and decide
 
 Reviewing an interview makes feedback specific. We can identify where useful evidence emerged, where a follow-up was missed, and where the judgment needs more support. Calibration then brings those assessments into discussion so interviewers can examine their reasoning and carry the learning into the next conversation.
 
-The tool supports this development through feedback on actual interviews. The aim is increasing independence and consistency in the interviewer’s judgment.
+The tool supports this development through feedback on actual interviews. The aim is increasing independence and consistency in the interviewer’s judgment. A [worked coaching example](../../advisory/#from-an-impression-to-an-assessment) shows how I would help an interviewer move from an impression to an assessment they can explain.
 
 ## The framework work around the tool
 
