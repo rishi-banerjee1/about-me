@@ -18,6 +18,8 @@ From that foundation, the book examines finding relevant talent, assessing perso
 
 Worked examples and eight practical tools connect the ideas to a live search. They help readers examine the working environment, position an opportunity, distinguish missing evidence from a demonstrated gap, and learn from what happens after someone joins.
 
+[See an illustrative decision about whether a team needs another hire](../proof-of-work/#a-worked-decision-does-this-problem-need-another-hire). It shows how I test the problem behind a hiring request.
+
 The thread running through the book is Talent Density: how each hire can add to a team’s capability and help the people around them succeed. I connect that idea to the practical conversations and decisions a recruiter faces during a search.
 
 ## Who it is for

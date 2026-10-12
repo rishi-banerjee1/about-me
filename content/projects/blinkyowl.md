@@ -4,10 +4,10 @@ weight = 10
 template = "projects/page.html"
 
 [extra]
-shortSummary = "Fully autonomous kids video pipeline with safety gates, observability, and self-improving feedback loops."
-summary = "Production-grade system that generates, publishes, and self-improves educational YouTube Shorts for kids. Private repo, but with public proof via channel and observability dashboard."
+shortSummary = "Automated kids video pipeline with safety checks, run telemetry, and a public dashboard."
+summary = "A video pipeline for educational YouTube Shorts: generation, checks before upload, publishing, and run telemetry. The channel and dashboard show public output from a private system."
 audience = "Education and media operators building safe, repeatable short-form video programs."
-value = "Makes an end-to-end content pipeline observable and scalable without losing safeguards."
+value = "Connects video production, pre-upload checks, and run telemetry in one workflow."
 category = "Autonomous Media System"
 section = "archive"
 year = 2026
@@ -16,7 +16,7 @@ featured = false
 detail = true
 status = "active"
 visibility = "private"
-tags = ["Python", "Remotion", "YouTube API", "Observability", "Self-Learning"]
+tags = ["Python", "Remotion", "YouTube API", "Observability", "Run Feedback"]
 metrics = ["4 safety gates", "Daily autonomous run", "Live dashboard"]
 youtube = "https://youtube.com/@BlinkyOwl"
 dashboard = "https://tinyhero-obs.surge.sh/"
@@ -30,7 +30,7 @@ Educational video creation is repetitive, expensive, and hard to sustain consist
 
 ## What I built
 
-BlinkyOwl is an autonomous pipeline that handles the entire loop: topic selection, narration, visual planning, audio, rendering, upload, analytics sync, and self-healing adjustments for the next run. It is not just a content generator; it is a monitored production system with gates.
+BlinkyOwl connects topic selection, narration, visual planning, audio, rendering, upload, and analytics in one pipeline. Safety checks run before upload. Run telemetry helps identify where the next cycle needs adjustment.
 
 ## Why it matters
 
@@ -39,12 +39,13 @@ This project brought several interests together for me:
 - multi-step orchestration
 - strict kids-content safety gates
 - observability and post-run telemetry
-- feedback loops that improve future runs without letting performance override safety
+- run feedback used to adjust later work while keeping safety checks in place
 
-## Public proof despite private code
+## What is public
 
-The repo is private, but the work is still legible because the product output is public:
+The repo is private. The public channel and dashboard show output and run status:
 
-- live YouTube channel
-- live observability dashboard
-- concrete operational architecture and quality controls
+- [YouTube channel](https://youtube.com/@BlinkyOwl)
+- [Observability dashboard](https://tinyhero-obs.surge.sh/)
+
+The internal implementation and detailed controls are not public.

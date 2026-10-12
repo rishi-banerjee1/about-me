@@ -61,7 +61,7 @@ The next conversation follows those gaps. A more useful assessment might read: â
 
 That is progress even when the final hiring decision remains open. The interviewer can explain what the evidence supports, what is missing, and what to explore next. Reviewing that shift together is part of how I help people grow their judgment.
 
-### Keep the framework connected to the team
+### Examine the conditions for contribution {#keep-the-framework-connected-to-the-team}
 
 The environment matters just as much. Authority, support, dependencies, and the pace of change all affect what someone can contribute. I want those conditions understood by the hiring team and discussed openly with candidates, then followed through after they join.
 
