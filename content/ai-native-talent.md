@@ -7,11 +7,11 @@ eyebrow = "Talent Partner · AI-native talent"
 show_contents = true
 +++
 
-My work on AI-native talent brings together hands-on search, partnership with hiring leaders, and the perspective of building AI tools myself. I want to understand both what someone can contribute now and how they could help the team grow as the technology and the work change.
+My work on AI-native talent brings together **hands-on search, partnership with hiring leaders,** and the perspective of building AI tools myself. I want to understand both what someone can contribute now and how they could help the team grow as the technology and the work change.
 
-When a hiring conversation starts with “AI-native talent”, I want to understand what we mean for this team. What will the person build or change, and where does AI change the capability we need? A research role, an AI product role, and an engineering role using AI extensively need different evidence.
+When a hiring conversation starts with “AI-native talent”, I want to understand **what we mean for this team.** What will the person build or change, and where does AI change the capability we need? A research role, an AI product role, and an engineering role using AI extensively need different evidence.
 
-That can be a single critical hire, a new team, or capability being built across a function. I work with leaders to connect the search to that wider picture, make the assessment specific, and give candidates a clear sense of the work they would own.
+That can be **a single critical hire, a new team,** or capability being built across a function. I work with leaders to connect the search to that wider picture, make the assessment specific, and give candidates a clear sense of the work they would own.
 
 ## From the business need to the hiring decision
 
@@ -26,31 +26,31 @@ The sections below show how I approach those conversations.
 
 ## Define what AI-native means for this role
 
-The hiring leader and I need a shared view of the contribution: the problem, the user, the technical constraints, and the decisions the person will own. That helps distinguish where deep model expertise matters, where product or engineering judgment matters, and where someone needs to learn quickly across disciplines.
+**The hiring leader and I need a shared view of the contribution**: the problem, the user, the technical constraints, and the decisions the person will own. That helps distinguish where deep model expertise matters, where product or engineering judgment matters, and where someone needs to learn quickly across disciplines.
 
-The environment matters too. Access to data, specialist colleagues, evaluation infrastructure, and decision authority shapes what someone can achieve. I bring those conditions into the brief and discuss them with candidates.
+**The environment matters too.** Access to data, specialist colleagues, evaluation infrastructure, and decision authority shapes what someone can achieve. I bring those conditions into the brief and discuss them with candidates.
 
 ## Look for relevant work and follow the contribution
 
-My search approach maps the problem to organisations, adjacent talent pools, and people doing relevant work. For AI-native talent, useful starting points can include shipped products, open-source contributions, technical writing, research, and accounts of how a system was built or improved.
+My search approach maps the problem to organisations, adjacent talent pools, and **people doing relevant work.** For AI-native talent, useful starting points can include shipped products, open-source contributions, technical writing, research, and accounts of how a system was built or improved.
 
-Each is a lead to examine. Public visibility is uneven; confidential work may leave little public trace. I use the conversation to understand what the person actually owned, which constraints they faced, and what they can appropriately share.
+Each is a lead to examine. **Public visibility is uneven;** confidential work may leave little public trace. I use the conversation to understand what the person actually owned, which constraints they faced, and what they can appropriately share.
 
 [Sourcing Compass](../projects/sourcing-compass/) reflects the broader search discipline: making target organisations, adjacent pools, and related titles visible before outreach begins.
 
 ## Connect the problem with the people it could excite
 
-Part of my work is helping leaders explain why the problem is worth someone’s attention. Before approaching candidates, I want to understand who it affects, what makes it difficult, what has already been tried, and what solving it would make possible. That gives us a more useful starting point than a list of technologies or responsibilities.
+Part of my work is helping leaders explain **why the problem is worth someone’s attention.** Before approaching candidates, I want to understand who it affects, what makes it difficult, what has already been tried, and what solving it would make possible. That gives us a more useful starting point than a list of technologies or responsibilities.
 
-Then I think about who might find that work compelling. Someone drawn to research may want to explore the unanswered technical question and the room to experiment. A product-minded engineer may be more interested in the user problem, the feedback loop, and the path to putting something useful into people’s hands. An experienced platform builder may want to understand the reliability challenges and the scope to influence architecture. Those are starting points for a conversation; I want to hear what actually interests the person.
+Then I think about **who might find that work compelling.** Someone drawn to research may want to explore the unanswered technical question and the room to experiment. A product-minded engineer may be more interested in the user problem, the feedback loop, and the path to putting something useful into people’s hands. An experienced platform builder may want to understand the reliability challenges and the scope to influence architecture. Those are starting points for a conversation; I want to hear what actually interests the person.
 
-That connection also shapes where I search. The people most interested in a problem may have encountered it in another industry, contributed to an adjacent tool, or written thoughtfully about a constraint the team is facing. Their work gives me a specific reason to reach out and a way to explain why this conversation might be worth their time.
+**That connection also shapes where I search.** The people most interested in a problem may have encountered it in another industry, contributed to an adjacent tool, or written thoughtfully about a constraint the team is facing. Their work gives me a specific reason to reach out and a way to explain why this conversation might be worth their time.
 
-For example, a brief about building an AI assistant becomes more tangible when we can explain whose work it supports, where current answers fall short, and what the person would have the authority to change. For someone interested in evaluation, the open question may be how to tell whether the system is useful in messy real-world conditions. For someone focused on adoption, it may be how to fit it into a workflow people already rely on.
+For example, a brief about building an AI assistant becomes more tangible when we can explain **whose work it supports, where current answers fall short,** and what the person would have the authority to change. For someone interested in evaluation, the open question may be how to tell whether the system is useful in messy real-world conditions. For someone focused on adoption, it may be how to fit it into a workflow people already rely on.
 
-I want the excitement to come from the work itself: a meaningful problem, thoughtful colleagues, and a contribution the person can see themselves making. We talk openly about the constraints too, including data access, resources, decision authority, and what is still uncertain. Meeting the people they would work with helps a candidate test that picture and form their own view.
+**I want the excitement to come from the work itself**: a meaningful problem, thoughtful colleagues, and a contribution the person can see themselves making. We talk openly about the constraints too, including data access, resources, decision authority, and what is still uncertain. Meeting the people they would work with helps a candidate test that picture and form their own view.
 
-This carries through the search. As I learn what matters to the candidate, I help the hiring team make the next conversation more relevant. The aim is a shared understanding of why the opportunity is worth pursuing and what both sides would need for it to work.
+This carries through the search. As I learn what matters to the candidate, I **help the hiring team make the next conversation more relevant.** The aim is a shared understanding of why the opportunity is worth pursuing and what both sides would need for it to work.
 
 That is part of the wider [Art & Craft of Recruiting](../recruiting-craft/): understanding the business, recognising the right audience for its problems, and helping both sides make an informed choice.
 
@@ -66,28 +66,28 @@ For a role that requires production AI experience, I want to understand one syst
 - **Measurement:** how they knew it worked, what they compared it with, and what the measure missed.
 - **Constraints:** how data access, security, customer requirements, cost, or reliability changed the design.
 
-The role determines which evidence is essential and how current the experience needs to be. Using AI tools is useful context; a production-building role needs evidence of building and operating the system itself. Specialist depth needs the right specialist assessor.
+**The role determines which evidence is essential** and how current the experience needs to be. Using AI tools is useful context; a production-building role needs evidence of building and operating the system itself. Specialist depth needs the right specialist assessor.
 
-A precise account of a failure can be particularly useful. It connects personal responsibility, diagnosis, and learning in a way that a polished demonstration alone cannot establish.
+**A precise account of a failure can be particularly useful.** It connects personal responsibility, diagnosis, and learning in a way that a polished demonstration alone cannot establish.
 
 ### Look for a reasoned view that can evolve
 
-Coachability matters alongside the capability needed today. I look for someone who can explain a decision, examine a challenge to it, and revise their view when better evidence changes the answer. They should also be able to explain why an objection does not change their reasoning.
+**Coachability matters alongside the capability needed today.** I look for someone who can explain a decision, examine a challenge to it, and revise their view when better evidence changes the answer. They should also be able to explain why an objection does not change their reasoning.
 
-An interview can explore that through a real design decision: what information was available, what would have changed the choice, and how the person responds to a relevant new constraint. The useful evidence is the reasoning and the change it produces.
+An interview can explore that through a real design decision: what information was available, what would have changed the choice, and how the person responds to a relevant new constraint. **The useful evidence is the reasoning and the change it produces.**
 
-That opens a second question: how will this person grow as the work changes? The immediate requirements should be clear and limited to what the role truly needs. Learning, judgment under ambiguity, and the ability to improve the team’s thinking deserve their own examination.
+That opens a second question: **how will this person grow as the work changes?** The immediate requirements should be clear and limited to what the role truly needs. Learning, judgment under ambiguity, and the ability to improve the team’s thinking deserve their own examination.
 
 ### Structure the interviews and feedback {#write-the-standard-before-judging-the-candidate}
 
-I work with the hiring team to agree what each conversation needs to establish: technical depth, personal contribution, judgment, or learning. Interviewers prepare relevant lines of questioning against the same role standard, with room to follow what the candidate brings.
+I work with the hiring team to agree **what each conversation needs to establish**: technical depth, personal contribution, judgment, or learning. Interviewers prepare relevant lines of questioning against the same role standard, with room to follow what the candidate brings.
 
-Feedback records the evidence, the interviewer’s assessment, and the unanswered questions before we discuss it together. In the debrief, we examine where our interpretations differ and what would resolve the uncertainty. An area a round did not cover needs follow-up; it tells us nothing yet about the candidate’s capability.
+Feedback records **the evidence, the interviewer’s assessment,** and the unanswered questions before we discuss it together. In the debrief, we examine where our interpretations differ and what would resolve the uncertainty. An area a round did not cover needs follow-up; it tells us nothing yet about the candidate’s capability.
 
 That is how I connect [structured interviews and feedback](../advisory/#structured-interviews-feedback-and-hiring-decisions) to a hiring decision the team can explain. If the role standard changes, we revisit the assessments affected by it.
 
 ## AI in the recruiting workflow
 
-Finding AI-native talent and building AI-enabled recruiting systems are connected areas of my work. [Interview Evaluator](../projects/gabbar-interview-evaluator/) supports interviewer development; [RishiOS](../projects/rishios-mcp/) applies assessment criteria and checks recorded evidence. The people responsible for a hire remain accountable for the decision.
+**Finding AI-native talent and building AI-enabled recruiting systems** are connected areas of my work. [Interview Evaluator](../projects/gabbar-interview-evaluator/) supports interviewer development; [RishiOS](../projects/rishios-mcp/) applies assessment criteria and checks recorded evidence. The people responsible for a hire remain accountable for the decision.
 
-Research and synthesis need source checks. AI-generated claims about a candidate cannot establish their capability. This discipline also runs through *[Raising the Bar](../raising-the-bar/)*.
+Research and synthesis need source checks. AI-generated claims about a candidate **cannot establish their capability.** This discipline also runs through *[Raising the Bar](../raising-the-bar/)*.
