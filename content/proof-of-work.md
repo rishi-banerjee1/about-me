@@ -7,16 +7,16 @@ template = "standard-page.html"
 eyebrow = "Public Evidence"
 +++
 
-The systems here make my work inspectable. The worked example shows how I approach a decision, and the writing develops the thinking behind it. Company and candidate details remain confidential.
+Sourcing Compass is public to use and inspect. The other systems are private; their pages explain the problems and design choices behind them. A worked example shows how I approach a decision, and the writing develops the thinking behind it. Company and candidate details remain confidential.
 
-## Systems you can explore
+## A public tool and private systems
 
 Building tools lets me turn recurring recruiting problems into something a team can inspect, question, and use.
 
-- **[Sourcing Compass](../projects/sourcing-compass/):** a first map of organisations, adjacent talent pools, and related titles to test before outreach. It makes the search assumptions visible.
-- **[Interview Evaluator](../projects/gabbar-interview-evaluator/):** feedback on interview conversations, including where a line of questioning found evidence and where it stopped short. It supports interviewer development.
-- **[TA CentCom](../projects/ta-centcom/):** a shared view of search constraints, ownership, and next actions. It helps bring the delivery conversation to the decision that needs attention.
-- **[RishiOS](../projects/rishios-mcp/):** role- and level-specific evaluation, scorecard validation, and checks against recorded evidence. It helps people apply a shared assessment framework.
+- **[Sourcing Compass](../projects/sourcing-compass/) (public app and source):** a first map of organisations, adjacent talent pools, and related titles to test before outreach. You can examine the map and the code.
+- **[Interview Evaluator](../projects/gabbar-interview-evaluator/) (private):** transcript feedback on where an interviewer found evidence and where a line of questioning stopped short. The page explains the coaching purpose and offers a walkthrough.
+- **[TA CentCom](../projects/ta-centcom/) (private):** a shared view of search constraints, ownership, and next actions. The page explains the operating decisions it supports.
+- **[RishiOS](../projects/rishios-mcp/) (private):** role- and level-specific evaluation, scorecard validation, and checks against recorded evidence. The page distinguishes current tools from the wider direction.
 
 The project pages explain their scope and design choices. You can also explore the [leadership context](../leadership-impact/) behind the work.
 
@@ -26,9 +26,11 @@ The project pages explain their scope and design choices. You can also explore t
 
 A team asks for a senior engineer because releases keep slipping. Before turning that request into a search, I would examine where the work gets stuck. In the example, two leaders have unresolved ownership of architecture decisions. Another engineer would inherit the same blockage.
 
-The first decision is to clarify who can make those calls. Then we can examine the work that remains: does the team lack expertise, need more capacity, or need support to develop someone already there? If an external hire is still needed, the brief should explain the capability they will add and the authority they will have to use it.
+I would first trace a recent stalled release: which architecture decision remained open, who had the information, and who had authority to decide? Then I would ask the leaders to make that ownership explicit and look again at the work. If the existing team can now make and carry out the decisions, the hiring request needs another examination. If decisions are clear and the work still requires expertise nobody has, or exceeds the team’s sustainable capacity, we have a stronger reason to hire.
 
-That changes what the hiring conversation must establish. We need a reason to hire that holds up after examining the underlying constraint. The example stops at that decision; it makes no claim about a completed hire or a delivery improvement.
+The next step would be to decide whether that remaining need calls for an external hire, developing someone already there, or a narrower piece of specialist support. A hiring brief should name the capability the person would add and the authority they would have to use it.
+
+That changes what the hiring conversation must establish. The example stops at the decision test; it makes no claim about a completed hire or a delivery improvement.
 
 [Explore how I develop the team’s hiring judgment](../advisory/#hiring-and-interview-architecture).
 

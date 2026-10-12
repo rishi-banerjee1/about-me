@@ -8,79 +8,79 @@ eyebrow = "Advisory"
 show_contents = true
 +++
 
-Advisory is an extension of my work with hiring leaders: understanding the business constraint, making the choices clear, and helping the team develop its own judgment. These are the questions and areas of practice that recur across that work.
+**Advisory is an extension of my work with hiring leaders**: understanding the business constraint, making the choices clear, and helping the team develop its own judgment. These are the questions and areas of practice that recur across that work.
 
 ## Develop the team’s hiring judgment {#hiring-and-interview-architecture}
 
-Much of my work with hiring leaders starts with a deceptively simple conversation: what would make this a great hire for this team? Getting to a shared answer takes some work. It also changes how we interview, what we listen for, and how we make the final decision.
+Much of my work with hiring leaders starts with a deceptively simple conversation: **what would make this a great hire for this team?** Getting to a shared answer takes some work. It also changes how we interview, what we listen for, and how we make the final decision.
 
 ### Define great before designing the interview
 
 For me, hiring for great is a way to judge whether a hire can improve **Talent Density**: the capability and judgment in a team, and how much its people help one another succeed. It gives the hiring conversation a purpose beyond filling the role.
 
-Good performance means doing the work reliably. When I look for great, I also want to understand what someone might make better: a problem they can see more clearly, a decision they can improve, or a practice their colleagues can learn from. What counts depends on the team, the level, and the work ahead. Great is contextual. Sometimes we are defining one person’s contribution; sometimes we are building a team or rethinking a function. I want to understand how the pieces fit: the capabilities already there, what is missing, and how ownership and collaboration need to work as the organisation grows.
+Good performance means doing the work reliably. When I look for great, I also want to understand what someone might make better: a problem they can see more clearly, a decision they can improve, or a practice their colleagues can learn from. What counts depends on the team, the level, and the work ahead. **Great is contextual.** Sometimes we are defining one person’s contribution; sometimes we are building a team or rethinking a function. I want to understand how the pieces fit: the capabilities already there, what is missing, and how ownership and collaboration need to work as the organisation grows.
 
-Getting there takes more than agreeing on a few adjectives. I work through three conversations with the leaders involved:
+**Getting there takes more than agreeing on a few adjectives.** I work through three conversations with the leaders involved:
 
 1. **What needs to change?** We start with the business’s next stage, the capability already in the team, and what is missing. That helps us decide whether we are shaping one role, a team, or a wider function, and what contribution would matter.
 2. **Where have we seen great?** We examine examples of strong work and past hires: what made the difference, what the person actually did, and what the environment made possible. I look for behaviours we can describe and examine, while questioning whether yesterday’s model still fits the work ahead.
 3. **Do we mean the same thing?** We separate essential readiness from the few differentiators that would make a contribution exceptional. Then we compare how leaders and interviewers interpret the same examples. Where their judgments differ, we work through the reasons before treating the standard as shared.
 
-We capture that agreement in a written success profile: the contribution, the relevant conditions, and the evidence we will look for. Early interviews help reveal gaps in our definition. Any revision is made explicit so we can revisit affected assessments. This gives the team a shared starting point and a way to keep learning.
+**We capture that agreement in a written success profile**: the contribution, the relevant conditions, and the evidence we will look for. Early interviews help reveal gaps in our definition. Any revision is made explicit so we can revisit affected assessments. This gives the team a shared starting point and a way to keep learning.
 
-As an illustration, take a role responsible for a production system. Resolving an incident reliably matters. I would also want to hear whether the person understood why it kept happening, changed something that prevented a recurrence, and helped colleagues use what they learned. If colleagues can then diagnose similar issues independently, the whole team gains capability. Their own contribution and the support they had are part of that story.
+As an illustration, take a role responsible for a production system. Resolving an incident reliably matters. I would also want to hear whether the person understood why it kept happening, changed something that prevented a recurrence, and helped colleagues use what they learned. If colleagues can then diagnose similar issues independently, **the whole team gains capability.** Their own contribution and the support they had are part of that story.
 
-Hiring for great gives us a standard to assess against. Whether Talent Density actually improves becomes clearer after the hire joins: in their contribution, how they grow, and what becomes possible for the team.
+Hiring for great gives us a standard to assess against. Whether **Talent Density actually improves** becomes clearer after the hire joins: in their contribution, how they grow, and what becomes possible for the team.
 
 ### Structured interviews, feedback, and hiring decisions
 
-I want an interview team to finish with evidence it can use together. That starts with a shared definition of great and a clear purpose for each conversation. My approach connects four things:
+I want an interview team to finish with **evidence it can use together.** That starts with a shared definition of great and a clear purpose for each conversation. My approach connects four things:
 
 1. **Agree on what we need to learn.** Translate the success profile into observable evidence, with expectations appropriate to the role and level. Give each interviewer clear areas to explore and a consistent basis for assessment.
 2. **Build a conversation around that purpose.** Prepare lines of questioning and relevant work examples, leaving room to follow the candidate’s reasoning. Coaching helps interviewers probe deeply and recognise when they have enough evidence.
 3. **Write feedback that explains the judgment.** Before the debrief, capture what the candidate said or demonstrated, the assessment against the agreed standard, and what remains uncertain. Something a round did not explore stays an open question.
 4. **Use the debrief to reach a considered decision.** Compare the evidence, examine differing interpretations, and agree whether a focused follow-up is needed. The decision should make the strengths, concerns, and trade-offs clear.
 
-[RishiOS](../projects/rishios-mcp/) supports parts of this work through role-specific criteria and scorecard checks. The wider practice is about developing people who can explain and challenge an assessment. A score helps organise the discussion; the hiring team owns the decision.
+[RishiOS](../projects/rishios-mcp/) supports parts of this work through role-specific criteria and scorecard checks. The wider practice is about developing **people who can explain and challenge an assessment.** A score helps organise the discussion; the hiring team owns the decision.
 
 ### Develop interviewers who can recognise the evidence
 
-This is where much of my effort goes. A framework comes to life through the person conducting the interview. I help interviewers get comfortable listening closely, following an interesting detail, and asking the next question that opens up the candidate’s thinking.
+This is where much of my effort goes. A framework comes to life through the person conducting the interview. I help interviewers get comfortable **listening closely, following an interesting detail,** and asking the next question that opens up the candidate’s thinking.
 
-Reviewing an interview together makes the coaching specific: where did we find depth, where did we move on too quickly, and which conclusion needs more support? [Interview Evaluator](../projects/gabbar-interview-evaluator/) helps that learning continue through feedback on actual conversations.
+**Reviewing an interview together makes the coaching specific**: where did we find depth, where did we move on too quickly, and which conclusion needs more support? [Interview Evaluator](../projects/gabbar-interview-evaluator/) helps that learning continue through feedback on actual conversations.
 
-Over time, I want interviewers to need less help: to follow an important detail, test their interpretation, and explain or revise their view with confidence.
+**Over time, I want interviewers to need less help**: to follow an important detail, test their interpretation, and explain or revise their view with confidence.
 
 ### From an impression to an assessment
 
 Here is an illustrative coaching example, with no candidate or company details.
 
-An interviewer writes, “Strong ownership. Led a difficult launch.” I would want to understand what led them to that conclusion. Did we hear which decision the candidate owned, what they changed when the plan failed, and how they involved colleagues?
+An interviewer writes, “Strong ownership. Led a difficult launch.” **I would want to understand what led them to that conclusion.** Did we hear which decision the candidate owned, what they changed when the plan failed, and how they involved colleagues?
 
-The next conversation follows those gaps. A more useful assessment might read: “The candidate identified a rollout risk, proposed a staged release, and explained the trade-off to the team. Their account supports judgment on this decision. We still need evidence of how they developed others.”
+**The next conversation follows those gaps.** A more useful assessment might read: “The candidate identified a rollout risk, proposed a staged release, and explained the trade-off to the team. Their account supports judgment on this decision. We still need evidence of how they developed others.”
 
-That is progress even when the final hiring decision remains open. The interviewer can explain what the evidence supports, what is missing, and what to explore next. Reviewing that shift together is part of how I help people grow their judgment.
+**That is progress even when the final hiring decision remains open.** The interviewer can explain what the evidence supports, what is missing, and what to explore next. Reviewing that shift together is part of how I help people grow their judgment.
 
-### Keep the framework connected to the team
+### Examine the conditions for contribution {#keep-the-framework-connected-to-the-team}
 
-The environment matters just as much. Authority, support, dependencies, and the pace of change all affect what someone can contribute. I want those conditions understood by the hiring team and discussed openly with candidates, then followed through after they join.
+**The environment matters just as much.** Authority, support, dependencies, and the pace of change all affect what someone can contribute. I want those conditions understood by the hiring team and discussed openly with candidates, then followed through after they join.
 
-For AI-building roles, these conversations get into what someone shipped, owned, operated, measured, and learned. Read more about [how I find and assess AI-native talent](../ai-native-talent/).
+For AI-building roles, these conversations get into **what someone shipped, owned, operated, measured, and learned.** Read more about [how I find and assess AI-native talent](../ai-native-talent/).
 
 ## Supporting the wider talent function
 
 ### Build and develop the talent function {#talent-function-build-and-transformation}
 
-For startups creating a talent function and enterprises modernising fragmented or legacy models. The work can cover leadership alignment, workforce and hiring strategy, operating rhythm, team capability, and the conditions needed to keep the function aligned with the business as it grows.
+For startups creating a talent function and enterprises modernising fragmented or legacy models. The work can cover leadership alignment, workforce and hiring strategy, operating rhythm, team capability, and the conditions needed to **keep the function aligned with the business as it grows.**
 
 ### Put AI to work in recruiting {#ai-native-ta-and-hr-transformation}
 
-My interest starts with where the team spends its effort and where better context would help. From there, I explore what AI can prepare or connect, what people need to review, and how the tool will fit into their day-to-day work. The [systems I have built](../projects/) make those design choices inspectable.
+My interest starts with **where the team spends its effort** and where better context would help. From there, I explore what AI can prepare or connect, what people need to review, and how the tool will fit into their day-to-day work. The [systems I have built](../projects/) make those design choices inspectable.
 
 ### Lead through a change in the business {#fractional-talent-acquisition-leadership-and-team-coaching}
 
-This work brings me alongside leaders through a new market, a team reset, or a difficult hiring mandate. The conversations move between immediate decisions and the capability we want the team to develop: how they advise, assess, and take ownership of the work. My [leadership experience](../leadership-impact/) gives the wider context.
+This work brings me alongside leaders through a new market, a team reset, or a difficult hiring mandate. The conversations move between immediate decisions and the capability we want the team to develop: **how they advise, assess, and take ownership of the work.** My [leadership experience](../leadership-impact/) gives the wider context.
 
 ## Start with the question the team needs to answer
 
-The starting point might be a hiring standard people interpret differently, a search that keeps stalling, or a team adopting AI without a clear place for it in the work. The useful first step is to understand the constraint with the people closest to it, agree what needs to change, and make ownership clear.
+The starting point might be a hiring standard people interpret differently, a search that keeps stalling, or a team adopting AI without a clear place for it in the work. The useful first step is to **understand the constraint with the people closest to it**, agree what needs to change, and make ownership clear.

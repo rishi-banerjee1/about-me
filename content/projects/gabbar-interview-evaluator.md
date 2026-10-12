@@ -31,35 +31,19 @@ Interviewer training can stay abstract when it is separated from the interviews 
 
 Interview Evaluator reviews an interview transcript and gives the interviewer structured feedback on their strengths and areas for improvement. I built it as part of my interviewer training program so development could continue through the work itself.
 
-The tool uses a seven-layer hiring doctrine to examine how the conversation was structured, how evidence was gathered, and where judgment may need more support. The feedback gives interviewers something concrete to practise in their next interview while helping hiring teams build a more consistent approach to assessment.
+The tool examines how the conversation was structured, how evidence was gathered, and where judgment may need more support. The feedback gives interviewers something concrete to practise in their next interview while helping hiring teams build a more consistent approach to assessment.
 
-## Define what great looks like
+## How I use the feedback
 
-I start with the hiring team’s definition of great. What does reliable performance look like here, and what could someone contribute that would make the whole team stronger? That is the connection to Talent Density: the capability and judgment a person adds, including how they help others succeed.
+I review the tool’s feedback with the interviewer against the role standard. Where did a follow-up uncover useful evidence? Where did the conversation move on before we understood the candidate’s contribution? What conclusion does the record support, and what remains unanswered? That gives the interviewer one or two things to practise in the next conversation.
 
-To reach that definition, I work with leaders on the business need, examine examples of strong contribution, and compare how interviewers interpret the evidence. We write down the essential capabilities and the few differentiators we agree matter for this context.
-
-In coaching, I bring that conversation back to what we actually heard. Did we understand the person’s contribution? Did we explore how they learned or helped their team? Where did an impressive answer leave an important question unresolved? Those discussions help interviewers develop their own judgment.
-
-Read more about [how I define great and translate it into an interview framework](../../advisory/#define-great-before-designing-the-interview).
-
-## Grow the interviewer’s judgment
-
-My focus is helping interviewers listen for the evidence that matters and decide where to probe. Coaching examines how a line of questioning develops: whether the interviewer follows an important detail, gives the candidate space to explain, and checks an interpretation before reaching a conclusion.
-
-Reviewing an interview makes feedback specific. We can identify where useful evidence emerged, where a follow-up was missed, and where the judgment needs more support. Calibration then brings those assessments into discussion so interviewers can examine their reasoning and carry the learning into the next conversation.
-
-The tool supports this development through feedback on actual interviews. The aim is increasing independence and consistency in the interviewer’s judgment. A [worked coaching example](../../advisory/#from-an-impression-to-an-assessment) shows how I would help an interviewer move from an impression to an assessment they can explain.
+A [worked coaching example](../../advisory/#from-an-impression-to-an-assessment) shows the wider practice. [Advisory](../../advisory/#define-great-before-designing-the-interview) explains how I develop the role standard before interviews begin.
 
 ## The framework work around the tool
 
-The newer work addresses the design of the interview itself: define the evidence a role requires, give each interviewer a clear area to examine, and connect the decision record to what was actually observed. A written standard should be shared before interviews begin, with changes visible to the team.
+The newer framework work defines the evidence a role requires, gives each interviewer an area to examine, and records confirmed evidence, unanswered questions, and demonstrated gaps separately. For AI-building roles, the inquiry follows a system through real use: what the person shipped, owned, operated, measured, and learned.
 
-For AI-building roles, the inquiry follows a system through real use: what the person shipped, personally owned, operated, measured, and learned. Coachability is examined through reasoning: how someone explains a choice, considers a relevant challenge, and changes their view when better evidence warrants it.
-
-The record needs to distinguish confirmed evidence, missing evidence, and demonstrated gaps. That helps the team identify a focused follow-up and gives interviewer coaching a concrete basis: which question produced useful evidence, where the conversation stopped short, and what to practise next.
-
-This framework work is being developed separately from the transcript tool. The newer criteria are not presented here as implemented automated scoring features. The framework and interviewer guidance remain useful in a human-led interview and debrief.
+This framework is being developed separately from the transcript tool. The newer criteria are not presented as implemented automated scoring features. Interviewers and hiring leaders still interpret the evidence and own the decision.
 
 Explore my approach to [finding and assessing AI-native talent](../../ai-native-talent/) and [building interview frameworks](../../advisory/#hiring-and-interview-architecture).
 

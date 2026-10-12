@@ -44,10 +44,10 @@ Nodes are connected. Hover any card and dashed lines show which companies map to
 
 This gives a sourcing kick-off a first map of relevant organisations, adjacent talent pools, and related titles. I treat that map as a set of hypotheses to check with the hiring leader and against the market. It gives us something specific to challenge and refine before outreach begins.
 
-The combination of zero backend (fully static, Groq API key in the browser), instant deployment via GitHub Pages, and a UI designed for recruiters rather than engineers makes it unusually low-friction to adopt.
+The app runs as a static page on GitHub Pages. Its interface lets a recruiter enter role context, inspect the generated map, and refine the inputs for another pass.
 
-## Signals
+## What you can inspect
 
-- Public product, live demo, full how-to README
-- Covers a gap in the recruiting toolkit that most teams paper over with experience rather than tools
-- Demonstrates that useful AI products for HR can be built fast, shipped free, and used immediately
+- The public app shows the role inputs, generated landscape, and connections between pools and titles.
+- The source repository and README show how the map is generated and how to run it.
+- A new map can be generated with different role context or exclusions, then checked against market evidence.
