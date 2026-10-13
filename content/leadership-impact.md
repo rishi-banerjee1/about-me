@@ -13,7 +13,7 @@ Across those settings, I keep coming back to the same question: how can this tea
 
 ## Lead across markets while staying close to the work
 
-Led talent strategy and acquisition across Engineering, Product, Design, IT, Security, executive hiring, and corporate functions, with scope across India, North America, Europe, and APAC.
+Led talent strategy and acquisition across Engineering, Product, Design, IT, Security, executive hiring, and corporate functions in multiple markets.
 
 Working across markets means holding a shared view of the role while paying attention to what is different locally. I bring workforce priorities, market feedback, and candidate conversations together so leaders can see where the plan holds and where we need to reconsider it.
 

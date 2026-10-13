@@ -26,7 +26,7 @@ I would test the relevant conditions through examples: a decision made with inco
 
 ## Find relevant talent and earn the conversation
 
-My search experience includes retained and contingent mandates across North America in technology, advisory, engineering, and business functions. **The craft is in recognising where someone has solved a relevant problem**, including when their title or industry makes that experience less obvious.
+My search experience includes retained and contingent mandates in technology, advisory, engineering, and business functions. **The craft is in recognising where someone has solved a relevant problem**, including when their title or industry makes that experience less obvious.
 
 I map target organisations, adjacent pools, and variations in role scope, then test those assumptions through research and conversations. **Outreach needs a credible connection** between the person’s work and the problem ahead. What I learn from the market changes where I look next.
 

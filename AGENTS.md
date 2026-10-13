@@ -40,6 +40,7 @@ These rules are the source of truth for agents and maintainers working on this s
 - Position business outcomes around hiring efficiency and effectiveness, team capability, and dependable delivery. Never frame lower cost or cost reduction as the goal; do not relabel cost savings as effectiveness metrics.
 
 - Present Rishi and his work, ideas, and recruiting practice. The intended takeaway is that he is worth connecting with, not that he is seeking a job.
+- Do not infer the geographic reach of the overall recruiting practice from a subset of mandates. Keep named geographies tied to verified role-specific experience; avoid overlapping or partial region lists when describing overall scope.
 - Use conversational invitations such as "Say hello" and "exchange notes on Talent". Do not restore role-availability statements, mandate intake forms, or job-seeking CTAs.
 - Distinguish finding and assessing AI-native talent from building AI-native recruiting systems. Keep both visible. SEO must use relevant content and descriptive metadata, never keyword stuffing or ranking guarantees. The book has a dedicated `/raising-the-bar/` landing page.
 - Give interview framework building and AI-native recruiting explicit, source-backed coverage. Keep private implementation details private.
