@@ -1,13 +1,13 @@
 +++
 title = "Leadership Impact"
-description = "Bangalore-based global Talent Acquisition leader for SaaS and technology businesses, spanning executive search, talent strategy, operating-model design, and hiring systems."
+description = "Bangalore-based global Talent Acquisition leader for SaaS and technology businesses, spanning executive hiring, talent strategy, operating-model design, and hiring systems."
 template = "standard-page.html"
 
 [extra]
 eyebrow = "Leadership"
 +++
 
-My work in talent leadership spans global R&D talent acquisition, executive search, enterprise recruiting delivery, and building a talent function at an early stage.
+My leadership work spans global R&D and executive hiring, developing distributed recruiting teams, and building a talent function at an early stage.
 
 Across those settings, I keep coming back to the same question: how can this team become more capable through the people it hires and develops? That is the connection between my leadership work and Talent Density. The unit of work may be a role, a team, a function, or several together. I look at the capability already in place, how responsibilities connect, and what needs to change as the organisation grows.
 
@@ -25,11 +25,11 @@ That work continues through interview design and calibration. I help interviewer
 
 [Explore the work on hiring and interview architecture](../advisory/#hiring-and-interview-architecture).
 
-## Make delivery more predictable and constraints visible
+## Make hiring more predictable and constraints visible
 
 Modernised talent operations through clearer roles and levels, workforce planning, analytics, candidate experience, and decision ownership. The aim is a shared view of what the business needs, where a search is losing momentum, and what action will move it forward.
 
-In global R&D hiring and enterprise recruiting delivery, that means helping teams use their capacity well, follow through on commitments, and bring unresolved decisions to the right people. What a hire contributes after joining remains part of how we learn from the work.
+I help recruiting teams use capacity well, follow through on commitments, and bring unresolved decisions to the right leaders. What a hire contributes after joining remains part of how we learn from the work.
 
 ## Build the talent function for the next stage
 

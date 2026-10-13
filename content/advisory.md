@@ -79,7 +79,7 @@ My interest starts with **where the team spends its effort** and where better co
 
 ### Lead through a change in the business {#fractional-talent-acquisition-leadership-and-team-coaching}
 
-This work brings me alongside leaders through a new market, a team reset, or a difficult hiring mandate. The conversations move between immediate decisions and the capability we want the team to develop: **how they advise, assess, and take ownership of the work.** My [leadership experience](../leadership-impact/) gives the wider context.
+This work brings me alongside leaders through a new market, a team reset, or a hard-to-define hiring need. The conversations move between immediate decisions and the capability we want the team to develop: **how they advise, assess, and take ownership of the work.** My [leadership experience](../leadership-impact/) gives the wider context.
 
 ## Start with the question the team needs to answer
 
