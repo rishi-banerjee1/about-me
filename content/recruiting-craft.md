@@ -1,6 +1,6 @@
 +++
 title = "The Art & Craft of Recruiting"
-description = "Rishi Banerjee’s Talent Partner practice: executive search, technical recruiting, candidate assessment, hiring leader counsel, and team development."
+description = "Rishi Banerjee’s Talent Partner practice: executive hiring, technical recruiting, candidate assessment, hiring leader counsel, and team development."
 template = "recruiting-craft.html"
 
 [extra]
@@ -10,7 +10,7 @@ intro = "I own searches from the business problem through the decision to join. 
 
 ## Understand the work before defining the hire
 
-**A search often begins before the role is clear.** I work with the hiring manager to understand what needs to change, which capabilities the team already has, and where the gap sits. Sometimes that changes the proposed level or mandate. Sometimes it raises a more useful question about ownership, support, or whether another hire is the right answer.
+**A search often begins before the role is clear.** I work with the hiring manager to understand what needs to change, which capabilities the team already has, and where the gap sits. Sometimes that changes the proposed level or role scope. Sometimes it raises a more useful question about ownership, support, or whether another hire is the right answer.
 
 For me, raising Talent Density starts with understanding **what this person could add to the team**, including how they help others succeed. The success profile is something we build together. It connects the work, the authority to do it, the expected contribution, and the evidence we will use to judge progress. Scope, compensation, location, and market availability have to make sense together.
 
@@ -26,7 +26,7 @@ I would test the relevant conditions through examples: a decision made with inco
 
 ## Find relevant talent and earn the conversation
 
-My search experience includes retained and contingent mandates in technology, advisory, engineering, and business functions. **The craft is in recognising where someone has solved a relevant problem**, including when their title or industry makes that experience less obvious.
+I have led searches across technology, advisory, engineering, and business functions. **The craft is in recognising where someone has solved a relevant problem**, including when their title or industry makes that experience less obvious.
 
 I map target organisations, adjacent pools, and variations in role scope, then test those assumptions through research and conversations. **Outreach needs a credible connection** between the person’s work and the problem ahead. What I learn from the market changes where I look next.
 
@@ -62,7 +62,7 @@ The same discipline matters in a debrief. I ask what observation supports a judg
 
 **Hiring managers need counsel they can act on.** I bring a recommendation, its evidence, the trade-off it creates, and the decision needed. That can mean revisiting a must-have after market feedback, sharpening what an interview should test, or resolving disagreement about a candidate.
 
-**When a search stalls, I trace the constraint.** An unclear mandate, a narrow talent pool, repeated interviews, and delayed decisions call for different responses. A reset needs an agreed change and an owner. Adding candidates to an unresolved problem usually carries that problem forward.
+**When a search stalls, I trace the constraint.** An unclear hiring need, a narrow talent pool, repeated interviews, and delayed decisions call for different responses. A reset needs an agreed change and an owner. Adding candidates to an unresolved problem usually carries that problem forward.
 
 I will challenge a decision when its reasoning does not hold up, including pressure to lower an agreed essential standard. **The hiring manager owns the hiring decision.** My responsibility is to make the evidence, risks, and alternatives clear, and to escalate concerns that exceed that decision-maker’s authority.
 

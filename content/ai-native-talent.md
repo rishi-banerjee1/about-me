@@ -17,7 +17,7 @@ That can be **a single critical hire, a new team,** or capability being built ac
 
 The work comes together in four places:
 
-- **Shape the mandate:** agree what the team needs to become capable of, what is already there, and what contribution would raise Talent Density.
+- **Clarify the hiring need:** agree what the team needs to become capable of, what is already there, and what contribution would raise Talent Density.
 - **Find relevant builders:** follow the problems people have worked on, including adjacent talent pools and less obvious career paths.
 - **Make the problem worth exploring:** connect the work with people whose interests and experience give them a reason to care, then help the team explain the contribution they could make.
 - **Help both sides decide:** develop the interviewers’ lines of questioning, examine the evidence together, and make the opportunity and its constraints clear to the candidate.
