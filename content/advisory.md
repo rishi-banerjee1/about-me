@@ -10,6 +10,8 @@ show_contents = true
 
 **Advisory is an extension of my work with hiring leaders**: understanding the business constraint, making the choices clear, and helping the team develop its own judgment. These are the questions and areas of practice that recur across that work.
 
+> **Hiring Health Assessment:** if hiring progress or decision quality is holding your team back, [request an assessment](hiring-health-assessment/). I will help test the main constraint against available evidence and map the first changes.
+
 ## Develop the team’s hiring judgment {#hiring-and-interview-architecture}
 
 Much of my work with hiring leaders starts with a deceptively simple conversation: **what would make this a great hire for this team?** Getting to a shared answer takes some work. It also changes how we interview, what we listen for, and how we make the final decision.

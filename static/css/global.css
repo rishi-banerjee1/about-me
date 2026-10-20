@@ -1168,6 +1168,15 @@ strong {
   max-width: 760px;
 }
 
+.standard-prose .button-row {
+  justify-content: center;
+}
+
+.standard-prose a.button-primary {
+  color: #f7fffc;
+  text-decoration: none;
+}
+
 .standard-prose h2:first-child {
   margin-top: 0;
 }
