@@ -82,6 +82,10 @@ label = "Advisory"
 href = "/advisory/"
 
 [[extra.nav_links]]
+label = "Hiring Health"
+href = "/advisory/hiring-health-assessment/"
+
+[[extra.nav_links]]
 label = "Talent Systems"
 href = "/projects/"
 
