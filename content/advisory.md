@@ -8,7 +8,7 @@ eyebrow = "Advisory"
 show_contents = true
 +++
 
-**Advisory is an extension of my work with hiring leaders**: understanding the business constraint, making the choices clear, and helping the team develop its own judgment. These are the questions and areas of practice that recur across that work.
+**Advisory is an extension of my work with hiring leaders**: calibrating the business problem, making the choices clear, and helping the team create the conditions for a new hire to succeed. The aim is a contribution that matters after the person joins. These are the questions and areas of practice that recur across that work.
 
 > **Hiring Health Assessment:** if hiring progress or decision quality is holding your team back, [request an assessment](hiring-health-assessment/). I will help test the main constraint against available evidence and map the first changes.
 
@@ -32,7 +32,7 @@ Good performance means doing the work reliably. When I look for great, I also wa
 
 As an illustration, take a role responsible for a production system. Resolving an incident reliably matters. I would also want to hear whether the person understood why it kept happening, changed something that prevented a recurrence, and helped colleagues use what they learned. If colleagues can then diagnose similar issues independently, **the whole team gains capability.** Their own contribution and the support they had are part of that story.
 
-Hiring for great gives us a standard to assess against. Whether **Talent Density actually improves** becomes clearer after the hire joins: in their contribution, how they grow, and what becomes possible for the team.
+Hiring for great gives us a standard to assess against. After the hire joins, I want the leader to revisit the success profile: is the person able to do the work we defined, with the authority and support we described? Whether **Talent Density actually improves** becomes clearer in their contribution, how they grow, and what becomes possible for the team.
 
 ### Structured interviews, feedback, and hiring decisions
 

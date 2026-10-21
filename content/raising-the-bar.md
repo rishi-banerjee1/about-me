@@ -12,7 +12,7 @@ I wrote *Raising the Bar* to explore the Art & Craft of Recruiting: how recruite
 
 The work starts before a vacancy is filled. What does the business need to do next? What contribution would make a difference? What authority, support, and working environment will the person actually have?
 
-From that foundation, the book examines finding relevant talent, assessing personal contribution, advising hiring leaders, making an opportunity meaningful to an individual, and closing with integrity. It also considers how technology can support recruiting while keeping judgment and accountability with people.
+From that foundation, the book examines finding relevant talent, assessing personal contribution, advising hiring leaders, making an opportunity meaningful to an individual, and closing with integrity. It also asks what happens after the person joins: whether the work and support match what was promised, and what their contribution teaches us. Technology can support recruiting while judgment and accountability stay with people.
 
 ## From principles to practice
 

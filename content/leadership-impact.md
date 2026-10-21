@@ -19,7 +19,7 @@ Working across markets means holding a shared view of the role while paying atte
 
 ## Turn hiring decisions into a leadership capability
 
-My partnership with hiring leaders begins with the problem behind the role. Together, we define the contribution required, the authority and support available, and the evidence that will help us judge a candidate’s ability to succeed.
+My partnership with hiring leaders begins by calibrating the business problem behind the role. Together, we define the contribution required, the authority and support available, and the evidence that will help us judge a candidate’s ability to succeed. Those same conditions matter when the new hire starts doing the work.
 
 That work continues through interview design and calibration. I help interviewers understand what they are exploring and why. When we disagree in a debrief, I want to hear how each person reached their view and what we still need to learn. Working through that together is part of developing better hiring judgment.
 
@@ -29,7 +29,7 @@ That work continues through interview design and calibration. I help interviewer
 
 Modernised talent operations through clearer roles and levels, workforce planning, analytics, candidate experience, and decision ownership. The aim is a shared view of what the business needs, where a search is losing momentum, and what action will move it forward.
 
-I help recruiting teams use capacity well, follow through on commitments, and bring unresolved decisions to the right leaders. What a hire contributes after joining remains part of how we learn from the work.
+I help recruiting teams use capacity well, follow through on commitments, and bring unresolved decisions to the right leaders. After someone joins, I want to know whether the work and support matched the brief and what impact the person is beginning to have. That closes the loop on the hiring decision.
 
 ## Build the talent function for the next stage
 

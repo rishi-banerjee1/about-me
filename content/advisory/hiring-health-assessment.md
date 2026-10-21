@@ -15,10 +15,10 @@ The problem may show up as a stalled search, interviews that produce conflicting
 
 I follow the hiring need through four decisions, from defining the contribution to acting on the evidence:
 
-- **Define the contribution:** Is the missing capability clear? The answer may change the role, the hiring priority, or whether developing the current team comes first.
+- **Define the contribution:** Is the business problem clear, and what would the new hire need to succeed? The answer may change the role, the hiring priority, or whether developing the current team comes first.
 - **Find relevant people:** Are the right people entering the conversation? A sharper view of the market and the opportunity can change where the team looks and how it engages candidates.
 - **Assess the evidence:** Do interviewers know what they need to learn and what the evidence supports? A shared standard and better feedback can make the assessment clearer.
-- **Decide and follow through:** Who owns the decision and the next action? Clear ownership, realistic interviewer capacity, and a useful review rhythm can keep candidates and searches moving.
+- **Decide and follow through:** Who owns the decision and the next action? Clear ownership keeps candidates and searches moving. A useful handover also carries the expected contribution and support into the new hire’s work.
 
 The aim is to distinguish a decision the hiring leader can make now from a practice the team should change or a step it could stop doing. That is how a focused diagnosis can become the start of a wider transformation.
 
@@ -36,7 +36,7 @@ Based on the conversation and the material you can share, I will send a concise 
 
 1. **Working diagnosis:** the constraint that appears most important and why.
 2. **Evidence and uncertainty:** what supports the diagnosis, what remains untested, and which question could change the recommendation.
-3. **Initial roadmap:** the decision to make now, the changes to test next, and any step worth removing, with a proposed owner for each.
+3. **Initial roadmap:** the decision to make now, the changes to test next, and any step worth removing, with a proposed owner for each. Where a hire is involved, it also names what the leader should check after the person joins.
 
 This is for founders, People leaders, and Talent Acquisition leaders working through an active hiring decision. The roadmap reflects the evidence available. Where a conclusion needs more proof, it shows what to check before a wider change is planned.
 
