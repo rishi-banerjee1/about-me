@@ -13,14 +13,15 @@ When a hiring conversation starts with “AI-native talent”, I want to underst
 
 That can be **a single critical hire, a new team,** or capability being built across a function. I work with leaders to connect the search to that wider picture, make the assessment specific, and give candidates a clear sense of the work they would own.
 
-## From the business need to the hiring decision
+## From the business problem to contribution after joining
 
-The work comes together in four places:
+The work comes together in five places:
 
 - **Clarify the hiring need:** agree what the team needs to become capable of, what is already there, and what contribution would raise Talent Density.
 - **Find relevant builders:** follow the problems people have worked on, including adjacent talent pools and less obvious career paths.
 - **Make the problem worth exploring:** connect the work with people whose interests and experience give them a reason to care, then help the team explain the contribution they could make.
 - **Help both sides decide:** develop the interviewers’ lines of questioning, examine the evidence together, and make the opportunity and its constraints clear to the candidate.
+- **Set up success and learn:** carry the agreed contribution, authority, and support into the handover, then learn from what the person is able to do after joining.
 
 The sections below show how I approach those conversations.
 

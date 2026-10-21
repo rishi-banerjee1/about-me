@@ -5,10 +5,10 @@ template = "recruiting-craft.html"
 
 [extra]
 eyebrow = "Art & Craft"
-intro = "I own searches from the business problem through the decision to join. The work begins with understanding what the team needs to do next, then finding the people who can contribute and helping both sides make an informed choice."
+intro = "The work begins by calibrating the business problem with the hiring leader: what needs to change, what contribution would matter, and what support the person will need. Search and assessment follow from that. The test comes after the new hire joins and has the chance to deliver impact."
 +++
 
-## Understand the work before defining the hire
+## Calibrate the business problem before defining the hire
 
 **A search often begins before the role is clear.** I work with the hiring manager to understand what needs to change, which capabilities the team already has, and where the gap sits. Sometimes that changes the proposed level or role scope. Sometimes it raises a more useful question about ownership, support, or whether another hire is the right answer.
 
@@ -80,7 +80,7 @@ I built [Offer Wizard](../projects/atlan-offer-wizard/) to carry that understand
 
 I coach recruiters, hiring leaders, and interviewers through **the decisions a live search demands**: how they frame the role, explain the market, distinguish an assessment claim from its evidence, and advise the hiring leader. I ask them to bring a recommendation, make their reasoning clear, and own the next action.
 
-**The aim is growing independence in judgment.** Reviewing a difficult intake, an interview, or a candidate conversation gives someone a specific decision to learn from. After a hire joins, I also want to examine whether the work and support matched what we described, and what the result teaches us about the next search.
+**The aim is growing independence in judgment.** Reviewing a difficult intake, an interview, or a candidate conversation gives someone a specific decision to learn from. After a hire joins, I want to revisit the success profile with the hiring leader: did the person receive the work, authority, and support we described? What contribution is becoming visible, and what needs to change? The answers help the new hire succeed and improve the next search.
 
 The same standard guides how I use AI. Research and synthesis can create more room for recruiting, but **generated claims need source checks.** A polished summary cannot establish a candidate’s capability. Recruiters and hiring managers remain responsible for the evidence and the decision.
 
