@@ -55,4 +55,4 @@ These pieces let you examine my reasoning and bring your own experience to it.
 - [How the Engineering Talent Profile Has Evolved](https://medium.com/@risbane1002/from-t-shaped-to-e-shaped-how-the-engineering-talent-profile-has-evolved-21e7786d7d8f)
 - [What Happens When Everything Fails at Once? Leadership.](https://medium.com/@risbane1002/what-happens-when-everything-fails-at-once-leadership-06f1d235a302)
 
-[Founder Hindsight](../founder-hindsight/) brings together founder and operator accounts of people decisions, with linked sources and my interpretations. *[Raising the Bar](../raising-the-bar/)* develops the recruiting practice through worked examples and practical tools. Both are invitations to examine the choices behind the work.
+[Founder Hindsight](../founder-hindsight/) brings together founder and operator accounts of people decisions, with linked sources and my interpretations. *[Raising the Bar](../raising-the-bar/)* develops my approach to recruiting through worked examples and practical tools. Both are invitations to examine the choices behind the work.

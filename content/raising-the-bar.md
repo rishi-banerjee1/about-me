@@ -30,7 +30,7 @@ Recruiters developing their craft, Talent Partners advising hiring leaders, and 
 
 Rishi Banerjee is a Bangalore-based talent leader and Principal Talent Partner with more than 20 years of experience across startups, enterprises, and hiring in more than 10 countries. His work spans hands-on search, global talent leadership, interviewer development, and building talent systems.
 
-Explore [Rishi’s recruiting practice](../recruiting-craft/), his approach to [AI-native talent](../ai-native-talent/), and the [systems behind the work](../projects/).
+Explore [Rishi’s approach to recruiting](../recruiting-craft/), his approach to [AI-native talent](../ai-native-talent/), and the [systems behind the work](../projects/).
 
 ## Read Raising the Bar
 

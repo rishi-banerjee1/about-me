@@ -1,11 +1,11 @@
 +++
 title = "The Art & Craft of Recruiting"
-description = "Rishi Banerjee’s Talent Partner practice: executive hiring, technical recruiting, candidate assessment, hiring leader counsel, and team development."
+description = "Rishi Banerjee’s approach to executive hiring, technical recruiting, candidate assessment, hiring leader counsel, and team development."
 template = "recruiting-craft.html"
 
 [extra]
 eyebrow = "Art & Craft"
-intro = "The work begins by calibrating the business problem with the hiring leader: what needs to change, what contribution would matter, and what support the person will need. Search and assessment follow from that. The test comes after the new hire joins and has the chance to deliver impact."
+intro = "My Recruiting OS connects the decisions behind a hire: calibrate the business problem, define the contribution and conditions for success, find and assess relevant people, help both sides decide, then learn from the new hire’s impact after joining. What we learn feeds the next search."
 +++
 
 ## Calibrate the business problem before defining the hire
