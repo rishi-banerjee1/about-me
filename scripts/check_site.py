@@ -22,6 +22,7 @@ REQUIRED_ROUTES = (
     "proof-of-work/index.html",
     "projects/index.html",
     "recruiting-craft/index.html",
+    "ta-operating-system/index.html",
     "ai-native-talent/index.html",
     "raising-the-bar/index.html",
     "founder-hindsight/index.html",

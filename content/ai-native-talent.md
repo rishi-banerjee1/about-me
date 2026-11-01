@@ -92,3 +92,5 @@ That is how I connect [structured interviews and feedback](../advisory/#structur
 **Finding AI-native talent and building AI-enabled recruiting systems** are connected areas of my work. [Interview Evaluator](../projects/gabbar-interview-evaluator/) supports interviewer development; [RishiOS](../projects/rishios-mcp/) applies assessment criteria and checks recorded evidence. The people responsible for a hire remain accountable for the decision.
 
 Research and synthesis need source checks. AI-generated claims about a candidate **cannot establish their capability.** This discipline also runs through *[Raising the Bar](../raising-the-bar/)*.
+
+For the wider workflow, explore [the TA Operating System](../ta-operating-system/) or read [how I rebuilt hiring around repeatable steps and human judgment](https://medium.com/@risbane1002/machines-run-the-repeatable-steps-people-make-the-calls-how-i-rebuilt-hiring-around-one-rule-75126e889427).

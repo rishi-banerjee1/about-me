@@ -51,6 +51,7 @@ These pieces let you examine my reasoning and bring your own experience to it.
 
 ### Building teams and systems
 
+- [Machines Run the Repeatable Steps, People Make the Calls](https://medium.com/@risbane1002/machines-run-the-repeatable-steps-people-make-the-calls-how-i-rebuilt-hiring-around-one-rule-75126e889427): the hiring-system rebuild behind my [TA Operating System framework](../ta-operating-system/), including early evidence and lessons from measurement.
 - [Vibe Coding in Talent Acquisition](https://medium.com/@risbane1002/scrappy-strategic-and-self-built-vibe-coding-in-talent-acquisition-3ba97e2da002)
 - [How the Engineering Talent Profile Has Evolved](https://medium.com/@risbane1002/from-t-shaped-to-e-shaped-how-the-engineering-talent-profile-has-evolved-21e7786d7d8f)
 - [What Happens When Everything Fails at Once? Leadership.](https://medium.com/@risbane1002/what-happens-when-everything-fails-at-once-leadership-06f1d235a302)
