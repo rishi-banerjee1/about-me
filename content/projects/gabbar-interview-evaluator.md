@@ -45,7 +45,7 @@ The newer framework work defines the evidence a role requires, gives each interv
 
 This framework is being developed separately from the transcript tool. The newer criteria are not presented as implemented automated scoring features. Interviewers and hiring leaders still interpret the evidence and own the decision.
 
-Explore my approach to [finding and assessing AI-native talent](../../ai-native-talent/) and [building interview frameworks](../../advisory/#hiring-and-interview-architecture).
+Explore my approach to [finding and assessing AI builders](../../ai-native-talent/) and [building interview frameworks](../../advisory/#hiring-and-interview-architecture).
 
 ## Design decision
 
