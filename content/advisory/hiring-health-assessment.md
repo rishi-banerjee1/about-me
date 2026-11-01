@@ -28,7 +28,7 @@ After confirming fit, I start with one active hiring question and a conversation
 
 For example, a search may look like a sourcing problem. If suitable candidates are already reaching interviews but waiting for a decision, the first change may be a manager decision on the evidence needed. The team can then revisit feedback expectations and interviewer capacity. The order follows the constraint the evidence reveals.
 
-The assessment draws on the practical questions behind my talent systems. [TA CentCom](../../projects/ta-centcom/) makes search health, accountable delay, interviewer capacity, and action ownership visible. [Interview Evaluator](../../projects/gabbar-interview-evaluator/) focuses on how interviewers find and assess evidence. [The TA Operating System](../../ta-operating-system/) shows how those components connect across the hiring life cycle. Your team’s problem determines which questions matter.
+The assessment starts with your team’s evidence and the decision it needs to make. It draws on the same questions behind [the TA Operating System](../../ta-operating-system/): where is the work getting stuck, what standard or decision is missing, and who can act? [TA CentCom](../../projects/ta-centcom/) and [Interview Evaluator](../../projects/gabbar-interview-evaluator/) show how I have approached particular operational and interviewer-development questions. Your team’s problem determines which questions matter.
 
 ## Leave with a diagnosis and an initial roadmap
 

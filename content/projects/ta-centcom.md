@@ -61,3 +61,5 @@ Every insight is designed to remain traceable to the underlying hiring record. T
 The TA engine loses momentum when delay, ownership, and constrained capacity are not visible early enough to act.
 
 That is the problem I built TA CentCom around: giving the team a shared view of where help is needed and who can move the work forward.
+
+That view is one part of the [TA Operating System](../../ta-operating-system/#9-measure-learn-and-improve): the team identifies a constraint, agrees an action and owner, then returns to the evidence to see what changed. The wider framework connects that learning to role standards, interviewing, and the next search.

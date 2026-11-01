@@ -8,11 +8,13 @@ eyebrow = "Talent Acquisition systems"
 show_contents = true
 +++
 
-Applicants were waiting for a first answer. The first read of a CV depended on who picked it up, side spreadsheets drifted from the hiring record, and booking a call took email back and forth.
+Applicants were waiting for a first answer. The first read of a CV depended on who picked it up, side spreadsheets drifted from the hiring record, and booking an initial call with the recruiting team took email back and forth.
 
 I rebuilt how the team hires around one rule: **machines run repeatable work; people set the bar and make hiring judgments.** The work connects written standards, sourcing, candidate communication, assessment, and measurement around the applicant tracking system (ATS).
 
 That experience informs the framework below: how I would design the whole hiring system, including the decisions, approvals, and feedback loops each stage needs. The implementation can vary with a team’s tools; the responsibilities and standards should remain clear.
+
+It grows from my [recruiting practice](../recruiting-craft/): understand the business problem, agree what contribution the team needs, and help the people involved make a decision they can explain. The operating system carries that discipline across searches, while the tools support particular moments in the work.
 
 For the story behind the framework, read [Machines Run the Repeatable Steps, People Make the Calls](https://medium.com/@risbane1002/machines-run-the-repeatable-steps-people-make-the-calls-how-i-rebuilt-hiring-around-one-rule-75126e889427) on Medium. I describe the rebuild, the early evidence, and what measuring the system revealed.
 
@@ -38,6 +40,8 @@ An improvement needs to strengthen at least one of these outcomes without weaken
 The operating rule is simple: **machines run repeatable work; people set the bar and make hiring judgments.**
 
 Automation prepares briefs, drafts messages, organises evidence, identifies delays, and applies defined rules. Model-generated assessments still need review. People decide what the team needs, interpret the evidence, and take responsibility for each hiring decision.
+
+A model can interpret the same CV differently on another pass. A written bar gives it a common standard; it does not make the judgment deterministic. Human review, checks for uncertain outputs, and a fresh look at rejected profiles are part of how I examine where it may have missed something.
 
 **Set the standard first**
 
@@ -165,7 +169,7 @@ That review should distinguish gaps in assessment from gaps in onboarding or sup
 
 I start with the systems already in use and their native capabilities. The applicant tracking system remains the record. Other tools extend it only where they make a specific decision, action, or signal clearer.
 
-The tools I have built provide concrete examples of capabilities within the framework. Each project page explains its scope and design choices:
+The tools I have built show how I approach specific decisions and conversations. They are examples of capabilities that can support the wider framework; each project page explains what that tool actually does:
 
 - [Sourcing Compass](../projects/sourcing-compass/) makes the reasoning behind a search visible before outreach begins.
 - [Interview Evaluator](../projects/gabbar-interview-evaluator/) helps interviewers learn from the evidence they gather in real conversations.

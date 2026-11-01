@@ -50,3 +50,5 @@ Explore my approach to [finding and assessing AI-native talent](../../ai-native-
 ## Design decision
 
 The tool supports interviewer development rather than replacing the interviewer or making the hiring decision. Explicit bias safeguards help surface moments where an assessment may rely on pattern matching rather than evidence.
+
+In the wider [TA Operating System](../../ta-operating-system/#6-run-interviews-that-produce-usable-evidence), that coaching sits alongside the role bar, interviewer feedback, and calibration. The transcript tool supports the interviewer’s development; the hiring team remains responsible for the candidate assessment and decision.
