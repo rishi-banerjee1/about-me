@@ -86,7 +86,7 @@ label = "Hiring Health"
 href = "/advisory/hiring-health-assessment/"
 
 [[extra.nav_links]]
-label = "TA Operating System"
+label = "TA-OS"
 href = "/ta-operating-system/"
 
 [[extra.nav_links]]
