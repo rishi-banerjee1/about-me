@@ -17,7 +17,7 @@ I am Global Head of Talent Acquisition at kAIgentic, the enterprise intelligence
 - Rishi Ideas: AI product research and fleet-management hub ([case study](https://rishi-banerjee1.github.io/about-me/projects/rishi-ideas/))
 
 ## Focused reading
-- AI-native talent: https://rishi-banerjee1.github.io/about-me/ai-native-talent/
+- Finding and assessing AI builders: https://rishi-banerjee1.github.io/about-me/ai-native-talent/
 - Raising the Bar, by Rishi Banerjee: https://rishi-banerjee1.github.io/about-me/raising-the-bar/
 
 ## Links

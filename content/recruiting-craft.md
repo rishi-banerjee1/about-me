@@ -34,7 +34,7 @@ I built [Sourcing Compass](../projects/sourcing-compass/) to make that early rea
 
 A conversation can remain valuable when the current role is wrong for someone. I want to understand what would make a future conversation useful and ask permission to stay in touch. When an introduction makes sense, a short brief they can forward gives the other person a choice. **Relationships deserve attention beyond the vacancy** that brought us together.
 
-For AI-related searches, I follow the same discipline through the work someone has built, their contribution, and how they test and improve it. Read more about my approach to [finding and assessing AI-native talent](../ai-native-talent/).
+For AI-related searches, I follow the same discipline through the work someone has built, their contribution, and how they test and improve it. Read more about my approach to [finding and assessing AI builders](../ai-native-talent/).
 
 ## Make the opportunity relevant to the person
 

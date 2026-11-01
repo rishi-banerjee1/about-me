@@ -67,7 +67,7 @@ An interviewer writes, “Strong ownership. Led a difficult launch.” **I would
 
 **The environment matters just as much.** Authority, support, dependencies, and the pace of change all affect what someone can contribute. I want those conditions understood by the hiring team and discussed openly with candidates, then followed through after they join.
 
-For AI-building roles, these conversations get into **what someone shipped, owned, operated, measured, and learned.** Read more about [how I find and assess AI-native talent](../ai-native-talent/).
+For AI-building roles, these conversations get into **what someone shipped, owned, operated, measured, and learned.** Read more about [how I find and assess AI builders](../ai-native-talent/).
 
 ## Supporting the wider talent function
 

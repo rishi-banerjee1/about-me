@@ -1,15 +1,15 @@
 +++
-title = "Finding and Assessing AI-Native Talent"
+title = "Finding and Assessing AI Builders"
 description = "Finding the people who can build with AI and make the team stronger. My approach connects search, technical evidence, hiring judgment, and Talent Density."
 template = "standard-page.html"
 [extra]
-eyebrow = "Talent Partner · AI-native talent"
+eyebrow = "Talent Partner · AI builders"
 show_contents = true
 +++
 
-My work on AI-native talent brings together **hands-on search, partnership with hiring leaders,** and the perspective of building AI tools myself. I want to understand both what someone can contribute now and how they could help the team grow as the technology and the work change.
+My work finding AI builders brings together **hands-on search, partnership with hiring leaders,** and the perspective of building AI tools myself. I want to understand both what someone can contribute now and how they could help the team grow as the technology and the work change.
 
-When a hiring conversation starts with “AI-native talent”, I want to understand **what we mean for this team.** What will the person build or change, and where does AI change the capability we need? A research role, an AI product role, and an engineering role using AI extensively need different evidence.
+When a team is looking for an AI builder, I want to understand **what that means for the work ahead.** What will the person build or change, and where does AI change the capability we need? A research role, an AI product role, and an engineering role using AI extensively need different evidence.
 
 That can be **a single critical hire, a new team,** or capability being built across a function. I work with leaders to connect the search to that wider picture, make the assessment specific, and give candidates a clear sense of the work they would own.
 
@@ -25,7 +25,7 @@ The work comes together in five places:
 
 The sections below show how I approach those conversations.
 
-## Define what AI-native means for this role
+## Define what an AI builder needs to do in this role {#define-what-ai-native-means-for-this-role}
 
 **The hiring leader and I need a shared view of the contribution**: the problem, the user, the technical constraints, and the decisions the person will own. That helps distinguish where deep model expertise matters, where product or engineering judgment matters, and where someone needs to learn quickly across disciplines.
 
@@ -33,7 +33,7 @@ The sections below show how I approach those conversations.
 
 ## Look for relevant work and follow the contribution
 
-My search approach maps the problem to organisations, adjacent talent pools, and **people doing relevant work.** For AI-native talent, useful starting points can include shipped products, open-source contributions, technical writing, research, and accounts of how a system was built or improved.
+My search approach maps the problem to organisations, adjacent talent pools, and **people doing relevant work.** For AI builders, useful starting points can include shipped products, open-source contributions, technical writing, research, and accounts of how a system was built or improved.
 
 Each is a lead to examine. **Public visibility is uneven;** confidential work may leave little public trace. I use the conversation to understand what the person actually owned, which constraints they faced, and what they can appropriately share.
 
@@ -89,7 +89,7 @@ That is how I connect [structured interviews and feedback](../advisory/#structur
 
 ## AI in the recruiting workflow
 
-**Finding AI-native talent and building AI-enabled recruiting systems** are connected areas of my work. [Interview Evaluator](../projects/gabbar-interview-evaluator/) supports interviewer development; [RishiOS](../projects/rishios-mcp/) applies assessment criteria and checks recorded evidence. The people responsible for a hire remain accountable for the decision.
+**Finding AI builders and building AI-enabled recruiting systems** are connected areas of my work. [Interview Evaluator](../projects/gabbar-interview-evaluator/) supports interviewer development; [RishiOS](../projects/rishios-mcp/) applies assessment criteria and checks recorded evidence. The people responsible for a hire remain accountable for the decision.
 
 Research and synthesis need source checks. AI-generated claims about a candidate **cannot establish their capability.** This discipline also runs through *[Raising the Bar](../raising-the-bar/)*.
 
