@@ -79,6 +79,8 @@ For startups creating a talent function and enterprises modernising fragmented o
 
 My interest starts with **where the team spends its effort** and where better context would help. From there, I explore what AI can prepare or connect, what people need to review, and how the tool will fit into their day-to-day work. The [systems I have built](../projects/) make those design choices inspectable.
 
+The [TA Operating System](../ta-operating-system/) connects those choices across the hiring life cycle. In [the article behind the framework](https://medium.com/@risbane1002/machines-run-the-repeatable-steps-people-make-the-calls-how-i-rebuilt-hiring-around-one-rule-75126e889427), I describe how I applied the approach and what measuring the work taught me.
+
 ### Lead through a change in the business {#fractional-talent-acquisition-leadership-and-team-coaching}
 
 This work brings me alongside leaders through a new market, a team reset, or a hard-to-define hiring need. The conversations move between immediate decisions and the capability we want the team to develop: **how they advise, assess, and take ownership of the work.** My [leadership experience](../leadership-impact/) gives the wider context.

@@ -5,7 +5,7 @@ template = "recruiting-craft.html"
 
 [extra]
 eyebrow = "Art & Craft"
-intro = "My Recruiting OS connects the decisions behind a hire: calibrate the business problem, define the contribution and conditions for success, find and assess relevant people, help both sides decide, then learn from the new hire’s impact after joining. What we learn feeds the next search."
+intro = "My recruiting practice connects the decisions behind a hire: calibrate the business problem, define the contribution and conditions for success, find and assess relevant people, help both sides decide, then learn from the new hire’s impact after joining. What we learn feeds the next search."
 +++
 
 ## Calibrate the business problem before defining the hire
@@ -82,6 +82,6 @@ I coach recruiters, hiring leaders, and interviewers through **the decisions a l
 
 **The aim is growing independence in judgment.** Reviewing a difficult intake, an interview, or a candidate conversation gives someone a specific decision to learn from. After a hire joins, I want to revisit the success profile with the hiring leader: did the person receive the work, authority, and support we described? What contribution is becoming visible, and what needs to change? The answers help the new hire succeed and improve the next search.
 
-The same standard guides how I use AI. Research and synthesis can create more room for recruiting, but **generated claims need source checks.** A polished summary cannot establish a candidate’s capability. Recruiters and hiring managers remain responsible for the evidence and the decision.
+The same standard guides how I use AI. Research and synthesis can create more room for recruiting, but **generated claims need source checks.** A polished summary cannot establish a candidate’s capability. Recruiters and hiring managers remain responsible for the evidence and the decision. [The TA Operating System](../ta-operating-system/) shows how that principle carries through the wider hiring workflow.
 
 I have written more about this practice in the revised and expanded second edition of *[Raising the Bar](../raising-the-bar/)*.
