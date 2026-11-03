@@ -1,45 +1,51 @@
 +++
-title = "Finding and Assessing AI Builders"
-description = "Finding the people who can build with AI and make the team stronger. My approach connects search, technical evidence, hiring judgment, and Talent Density."
+title = "Finding and Assessing AI Researchers and Builders"
+description = "Finding the people who advance AI capability and turn it into useful systems. My approach connects search, technical evidence, hiring judgment, and Talent Density."
 template = "standard-page.html"
 [extra]
-eyebrow = "Talent Partner · AI builders"
+eyebrow = "Talent Partner · AI researchers & builders"
 show_contents = true
 +++
 
-My work finding AI builders brings together **hands-on search, partnership with hiring leaders,** and the perspective of building AI tools myself. I want to understand both what someone can contribute now and how they could help the team grow as the technology and the work change.
+I help leaders hire AI researchers and builders by making the role, the evidence, and the opportunity specific to the work ahead. My work brings together **hands-on search, partnership with hiring leaders,** and the perspective of building AI tools myself. I am doing this work directly at kAIgentic, including searches for core researchers as well as the people who turn AI capability into products and systems.
 
-When a team is looking for an AI builder, I want to understand **what that means for the work ahead.** What will the person build or change, and where does AI change the capability we need? A research role, an AI product role, and an engineering role using AI extensively need different evidence.
+When a team is hiring in AI, I want to understand **what that means for the work ahead.** A core research role, an AI product role, and an engineering role using AI extensively need different evidence. The work may call for someone to advance a technical question, turn research into a product, or build the systems that make it useful in practice.
 
 That can be **a single critical hire, a new team,** or capability being built across a function. I work with leaders to connect the search to that wider picture, make the assessment specific, and give candidates a clear sense of the work they would own.
 
-## From the business problem to contribution after joining
+## Hiring AI talent starts with the work the team needs done
 
-The work comes together in five places:
+A strong search moves from defining the capability to setting a new colleague up to succeed:
 
 - **Clarify the hiring need:** agree what the team needs to become capable of, what is already there, and what contribution would raise Talent Density.
-- **Find relevant builders:** follow the problems people have worked on, including adjacent talent pools and less obvious career paths.
+- **Find relevant researchers and builders:** follow the problems people have worked on, including adjacent talent pools and less obvious career paths.
 - **Make the problem worth exploring:** connect the work with people whose interests and experience give them a reason to care, then help the team explain the contribution they could make.
 - **Help both sides decide:** develop the interviewers’ lines of questioning, examine the evidence together, and make the opportunity and its constraints clear to the candidate.
 - **Set up success and learn:** carry the agreed contribution, authority, and support into the handover, then learn from what the person is able to do after joining.
 
-The sections below show how I approach those conversations.
-
-## Define what an AI builder needs to do in this role {#define-what-ai-native-means-for-this-role}
+## The role determines the evidence worth seeking {#define-what-ai-native-means-for-this-role}
 
 **The hiring leader and I need a shared view of the contribution**: the problem, the user, the technical constraints, and the decisions the person will own. That helps distinguish where deep model expertise matters, where product or engineering judgment matters, and where someone needs to learn quickly across disciplines.
 
-**The environment matters too.** Access to data, specialist colleagues, evaluation infrastructure, and decision authority shapes what someone can achieve. I bring those conditions into the brief and discuss them with candidates.
+**The environment matters too.** Access to data, compute, specialist colleagues, evaluation infrastructure, time to investigate, and decision authority shapes what someone can achieve. I bring those conditions into the brief and discuss them with candidates, so the team can make an honest promise about the work it will support.
 
-## Look for relevant work and follow the contribution
+## Core research hiring starts with an unanswered technical question
 
-My search approach maps the problem to organisations, adjacent talent pools, and **people doing relevant work.** For AI builders, useful starting points can include shipped products, open-source contributions, technical writing, research, and accounts of how a system was built or improved.
+For a core AI research role, I start with **the question the team needs to answer.** Is the work about advancing a model, developing a method, investigating an unresolved technical constraint, or creating the evidence that will shape a product or research direction? That determines the research depth, experimental freedom, and collaboration the role needs.
+
+Doctoral or master’s-level training can be an important signal, especially for roles that demand deep technical foundations. It does not settle the assessment. I want to understand the person’s intellectual contribution: the problem they chose, the hypothesis they formed, the method they used, the evidence they trusted, and what changed because of the work.
+
+This makes the candidate conversation specific. We can explore how someone handles ambiguous results, challenges an assumption, interprets a failed experiment, and works with colleagues who need to carry the research forward. Papers, technical writing, open-source work, and prior research are useful starting points. The conversation helps us examine the judgment behind them. Qualified research colleagues assess the technical depth and the strength of the findings.
+
+## Search for work that matches the problem
+
+My search approach maps the problem to organisations, adjacent talent pools, and **people doing relevant work.** For core researchers, useful starting points can include research groups, technical papers, open-source contributions, and work on adjacent problems. For AI builders, they can include shipped products, technical writing, and accounts of how a system was built or improved.
 
 Each is a lead to examine. **Public visibility is uneven;** confidential work may leave little public trace. I use the conversation to understand what the person actually owned, which constraints they faced, and what they can appropriately share.
 
 [Sourcing Compass](../projects/sourcing-compass/) reflects the broader search discipline: making target organisations, adjacent pools, and related titles visible before outreach begins.
 
-## Connect the problem with the people it could excite
+## An opportunity must be worth the candidate’s attention
 
 Part of my work is helping leaders explain **why the problem is worth someone’s attention.** Before approaching candidates, I want to understand who it affects, what makes it difficult, what has already been tried, and what solving it would make possible. That gives us a more useful starting point than a list of technologies or responsibilities.
 
@@ -55,7 +61,19 @@ This carries through the search. As I learn what matters to the candidate, I **h
 
 That is part of the wider [Art & Craft of Recruiting](../recruiting-craft/): understanding the business, recognising the right audience for its problems, and helping both sides make an informed choice.
 
-## Assess the contribution and help both sides decide
+## Assess contribution through the work itself
+
+### Examine the research contribution
+
+For a research hire, I follow one piece of work closely. The questions are different from a production assessment:
+
+- **Problem:** what was uncertain or unsolved, and why did it matter?
+- **Approach:** what hypothesis, method, or experimental design did the person develop or materially shape?
+- **Evidence:** how did they decide what the results showed, what comparison or control tested the conclusion, and what did the evidence leave unresolved?
+- **Judgment:** where did they change direction, abandon a line of enquiry, or defend a conclusion under challenge?
+- **Contribution:** what did they personally advance, and how did that work inform the team around them?
+
+The aim is to understand the quality of the research judgment, the depth of the contribution, and the conditions in which the person will do their best work.
 
 ### Follow the proof from launch to learning
 
@@ -87,9 +105,9 @@ Feedback records **the evidence, the interviewer’s assessment,** and the unans
 
 That is how I connect [structured interviews and feedback](../advisory/#structured-interviews-feedback-and-hiring-decisions) to a hiring decision the team can explain. If the role standard changes, we revisit the assessments affected by it.
 
-## AI in the recruiting workflow
+## AI supports recruiting when the evidence remains inspectable
 
-**Finding AI builders and building AI-enabled recruiting systems** are connected areas of my work. [Interview Evaluator](../projects/gabbar-interview-evaluator/) supports interviewer development; [RishiOS](../projects/rishios-mcp/) applies assessment criteria and checks recorded evidence. The people responsible for a hire remain accountable for the decision.
+**Finding AI researchers and builders is connected to building AI-enabled recruiting systems.** [Interview Evaluator](../projects/gabbar-interview-evaluator/) supports interviewer development; [RishiOS](../projects/rishios-mcp/) applies assessment criteria and checks recorded evidence. The people responsible for a hire remain accountable for the decision.
 
 Research and synthesis need source checks. AI-generated claims about a candidate **cannot establish their capability.** This discipline also runs through *[Raising the Bar](../raising-the-bar/)*.
 
