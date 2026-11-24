@@ -17,7 +17,7 @@ detail = true
 status = "flagship"
 visibility = "public"
 tags = ["TypeScript", "MCP", "npm", "GitHub Action", "Enterprise"]
-metrics = ["20 MCP tools", "11 CLI commands", "Zero LLM calls inside"]
+metrics = ["20 MCP tools", "15 CLI commands", "Zero LLM calls inside"]
 homepage = "https://getpcp.site/"
 github = "https://github.com/rishi-banerjee1/prompt-control-plane"
 npm = "https://www.npmjs.com/package/pcp-engine"
@@ -41,6 +41,8 @@ Prompt Control Plane is a deterministic governance layer for prompts. It adds st
 I kept LLM calls out of the engine itself. Rules and policy checks run deterministically, so the team can inspect how a prompt decision was made and reproduce it later.
 
 ## Distribution
+
+Prompt Control Plane is now fully open source under Apache 2.0.
 
 - [Product site](https://getpcp.site/) with full documentation
 - [npm package](https://www.npmjs.com/package/pcp-engine) for local and CI integration
